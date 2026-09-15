@@ -1,0 +1,44 @@
+{
+  "clarifies": "reader-independent-domain-r1.json RD4",
+  "preserves_initial_judgment": true,
+  "necessary_line_mapping_corrections": [
+    {
+      "line": 88,
+      "actual": "match d with",
+      "issue": "Dispatches over every Change; current EN/ZH describes only addition/independent.",
+      "correction": "Explain selection of the appropriate path branch by intended change; reserve base-only semantics for L89."
+    },
+    {
+      "line": 244,
+      "actual": "objective := fun b => match b with",
+      "issue": "Dispatches the objective by every Burden; current EN/ZH describes only understanding.",
+      "correction": "Explain burden-indexed objective string selection; reserve successor-onboarding semantics for L245."
+    }
+  ],
+  "optional_line_locality_improvements": [
+    {
+      "lines": [
+        298,
+        299,
+        300,
+        301
+      ],
+      "reason": "Repeated whole summary does accurately include the none and some meanings; no missing proof step or false domain was found. Local declaration/match/branch explanations would improve retrieval but are not a separate blocker."
+    },
+    {
+      "lines": [
+        710,
+        711,
+        712,
+        713
+      ],
+      "reason": "Repeated mutation summary correctly describes caller-check exclusion while retaining other work; no missing proof step was found. Distinguishing definition, record update, filter and predicate is a quality improvement, not a semantic blocker."
+    }
+  ],
+  "necessary_semantic_corrections_unchanged": [
+    "RD1",
+    "RD2",
+    "RD3"
+  ],
+  "author_files_changed": false
+}

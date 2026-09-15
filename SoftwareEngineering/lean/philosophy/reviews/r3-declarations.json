@@ -1,0 +1,4988 @@
+[
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 11,
+    "kind": "inductive",
+    "name": "CoreReader.Adopted.AssessmentTask"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 16,
+    "kind": "def",
+    "name": "CoreReader.Adopted.taskOfFacet"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 27,
+    "kind": "def",
+    "name": "CoreReader.Adopted.NatureAppropriate"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 38,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.taskOfFacetAppropriate"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 54,
+    "kind": "def",
+    "name": "CoreReader.Adopted.Grounds012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 64,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.grounds012Singleton"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 80,
+    "kind": "def",
+    "name": "CoreReader.Adopted.generationSpecification"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 90,
+    "kind": "def",
+    "name": "CoreReader.Adopted.consistencySpecification"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 97,
+    "kind": "structure",
+    "name": "CoreReader.Adopted.ReflexiveRule"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 110,
+    "kind": "def",
+    "name": "CoreReader.Adopted.reflexivitySpecification"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 117,
+    "kind": "def",
+    "name": "CoreReader.Adopted.legacyRule"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 121,
+    "kind": "def",
+    "name": "CoreReader.Adopted.legacyPerformed"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 127,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.legacyReflexivity"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 152,
+    "kind": "def",
+    "name": "CoreReader.Adopted.empiricalSpecification"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 161,
+    "kind": "def",
+    "name": "CoreReader.Adopted.inferentialSpecification"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 168,
+    "kind": "def",
+    "name": "CoreReader.Adopted.valueSpecification"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 174,
+    "kind": "inductive",
+    "name": "CoreReader.Adopted.AssessmentMethod"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 176,
+    "kind": "structure",
+    "name": "CoreReader.Adopted.ScopeAccount"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 191,
+    "kind": "def",
+    "name": "CoreReader.Adopted.scopeSpecification"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 205,
+    "kind": "def",
+    "name": "CoreReader.Adopted.capabilitySpecification"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 215,
+    "kind": "def",
+    "name": "CoreReader.Adopted.choiceSpecification"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 220,
+    "kind": "def",
+    "name": "CoreReader.Adopted.collaborativeRevision"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 223,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.collaborativeProgress"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 241,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.consistencyConsequences"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 245,
+    "kind": "def",
+    "name": "CoreReader.Adopted.broadBoolContext"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 247,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.sliceConsistency"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 262,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.explicitlyConsistentLimits"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 275,
+    "kind": "def",
+    "name": "CoreReader.Adopted.localFacet012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 277,
+    "kind": "def",
+    "name": "CoreReader.Adopted.globalFacet012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 279,
+    "kind": "def",
+    "name": "CoreReader.Adopted.strongFacet012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 282,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.localFacetChecked012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 286,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.scopeStrength012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 304,
+    "kind": "def",
+    "name": "CoreReader.Adopted.uncertainFacet012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 308,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.uncertainSupported012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 320,
+    "kind": "def",
+    "name": "CoreReader.Adopted.InferenceExamined"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 323,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.inferenceChecked012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 334,
+    "kind": "def",
+    "name": "CoreReader.Adopted.closedPosition012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 336,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.closedCriticism012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 341,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.valueFulfilled012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 346,
+    "kind": "def",
+    "name": "CoreReader.Adopted.ClaimNoStronger"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 348,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.qualitativeProportionality012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 357,
+    "kind": "def",
+    "name": "CoreReader.Adopted.scopeRole012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 362,
+    "kind": "def",
+    "name": "CoreReader.Adopted.scopeRoleContent012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 367,
+    "kind": "def",
+    "name": "CoreReader.Adopted.localScopeAccount012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 379,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.scopeFulfilled012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 391,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.capabilityFulfilled012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 407,
+    "kind": "structure",
+    "name": "CoreReader.Adopted.MechanismApplication012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 411,
+    "kind": "def",
+    "name": "CoreReader.Adopted.mechanism012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 413,
+    "kind": "def",
+    "name": "CoreReader.Adopted.UnderstandingApplication012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 418,
+    "kind": "def",
+    "name": "CoreReader.Adopted.explainedWithoutVariation012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 421,
+    "kind": "def",
+    "name": "CoreReader.Adopted.mechanismResponder012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 426,
+    "kind": "def",
+    "name": "CoreReader.Adopted.understandingScope012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 429,
+    "kind": "def",
+    "name": "CoreReader.Adopted.understandingTask012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 432,
+    "kind": "def",
+    "name": "CoreReader.Adopted.understandingFacet012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 435,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.mechanismResponderUnderstands012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 440,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.explainedWithoutVariationFails012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 447,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.understandingApplicationCases012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 471,
+    "kind": "def",
+    "name": "CoreReader.Adopted.OwnCapability012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 474,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.ownCapability012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 480,
+    "kind": "def",
+    "name": "CoreReader.Adopted.CompleteCharter012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 491,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.completeCharter012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 499,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.charterWithoutGrounds012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 519,
+    "kind": "def",
+    "name": "CoreReader.Adopted.groundsPermission012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 523,
+    "kind": "def",
+    "name": "CoreReader.Adopted.GroundsProvision012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 527,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.groundsProvision012Meaning"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 539,
+    "kind": "def",
+    "name": "CoreReader.Adopted.groundsExperimentTask012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 542,
+    "kind": "def",
+    "name": "CoreReader.Adopted.groundsExperiment012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 546,
+    "kind": "def",
+    "name": "CoreReader.Adopted.groundsPosition012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 560,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.groundsPosition012Checked"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 579,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.groundsRationaleExperiment012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 595,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.groundsOnGrounds012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 605,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.reflexiveTargets012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 620,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.achievementSupported012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 630,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.semanticOrder012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 634,
+    "kind": "def",
+    "name": "CoreReader.Adopted.clearFalseArgument012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 637,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.clearFalseReason012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 641,
+    "kind": "def",
+    "name": "CoreReader.Adopted.valueNeutralRecord012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 643,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.valueNotFact012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 655,
+    "kind": "def",
+    "name": "CoreReader.Adopted.wrongExplanation012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 657,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.internalReasonDistinguishes012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 667,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.inventoryCases012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 674,
+    "kind": "def",
+    "name": "CoreReader.Adopted.selfExemptRule012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 677,
+    "kind": "def",
+    "name": "CoreReader.Adopted.selfExemptPerformed012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 680,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.openSelfExempt012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 690,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.ownPhilosophyStatus012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 700,
+    "kind": "def",
+    "name": "CoreReader.Adopted.jointContext012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 703,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.jointImplicationConflict012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 715,
+    "kind": "def",
+    "name": "CoreReader.Adopted.tensionContext012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 718,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.tensionConsistent012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 724,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.qualitativeUnmeasured012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 733,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.allStatusOnly012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 740,
+    "kind": "def",
+    "name": "CoreReader.Adopted.drawWeight012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 741,
+    "kind": "def",
+    "name": "CoreReader.Adopted.randomTrial012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 744,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.randomOutcomes012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 756,
+    "kind": "def",
+    "name": "CoreReader.Adopted.originalGlobalTask012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 758,
+    "kind": "def",
+    "name": "CoreReader.Adopted.originalLocalTask012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 761,
+    "kind": "def",
+    "name": "CoreReader.Adopted.circularGlobalFacet012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 763,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.circularGlobalConditional012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 768,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.circularSubstitutionRejected012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 784,
+    "kind": "def",
+    "name": "CoreReader.Adopted.observedPremises012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 785,
+    "kind": "def",
+    "name": "CoreReader.Adopted.observedInferenceFacet012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 788,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.observedInferenceChecked012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 793,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.sameEmpiricalTaskTwoMethods012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 805,
+    "kind": "def",
+    "name": "CoreReader.Adopted.originalUncertaintyTask012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 808,
+    "kind": "def",
+    "name": "CoreReader.Adopted.uncertaintyBypassFacet012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 812,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.uncertaintyBypassChecked012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 817,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.uncertaintySubstitutionRejected012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 829,
+    "kind": "def",
+    "name": "CoreReader.Adopted.selectedFactFacet012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 832,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.valueFactSubstitutionRejected012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 839,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.inferentialContextSubstitutionRejected012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 862,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.generationCases"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 904,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.generationLimits012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 952,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.consistencyCases"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 987,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.consistencyLimits012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 1015,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.reflexivityCases012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 1038,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.reflexivityLimits012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 1066,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.groundsCases012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 1082,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.empiricalCases012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 1114,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.inferentialCases012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 1131,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.valueCases012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 1152,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.groundsLimits012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 1184,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.scopeCases012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 1197,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.scopeLimits012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 1232,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.capabilityCases012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 1254,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.capabilityLimits012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 1295,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.choiceCases012"
+  },
+  {
+    "file": "CoreReader/Adopted.lean",
+    "line": 1329,
+    "kind": "theorem",
+    "name": "CoreReader.Adopted.choiceLimits012"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 5,
+    "kind": "inductive",
+    "name": "CoreReader.Agency.FormKind"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 8,
+    "kind": "structure",
+    "name": "CoreReader.Agency.Form"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 13,
+    "kind": "inductive",
+    "name": "CoreReader.Agency.Aim"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 17,
+    "kind": "structure",
+    "name": "CoreReader.Agency.Policy"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 24,
+    "kind": "def",
+    "name": "CoreReader.Agency.Generative"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 28,
+    "kind": "def",
+    "name": "CoreReader.Agency.openPolicy"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 34,
+    "kind": "def",
+    "name": "CoreReader.Agency.neutralPolicy"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 37,
+    "kind": "theorem",
+    "name": "CoreReader.Agency.permissionNotValuation"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 42,
+    "kind": "theorem",
+    "name": "CoreReader.Agency.revisabilityCovers"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 45,
+    "kind": "inductive",
+    "name": "CoreReader.Agency.Operation"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 48,
+    "kind": "def",
+    "name": "CoreReader.Agency.Operation.run"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 52,
+    "kind": "inductive",
+    "name": "CoreReader.Agency.InventoryKind"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 55,
+    "kind": "structure",
+    "name": "CoreReader.Agency.Item"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 61,
+    "kind": "def",
+    "name": "CoreReader.Agency.Available"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 65,
+    "kind": "theorem",
+    "name": "CoreReader.Agency.inventoryNotCapability"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 74,
+    "kind": "structure",
+    "name": "CoreReader.Agency.State"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 83,
+    "kind": "def",
+    "name": "CoreReader.Agency.Expanded"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 87,
+    "kind": "def",
+    "name": "CoreReader.Agency.baseState"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 90,
+    "kind": "def",
+    "name": "CoreReader.Agency.inflatedState"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 96,
+    "kind": "def",
+    "name": "CoreReader.Agency.stableTrace"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 99,
+    "kind": "theorem",
+    "name": "CoreReader.Agency.revisionWithoutProgress"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 105,
+    "kind": "structure",
+    "name": "CoreReader.Agency.ExternalResources"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 112,
+    "kind": "def",
+    "name": "CoreReader.Agency.assistedExecution"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 118,
+    "kind": "def",
+    "name": "CoreReader.Agency.availableResources"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 121,
+    "kind": "def",
+    "name": "CoreReader.Agency.StableReason"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 126,
+    "kind": "structure",
+    "name": "CoreReader.Agency.GeneratingSystem"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 134,
+    "kind": "def",
+    "name": "CoreReader.Agency.generatingSystem"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 142,
+    "kind": "def",
+    "name": "CoreReader.Agency.GeneratingSystem.stableAction"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 143,
+    "kind": "def",
+    "name": "CoreReader.Agency.GeneratingSystem.requirementsMet"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 145,
+    "kind": "def",
+    "name": "CoreReader.Agency.GeneratingSystem.withinBudget"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 148,
+    "kind": "structure",
+    "name": "CoreReader.Agency.Announcement"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 157,
+    "kind": "def",
+    "name": "CoreReader.Agency.GeneratingSystem.report"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 161,
+    "kind": "def",
+    "name": "CoreReader.Agency.Announcement.claim"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 166,
+    "kind": "theorem",
+    "name": "CoreReader.Agency.announcementClaimImpliesExpansion"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 169,
+    "kind": "def",
+    "name": "CoreReader.Agency.inflatedAnnouncement"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 171,
+    "kind": "theorem",
+    "name": "CoreReader.Agency.inflatedAnnouncementRefuted"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 179,
+    "kind": "inductive",
+    "name": "CoreReader.Agency.TransitionCase"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 182,
+    "kind": "def",
+    "name": "CoreReader.Agency.extendedState"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 184,
+    "kind": "def",
+    "name": "CoreReader.Agency.transitionBefore"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 185,
+    "kind": "def",
+    "name": "CoreReader.Agency.transitionAfter"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 189,
+    "kind": "def",
+    "name": "CoreReader.Agency.transitionInput"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 190,
+    "kind": "def",
+    "name": "CoreReader.Agency.transitionAnnouncement"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 194,
+    "kind": "theorem",
+    "name": "CoreReader.Agency.generationLimits"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 224,
+    "kind": "theorem",
+    "name": "CoreReader.Agency.generationNotReflexivity"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 234,
+    "kind": "def",
+    "name": "CoreReader.Agency.ownArithmeticPrinciple"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 236,
+    "kind": "def",
+    "name": "CoreReader.Agency.selfTest"
+  },
+  {
+    "file": "CoreReader/Agency.lean",
+    "line": 239,
+    "kind": "theorem",
+    "name": "CoreReader.Agency.selfTestDoesNotProve"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 6,
+    "kind": "inductive",
+    "name": "CoreReader.Choice.StatusKind"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 9,
+    "kind": "inductive",
+    "name": "CoreReader.Choice.MethodReason"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 12,
+    "kind": "inductive",
+    "name": "CoreReader.Choice.Reason"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 16,
+    "kind": "structure",
+    "name": "CoreReader.Choice.Implementation"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 27,
+    "kind": "structure",
+    "name": "CoreReader.Choice.Requirements"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 34,
+    "kind": "def",
+    "name": "CoreReader.Choice.MethodContent"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 42,
+    "kind": "def",
+    "name": "CoreReader.Choice.Relevant"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 46,
+    "kind": "def",
+    "name": "CoreReader.Choice.Feasible"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 50,
+    "kind": "def",
+    "name": "CoreReader.Choice.JustifiedChoice"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 54,
+    "kind": "theorem",
+    "name": "CoreReader.Choice.statusOnlyFails"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 61,
+    "kind": "def",
+    "name": "CoreReader.Choice.identityImpl"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 71,
+    "kind": "def",
+    "name": "CoreReader.Choice.successorImpl"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 81,
+    "kind": "def",
+    "name": "CoreReader.Choice.changedOutsideZero"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 90,
+    "kind": "def",
+    "name": "CoreReader.Choice.identityRequirements"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 96,
+    "kind": "def",
+    "name": "CoreReader.Choice.objectiveReason"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 98,
+    "kind": "theorem",
+    "name": "CoreReader.Choice.identityOutputReason"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 101,
+    "kind": "theorem",
+    "name": "CoreReader.Choice.identityFeasible"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 104,
+    "kind": "theorem",
+    "name": "CoreReader.Choice.identityJustified"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 108,
+    "kind": "theorem",
+    "name": "CoreReader.Choice.conventionWithReason"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 113,
+    "kind": "inductive",
+    "name": "CoreReader.Choice.Candidate"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 116,
+    "kind": "def",
+    "name": "CoreReader.Choice.implementation"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 121,
+    "kind": "theorem",
+    "name": "CoreReader.Choice.singleFeasible"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 132,
+    "kind": "theorem",
+    "name": "CoreReader.Choice.localNotGlobal"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 140,
+    "kind": "def",
+    "name": "CoreReader.Choice.cheapSuccessor"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 142,
+    "kind": "theorem",
+    "name": "CoreReader.Choice.eligibleInternalReasonNotSufficient"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 151,
+    "kind": "theorem",
+    "name": "CoreReader.Choice.internalReasons"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 162,
+    "kind": "theorem",
+    "name": "CoreReader.Choice.openNotEquivalent"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 168,
+    "kind": "def",
+    "name": "CoreReader.Choice.priorityClaim"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 170,
+    "kind": "def",
+    "name": "CoreReader.Choice.statusFacts"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 175,
+    "kind": "theorem",
+    "name": "CoreReader.Choice.statusFactsModel"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 178,
+    "kind": "def",
+    "name": "CoreReader.Choice.priorityArticulation"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 184,
+    "kind": "def",
+    "name": "CoreReader.Choice.AssessmentAccurate"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 187,
+    "kind": "theorem",
+    "name": "CoreReader.Choice.statusDoesNotEntailPriority"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 192,
+    "kind": "theorem",
+    "name": "CoreReader.Choice.statusAssessmentNonEntailment"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 204,
+    "kind": "structure",
+    "name": "CoreReader.Choice.PriorityAssessment"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 209,
+    "kind": "def",
+    "name": "CoreReader.Choice.PriorityAssessment.accurate"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 212,
+    "kind": "def",
+    "name": "CoreReader.Choice.statusPriorityAudit"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 214,
+    "kind": "structure",
+    "name": "CoreReader.Choice.ChoicePolicy"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 219,
+    "kind": "def",
+    "name": "CoreReader.Choice.GeneralAssessmentFulfilled"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 222,
+    "kind": "def",
+    "name": "CoreReader.Choice.AdditionalChoiceNorm"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 225,
+    "kind": "def",
+    "name": "CoreReader.Choice.statusPriorityPolicy"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 227,
+    "kind": "def",
+    "name": "CoreReader.Choice.outputPriorityPolicy"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 229,
+    "kind": "theorem",
+    "name": "CoreReader.Choice.statusPriorityAuditAccurate"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 234,
+    "kind": "def",
+    "name": "CoreReader.Choice.PolicyIndependenceExample"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 245,
+    "kind": "theorem",
+    "name": "CoreReader.Choice.policyIndependenceExample"
+  },
+  {
+    "file": "CoreReader/Choice.lean",
+    "line": 257,
+    "kind": "theorem",
+    "name": "CoreReader.Choice.generalGroundsNotChoice"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 7,
+    "kind": "inductive",
+    "name": "CoreReader.Engineering.Maintainer"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 10,
+    "kind": "inductive",
+    "name": "CoreReader.Engineering.Tool"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 13,
+    "kind": "inductive",
+    "name": "CoreReader.Engineering.Knowledge"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 16,
+    "kind": "inductive",
+    "name": "CoreReader.Engineering.Change"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 20,
+    "kind": "inductive",
+    "name": "CoreReader.Engineering.Candidate"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 23,
+    "kind": "inductive",
+    "name": "CoreReader.Engineering.Burden"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 28,
+    "kind": "def",
+    "name": "CoreReader.Engineering.maintainers"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 29,
+    "kind": "def",
+    "name": "CoreReader.Engineering.changes"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 31,
+    "kind": "def",
+    "name": "CoreReader.Engineering.burdens"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 34,
+    "kind": "structure",
+    "name": "CoreReader.Engineering.Activity"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 49,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.ActivityScope"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 53,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.Continuing"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 56,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.BoundedLifecycle"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 60,
+    "kind": "def",
+    "name": "CoreReader.Engineering.continuingActivity"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 69,
+    "kind": "def",
+    "name": "CoreReader.Engineering.temporaryActivity"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 72,
+    "kind": "def",
+    "name": "CoreReader.Engineering.prototypeActivity"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 74,
+    "kind": "def",
+    "name": "CoreReader.Engineering.retiringActivity"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 77,
+    "kind": "structure",
+    "name": "CoreReader.Engineering.EditStep"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 84,
+    "kind": "def",
+    "name": "CoreReader.Engineering.changePath"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 104,
+    "kind": "def",
+    "name": "CoreReader.Engineering.changeWork"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 107,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.CanChange"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 111,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.ContinuingCapability"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 118,
+    "kind": "def",
+    "name": "CoreReader.Engineering.registeredDirections"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 119,
+    "kind": "def",
+    "name": "CoreReader.Engineering.supportedDirections"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 121,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.MaximumRegisteredCapability"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 126,
+    "kind": "def",
+    "name": "CoreReader.Engineering.passiveArtifact"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 128,
+    "kind": "def",
+    "name": "CoreReader.Engineering.orientation"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 130,
+    "kind": "inductive",
+    "name": "CoreReader.Engineering.EngineeringAction"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 135,
+    "kind": "def",
+    "name": "CoreReader.Engineering.maintainerActions"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 138,
+    "kind": "def",
+    "name": "CoreReader.Engineering.artifactActions"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 146,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.subjectLifecycleCases"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 159,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.subjectLimits"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 174,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.CredibleDirection"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 179,
+    "kind": "inductive",
+    "name": "CoreReader.Engineering.DirectionGround"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 186,
+    "kind": "def",
+    "name": "CoreReader.Engineering.articulateGround"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 192,
+    "kind": "def",
+    "name": "CoreReader.Engineering.supportGround"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 199,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.initialGrounds"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 200,
+    "kind": "def",
+    "name": "CoreReader.Engineering.forecastGrounds"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 201,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.credible"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 204,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.WarrantedAccommodation"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 212,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.credibilityCases"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 219,
+    "kind": "def",
+    "name": "CoreReader.Engineering.abstractionComplexity"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 222,
+    "kind": "def",
+    "name": "CoreReader.Engineering.implementedVariants"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 225,
+    "kind": "structure",
+    "name": "CoreReader.Engineering.CostVector"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 227,
+    "kind": "structure",
+    "name": "CoreReader.Engineering.CostLimits"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 231,
+    "kind": "def",
+    "name": "CoreReader.Engineering.cost"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 242,
+    "kind": "def",
+    "name": "CoreReader.Engineering.normalLimits"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 253,
+    "kind": "structure",
+    "name": "CoreReader.Engineering.Requirements"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 259,
+    "kind": "def",
+    "name": "CoreReader.Engineering.normalRequirements"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 260,
+    "kind": "def",
+    "name": "CoreReader.Engineering.behavior"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 264,
+    "kind": "structure",
+    "name": "CoreReader.Engineering.CandidateProfile"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 270,
+    "kind": "def",
+    "name": "CoreReader.Engineering.profile"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 271,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.Meets"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 276,
+    "kind": "structure",
+    "name": "CoreReader.Engineering.Context"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 284,
+    "kind": "def",
+    "name": "CoreReader.Engineering.currentContinuing"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 288,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.ConcreteThreat"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 292,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.HasThreat"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 298,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.JustifiedDeparture"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 307,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.PriorityConditions"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 321,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.EvolutionPriority"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 324,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.currentPriorityConditions"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 325,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.currentNoThreat"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 328,
+    "kind": "def",
+    "name": "CoreReader.Engineering.threatened"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 337,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.priorityWhenApplicable"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 345,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.currentSimpleViolates"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 350,
+    "kind": "def",
+    "name": "CoreReader.Engineering.withEvolvableProfile"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 353,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.unmetRequirementsBlockPriority"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 367,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.priorityConditionsCases"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 384,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.priorityChoices"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 394,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.credibilityLimits"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 410,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.costCases"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 422,
+    "kind": "def",
+    "name": "CoreReader.Engineering.orderedUnique"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 423,
+    "kind": "def",
+    "name": "CoreReader.Engineering.orderedRefactor"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 424,
+    "kind": "def",
+    "name": "CoreReader.Engineering.insertOrdered"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 428,
+    "kind": "def",
+    "name": "CoreReader.Engineering.sortValues"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 432,
+    "kind": "def",
+    "name": "CoreReader.Engineering.sortedUnique"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 434,
+    "kind": "structure",
+    "name": "CoreReader.Engineering.SoftwareState"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 444,
+    "kind": "def",
+    "name": "CoreReader.Engineering.originalSoftware"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 447,
+    "kind": "def",
+    "name": "CoreReader.Engineering.transform"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 461,
+    "kind": "def",
+    "name": "CoreReader.Engineering.evolutionBehavior"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 466,
+    "kind": "inductive",
+    "name": "CoreReader.Engineering.ObligationTreatment"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 469,
+    "kind": "structure",
+    "name": "CoreReader.Engineering.ChangeClaim"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 474,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.contractInputs"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 475,
+    "kind": "def",
+    "name": "CoreReader.Engineering.PreservesOn"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 478,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.PreservesFinite"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 484,
+    "kind": "structure",
+    "name": "CoreReader.Engineering.ObservableContract"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 488,
+    "kind": "def",
+    "name": "CoreReader.Engineering.retry"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 491,
+    "kind": "def",
+    "name": "CoreReader.Engineering.orderContract"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 492,
+    "kind": "def",
+    "name": "CoreReader.Engineering.originalContract"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 493,
+    "kind": "def",
+    "name": "CoreReader.Engineering.refactoredContract"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 494,
+    "kind": "def",
+    "name": "CoreReader.Engineering.revisedContract"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 495,
+    "kind": "def",
+    "name": "CoreReader.Engineering.evolutionContract"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 498,
+    "kind": "def",
+    "name": "CoreReader.Engineering.failureInputs"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 499,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.PreservesContractFinite"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 503,
+    "kind": "inductive",
+    "name": "CoreReader.Engineering.ContractAspect"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 506,
+    "kind": "structure",
+    "name": "CoreReader.Engineering.PartyDependency"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 511,
+    "kind": "def",
+    "name": "CoreReader.Engineering.partyDependencies"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 514,
+    "kind": "def",
+    "name": "CoreReader.Engineering.aspectChanged"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 518,
+    "kind": "def",
+    "name": "CoreReader.Engineering.affectedParties"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 522,
+    "kind": "structure",
+    "name": "CoreReader.Engineering.ContractRevision"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 532,
+    "kind": "def",
+    "name": "CoreReader.Engineering.normalRevision"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 539,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.RevisionDuties"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 549,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.ContractChangeAccount"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 556,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.EvolutionClaim"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 569,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.evolutionKindsCases"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 585,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.evolutionDimensionsLimits"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 602,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.oneDimensionDoesNotEntailEveryDimension"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 610,
+    "kind": "def",
+    "name": "CoreReader.Engineering.propagation"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 613,
+    "kind": "def",
+    "name": "CoreReader.Engineering.batchCount"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 614,
+    "kind": "def",
+    "name": "CoreReader.Engineering.staticBatch"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 615,
+    "kind": "def",
+    "name": "CoreReader.Engineering.liveBatch"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 617,
+    "kind": "structure",
+    "name": "CoreReader.Engineering.StructuralEvidence"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 628,
+    "kind": "def",
+    "name": "CoreReader.Engineering.structuralEvidence"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 641,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.StructuralAccount"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 651,
+    "kind": "structure",
+    "name": "CoreReader.Engineering.InterfaceView"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 658,
+    "kind": "def",
+    "name": "CoreReader.Engineering.sameShape"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 659,
+    "kind": "def",
+    "name": "CoreReader.Engineering.moduleAssumptions"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 662,
+    "kind": "def",
+    "name": "CoreReader.Engineering.modulesNeedingRevision"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 665,
+    "kind": "structure",
+    "name": "CoreReader.Engineering.Boundary"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 671,
+    "kind": "structure",
+    "name": "CoreReader.Engineering.EngineeringDesign"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 679,
+    "kind": "def",
+    "name": "CoreReader.Engineering.privateDesign"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 683,
+    "kind": "def",
+    "name": "CoreReader.Engineering.documentedDesign"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 686,
+    "kind": "def",
+    "name": "CoreReader.Engineering.sortedDesign"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 692,
+    "kind": "def",
+    "name": "CoreReader.Engineering.coordinatedBoundary"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 694,
+    "kind": "def",
+    "name": "CoreReader.Engineering.boundaryDesign"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 697,
+    "kind": "def",
+    "name": "CoreReader.Engineering.crossesBoundary"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 703,
+    "kind": "def",
+    "name": "CoreReader.Engineering.boundaryObligationChecked"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 710,
+    "kind": "def",
+    "name": "CoreReader.Engineering.omittedCallerCheck"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 715,
+    "kind": "def",
+    "name": "CoreReader.Engineering.otherCalleeBoundary"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 717,
+    "kind": "def",
+    "name": "CoreReader.Engineering.otherCalleeDesign"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 720,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.actualCrossBoundaryObligation"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 733,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.structuralCases"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 751,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.DesignCanChange"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 757,
+    "kind": "def",
+    "name": "CoreReader.Engineering.designWork"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 760,
+    "kind": "def",
+    "name": "CoreReader.Engineering.designModulesNeedingRevision"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 766,
+    "kind": "def",
+    "name": "CoreReader.Engineering.introduceBoundary"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 776,
+    "kind": "def",
+    "name": "CoreReader.Engineering.wrappedDesign"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 781,
+    "kind": "def",
+    "name": "CoreReader.Engineering.relocateVerification"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 787,
+    "kind": "def",
+    "name": "CoreReader.Engineering.sameWorkDesign"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 793,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.structureNotCapability"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 822,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.contractPreservation"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 826,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.changedObservationNotPreserved"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 832,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.contractRevisionObligations"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 837,
+    "kind": "def",
+    "name": "CoreReader.Engineering.retiredBehavior"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 843,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.contractCases"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 853,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.contractDistinctions"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 868,
+    "kind": "structure",
+    "name": "CoreReader.Engineering.RevisionState"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 877,
+    "kind": "structure",
+    "name": "CoreReader.Engineering.RevisionRecord"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 889,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.MaterialGroundsChanged"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 894,
+    "kind": "def",
+    "name": "CoreReader.Engineering.oldState"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 895,
+    "kind": "def",
+    "name": "CoreReader.Engineering.newState"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 897,
+    "kind": "structure",
+    "name": "CoreReader.Engineering.HistoricalEvidence"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 905,
+    "kind": "def",
+    "name": "CoreReader.Engineering.observedHistory"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 908,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.RevisionAccountAgainst"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 922,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.RevisionAccount"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 924,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.failedHistoryNotRewritten"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 930,
+    "kind": "def",
+    "name": "CoreReader.Engineering.revisionRecord"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 937,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.SupportedAlternative"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 939,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.RetentionJustified"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 943,
+    "kind": "def",
+    "name": "CoreReader.Engineering.stableRecord"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 951,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.revisionCases"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 962,
+    "kind": "def",
+    "name": "CoreReader.Engineering.observations"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 963,
+    "kind": "def",
+    "name": "CoreReader.Engineering.revisionsMade"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 964,
+    "kind": "def",
+    "name": "CoreReader.Engineering.agreedBatch"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 967,
+    "kind": "def",
+    "name": "CoreReader.Engineering.rewrittenOldRecord"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 971,
+    "kind": "def",
+    "name": "CoreReader.Engineering.rewrittenPredictionRecord"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 974,
+    "kind": "def",
+    "name": "CoreReader.Engineering.rewrittenObservationRecord"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 977,
+    "kind": "def",
+    "name": "CoreReader.Engineering.unrelatedSoftwareRecord"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 980,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.historicalTamperingRejected"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 993,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.revisionLimits"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 1007,
+    "kind": "def",
+    "name": "CoreReader.Engineering.groundedChanges"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 1010,
+    "kind": "def",
+    "name": "CoreReader.Engineering.currentRevisionState"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 1017,
+    "kind": "def",
+    "name": "CoreReader.Engineering.revisionFor"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 1020,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.revisionContextIdentity"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 1034,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.DomainSatisfied"
+  },
+  {
+    "file": "CoreReader/Engineering/Domain.lean",
+    "line": 1043,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.currentDomainSatisfied"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 11,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.sharedContext"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 13,
+    "kind": "def",
+    "name": "CoreReader.Engineering.maintainedOutput"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 16,
+    "kind": "def",
+    "name": "CoreReader.Engineering.chosenImplementation"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 28,
+    "kind": "def",
+    "name": "CoreReader.Engineering.chosenRequirements"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 34,
+    "kind": "def",
+    "name": "CoreReader.Engineering.chosenReasons"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 37,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.maintainedOutputCorrect"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 41,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.implementationReasoned"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 51,
+    "kind": "def",
+    "name": "CoreReader.Engineering.capabilityOutput"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 57,
+    "kind": "def",
+    "name": "CoreReader.Engineering.engineeringProcess"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 60,
+    "kind": "def",
+    "name": "CoreReader.Engineering.engineeringCapability"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 63,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.engineeringCapabilityGrounded"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 67,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.actualCapabilityContrast"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 77,
+    "kind": "def",
+    "name": "CoreReader.Engineering.presentBudgetRecord"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 80,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.presentBudgetClaim"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 82,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.budgetObservationMeaning"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 92,
+    "kind": "def",
+    "name": "CoreReader.Engineering.budgetEmpiricalFacet"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 95,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.budgetEmpiricalDischarged"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 101,
+    "kind": "def",
+    "name": "CoreReader.Engineering.capacityClaim"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 104,
+    "kind": "def",
+    "name": "CoreReader.Engineering.capacityAssumptions"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 106,
+    "kind": "def",
+    "name": "CoreReader.Engineering.budgetInferentialFacet"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 108,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.budgetInferentialDischarged"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 114,
+    "kind": "def",
+    "name": "CoreReader.Engineering.budgetScopeAccount"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 126,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.budgetScopeExplained"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 134,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.budgetObservationLimit"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 144,
+    "kind": "def",
+    "name": "CoreReader.Engineering.engineeringPolicy"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 152,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.engineeringGenerative"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 157,
+    "kind": "inductive",
+    "name": "CoreReader.Engineering.OwnFact"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 162,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.ownFactClaim"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 174,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.actualOwnFact"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 188,
+    "kind": "def",
+    "name": "CoreReader.Engineering.ownFactPremises"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 191,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.actualOwnFactGrounded"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 204,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.priorityValueMeaning"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 216,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.priorityGrounds"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 229,
+    "kind": "inductive",
+    "name": "CoreReader.Engineering.OwnNorm"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 235,
+    "kind": "def",
+    "name": "CoreReader.Engineering.normApplies"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 239,
+    "kind": "def",
+    "name": "CoreReader.Engineering.ownNormClaim"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 260,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.actualOwnNorm"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 282,
+    "kind": "def",
+    "name": "CoreReader.Engineering.ownFactTheory"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 285,
+    "kind": "def",
+    "name": "CoreReader.Engineering.ownNormTheory"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 290,
+    "kind": "def",
+    "name": "CoreReader.Engineering.ownTheory"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 293,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.allNormativeContentHeld"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 297,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.nonemptyOwnObjects"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 305,
+    "kind": "def",
+    "name": "CoreReader.Engineering.comparisonContext"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 310,
+    "kind": "def",
+    "name": "CoreReader.Engineering.engineeringSnapshot"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 313,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.currentAdmissible"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 325,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.currentConsistency"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 331,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.wholeClaimGrounded"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 344,
+    "kind": "def",
+    "name": "CoreReader.Engineering.incompatibleNormTheory"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 348,
+    "kind": "def",
+    "name": "CoreReader.Engineering.incompatibleNormContext"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 351,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.normativeContentVariation"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 374,
+    "kind": "structure",
+    "name": "CoreReader.Engineering.Inherited"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 398,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.inheritedCurrent"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 420,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.inheritedMutualApplication"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 442,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.inheritedMutualCases"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 467,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.priorityRemainsReflexive"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 493,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.priorityReflexiveCases"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 557,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.jointWitness"
+  },
+  {
+    "file": "CoreReader/Engineering/Integration.lean",
+    "line": 586,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.inheritedDoesNotEntailPriority"
+  },
+  {
+    "file": "CoreReader/Engineering/Reflection.lean",
+    "line": 8,
+    "kind": "structure",
+    "name": "CoreReader.Engineering.Reflection.Target"
+  },
+  {
+    "file": "CoreReader/Engineering/Reflection.lean",
+    "line": 15,
+    "kind": "structure",
+    "name": "CoreReader.Engineering.Reflection.Contract"
+  },
+  {
+    "file": "CoreReader/Engineering/Reflection.lean",
+    "line": 22,
+    "kind": "structure",
+    "name": "CoreReader.Engineering.Reflection.Input"
+  },
+  {
+    "file": "CoreReader/Engineering/Reflection.lean",
+    "line": 29,
+    "kind": "inductive",
+    "name": "CoreReader.Engineering.Reflection.Verdict"
+  },
+  {
+    "file": "CoreReader/Engineering/Reflection.lean",
+    "line": 32,
+    "kind": "inductive",
+    "name": "CoreReader.Engineering.Reflection.Outcome"
+  },
+  {
+    "file": "CoreReader/Engineering/Reflection.lean",
+    "line": 39,
+    "kind": "def",
+    "name": "CoreReader.Engineering.Reflection.evaluate"
+  },
+  {
+    "file": "CoreReader/Engineering/Reflection.lean",
+    "line": 47,
+    "kind": "def",
+    "name": "CoreReader.Engineering.Reflection.generate"
+  },
+  {
+    "file": "CoreReader/Engineering/Reflection.lean",
+    "line": 50,
+    "kind": "def",
+    "name": "CoreReader.Engineering.Reflection.interpret"
+  },
+  {
+    "file": "CoreReader/Engineering/Reflection.lean",
+    "line": 56,
+    "kind": "structure",
+    "name": "CoreReader.Engineering.Reflection.Model"
+  },
+  {
+    "file": "CoreReader/Engineering/Reflection.lean",
+    "line": 67,
+    "kind": "def",
+    "name": "CoreReader.Engineering.Reflection.Model.input"
+  },
+  {
+    "file": "CoreReader/Engineering/Reflection.lean",
+    "line": 71,
+    "kind": "def",
+    "name": "CoreReader.Engineering.Reflection.Model.self"
+  },
+  {
+    "file": "CoreReader/Engineering/Reflection.lean",
+    "line": 74,
+    "kind": "def",
+    "name": "CoreReader.Engineering.Reflection.Model.rule"
+  },
+  {
+    "file": "CoreReader/Engineering/Reflection.lean",
+    "line": 84,
+    "kind": "def",
+    "name": "CoreReader.Engineering.Reflection.Model.rules"
+  },
+  {
+    "file": "CoreReader/Engineering/Reflection.lean",
+    "line": 89,
+    "kind": "def",
+    "name": "CoreReader.Engineering.Reflection.Model.performed"
+  },
+  {
+    "file": "CoreReader/Engineering/Reflection.lean",
+    "line": 95,
+    "kind": "def",
+    "name": "CoreReader.Engineering.Reflection.Model.follows"
+  },
+  {
+    "file": "CoreReader/Engineering/Reflection.lean",
+    "line": 104,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.Reflection.recordedReflexivity"
+  },
+  {
+    "file": "CoreReader/Engineering/SelfApplication.lean",
+    "line": 8,
+    "kind": "inductive",
+    "name": "CoreReader.Engineering.ReviewObject"
+  },
+  {
+    "file": "CoreReader/Engineering/SelfApplication.lean",
+    "line": 12,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.ReviewCase"
+  },
+  {
+    "file": "CoreReader/Engineering/SelfApplication.lean",
+    "line": 14,
+    "kind": "def",
+    "name": "CoreReader.Engineering.generationApplies"
+  },
+  {
+    "file": "CoreReader/Engineering/SelfApplication.lean",
+    "line": 17,
+    "kind": "def",
+    "name": "CoreReader.Engineering.assessmentApplies"
+  },
+  {
+    "file": "CoreReader/Engineering/SelfApplication.lean",
+    "line": 19,
+    "kind": "def",
+    "name": "CoreReader.Engineering.ruleObject"
+  },
+  {
+    "file": "CoreReader/Engineering/SelfApplication.lean",
+    "line": 26,
+    "kind": "def",
+    "name": "CoreReader.Engineering.ruleProbe"
+  },
+  {
+    "file": "CoreReader/Engineering/SelfApplication.lean",
+    "line": 34,
+    "kind": "def",
+    "name": "CoreReader.Engineering.generationRuleTest"
+  },
+  {
+    "file": "CoreReader/Engineering/SelfApplication.lean",
+    "line": 40,
+    "kind": "def",
+    "name": "CoreReader.Engineering.assessmentRuleTest"
+  },
+  {
+    "file": "CoreReader/Engineering/SelfApplication.lean",
+    "line": 48,
+    "kind": "def",
+    "name": "CoreReader.Engineering.sampleAwareAssessment"
+  },
+  {
+    "file": "CoreReader/Engineering/SelfApplication.lean",
+    "line": 53,
+    "kind": "def",
+    "name": "CoreReader.Engineering.objectTest"
+  },
+  {
+    "file": "CoreReader/Engineering/SelfApplication.lean",
+    "line": 62,
+    "kind": "def",
+    "name": "CoreReader.Engineering.reviewObjects"
+  },
+  {
+    "file": "CoreReader/Engineering/SelfApplication.lean",
+    "line": 67,
+    "kind": "def",
+    "name": "CoreReader.Engineering.requestedCases"
+  },
+  {
+    "file": "CoreReader/Engineering/SelfApplication.lean",
+    "line": 71,
+    "kind": "def",
+    "name": "CoreReader.Engineering.reviewReasons"
+  },
+  {
+    "file": "CoreReader/Engineering/SelfApplication.lean",
+    "line": 87,
+    "kind": "def",
+    "name": "CoreReader.Engineering.statedReview"
+  },
+  {
+    "file": "CoreReader/Engineering/SelfApplication.lean",
+    "line": 98,
+    "kind": "def",
+    "name": "CoreReader.Engineering.reviewBasis"
+  },
+  {
+    "file": "CoreReader/Engineering/SelfApplication.lean",
+    "line": 114,
+    "kind": "def",
+    "name": "CoreReader.Engineering.selfModel"
+  },
+  {
+    "file": "CoreReader/Engineering/SelfApplication.lean",
+    "line": 128,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.reviewIdentity"
+  },
+  {
+    "file": "CoreReader/Engineering/SelfApplication.lean",
+    "line": 137,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.currentSelfRecords"
+  },
+  {
+    "file": "CoreReader/Engineering/SelfApplication.lean",
+    "line": 161,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.currentSelfApplication"
+  },
+  {
+    "file": "CoreReader/Engineering/SelfApplication.lean",
+    "line": 170,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.actualSelfCriticism"
+  },
+  {
+    "file": "CoreReader/Engineering/SelfApplication.lean",
+    "line": 188,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.ownRuleIdentity"
+  },
+  {
+    "file": "CoreReader/Engineering/SelfApplication.lean",
+    "line": 204,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.ownRuleContentVariation"
+  },
+  {
+    "file": "CoreReader/Engineering/SelfApplication.lean",
+    "line": 218,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.proposedRuleRevision"
+  },
+  {
+    "file": "CoreReader/Engineering/Values.lean",
+    "line": 8,
+    "kind": "inductive",
+    "name": "CoreReader.Engineering.CoreCommitment"
+  },
+  {
+    "file": "CoreReader/Engineering/Values.lean",
+    "line": 11,
+    "kind": "def",
+    "name": "CoreReader.Engineering.coreCommitments"
+  },
+  {
+    "file": "CoreReader/Engineering/Values.lean",
+    "line": 16,
+    "kind": "def",
+    "name": "CoreReader.Engineering.coreAdopted"
+  },
+  {
+    "file": "CoreReader/Engineering/Values.lean",
+    "line": 18,
+    "kind": "inductive",
+    "name": "CoreReader.Engineering.AdoptionReason"
+  },
+  {
+    "file": "CoreReader/Engineering/Values.lean",
+    "line": 26,
+    "kind": "def",
+    "name": "CoreReader.Engineering.reasonFor"
+  },
+  {
+    "file": "CoreReader/Engineering/Values.lean",
+    "line": 36,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.ReasonRelevant"
+  },
+  {
+    "file": "CoreReader/Engineering/Values.lean",
+    "line": 53,
+    "kind": "abbrev",
+    "name": "CoreReader.Engineering.valueScope"
+  },
+  {
+    "file": "CoreReader/Engineering/Values.lean",
+    "line": 58,
+    "kind": "def",
+    "name": "CoreReader.Engineering.safeguardExperiment"
+  },
+  {
+    "file": "CoreReader/Engineering/Values.lean",
+    "line": 79,
+    "kind": "def",
+    "name": "CoreReader.Engineering.criticismFor"
+  },
+  {
+    "file": "CoreReader/Engineering/Values.lean",
+    "line": 86,
+    "kind": "def",
+    "name": "CoreReader.Engineering.governancePosition"
+  },
+  {
+    "file": "CoreReader/Engineering/Values.lean",
+    "line": 100,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.adoptionReasonRelevant"
+  },
+  {
+    "file": "CoreReader/Engineering/Values.lean",
+    "line": 110,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.safeguardEnabled"
+  },
+  {
+    "file": "CoreReader/Engineering/Values.lean",
+    "line": 120,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.safeguardDisabled"
+  },
+  {
+    "file": "CoreReader/Engineering/Values.lean",
+    "line": 124,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.governanceValueProcedure"
+  },
+  {
+    "file": "CoreReader/Engineering/Values.lean",
+    "line": 137,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.governanceGrounded"
+  },
+  {
+    "file": "CoreReader/Engineering/Values.lean",
+    "line": 143,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.governanceRationaleLimits"
+  },
+  {
+    "file": "CoreReader/Engineering/Values.lean",
+    "line": 157,
+    "kind": "def",
+    "name": "CoreReader.Engineering.selectionObjective"
+  },
+  {
+    "file": "CoreReader/Engineering/Values.lean",
+    "line": 163,
+    "kind": "def",
+    "name": "CoreReader.Engineering.selectionPosition"
+  },
+  {
+    "file": "CoreReader/Engineering/Values.lean",
+    "line": 182,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.selectionValueProcedure"
+  },
+  {
+    "file": "CoreReader/Engineering/Values.lean",
+    "line": 219,
+    "kind": "theorem",
+    "name": "CoreReader.Engineering.selectionGrounded"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 9,
+    "kind": "structure",
+    "name": "CoreReader.Evidence.Record"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 13,
+    "kind": "def",
+    "name": "CoreReader.Evidence.Compatible"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 16,
+    "kind": "def",
+    "name": "CoreReader.Evidence.Supports"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 19,
+    "kind": "structure",
+    "name": "CoreReader.Evidence.Articulation"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 25,
+    "kind": "def",
+    "name": "CoreReader.Evidence.Articulated"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 28,
+    "kind": "structure",
+    "name": "CoreReader.Evidence.ValuePosition"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 42,
+    "kind": "def",
+    "name": "CoreReader.Evidence.ValuePosition.commitment"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 45,
+    "kind": "def",
+    "name": "CoreReader.Evidence.ValuePosition.consequence"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 48,
+    "kind": "def",
+    "name": "CoreReader.Evidence.ValuePosition.activeReasons"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 51,
+    "kind": "def",
+    "name": "CoreReader.Evidence.JointAdoption"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 55,
+    "kind": "def",
+    "name": "CoreReader.Evidence.ValueProcedure"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 61,
+    "kind": "inductive",
+    "name": "CoreReader.Evidence.Facet"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 66,
+    "kind": "def",
+    "name": "CoreReader.Evidence.Facet.claim"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 71,
+    "kind": "def",
+    "name": "CoreReader.Evidence.FacetDischarged"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 78,
+    "kind": "def",
+    "name": "CoreReader.Evidence.FacetArticulated"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 85,
+    "kind": "def",
+    "name": "CoreReader.Evidence.canonicalArticulation"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 93,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.canonicalFacetArticulated"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 97,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.canonicalArticulated"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 106,
+    "kind": "def",
+    "name": "CoreReader.Evidence.Grounds"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 112,
+    "kind": "def",
+    "name": "CoreReader.Evidence.AchievementAccountability"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 116,
+    "kind": "def",
+    "name": "CoreReader.Evidence.transitionAchievement"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 119,
+    "kind": "def",
+    "name": "CoreReader.Evidence.transitionPerformanceRecord"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 123,
+    "kind": "def",
+    "name": "CoreReader.Evidence.transitionReportRecord"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 128,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.transitionPerformanceCompatible"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 141,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.transitionSupported"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 150,
+    "kind": "def",
+    "name": "CoreReader.Evidence.transitionFacet"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 154,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.transitionFacetDischarged"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 159,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.transitionAccountable"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 168,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.transitionReportCompatible"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 173,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.transitionReportDoesNotSupport"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 180,
+    "kind": "def",
+    "name": "CoreReader.Evidence.ConcreteAchievementExample"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 191,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.concreteAchievementExample"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 197,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.achievementNeedsSupport"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 202,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.supportWeakening"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 206,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.evidenceWeakeningCanLoseSupport"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 213,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.scopeRestriction"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 219,
+    "kind": "def",
+    "name": "CoreReader.Evidence.Duties"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 221,
+    "kind": "def",
+    "name": "CoreReader.Evidence.LabeledDuties"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 224,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.assessmentUnion"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 230,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.labelsCannotWaive"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 233,
+    "kind": "def",
+    "name": "CoreReader.Evidence.switchRecord"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 234,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.switchCompatible"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 238,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.switchSupported"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 241,
+    "kind": "def",
+    "name": "CoreReader.Evidence.optionBenefit"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 242,
+    "kind": "def",
+    "name": "CoreReader.Evidence.optionCost"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 244,
+    "kind": "def",
+    "name": "CoreReader.Evidence.optionReport"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 247,
+    "kind": "def",
+    "name": "CoreReader.Evidence.switchPosition"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 260,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.switchValueProcedure"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 274,
+    "kind": "def",
+    "name": "CoreReader.Evidence.oppositePosition"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 277,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.oppositePositionRejected"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 294,
+    "kind": "def",
+    "name": "CoreReader.Evidence.contradictoryStartingPosition"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 296,
+    "kind": "def",
+    "name": "CoreReader.Evidence.impossibleAdoptionPosition"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 299,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.inadmissibleValuePositionsRejected"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 307,
+    "kind": "def",
+    "name": "CoreReader.Evidence.unsupportedPosition"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 308,
+    "kind": "def",
+    "name": "CoreReader.Evidence.switchEmpirical"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 310,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.switchEmpiricalDischarged"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 315,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.mixedMissingResponsibility"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 323,
+    "kind": "def",
+    "name": "CoreReader.Evidence.uninformativeArgument"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 325,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.articulationNotSupport"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 330,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.unrelatedArticulationRejected"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 339,
+    "kind": "def",
+    "name": "CoreReader.Evidence.temperatureRecord"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 340,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.temperatureCompatible"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 347,
+    "kind": "abbrev",
+    "name": "CoreReader.Evidence.BudgetWorld"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 349,
+    "kind": "def",
+    "name": "CoreReader.Evidence.announcement"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 350,
+    "kind": "def",
+    "name": "CoreReader.Evidence.announcementPosition"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 364,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.announcementHasJointAdoption"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 372,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.announcementNotBudgetReason"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 390,
+    "kind": "def",
+    "name": "CoreReader.Evidence.actionRecord"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 391,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.actionCompatible"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 394,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.measurementRepeatNotSupport"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 416,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.selfAssertionNotReason"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 426,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.valueWithoutSelfProof"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 434,
+    "kind": "abbrev",
+    "name": "CoreReader.Evidence.BenefitCostWorld"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 435,
+    "kind": "def",
+    "name": "CoreReader.Evidence.measuredOutcome"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 437,
+    "kind": "def",
+    "name": "CoreReader.Evidence.benefitReason"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 439,
+    "kind": "def",
+    "name": "CoreReader.Evidence.costReason"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 442,
+    "kind": "def",
+    "name": "CoreReader.Evidence.jointReasonPosition"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 456,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.jointReasonProcedure"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 477,
+    "kind": "def",
+    "name": "CoreReader.Evidence.JointReasonsExample"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 485,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.jointReasonsExample"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 492,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.heterogeneousReasons"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 500,
+    "kind": "def",
+    "name": "CoreReader.Evidence.zeroRecord"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 501,
+    "kind": "def",
+    "name": "CoreReader.Evidence.localGenerator"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 503,
+    "kind": "def",
+    "name": "CoreReader.Evidence.allTrue"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 504,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.zeroCompatible"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 509,
+    "kind": "structure",
+    "name": "CoreReader.Evidence.GeneratingProcess"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 514,
+    "kind": "def",
+    "name": "CoreReader.Evidence.GeneratingProcess.outputRevision"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 517,
+    "kind": "structure",
+    "name": "CoreReader.Evidence.ProducedRevision"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 522,
+    "kind": "def",
+    "name": "CoreReader.Evidence.GeneratingProcess.produce"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 524,
+    "kind": "def",
+    "name": "CoreReader.Evidence.sampleGeneratingProcess"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 526,
+    "kind": "def",
+    "name": "CoreReader.Evidence.OwnedRevisionExample"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 535,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.ownedRevisionExample"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 541,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.selfOriginDoesNotSupport"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 550,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.localNotUniversal"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 560,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.hiddenDifference"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 566,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.singleObservation"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 573,
+    "kind": "def",
+    "name": "CoreReader.Evidence.arithmeticFacet"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 574,
+    "kind": "def",
+    "name": "CoreReader.Evidence.usesObservation"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 578,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.noUniversalChain"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 585,
+    "kind": "structure",
+    "name": "CoreReader.Evidence.Trial"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 590,
+    "kind": "def",
+    "name": "CoreReader.Evidence.Verified"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 591,
+    "kind": "def",
+    "name": "CoreReader.Evidence.Reproduced"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 592,
+    "kind": "def",
+    "name": "CoreReader.Evidence.Bounded"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 594,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.variableOutcomesStableBound"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 600,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.verificationReproductionStability"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 606,
+    "kind": "inductive",
+    "name": "CoreReader.Evidence.Program"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 609,
+    "kind": "def",
+    "name": "CoreReader.Evidence.Program.eval"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 613,
+    "kind": "structure",
+    "name": "CoreReader.Evidence.Process"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 617,
+    "kind": "def",
+    "name": "CoreReader.Evidence.OutputContract"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 619,
+    "kind": "def",
+    "name": "CoreReader.Evidence.ExplanationContract"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 622,
+    "kind": "def",
+    "name": "CoreReader.Evidence.outputOnlyProcess"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 623,
+    "kind": "def",
+    "name": "CoreReader.Evidence.explainedProcess"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 625,
+    "kind": "def",
+    "name": "CoreReader.Evidence.processScope"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 628,
+    "kind": "def",
+    "name": "CoreReader.Evidence.processContractFacet"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 631,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.processScopeModels"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 635,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.processContractDischarged"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 643,
+    "kind": "def",
+    "name": "CoreReader.Evidence.ProcessGrounds"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 646,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.processGrounds"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 654,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.outputCorrectByEvaluation"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 656,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.outputOnlyNoExplanation"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 659,
+    "kind": "def",
+    "name": "CoreReader.Evidence.FullProcessContract"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 661,
+    "kind": "def",
+    "name": "CoreReader.Evidence.OutputContractEvidence"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 666,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.outputContractEvidence"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 671,
+    "kind": "def",
+    "name": "CoreReader.Evidence.ScopedApplicationEvidence"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 678,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.scopedApplicationEvidence"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 684,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.outputNotExplanation"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 688,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.applicationContractsDiffer"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 695,
+    "kind": "structure",
+    "name": "CoreReader.Evidence.ExternalCertificate"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 701,
+    "kind": "def",
+    "name": "CoreReader.Evidence.externalOutputCertificate"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 704,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.externalAssessment"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 715,
+    "kind": "def",
+    "name": "CoreReader.Evidence.arithmeticArticulation"
+  },
+  {
+    "file": "CoreReader/Evidence.lean",
+    "line": 717,
+    "kind": "theorem",
+    "name": "CoreReader.Evidence.nonExecutableAssessment"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 8,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.canonicalGrounds"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 15,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.canonicalGroundsForSingleton"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 24,
+    "kind": "inductive",
+    "name": "CoreReader.Integration.Mode"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 28,
+    "kind": "abbrev",
+    "name": "CoreReader.Integration.World"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 30,
+    "kind": "def",
+    "name": "CoreReader.Integration.actual"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 33,
+    "kind": "structure",
+    "name": "CoreReader.Integration.Method"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 38,
+    "kind": "structure",
+    "name": "CoreReader.Integration.System"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 45,
+    "kind": "def",
+    "name": "CoreReader.Integration.policyFor"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 49,
+    "kind": "def",
+    "name": "CoreReader.Integration.workFor"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 53,
+    "kind": "def",
+    "name": "CoreReader.Integration.System.policy"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 54,
+    "kind": "def",
+    "name": "CoreReader.Integration.System.rules"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 55,
+    "kind": "def",
+    "name": "CoreReader.Integration.System.work"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 57,
+    "kind": "def",
+    "name": "CoreReader.Integration.actualSystem"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 64,
+    "kind": "def",
+    "name": "CoreReader.Integration.systemCapability"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 67,
+    "kind": "def",
+    "name": "CoreReader.Integration.systemBudget"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 70,
+    "kind": "def",
+    "name": "CoreReader.Integration.systemObservation"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 73,
+    "kind": "def",
+    "name": "CoreReader.Integration.systemHeld"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 76,
+    "kind": "inductive",
+    "name": "CoreReader.Integration.Question"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 79,
+    "kind": "def",
+    "name": "CoreReader.Integration.systemContext"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 84,
+    "kind": "abbrev",
+    "name": "CoreReader.Integration.capability"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 85,
+    "kind": "abbrev",
+    "name": "CoreReader.Integration.observation"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 86,
+    "kind": "abbrev",
+    "name": "CoreReader.Integration.held"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 87,
+    "kind": "abbrev",
+    "name": "CoreReader.Integration.context"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 90,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.observationIdentifies"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 95,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.capabilityActual"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 97,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.observedCapability"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 105,
+    "kind": "def",
+    "name": "CoreReader.Integration.capabilityFacet"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 107,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.capabilityFacetChecked"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 111,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.capabilityGrounds"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 115,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.actualAdmissible"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 120,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.jointConsistent"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 124,
+    "kind": "def",
+    "name": "CoreReader.Integration.Charter"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 129,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.charterChecked"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 133,
+    "kind": "def",
+    "name": "CoreReader.Integration.revisedHeld"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 136,
+    "kind": "def",
+    "name": "CoreReader.Integration.initialSnapshot"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 137,
+    "kind": "def",
+    "name": "CoreReader.Integration.revisedSnapshot"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 139,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.revisionKeepsConsistency"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 151,
+    "kind": "def",
+    "name": "CoreReader.Integration.OwnCapabilityDuty"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 155,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.ownCapabilityGrounded"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 163,
+    "kind": "def",
+    "name": "CoreReader.Integration.costAllowanceRecord"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 166,
+    "kind": "def",
+    "name": "CoreReader.Integration.unsupportedCapabilityFacet"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 169,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.costCompatibleWithFailure"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 175,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.costDoesNotSupportOutput"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 180,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.unsupportedGrounds"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 187,
+    "kind": "inductive",
+    "name": "CoreReader.Integration.Commitment"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 191,
+    "kind": "def",
+    "name": "CoreReader.Integration.groundsPermission"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 197,
+    "kind": "def",
+    "name": "CoreReader.Integration.GroundsProvision"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 201,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.groundsProvisionMeaning"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 212,
+    "kind": "def",
+    "name": "CoreReader.Integration.consistencyPermission"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 215,
+    "kind": "def",
+    "name": "CoreReader.Integration.conflictingHeld"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 217,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.conflictConsequences"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 223,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.conflictingHeldInconsistent"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 227,
+    "kind": "def",
+    "name": "CoreReader.Integration.choicePermission"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 231,
+    "kind": "def",
+    "name": "CoreReader.Integration.proposedOperation"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 235,
+    "kind": "def",
+    "name": "CoreReader.Integration.selfSamples"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 239,
+    "kind": "def",
+    "name": "CoreReader.Integration.conflictDecision"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 242,
+    "kind": "def",
+    "name": "CoreReader.Integration.groundsDecision"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 246,
+    "kind": "def",
+    "name": "CoreReader.Integration.choiceDecision"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 249,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.decisionsApply"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 261,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.decisionsWaive"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 272,
+    "kind": "def",
+    "name": "CoreReader.Integration.commitmentPositionFor"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 329,
+    "kind": "def",
+    "name": "CoreReader.Integration.commitmentPosition"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 332,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.positionReasons"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 346,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.positionConsequence"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 354,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.positionProcedure"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 367,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.criticismWithinScope"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 379,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.oppositeConsequenceFails"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 398,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.oppositeProcedureRejected"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 404,
+    "kind": "def",
+    "name": "CoreReader.Integration.commitmentClaim"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 406,
+    "kind": "def",
+    "name": "CoreReader.Integration.commitmentFacet"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 408,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.reasonsBelongToCommitments"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 418,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.groundsCommitmentIsProvision"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 423,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.groundsSelfAssessment"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 436,
+    "kind": "structure",
+    "name": "CoreReader.Integration.PhilosophyMethod"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 440,
+    "kind": "def",
+    "name": "CoreReader.Integration.currentPhilosophy"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 443,
+    "kind": "def",
+    "name": "CoreReader.Integration.PhilosophyMethod.review"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 448,
+    "kind": "def",
+    "name": "CoreReader.Integration.PhilosophyMethod.implementation"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 458,
+    "kind": "def",
+    "name": "CoreReader.Integration.proposalRequirements"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 464,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.currentReviewCorrect"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 472,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.existingPhilosophyNotPrivileged"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 487,
+    "kind": "def",
+    "name": "CoreReader.Integration.applicationClaim"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 491,
+    "kind": "def",
+    "name": "CoreReader.Integration.ApplicationDuties"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 499,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.applicationRetainsDuties"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 510,
+    "kind": "def",
+    "name": "CoreReader.Integration.outputContract"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 513,
+    "kind": "def",
+    "name": "CoreReader.Integration.successorRequirements"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 517,
+    "kind": "def",
+    "name": "CoreReader.Integration.changedObjectiveFacet"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 521,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.applicationVariation"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 537,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.charterNotGrounds"
+  },
+  {
+    "file": "CoreReader/Integration.lean",
+    "line": 546,
+    "kind": "theorem",
+    "name": "CoreReader.Integration.jointWitness"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 4,
+    "kind": "abbrev",
+    "name": "CoreReader.Logic.Claim"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 6,
+    "kind": "abbrev",
+    "name": "CoreReader.Logic.Theory"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 8,
+    "kind": "def",
+    "name": "CoreReader.Logic.Models"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 10,
+    "kind": "def",
+    "name": "CoreReader.Logic.Entails"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 12,
+    "kind": "def",
+    "name": "CoreReader.Logic.Satisfiable"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 14,
+    "kind": "structure",
+    "name": "CoreReader.Logic.Context"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 19,
+    "kind": "def",
+    "name": "CoreReader.Logic.Admissible"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 22,
+    "kind": "def",
+    "name": "CoreReader.Logic.Consequence"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 25,
+    "kind": "def",
+    "name": "CoreReader.Logic.Consistent"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 28,
+    "kind": "theorem",
+    "name": "CoreReader.Logic.consequenceConsistency"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 34,
+    "kind": "def",
+    "name": "CoreReader.Logic.emptyTheory"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 35,
+    "kind": "def",
+    "name": "CoreReader.Logic.singleton"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 36,
+    "kind": "def",
+    "name": "CoreReader.Logic.union"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 37,
+    "kind": "theorem",
+    "name": "CoreReader.Logic.modelsSingleton"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 41,
+    "kind": "theorem",
+    "name": "CoreReader.Logic.modelsUnion"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 47,
+    "kind": "def",
+    "name": "CoreReader.Logic.premiseP"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 48,
+    "kind": "def",
+    "name": "CoreReader.Logic.premiseRule"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 49,
+    "kind": "def",
+    "name": "CoreReader.Logic.premiseNotQ"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 50,
+    "kind": "def",
+    "name": "CoreReader.Logic.jointTheory"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 53,
+    "kind": "theorem",
+    "name": "CoreReader.Logic.jointConflict"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 65,
+    "kind": "def",
+    "name": "CoreReader.Logic.revisionSlice"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 68,
+    "kind": "theorem",
+    "name": "CoreReader.Logic.revisionCanReverse"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 80,
+    "kind": "def",
+    "name": "CoreReader.Logic.onQuestion"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 81,
+    "kind": "def",
+    "name": "CoreReader.Logic.assumptionContext"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 83,
+    "kind": "def",
+    "name": "CoreReader.Logic.meaningContext"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 85,
+    "kind": "def",
+    "name": "CoreReader.Logic.scopeContext"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 88,
+    "kind": "theorem",
+    "name": "CoreReader.Logic.contextDifferences"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 110,
+    "kind": "structure",
+    "name": "CoreReader.Logic.Snapshot"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 115,
+    "kind": "def",
+    "name": "CoreReader.Logic.SameContent"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 121,
+    "kind": "def",
+    "name": "CoreReader.Logic.TruthfulReport"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 124,
+    "kind": "theorem",
+    "name": "CoreReader.Logic.semanticChangeMustBeReported"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 128,
+    "kind": "theorem",
+    "name": "CoreReader.Logic.representationOrderIrrelevant"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 131,
+    "kind": "def",
+    "name": "CoreReader.Logic.contextSnapshot"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 134,
+    "kind": "theorem",
+    "name": "CoreReader.Logic.hiddenContextChangeRejected"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 157,
+    "kind": "theorem",
+    "name": "CoreReader.Logic.tensionWithoutContradiction"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 163,
+    "kind": "theorem",
+    "name": "CoreReader.Logic.conflictRequiresChange"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 167,
+    "kind": "theorem",
+    "name": "CoreReader.Logic.consistentFalse"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 172,
+    "kind": "theorem",
+    "name": "CoreReader.Logic.consistentIncomplete"
+  },
+  {
+    "file": "CoreReader/Logic.lean",
+    "line": 180,
+    "kind": "theorem",
+    "name": "CoreReader.Logic.compatibilityNotEntailment"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 5,
+    "kind": "inductive",
+    "name": "CoreReader.Agency.Phase"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 8,
+    "kind": "structure",
+    "name": "CoreReader.Agency.PrincipleKey"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 13,
+    "kind": "inductive",
+    "name": "CoreReader.Agency.Subject"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 19,
+    "kind": "def",
+    "name": "CoreReader.Agency.Subject.owner"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 24,
+    "kind": "inductive",
+    "name": "CoreReader.Agency.Activity"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 27,
+    "kind": "inductive",
+    "name": "CoreReader.Agency.QuestionKind"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 30,
+    "kind": "inductive",
+    "name": "CoreReader.Agency.SampleProgram"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 33,
+    "kind": "def",
+    "name": "CoreReader.Agency.SampleProgram.run"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 38,
+    "kind": "structure",
+    "name": "CoreReader.Agency.MethodDraft"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 43,
+    "kind": "def",
+    "name": "CoreReader.Agency.MethodDraft.accepts"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 47,
+    "kind": "structure",
+    "name": "CoreReader.Agency.Inquiry"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 54,
+    "kind": "inductive",
+    "name": "CoreReader.Agency.ReasonContent"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 61,
+    "kind": "def",
+    "name": "CoreReader.Agency.ReasonContent.identifier"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 68,
+    "kind": "structure",
+    "name": "CoreReader.Agency.ReasonObject"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 74,
+    "kind": "inductive",
+    "name": "CoreReader.Agency.AssessmentResult"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 77,
+    "kind": "inductive",
+    "name": "CoreReader.Agency.WorkOutcome"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 84,
+    "kind": "structure",
+    "name": "CoreReader.Agency.Principle"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 94,
+    "kind": "structure",
+    "name": "CoreReader.Agency.WorkRecord"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 104,
+    "kind": "def",
+    "name": "CoreReader.Agency.RegistryCoherent"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 107,
+    "kind": "def",
+    "name": "CoreReader.Agency.TargetResolved"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 113,
+    "kind": "def",
+    "name": "CoreReader.Agency.TargetContentResolved"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 119,
+    "kind": "def",
+    "name": "CoreReader.Agency.Performed"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 123,
+    "kind": "def",
+    "name": "CoreReader.Agency.ReflexiveScope"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 128,
+    "kind": "structure",
+    "name": "CoreReader.Agency.ValidApplication"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 146,
+    "kind": "def",
+    "name": "CoreReader.Agency.Reflexive"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 151,
+    "kind": "theorem",
+    "name": "CoreReader.Agency.Reflexive.toScope"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 157,
+    "kind": "theorem",
+    "name": "CoreReader.Agency.noSelfExemption"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 162,
+    "kind": "def",
+    "name": "CoreReader.Agency.localMethod"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 164,
+    "kind": "def",
+    "name": "CoreReader.Agency.inquiryFor"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 172,
+    "kind": "def",
+    "name": "CoreReader.Agency.sourceReasonContents"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 178,
+    "kind": "def",
+    "name": "CoreReader.Agency.reasonsFor"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 183,
+    "kind": "def",
+    "name": "CoreReader.Agency.assessInquiry"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 208,
+    "kind": "def",
+    "name": "CoreReader.Agency.finiteMethodResult"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 214,
+    "kind": "def",
+    "name": "CoreReader.Agency.finiteMethodMeaning"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 218,
+    "kind": "def",
+    "name": "CoreReader.Agency.ownSubjects"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 224,
+    "kind": "def",
+    "name": "CoreReader.Agency.generationEligible"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 228,
+    "kind": "def",
+    "name": "CoreReader.Agency.generatingRule"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 238,
+    "kind": "def",
+    "name": "CoreReader.Agency.assessingRule"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 248,
+    "kind": "def",
+    "name": "CoreReader.Agency.ownRules"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 251,
+    "kind": "def",
+    "name": "CoreReader.Agency.statedOutcome"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 258,
+    "kind": "def",
+    "name": "CoreReader.Agency.recordFor"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 261,
+    "kind": "theorem",
+    "name": "CoreReader.Agency.reasonsFor_nonempty"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 267,
+    "kind": "theorem",
+    "name": "CoreReader.Agency.reasonsFor_target"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 272,
+    "kind": "theorem",
+    "name": "CoreReader.Agency.inquiryFor_target"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 279,
+    "kind": "theorem",
+    "name": "CoreReader.Agency.ownContentEvaluates"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 289,
+    "kind": "theorem",
+    "name": "CoreReader.Agency.ownRegistryCoherent"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 298,
+    "kind": "theorem",
+    "name": "CoreReader.Agency.ownTargetResolved"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 304,
+    "kind": "theorem",
+    "name": "CoreReader.Agency.ownTargetContent"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 310,
+    "kind": "theorem",
+    "name": "CoreReader.Agency.ownRecordValid"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 343,
+    "kind": "def",
+    "name": "CoreReader.Agency.completeOwnWork"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 348,
+    "kind": "theorem",
+    "name": "CoreReader.Agency.assessingRecord_member"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 354,
+    "kind": "theorem",
+    "name": "CoreReader.Agency.generatingRecord_member"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 358,
+    "kind": "theorem",
+    "name": "CoreReader.Agency.completeOwnWork_reflexive"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 368,
+    "kind": "theorem",
+    "name": "CoreReader.Agency.ownAssessmentPerformed"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 372,
+    "kind": "def",
+    "name": "CoreReader.Agency.applicationRule"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 375,
+    "kind": "def",
+    "name": "CoreReader.Agency.applicationWork"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 377,
+    "kind": "theorem",
+    "name": "CoreReader.Agency.applicationWork_reflexive"
+  },
+  {
+    "file": "CoreReader/Reflexivity.lean",
+    "line": 396,
+    "kind": "theorem",
+    "name": "CoreReader.Agency.applicabilityRetained"
+  }
+]

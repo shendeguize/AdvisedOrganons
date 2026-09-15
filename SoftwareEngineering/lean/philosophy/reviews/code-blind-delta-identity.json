@@ -1,0 +1,20 @@
+{
+  "stage": "delta-blind-code-only",
+  "frozen_utc": "2026-09-14T17:48:02.922686+00:00",
+  "source_fidelity": "unevaluated",
+  "input_drift": "none",
+  "artifacts": {
+    "delta-blind.md": "a0a16628362882d5574bf41123d6fed41ce735083d55dccfb06650555cb3b776",
+    "delta-code-hashes.json": "ed7b0e1a14dfb426b2f7c4735be02db2911bcba1f6099543df2616166047130c",
+    "nonblank-code.diff": "a0545ab97645bd8367ef84cc5b8d7c9f8bf95ba45839c2672d29daea76ca3137",
+    "delta-declarations.json": "f114fad4dc45210fc793fedfc719d2baa9d50e73f55739a26e27e0132983318c",
+    "DeltaAudit.lean": "cd9536e5a2205894e4d6987bd9454ac2adda91a0c6e83b792056caea0cb9f109",
+    "delta-actual-audit.log": "e6a5973745a917b19c79cb119c498a534aa2f16f48cd305d04c837e7febe26c5",
+    "delta-axiom-summary.json": "1516ad35a9504250072d73ec52cefcf17b454f1c7f61d4f4c4af68835dd7025d",
+    "delta-toolchain.log": "7657cf16156f61420bea6e19ecc0a6e4bd47f2e27e3124146eddcf30c667885e",
+    "delta-build.log": "b8db9a7581b95559e4c984518e640e3f4968d3683dc716faa76878adba26173c",
+    "DeltaProbes.lean": "fba9d1b478afe68cca2ac2a2e257e1aca72ffa87ba39579d867ff330f4c176eb",
+    "delta-probes.log": "743f4824caf00181a66775b172c44c085caf05b5517ff489ce45125e0650666b",
+    "delta-probes-initial-failed.log": "d97e471fa448deff83ae8241251fdf943aedde56f938e964e0a9fad6299d0ee3"
+  }
+}

@@ -1,0 +1,349 @@
+{
+  "role": "independent_narrow_component_recheck",
+  "authorship_separation": "The reviewer did not author Domain explanations or T35 narrative. This recheck does not review or approve the reviewer-authored Root four-module r2 corrections.",
+  "baseline": "SoftwareEngineering 0.2.0 / adopted Core 0.1.2",
+  "source": {
+    "path": "SoftwareEngineering/lean/philosophy/leanified/CoreReader/Engineering/Domain.lean",
+    "sha256": "ce5653a2950cc7443cefbfe8b9726bd4859228e831ddb7d42601e501ccbfd855",
+    "unchanged_from_r1_and_R3": true
+  },
+  "input_hashes": [
+    {
+      "path": "private software-engineering iteration records/domain-line-explanations-en.json",
+      "sha256": "d1773e14c9e68a81850a9a949f11ab3722dcb3a4c2bd8c663ecf1e8102d3c471"
+    },
+    {
+      "path": "private software-engineering iteration records/domain-line-explanations-zh.json",
+      "sha256": "24bf6725f169fad4ec28f335296c0e95c3212136e46ec3ad0974f61a32820c85"
+    },
+    {
+      "path": "private software-engineering iteration records/domain-line-author-r2-response.md",
+      "sha256": "e640dadea296155c29b20c3adf20eafe4adeedfdf2f5513dcb65a8a35691a51b"
+    },
+    {
+      "path": "private software-engineering iteration records/domain-line-author-r2-response.json",
+      "sha256": "005255f21a726e8c99c72723e3c2b86a88b11619099391ed73ed26deec2a67dd"
+    },
+    {
+      "path": "private software-engineering iteration records/target-narratives-current.json",
+      "sha256": "12f534ce9489527799edebe937e5cca39dc3166afb6aec5783473334423b06d4"
+    }
+  ],
+  "verdict": "accepted_changed_components_with_public_view_rebuild_pending",
+  "diff_and_coverage": [
+    {
+      "language": "en",
+      "sha256": "d1773e14c9e68a81850a9a949f11ab3722dcb3a4c2bd8c663ecf1e8102d3c471",
+      "nonempty_source_lines": 902,
+      "entries": 902,
+      "unchanged_entries": 888,
+      "changed_lines": [
+        88,
+        244,
+        298,
+        299,
+        300,
+        301,
+        353,
+        424,
+        710,
+        711,
+        712,
+        713,
+        1034,
+        1035
+      ],
+      "missing": [],
+      "extra": [],
+      "empty": [],
+      "author_before_equals_independently_frozen_r1": true,
+      "changes": [
+        {
+          "line": 88,
+          "source": "  match d with",
+          "before": "Addition and independent change use only that two-unit base path.",
+          "after": "Dispatch on the requested Change to choose its corresponding editing path; the following branches distinguish the different directions."
+        },
+        {
+          "line": 244,
+          "source": "  objective := fun b => match b with",
+          "before": "The understanding limit concerns successor onboarding capacity.",
+          "after": "Assign each Burden its objective name by matching on the burden; the following branches supply the distinct engineering objectives."
+        },
+        {
+          "line": 298,
+          "source": "abbrev JustifiedDeparture (ctx : Context) (c : Candidate) : Prop :=",
+          "before": "A justified departure must explicitly select a burden and establish its concrete threat; none supplies no justification.",
+          "after": "Define justified departure for this context and candidate through a recorded burden whose concrete cost threat must hold."
+        },
+        {
+          "line": 299,
+          "source": "  match ctx.departure with",
+          "before": "A justified departure must explicitly select a burden and establish its concrete threat; none supplies no justification.",
+          "after": "Inspect this same context’s departure option to distinguish an absent explanation from a named burden."
+        },
+        {
+          "line": 300,
+          "source": "  | none => False",
+          "before": "A justified departure must explicitly select a burden and establish its concrete threat; none supplies no justification.",
+          "after": "With no recorded departure burden, justification is False; absence supplies no exception."
+        },
+        {
+          "line": 301,
+          "source": "  | some b => ConcreteThreat ctx c b",
+          "before": "A justified departure must explicitly select a burden and establish its concrete threat; none supplies no justification.",
+          "after": "For the recorded burden b, require ConcreteThreat for this exact context, candidate and burden."
+        },
+        {
+          "line": 353,
+          "source": "theorem unmetRequirementsBlockPriority :",
+          "before": "Tests that failure of any represented necessary requirement prevents activation of priority, rather than licensing an unsafe evolutionary choice.",
+          "after": "Check that each of the four displayed requirement failures makes PriorityConditions false. This only disables priority activation: EvolutionPriority and the later DomainSatisfied do not impose an unconditional Meets rejection."
+        },
+        {
+          "line": 424,
+          "source": "def insertOrdered (n : Nat) : List Nat → List Nat",
+          "before": "Insertion receives one value and a sorted tail, supporting the comparison implementation's sorting behavior.",
+          "after": "Take a natural number and an arbitrary natural-number list; the type has no sorted-input premise. sortValues uses this helper for ordered insertion into its recursively sorted tail."
+        },
+        {
+          "line": 710,
+          "source": "def omittedCallerCheck : EngineeringDesign :=",
+          "before": "Creates a counterexample by removing caller contract-runner steps from the actual path while retaining the design, boundary and callee-edit steps.",
+          "after": "Construct omittedCallerCheck as a design variant whose paths omit caller contract-runner work, for the later boundary-obligation counterexample."
+        },
+        {
+          "line": 711,
+          "source": "  { boundaryDesign with paths := fun direction =>",
+          "before": "Creates a counterexample by removing caller contract-runner steps from the actual path while retaining the design, boundary and callee-edit steps.",
+          "after": "Copy boundaryDesign’s other fields unchanged and replace paths with a function that transforms the path for each requested direction."
+        },
+        {
+          "line": 712,
+          "source": "      (boundaryDesign.paths direction).filter (fun step =>",
+          "before": "Creates a counterexample by removing caller contract-runner steps from the actual path while retaining the design, boundary and callee-edit steps.",
+          "after": "Filter the original boundaryDesign path for this same direction, retaining precisely the steps accepted by the following predicate."
+        },
+        {
+          "line": 713,
+          "source": "        !(step.component == coordinatedBoundary.caller && step.tool == .contractRunner)) }",
+          "before": "Creates a counterexample by removing caller contract-runner steps from the actual path while retaining the design, boundary and callee-edit steps.",
+          "after": "Exclude a step exactly when it is at coordinatedBoundary.caller and uses contractRunner; keep all other steps and finish the record update."
+        },
+        {
+          "line": 1034,
+          "source": "abbrev DomainSatisfied (ctx : Context) (chosen : Candidate) : Prop :=",
+          "before": "Domain satisfaction combines the represented domain obligations for one context and selected design.",
+          "after": "Combine the represented domain duties for one context and selected design. This bundle has no unconditional Meets field; priority applicability is not an overall requirement-rejection test."
+        },
+        {
+          "line": 1035,
+          "source": "  ActivityScope ctx.activity ∧ EvolutionPriority ctx chosen ∧",
+          "before": "Requires valid engineering-subject scope and satisfaction of the adopted evolution priority.",
+          "after": "Require ActivityScope and the conditional EvolutionPriority. If PriorityConditions is false, that implication holds vacuously; this conjunct does not reject the choice for unmet requirements, while the remaining domain duties still apply."
+        }
+      ]
+    },
+    {
+      "language": "zh",
+      "sha256": "24bf6725f169fad4ec28f335296c0e95c3212136e46ec3ad0974f61a32820c85",
+      "nonempty_source_lines": 902,
+      "entries": 902,
+      "unchanged_entries": 888,
+      "changed_lines": [
+        88,
+        244,
+        298,
+        299,
+        300,
+        301,
+        353,
+        424,
+        710,
+        711,
+        712,
+        713,
+        1034,
+        1035
+      ],
+      "missing": [],
+      "extra": [],
+      "empty": [],
+      "author_before_equals_independently_frozen_r1": true,
+      "changes": [
+        {
+          "line": 88,
+          "source": "  match d with",
+          "before": "功能增加和独立变更只使用这条两单位基础路径。",
+          "after": "按请求的 Change 选择对应编辑路径；后续各分支区分不同变更方向。"
+        },
+        {
+          "line": 244,
+          "source": "  objective := fun b => match b with",
+          "before": "理解界限对应接任者入门容量。",
+          "after": "按 Burden 分派并指定对应目标名称；后续分支给出各自不同的工程目标。"
+        },
+        {
+          "line": 298,
+          "source": "abbrev JustifiedDeparture (ctx : Context) (c : Candidate) : Prop :=",
+          "before": "有根据的偏离必须明确选择负担并成立其具体威胁；none 不提供理由。",
+          "after": "以记录的负担及其必须成立的具体成本威胁，定义此情境与候选的有根据让步。"
+        },
+        {
+          "line": 299,
+          "source": "  match ctx.departure with",
+          "before": "有根据的偏离必须明确选择负担并成立其具体威胁；none 不提供理由。",
+          "after": "检查同一情境的 departure 选项，区分未指定说明与已指定负担。"
+        },
+        {
+          "line": 300,
+          "source": "  | none => False",
+          "before": "有根据的偏离必须明确选择负担并成立其具体威胁；none 不提供理由。",
+          "after": "未记录让步负担时，根据条件为 False；缺省记录不提供例外。"
+        },
+        {
+          "line": 301,
+          "source": "  | some b => ConcreteThreat ctx c b",
+          "before": "有根据的偏离必须明确选择负担并成立其具体威胁；none 不提供理由。",
+          "after": "对记录的负担 b，要求同一情境、候选及该负担满足 ConcreteThreat。"
+        },
+        {
+          "line": 353,
+          "source": "theorem unmetRequirementsBlockPriority :",
+          "before": "检验任一已表示必要需求失败都会阻止优先条件激活，而不是允许不安全的演化选择。",
+          "after": "检查所示四种需求失败各自使 PriorityConditions 为假。这仅阻止优先条件激活；EvolutionPriority 及后面的 DomainSatisfied 并未施加无条件的 Meets 拒绝要求。"
+        },
+        {
+          "line": 424,
+          "source": "def insertOrdered (n : Nat) : List Nat → List Nat",
+          "before": "插入函数接收一个值与有序列表，支持对比实现的排序行为。",
+          "after": "接收一个自然数及任意自然数列表；类型不含输入已排序的前提。sortValues 调用此辅助函数，在递归排序后的尾列表中按序插入。"
+        },
+        {
+          "line": 710,
+          "source": "def omittedCallerCheck : EngineeringDesign :=",
+          "before": "通过从实际路径删除调用方合同执行器步骤构造反例，同时保留设计、边界与被调用方编辑步骤。",
+          "after": "构造设计变式 omittedCallerCheck，在路径中省去调用方合同执行器工作，用于后面的边界义务反例。"
+        },
+        {
+          "line": 711,
+          "source": "  { boundaryDesign with paths := fun direction =>",
+          "before": "通过从实际路径删除调用方合同执行器步骤构造反例，同时保留设计、边界与被调用方编辑步骤。",
+          "after": "保持 boundaryDesign 的其他字段不变，将 paths 替换为按请求方向变换对应路径的函数。"
+        },
+        {
+          "line": 712,
+          "source": "      (boundaryDesign.paths direction).filter (fun step =>",
+          "before": "通过从实际路径删除调用方合同执行器步骤构造反例，同时保留设计、边界与被调用方编辑步骤。",
+          "after": "筛选 boundaryDesign 在同一方向的原路径，只保留下述谓词接受的步骤。"
+        },
+        {
+          "line": 713,
+          "source": "        !(step.component == coordinatedBoundary.caller && step.tool == .contractRunner)) }",
+          "before": "通过从实际路径删除调用方合同执行器步骤构造反例，同时保留设计、边界与被调用方编辑步骤。",
+          "after": "仅在步骤位于 coordinatedBoundary.caller 且使用 contractRunner 时删除它；保留其余步骤，并完成记录更新。"
+        },
+        {
+          "line": 1034,
+          "source": "abbrev DomainSatisfied (ctx : Context) (chosen : Candidate) : Prop :=",
+          "before": "领域满足把同一情境与所选设计的已表示领域义务组合。",
+          "after": "组合同一情境与所选设计的已表示领域义务。此组合没有无条件的 Meets 字段；优先适用性并不是整体需求拒绝检查。"
+        },
+        {
+          "line": 1035,
+          "source": "  ActivityScope ctx.activity ∧ EvolutionPriority ctx chosen ∧",
+          "before": "要求有效工程主体范围，并满足已采用演化优先。",
+          "after": "要求 ActivityScope 及条件式 EvolutionPriority。若 PriorityConditions 为假，该蕴含空真；此合取项不会因需求未满足而拒绝选择，其余领域义务仍须履行。"
+        }
+      ]
+    }
+  ],
+  "dispositions": [
+    {
+      "finding": "RD1",
+      "result": "resolved_in_component",
+      "lines": [
+        353,
+        1034,
+        1035
+      ],
+      "reason": "Both languages explicitly distinguish disabled priority activation from whole-choice rejection, disclose implication vacuity and absence of an unconditional Meets field, and retain remaining DomainSatisfied duties."
+    },
+    {
+      "finding": "RD2",
+      "result": "resolved_in_component",
+      "lines": [
+        424
+      ],
+      "reason": "Both languages state arbitrary List Nat input with no sortedness premise, while locating ordered-insertion use in sortValues recursive caller."
+    },
+    {
+      "finding": "RD4 necessary",
+      "result": "resolved_in_component",
+      "lines": [
+        88,
+        244
+      ],
+      "reason": "Both dispatch explanations now range over the entire Change/Burden argument instead of describing only one branch."
+    },
+    {
+      "finding": "RD4 optional locality",
+      "result": "improved_without_scope_expansion",
+      "lines": [
+        298,
+        299,
+        300,
+        301,
+        710,
+        711,
+        712,
+        713
+      ],
+      "reason": "The option definition/match/none/some and record/filter/exclusion lines now explain their distinct local roles without changing their predicate meaning."
+    },
+    {
+      "finding": "RD3",
+      "result": "resolved_in_T35_component; rebuilt_public_views_pending",
+      "lines": [
+        889,
+        890,
+        891,
+        892,
+        894,
+        895,
+        951,
+        953,
+        954,
+        955,
+        956,
+        957
+      ],
+      "reason": "T35 now describes simultaneous changes to all five grounds in one old/new pair, separately describes OR semantics and non-sufficiency for substantive justification, and correctly identifies old/recordedOld tampering against independent history."
+    }
+  ],
+  "T35": {
+    "record": {
+      "id": "T35",
+      "title_en": "Revision and preserved historical evidence",
+      "title_zh": "修订与保留历史证据",
+      "conclusion_en": "Changed forecasts, maintainers, costs or objectives can justify changed judgments. A new record must retain the earlier prediction and its observed failure.",
+      "conclusion_zh": "预测、维护者、成本或目标变化可支持改判；新记录须保留旧预测及其观测失败。",
+      "premises_en": "RevisionAccount compares the revision with independently fixed observedHistory, including software identity, old prediction and actual observed result. revisionFor uses the current context and selected candidate. MaterialGroundsChanged is a disjunction of five recorded differences; it does not prove that each difference alone adequately justifies the new choice.",
+      "premises_zh": "RevisionAccount 将修订与独立固定的 observedHistory 比较，包括软件身份、旧预测及实际观测结果；revisionFor 使用当前语境和所选实现。 MaterialGroundsChanged 是五项记录差异的析取，不证明任一差异单独足以充分支持新选择。",
+      "proof_en": "The same old/new state pair changes forecast, maintenance, maintainers, migration cost and objective capacity together; the theorem lists all five differences. Tampering with both old and recordedOld cannot change the independent history. Separate retention cases use an unsupported alternative or a justified migration-cost departure.",
+      "proof_zh": "同一旧／新状态对同时改变预测、维护、维护者、迁移成本和目标容量；定理列出这五项差异。同步篡改 old 与 recordedOld 不能改变独立历史。另有保留案例分别使用无支持的替代方向或有根据的迁移成本让步。",
+      "limits_en": "The recorded history is fixed model evidence; the theorem does not authenticate arbitrary real-world logs or prove every criticism response adequate.",
+      "limits_zh": "记录的历史是固定模型证据；定理不鉴定任意现实日志，也不证明所有批评回应均充分。"
+    },
+    "canonical_record_hash": "8242e8ff1069f5fc2072eb780fecbfb2ba66faa637f6608e818b270fbc720a52",
+    "canonicalization": "UTF-8 JSON, ensure_ascii=False, sort_keys=True, separators=(comma,colon), trailing newline",
+    "whole_narrative_file_hash_is_identity_only": "Only T35 content was reviewed; the whole-file hash does not imply approval of all other targets."
+  },
+  "reuse": "The 888 unchanged entries/language are byte-equivalent values to the independently reviewed r1 JSON. Reuse its semantic findings and actual stdin probes for unchanged code; no new proof or broad test was needed for these wording-only changes. Prior missing Decidable probe attempt remains preserved in r1.",
+  "limits": [
+    "This accepts only the 14 changed Domain entries in both languages and the exact T35 component identified here.",
+    "The four generated public manuscripts were not yet rebuilt for this check; no claim of final rendered/hash synchronization or link approval is made.",
+    "Prior r1 findings and their hashes remain preserved; this record is a new object, not an overwritten initial judgment.",
+    "No author files, Lean code, philosophical source or public manuscripts were edited by this recheck."
+  ]
+}

@@ -1,0 +1,3522 @@
+{
+  "schema": "independent-full-source-code-review-v1",
+  "reviewer": "/root/se_source_first",
+  "recorded_at": "2026-09-14T17:49:42.008788+00:00",
+  "phase": "informed actual source review after preserved source-first; blind translation and its concerns not seen",
+  "status": "pending-correspondence",
+  "source_sha256": "6c6ae78a23f2726c5c370434e808d76c206647fe7793245e88cae52c076abe34",
+  "catalog_sha256": "c0939df35dad148a0543ba92a1ac7b7d3b2eb4946f92ac4be251ec51b6481d13",
+  "run_sha256": "661ee91e1727a628c9e5933f6c6690011c575f99123b2a669ddb2b9c036a163d",
+  "report_sha256": "d1c38be6f8826ff29ff01ec12bb2d45f3f32e4e4b45830c7fd3250a40ab13767",
+  "code_objects": [
+    {
+      "path": "CoreReader/Adopted.lean",
+      "snapshot_sha256": "68bb96c35553bf83d0e3a915d1cca0c72b8097670626e32046bf53af5d0bc773",
+      "current_sha256": "81337c6b8d85dc02a27a20e0969e8c09e41aa85a1784c0c22c9cf4b150dd7f1e",
+      "comment_removal_exact": true
+    },
+    {
+      "path": "CoreReader/Agency.lean",
+      "snapshot_sha256": "2722c34645f4256f20ce31205738f2f5712ab5dd5cc6fcf9f1180d0be5aa0303",
+      "current_sha256": "2722c34645f4256f20ce31205738f2f5712ab5dd5cc6fcf9f1180d0be5aa0303",
+      "comment_removal_exact": true
+    },
+    {
+      "path": "CoreReader/Choice.lean",
+      "snapshot_sha256": "b28728df12ed7e73edb5569604cd2541c0ebd815ae3aaa0812e6557dece1d1ba",
+      "current_sha256": "b28728df12ed7e73edb5569604cd2541c0ebd815ae3aaa0812e6557dece1d1ba",
+      "comment_removal_exact": true
+    },
+    {
+      "path": "CoreReader/Engineering/Domain.lean",
+      "snapshot_sha256": "0ed052c3692d8c91a41eed60bb0cba6ca033a7c9d1163aac66b32e4291927377",
+      "current_sha256": "9adc72e3a072d16aefb0e12a55584caa87205fc484aea488cdd80a785a8ff90b",
+      "comment_removal_exact": true
+    },
+    {
+      "path": "CoreReader/Engineering/Integration.lean",
+      "snapshot_sha256": "0ef31c5e8f30c6f19124351d2052ff6fbec189932f2cbfe68d978f49da480715",
+      "current_sha256": "a93d799be16f159b1ce9624ae977d6a7831dae5ffe28ac17542f32c6755bbb88",
+      "comment_removal_exact": true
+    },
+    {
+      "path": "CoreReader/Engineering/Reflection.lean",
+      "snapshot_sha256": "22e75f3aa95123c96aa66b0ec9fd9d8ce140e7b45770bb463570a026fe039ab0",
+      "current_sha256": "22e75f3aa95123c96aa66b0ec9fd9d8ce140e7b45770bb463570a026fe039ab0",
+      "comment_removal_exact": true
+    },
+    {
+      "path": "CoreReader/Engineering/SelfApplication.lean",
+      "snapshot_sha256": "323a76292ea7496c22ab1c0bd60b52de2b79eee29bb5800d233537d30629fc0e",
+      "current_sha256": "323a76292ea7496c22ab1c0bd60b52de2b79eee29bb5800d233537d30629fc0e",
+      "comment_removal_exact": true
+    },
+    {
+      "path": "CoreReader/Engineering/Values.lean",
+      "snapshot_sha256": "ccd45bf23d2f47c41d1b2f9955d753e290687d951a0c55af41ab9a63b9a8d9cb",
+      "current_sha256": "ccd45bf23d2f47c41d1b2f9955d753e290687d951a0c55af41ab9a63b9a8d9cb",
+      "comment_removal_exact": true
+    },
+    {
+      "path": "CoreReader/Evidence.lean",
+      "snapshot_sha256": "d55f33e44902cef146841cbffb65710bd7c8a3bda79d01d084edc36f019fdc96",
+      "current_sha256": "d55f33e44902cef146841cbffb65710bd7c8a3bda79d01d084edc36f019fdc96",
+      "comment_removal_exact": true
+    },
+    {
+      "path": "CoreReader/Integration.lean",
+      "snapshot_sha256": "97e2939c0b6714b78a3ed78358e174619a5028ad5b0b5025c0d4422b4294921b",
+      "current_sha256": "97e2939c0b6714b78a3ed78358e174619a5028ad5b0b5025c0d4422b4294921b",
+      "comment_removal_exact": true
+    },
+    {
+      "path": "CoreReader/Logic.lean",
+      "snapshot_sha256": "0ec342691766ebd83d251dcd0da3b0ae9840aed677a714bc1b01c45d89392bc0",
+      "current_sha256": "0ec342691766ebd83d251dcd0da3b0ae9840aed677a714bc1b01c45d89392bc0",
+      "comment_removal_exact": true
+    },
+    {
+      "path": "CoreReader/Reflexivity.lean",
+      "snapshot_sha256": "48e2c74e7cbae571db1b990b9f32dd0d701f6881a8b0111d907f8861287d76fa",
+      "current_sha256": "48e2c74e7cbae571db1b990b9f32dd0d701f6881a8b0111d907f8861287d76fa",
+      "comment_removal_exact": true
+    },
+    {
+      "path": "CoreReader.lean",
+      "snapshot_sha256": "c5574fae235419a7d6449b3ebb5d2da29d1e92a3b572c1b759438e3c470caaa9",
+      "current_sha256": "c5574fae235419a7d6449b3ebb5d2da29d1e92a3b572c1b759438e3c470caaa9",
+      "comment_removal_exact": true
+    },
+    {
+      "path": "lakefile.toml",
+      "snapshot_sha256": "05d8ba36975f87aca61e3b0ddcacc42669539f316ba9b8eef5859961e2aa6fdc",
+      "current_sha256": "05d8ba36975f87aca61e3b0ddcacc42669539f316ba9b8eef5859961e2aa6fdc",
+      "comment_removal_exact": true
+    },
+    {
+      "path": "lean-toolchain",
+      "snapshot_sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "current_sha256": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+      "comment_removal_exact": true
+    }
+  ],
+  "composition_scope": {
+    "inherited_specifications": [
+      "T02",
+      "T04",
+      "T07",
+      "T09",
+      "T10",
+      "T11",
+      "T12",
+      "T14",
+      "T16",
+      "T18"
+    ],
+    "inherited_relations_and_terms": [
+      "T20",
+      "T21"
+    ],
+    "domain_specifications": [
+      "T22",
+      "T24",
+      "T26",
+      "T28",
+      "T29",
+      "T31",
+      "T33",
+      "T35"
+    ],
+    "domain_reflexivity": "T37",
+    "application": "T38 jointly satisfies every represented applicable inherited and domain obligation on one concrete context. T39 satisfies every inherited obligation with actual domain applicability and no cost exception, but declines the additional priority. Limits and permissions remain intact; not every possible cost or condition must apply in each instance."
+  },
+  "findings": [
+    {
+      "id": "F07",
+      "severity": "blocking-correspondence",
+      "title": "Whole held normative-content coverage lacks a faithful link",
+      "targets": [
+        "T20",
+        "T37",
+        "T38",
+        "T39"
+      ],
+      "detail": "See immutable companion report. This does not assert actual Inherited or Domain fields false; missing source-to-theory preservation is the defect.",
+      "probes_executed": "Source unfolding only; no Lean mutation probe"
+    },
+    {
+      "id": "F08",
+      "severity": "blocking-correspondence",
+      "title": "Own actual generation/assessment rules lack explicit self-assessment objects",
+      "targets": [
+        "T20",
+        "T37",
+        "T38",
+        "T39"
+      ],
+      "detail": "See immutable companion report. Real staticBatch criticism is valid but does not replace scrutiny of adopted Reflection rules.",
+      "probes_executed": "All ReviewObject/test/Model.rule branches inspected; no Lean mutation probe"
+    }
+  ],
+  "formal_evidence": {
+    "directory": "SoftwareEngineering/lean/philosophy/evidence/checks/2026-09-14T17-35-30.437Z-29702-09a03c",
+    "files": {
+      "lake-build.log": "808d9461e64a100a7f9d98c33d99e709776f281ee0a794dbe67eac9bc8cfffbf",
+      "lake-build.json": "b0f40d94a96382293b4742adf9db7ad9a8134d95b7f77a346f45059c8f3634c8",
+      "lean-audit.log": "99418de9ec07c47d539b590244f87637f223145edbb506fd48edb44fbd515540",
+      "lean-audit.json": "0114e837930b09757cb6222e43935b77fab631dba37c5b41c35867ae7811500a",
+      "declaration-types.json": "caf75edf2c574e4aee6176b111e206f4090ea2eed689477822ec7f9b399a3402",
+      "execution-identity.json": "b164dbc8fd80322ded2cd75e86f891b69f7b14e3f8a7b7b18ca39442ef410c12",
+      "inputs-sha256.json": "b3f1f2d1211752197b21bc5ef22fb70dc915c3071e242ff01fdbe96ee6e31df8"
+    },
+    "observed": "Actual isolated build/audit status 0; 59 actual declaration types; only propext/Classical.choice/Quot.sound; inputs match current recorded project files.",
+    "limitations": "Runtime identity not approval; checker semantic status not evaluated and targets incomplete; empty historical domain-build-19.log remains uncorrected."
+  },
+  "targets": [
+    {
+      "id": "T01",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "organon.preamble",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.preamble",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.charter.overview",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.overview",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.charter.overview",
+          "clause": "p3"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "extensions",
+          "clause": "p1"
+        }
+      ],
+      "reason": "Disclosed documentary boundary or preserved source review and exact-byte repair reuse.",
+      "prior_judgment": null,
+      "findings": [],
+      "declarations": [],
+      "semantic_cases": [],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T02",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "organon.charter.overview",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.charter.overview",
+          "clause": "p3"
+        },
+        {
+          "unit": "organon.charter.self-transcendence",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.orientation",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.non-finality",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.terms",
+          "clause": "p1"
+        }
+      ],
+      "reason": "采用价值与可修订分离，所有FormKind含方法/原则；稳定与外部资源实例有具体操作内容。",
+      "prior_judgment": {
+        "id": "T02",
+        "status": "accepted",
+        "reason": "采用价值与可修订分离，所有FormKind含方法/原则；稳定与外部资源实例有具体操作内容。",
+        "findings": [],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Adopted.generationSpecification",
+          "actual_type_sha256": "4d07b8deec9112ff5d3e7fe744c159c254580260c78b82be6dd64347e8a9a4eb"
+        },
+        {
+          "name": "CoreReader.Adopted.generationCases",
+          "actual_type_sha256": "430a91318477db0305b3107b81f9df39652fa27673fdc38705a86f8e158ca138"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "positive_valued_open_forms",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "negative_permission_only",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "positive_stability",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "external_collaboration",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T03",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "organon.charter.self-transcendence.orientation",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.non-finality",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        }
+      ],
+      "reason": "具体构造/复制膨胀、资源依赖、announcement及同transition支持；正负分支具实际反例。",
+      "prior_judgment": {
+        "id": "T03",
+        "status": "accepted",
+        "reason": "具体构造/复制膨胀、资源依赖、announcement及同transition支持；正负分支具实际反例。",
+        "findings": [],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Adopted.generationLimits012",
+          "actual_type_sha256": "69058c75db607f675c730d92da7dd1c6ee27d75385f4ac4ff717bd9fc7e925b2"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "permission_without_value",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "orientation_without_progress",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "count_growth_without_capability",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "collaborative_nonautonomous_progress",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "claim_without_achievement",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "achievement_support_for_same_claim",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T04",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "organon.charter.consistency",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.charter.consistency.limits",
+          "clause": "p1"
+        }
+      ],
+      "reason": "whole-theory语义Consequence、同context比较、真实revisionIdentity/SameContent报告约束。",
+      "prior_judgment": {
+        "id": "T04",
+        "status": "accepted",
+        "reason": "whole-theory语义Consequence、同context比较、真实revisionIdentity/SameContent报告约束。",
+        "findings": [],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Adopted.consistencySpecification",
+          "actual_type_sha256": "cf239ba7292f80875f93e960cd3417c226a8727f57f11e1ec4af4564caef076d"
+        },
+        {
+          "name": "CoreReader.Adopted.consistencyCases",
+          "actual_type_sha256": "16a20441e5650e4992e046ae4eeb2a1867f573730aa1dc402ca70508bb1802a6"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "joint_only_contradiction",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "changed_scope_not_concealed",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "revision_withdraws_old",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "incompatible_same_context",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T05",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "organon.charter.consistency",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.charter.consistency.limits",
+          "clause": "p1"
+        }
+      ],
+      "reason": "泛型反结论定理和joint conflict/时间slice/不同context/重排证明齐备；不推现实正确性。",
+      "prior_judgment": {
+        "id": "T05",
+        "status": "accepted",
+        "reason": "泛型反结论定理和joint conflict/时间slice/不同context/重排证明齐备；不推现实正确性。",
+        "findings": [],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Adopted.consistencyConsequences",
+          "actual_type_sha256": "4b3231ac25a534c2699cd8f548a59a7d8beb1cb3923456f10c95081a3b6b5be3"
+        },
+        {
+          "name": "CoreReader.Adopted.consistencyCases",
+          "actual_type_sha256": "16a20441e5650e4992e046ae4eeb2a1867f573730aa1dc402ca70508bb1802a6"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "pair_conflict",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "joint_premise_conflict",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "old_new_separate_times",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "distinct_context_judgments",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "truthful_semantic_change_and_reordering",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T06",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.charter.consistency.limits",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        }
+      ],
+      "reason": "假定真值与实际false世界、显式遗漏问题、可相容不蕴含、共享预算tension均有内容。",
+      "prior_judgment": {
+        "id": "T06",
+        "status": "accepted",
+        "reason": "假定真值与实际false世界、显式遗漏问题、可相容不蕴含、共享预算tension均有内容。",
+        "findings": [],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Adopted.consistencyLimits012",
+          "actual_type_sha256": "1bb1429eb084c222d9a84341c2d6cae05e8c83c1374bbbab8402a372099649cc"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "different_contexts",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "tension_compatible",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "consistent_false_assumption",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "consistent_omitted_question",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "compatible_not_entailed",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T07",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "organon.charter.reflexivity",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.reflexivity.meaning",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.reflexivity.limits",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        }
+      ],
+      "reason": "formation/application/revision真实method内容和适用条件有证据；grounds_on_grounds价值后果连接仍待F06。",
+      "prior_judgment": {
+        "id": "T07",
+        "status": "accepted",
+        "reason": "formation/application/revision真实method内容和适用条件有证据；grounds_on_grounds价值后果连接仍待F06。",
+        "findings": [
+          "F06"
+        ],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete",
+        "previous": "pending",
+        "completion": "incomplete",
+        "repair_record": "source-code-review-adopted-f01-f06-final.json"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Adopted.reflexivitySpecification",
+          "actual_type_sha256": "d8084253926a4e9a9b2b9d6ccea7fcba129de72b8412ec4bd30c08a9bdf254bc"
+        },
+        {
+          "name": "CoreReader.Adopted.reflexivityCases012",
+          "actual_type_sha256": "55a9d738a39137aeb7cf0ee474c532a636dc2a59451613848747030a756b29e7"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "self_applicable",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "self_inapplicable",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "principle_formation",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "principle_application",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "principle_revision",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "grounds_on_grounds",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T08",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "organon.charter.reflexivity.limits",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds",
+          "clause": "p1"
+        }
+      ],
+      "reason": "自测具体错误、自生局部不足、开放而自免及完整Charter+具体不足Grounds有限countermodel可解释；后续G012变更须重查。",
+      "prior_judgment": {
+        "id": "T08",
+        "status": "accepted",
+        "reason": "自测具体错误、自生局部不足、开放而自免及完整Charter+具体不足Grounds有限countermodel可解释；后续G012变更须重查。",
+        "findings": [],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Adopted.reflexivityLimits012",
+          "actual_type_sha256": "6aaa9a96ab7f8fe3ebe04633ee7e9ae054eafa88e7e8289179d143ee96e46d05"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "self_assessed_incorrect",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "self_generated_unsupported",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "open_but_self_exempt",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "charter_not_general_grounds",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T09",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "organon.grounds",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p3"
+        }
+      ],
+      "reason": "F01：规范接口未固定nature-appropriate原任务，sameclaim可被新假设/类型替代。现scoped正负案例本身仍成立。",
+      "prior_judgment": {
+        "id": "T09",
+        "status": "accepted",
+        "reason": "F01：规范接口未固定nature-appropriate原任务，sameclaim可被新假设/类型替代。现scoped正负案例本身仍成立。",
+        "findings": [
+          "F01"
+        ],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete",
+        "previous": "rejected",
+        "completion": "incomplete",
+        "repair_record": "source-code-review-adopted-f01-f06-final.json"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Adopted.Grounds012",
+          "actual_type_sha256": "65ead33e1cc510ec07082dde80dbec28ca36d80391c18e2ca6df7ed3e1353029"
+        },
+        {
+          "name": "CoreReader.Adopted.groundsCases012",
+          "actual_type_sha256": "5d659ec603f559d1be5abf4df0466b2daee1633dcfbf70194c0b8ccf9640e40f"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "articulable_supported",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "articulable_unsupported",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "scope_overreach",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "strength_overreach",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T10",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        }
+      ],
+      "reason": "经验有限world/record适配含非空scope、uncertainty及支持关系；温度与另一坐标/预算错配反例相关。接受显式经验任务片段。",
+      "prior_judgment": {
+        "id": "T10",
+        "status": "accepted",
+        "reason": "经验有限world/record适配含非空scope、uncertainty及支持关系；温度与另一坐标/预算错配反例相关。接受显式经验任务片段。",
+        "findings": [],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Adopted.empiricalSpecification",
+          "actual_type_sha256": "9f534ab1f51da3b82f8edf1d35b0dfab34dfe042d10c44582f04b4dce6569ef2"
+        },
+        {
+          "name": "CoreReader.Adopted.empiricalCases012",
+          "actual_type_sha256": "fba89ddcd1cf1f745deec2bbdb86e1434e01d6fc73f99c6bf690331560f736f6"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "observed_relevant",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "repeatable_irrelevant",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "measured_wrong_scope",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "uncertain_limited",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T11",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        }
+      ],
+      "reason": "由2推出3及emptyTheory同countervaluation不蕴含；检查完成与正向支持分离。",
+      "prior_judgment": {
+        "id": "T11",
+        "status": "accepted",
+        "reason": "由2推出3及emptyTheory同countervaluation不蕴含；检查完成与正向支持分离。",
+        "findings": [],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Adopted.inferentialSpecification",
+          "actual_type_sha256": "d56b013c37bfeb071f171cb3f552b8775a79eee535305a78d2d9551b86c03c16"
+        },
+        {
+          "name": "CoreReader.Adopted.inferentialCases012",
+          "actual_type_sha256": "b37768f2ff32da55daf97b29dc027bfa78aa1a1f2456c80937dde7aa64a5c515"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "valid_inference",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "compatible_unentailed",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "false_inference_detected",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T12",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p3"
+        }
+      ],
+      "reason": "采用/收益/成本及批评响应为明确有限价值procedure；非空joint witness和初始commitment非空事实后果均保留。只接受披露的procedure，不作普遍价值充分性。",
+      "prior_judgment": {
+        "id": "T12",
+        "status": "accepted",
+        "reason": "采用/收益/成本及批评响应为明确有限价值procedure；非空joint witness和初始commitment非空事实后果均保留。只接受披露的procedure，不作普遍价值充分性。",
+        "findings": [],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Adopted.valueSpecification",
+          "actual_type_sha256": "1f45a163b8b2a0db44eeaeb0910e0af6168e4674ab3a3925dcfe54e3015e3ae6"
+        },
+        {
+          "name": "CoreReader.Adopted.valueCases012",
+          "actual_type_sha256": "ce1dba18fb8bf4611fe703b21270e3b59591f6f1cf1c40f2ee03899fa26c142a"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "reasoned_value",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "unsupported_self_assertion",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "closed_criticism",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "explicit_initial_commitment",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T13",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p3"
+        }
+      ],
+      "reason": "清楚但假理由、无关重复观察、value非事实、自起点无需证明及定性蕴含序的片段成立。",
+      "prior_judgment": {
+        "id": "T13",
+        "status": "accepted",
+        "reason": "清楚但假理由、无关重复观察、value非事实、自起点无需证明及定性蕴含序的片段成立。",
+        "findings": [],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Adopted.groundsLimits012",
+          "actual_type_sha256": "b404dce33c3fbf86c65d3824e2fceaf5f0a1f312ce1edc1f0a9e9251af9ccad3"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "clear_false_reason",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "repeatable_wrong_object",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "value_not_fact",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "initial_value_without_selfproof",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "qualitative_proportionality",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T14",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p3"
+        }
+      ],
+      "reason": "scope account链接实际input0、relevance及各method用途的内容命题；非 universal method chain。",
+      "prior_judgment": {
+        "id": "T14",
+        "status": "accepted",
+        "reason": "scope account链接实际input0、relevance及各method用途的内容命题；非 universal method chain。",
+        "findings": [],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Adopted.scopeSpecification",
+          "actual_type_sha256": "01857cd86d39ca8bc2d54d15555ebed9fc9fa6a0bd40196743e5f1fbbcb966b7"
+        },
+        {
+          "name": "CoreReader.Adopted.scopeCases012",
+          "actual_type_sha256": "e503dd4f8dacf02303b9bd7e56977a56feee218c1c677d8836c15039e83655a8"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "local_scope_declared",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "omitted_relevant_difference",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "measurement_role",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "repetition_role",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "framework_role",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T15",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p3"
+        },
+        {
+          "unit": "organon.grounds.implementations.limits",
+          "clause": "p1"
+        }
+      ],
+      "reason": "共享局部记录可有全局异世界；单观察支持/未重现、随机正weight变结果、无观察推论分支有实际内容。",
+      "prior_judgment": {
+        "id": "T15",
+        "status": "accepted",
+        "reason": "共享局部记录可有全局异世界；单观察支持/未重现、随机正weight变结果、无观察推论分支有实际内容。",
+        "findings": [],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Adopted.scopeLimits012",
+          "actual_type_sha256": "a286f42a08d68addaec58cb6b0b9656968db614439bd753425f3972b29d8125c"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "equal_local_different_global",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "excluded_difference",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "one_observation_limited_support",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "varying_random_outcomes",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "qualitative_unmeasured_judgment",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T16",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        }
+      ],
+      "reason": "实际Process输出/解释certificate约定区分，exact-object推论支持和外部评估者7/42区分；理解仅覆盖该应用解释契约。",
+      "prior_judgment": {
+        "id": "T16",
+        "status": "accepted",
+        "reason": "实际Process输出/解释certificate约定区分，exact-object推论支持和外部评估者7/42区分；理解仅覆盖该应用解释契约。",
+        "findings": [],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Adopted.capabilitySpecification",
+          "actual_type_sha256": "908a244789ebae715ab94703060109000c2369e1c4735c6cdb48a096243f3c04"
+        },
+        {
+          "name": "CoreReader.Adopted.capabilityCases012",
+          "actual_type_sha256": "8b65b3510d304fccc5db3e8584da21c74e083b848f722afa20a46057993d6a51"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "external_output_capability",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "application_requires_understanding",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "own_capability_assessment",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T17",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p2"
+        }
+      ],
+      "reason": "同过程无解释certificate与输出正确并存；各inventoryKind复制不新增operation。",
+      "prior_judgment": {
+        "id": "T17",
+        "status": "accepted",
+        "reason": "同过程无解释certificate与输出正确并存；各inventoryKind复制不新增operation。",
+        "findings": [],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Adopted.capabilityLimits012",
+          "actual_type_sha256": "8efa4107232374dd4f308f0f4c19f39b706da292b2cb4042aba290ade3368d52"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "reliable_opaque_generator",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "high_count_no_stronger_capability",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "externally_articulated_no_introspection",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T18",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.implementations.limits",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        }
+      ],
+      "reason": "真实output/cost/explanation/domain/trace内容支持理由；status-only排除为采用规范，conventional可因output获得优先。",
+      "prior_judgment": {
+        "id": "T18",
+        "status": "accepted",
+        "reason": "真实output/cost/explanation/domain/trace内容支持理由；status-only排除为采用规范，conventional可因output获得优先。",
+        "findings": [],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Adopted.choiceSpecification",
+          "actual_type_sha256": "4b2ffafbf066633850901441a4978132cc3d84f95bef9c803f56a17866762054"
+        },
+        {
+          "name": "CoreReader.Adopted.choiceCases012",
+          "actual_type_sha256": "36f89bc4962aa87be316945afd3147dd30111dfdca8902a41b0392a2bda28c04"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "named_only_rejected",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "conventional_grounded_priority",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "method_internal_reason",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "own_philosophy_status_only",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T19",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.implementations.limits",
+          "clause": "p1"
+        }
+      ],
+      "reason": "单可行、不同整体输出/内部解释、相同局部差全局；额外规则独立仅相对准确assessment，未冒充完整Grounds。",
+      "prior_judgment": {
+        "id": "T19",
+        "status": "accepted",
+        "reason": "单可行、不同整体输出/内部解释、相同局部差全局；额外规则独立仅相对准确assessment，未冒充完整Grounds。",
+        "findings": [],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Adopted.choiceLimits012",
+          "actual_type_sha256": "84bdf70f43a217d10ccf0d7a8179aea2b586ab845a7c8f3a2f087089c6098874"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "single_feasible_conventional",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "internal_reason_distinguishes",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "unequal_open_options",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "local_equal_global_difference",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "added_choice_not_from_general_assessment",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T20",
+      "status": "pending-correspondence",
+      "sources": [
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        }
+      ],
+      "reason": "Actual shared-context value, choice, capability and claim duties exist; whole held normative-content and own evaluator-object correspondence remain F07/F08.",
+      "prior_judgment": null,
+      "findings": [
+        "F07",
+        "F08"
+      ],
+      "declarations": [
+        {
+          "name": "CoreReader.Engineering.inheritedMutualApplication",
+          "actual_type_sha256": "3845e3f8d1cd47445374c4ca8f5e8c2f8a66daf6b82904ae7c84c40335e80b32"
+        },
+        {
+          "name": "CoreReader.Engineering.inheritedMutualCases",
+          "actual_type_sha256": "d020580ca71e08adc997353d140f057bf6886f1f087307be95d6504affdf8d54"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "own_grounds_articulable",
+          "status": "pending-aggregate-correspondence",
+          "scope": "actual Root source plus audit"
+        },
+        {
+          "id": "own_capability_supported",
+          "status": "pending-aggregate-correspondence",
+          "scope": "actual Root source plus audit"
+        },
+        {
+          "id": "own_choice_not_status_only",
+          "status": "pending-aggregate-correspondence",
+          "scope": "actual Root source plus audit"
+        },
+        {
+          "id": "relevant_self_application",
+          "status": "pending-aggregate-correspondence",
+          "scope": "actual Root source plus audit"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T21",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "organon.relationships.terms",
+          "clause": "p1"
+        }
+      ],
+      "reason": "Disclosed documentary boundary or preserved source review and exact-byte repair reuse.",
+      "prior_judgment": null,
+      "findings": [],
+      "declarations": [],
+      "semantic_cases": [],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T22",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "p3"
+        }
+      ],
+      "reason": "维护者路径所需知识工具有内容，继续/短命仅采用披露的有限日程判据；不声称通用生命周期定义。",
+      "prior_judgment": {
+        "id": "T22",
+        "status": "accepted",
+        "reason": "维护者路径所需知识工具有内容，继续/短命仅采用披露的有限日程判据；不声称通用生命周期定义。",
+        "findings": [],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Engineering.ActivityScope",
+          "actual_type_sha256": "fdfa84c29643bd37a72d614541ecf59b4b7efdf606ac4b7480cb02fe3e4c8382"
+        },
+        {
+          "name": "CoreReader.Engineering.subjectLifecycleCases",
+          "actual_type_sha256": "a2d126370b7fef5af4645ef64d85b169467518bfb8f76269b41f47f82e0bd02b"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "successor_maintainer",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "agent_maintainer",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "continuing_labeled_temporary",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "genuinely_temporary",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "bounded_prototype",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "retiring_system",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T23",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "p3"
+        }
+      ],
+      "reason": "同一privateLayout路径原作者可用而successor不可用；label不决定实际日程，passive action语言界限明确。",
+      "prior_judgment": {
+        "id": "T23",
+        "status": "accepted",
+        "reason": "同一privateLayout路径原作者可用而successor不可用；label不决定实际日程，passive action语言界限明确。",
+        "findings": [],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Engineering.subjectLimits",
+          "actual_type_sha256": "4d0b23030599912d1ad72613e9956d5dd179d987aa64f0a694f74e85847b2a2b"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "author_only_private_knowledge",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "successor_missing_path",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "false_temporary_label",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "passive_artifact",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T24",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "p3"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p3"
+        }
+      ],
+      "reason": "适用、必要requirements失败及cost例外真案例保留；no_extensibility_maximum冻结分支未由complexity最大值满足，F02。",
+      "prior_judgment": {
+        "id": "T24",
+        "status": "accepted",
+        "reason": "适用、必要requirements失败及cost例外真案例保留；no_extensibility_maximum冻结分支未由complexity最大值满足，F02。",
+        "findings": [
+          "F02"
+        ],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete",
+        "completion": "incomplete",
+        "repair_record": "source-code-review-domain-r2.json"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Engineering.EvolutionPriority",
+          "actual_type_sha256": "8609cb39944d272540e985febb940328bc4a85a6e22fe06e652f4c95bd043ddb"
+        },
+        {
+          "name": "CoreReader.Engineering.priorityConditionsCases",
+          "actual_type_sha256": "3206e3bed26ebff1742e044beabbfcca534354e4895936cd6496b4af5a5485e9"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "ordinary_priority",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "missing_behavior",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "missing_safety",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "missing_performance",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "missing_other_necessary",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "concrete_cost_override",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "unexplained_departure",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "no_extensibility_maximum",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T25",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p3"
+        }
+      ],
+      "reason": "泛型rule+实际conditions+无departure推出所选evolvable；三个samectx选择例具真实关系，未从Core推出priority。",
+      "prior_judgment": {
+        "id": "T25",
+        "status": "accepted",
+        "reason": "泛型rule+实际conditions+无departure推出所选evolvable；三个samectx选择例具真实关系，未从Core推出priority。",
+        "findings": [],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Engineering.priorityWhenApplicable",
+          "actual_type_sha256": "6b1efb7cab71c9b837ce57e666f331112f6416f18a59675e8119416b3d7a39a6"
+        },
+        {
+          "name": "CoreReader.Engineering.priorityChoices",
+          "actual_type_sha256": "d4cbb2cea4f863c0a900531a90fd4e36cd04ad50df57b340871001d6fb01b349"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "applicable_choose_evolution",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "applicable_choose_simple_violates_domain",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "threat_allows_departure_with_account",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T26",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p3"
+        }
+      ],
+      "reason": "在给定grounds任务/可信解释的有限plan/history/knowledge适配下，单实现/想象无对应支持/修订forecast可读。非全部现实可信性判据。",
+      "prior_judgment": {
+        "id": "T26",
+        "status": "accepted",
+        "reason": "在给定grounds任务/可信解释的有限plan/history/knowledge适配下，单实现/想象无对应支持/修订forecast可读。非全部现实可信性判据。",
+        "findings": [],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Engineering.CredibleDirection",
+          "actual_type_sha256": "1906e98dd6d042fc973fb93506c24accc024a7643adaddd05e071030c8b5682b"
+        },
+        {
+          "name": "CoreReader.Engineering.credibilityCases",
+          "actual_type_sha256": "b5d172388be7bcd1bdbeea1f07436b61458bd02c0e714dc83b7d7565adefa6c9"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "committed_plan_one_implementation",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "domain_knowledge",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "applicable_history",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "conceivable_only",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "revised_forecast",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T27",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p3"
+        }
+      ],
+      "reason": "可信单实现及无支持想象例成立；不最大化演化能力/保留所有可能性的相应能力关系缺失，F02。",
+      "prior_judgment": {
+        "id": "T27",
+        "status": "accepted",
+        "reason": "可信单实现及无支持想象例成立；不最大化演化能力/保留所有可能性的相应能力关系缺失，F02。",
+        "findings": [
+          "F02"
+        ],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete",
+        "completion": "incomplete",
+        "repair_record": "source-code-review-domain-r2.json"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Engineering.credibilityLimits",
+          "actual_type_sha256": "76415ebe0bbc33c3827da7db33b1e89e3f676b7cf0f4f39df5401beeda5f40c4"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "one_implementation_credible",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "imagined_unwarranted",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "selective_evolution",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "qualitative_tradeoff",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T28",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p3"
+        }
+      ],
+      "reason": "七维cost与各自容量/命名objective及departure指定连接；无实际threat借口拒绝。仅该有限cost模型。",
+      "prior_judgment": {
+        "id": "T28",
+        "status": "accepted",
+        "reason": "七维cost与各自容量/命名objective及departure指定连接；无实际threat借口拒绝。仅该有限cost模型。",
+        "findings": [],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Engineering.JustifiedDeparture",
+          "actual_type_sha256": "f6c50ef1eaca65b4a3886bcbc5ccb11393e89a2d7baf8f6980b6a58f9d0719a4"
+        },
+        {
+          "name": "CoreReader.Engineering.costCases",
+          "actual_type_sha256": "0159f38d1da3fe90524ce5a5d2e2b1d3a4fc5a14c6a76a6fbc07a158d16edd90"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "understanding_threat",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "construction_threat",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "diagnosis_threat",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "verification_threat",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "coordination_threat",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "operation_threat",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "migration_threat",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "unsupported_cost_excuse",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T29",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "software-engineering.evolution-meaning",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.evolution-meaning",
+          "clause": "p2"
+        }
+      ],
+      "reason": "六类state字段变化、path可行及independent/coordinated差别有内容；obligation treatment依赖待修ContractChangeAccount，F03。",
+      "prior_judgment": {
+        "id": "T29",
+        "status": "accepted",
+        "reason": "六类state字段变化、path可行及independent/coordinated差别有内容；obligation treatment依赖待修ContractChangeAccount，F03。",
+        "findings": [],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete",
+        "completion": "incomplete",
+        "repair_record": "source-code-review-domain-r2.json"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Engineering.EvolutionClaim",
+          "actual_type_sha256": "9c0c528a387fd26adf8c44acbd1e97da3c991c6544f40f31c0a8c3adb2ccd2f7"
+        },
+        {
+          "name": "CoreReader.Engineering.evolutionKindsCases",
+          "actual_type_sha256": "ccab4c5ed0bb676cef2d8435b8252630c0bc2f32d0ce9023156532deb6b77a1e"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "addition",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "replacement",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "deletion",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "withdrawal",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "redrawing",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "migration",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "independent",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "coordinated",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "preserve_obligation",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "revise_obligation",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T30",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "software-engineering.evolution-meaning",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.evolution-meaning",
+          "clause": "p2"
+        }
+      ],
+      "reason": "easy_add/hard_exit和贵migration有限例成立；一设计一维优势不表示全维优势的跨设计比较未实现，F02。",
+      "prior_judgment": {
+        "id": "T30",
+        "status": "accepted",
+        "reason": "easy_add/hard_exit和贵migration有限例成立；一设计一维优势不表示全维优势的跨设计比较未实现，F02。",
+        "findings": [
+          "F02"
+        ],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete",
+        "completion": "incomplete",
+        "repair_record": "source-code-review-domain-r2.json"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Engineering.evolutionDimensionsLimits",
+          "actual_type_sha256": "ba2af856a831323eaa2344e83084a08689b7a287f6a8542edcef6fb0c2e57af7"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "easy_add_hard_exit",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "independent_easy_coordinated_hard",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "some_change_expensive_permitted",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T31",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "p2"
+        }
+      ],
+      "reason": "actual path派生propagation/work、前后finite合同观察、fixed/live反例和withdrawal代价；work单位为显式假定。",
+      "prior_judgment": {
+        "id": "T31",
+        "status": "accepted",
+        "reason": "actual path派生propagation/work、前后finite合同观察、fixed/live反例和withdrawal代价；work单位为显式假定。",
+        "findings": [],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Engineering.StructuralAccount",
+          "actual_type_sha256": "45df6c2c2383df05162c2a265ba6daf5debbdf46847dc9de1801f881eb00db1e"
+        },
+        {
+          "name": "CoreReader.Engineering.structuralCases",
+          "actual_type_sha256": "93ac47c7e7132943abd11f6a6e9ce897c2b641d89e753d83bcd29509e80f572e"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "contract_and_work_comparison",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "propagation_relation",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "cross_boundary_obligation",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "fixed_assumption",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "withdrawal_cost",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T32",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "p2"
+        }
+      ],
+      "reason": "common-object and actual-boundary defect resolved; frozen same-work case now totals17→18 and needs precise preservation judgment or supplementary equal-work instance",
+      "prior_judgment": {
+        "id": "T32",
+        "status": "accepted",
+        "reason": "common-object and actual-boundary defect resolved; frozen same-work case now totals17→18 and needs precise preservation judgment or supplementary equal-work instance",
+        "findings": [
+          "F04"
+        ],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete",
+        "completion": "incomplete",
+        "repair_record": "source-code-review-domain-same-work-final.json",
+        "previous": "pending"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Engineering.structureNotCapability",
+          "actual_type_sha256": "2c09939db7dbc6561ff01284d1187a4272120050885c7743d2227d2a6e133ea9"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "same_shape_broken_order",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "many_modules_shared_obligation",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "named_pattern_no_change_path",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "new_boundary_same_work",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T33",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "p3"
+        }
+      ],
+      "reason": "有限preservation/revision及outside-scope例真；实际changed obligations/affected parties匹配不足，F03。",
+      "prior_judgment": {
+        "id": "T33",
+        "status": "accepted",
+        "reason": "有限preservation/revision及outside-scope例真；实际changed obligations/affected parties匹配不足，F03。",
+        "findings": [
+          "F03"
+        ],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete",
+        "completion": "incomplete",
+        "repair_record": "source-code-review-domain-r2.json"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Engineering.ContractChangeAccount",
+          "actual_type_sha256": "c58d92d3f41481a1b24941446085e8161c5dcb32cc266487f9734c2c03c8d3fe"
+        },
+        {
+          "name": "CoreReader.Engineering.contractCases",
+          "actual_type_sha256": "d577c98b03b1349b8acdc20e24a2d1141ea92e5ce49ab73e3518385e0981adeb"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "preserve_identified_contract",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "deliberate_revision_with_account",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "revision_missing_parties",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "retired_historical_behavior",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "alternative_procedure",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T34",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "p3"
+        }
+      ],
+      "reason": "泛型all-observations-preserve及变观察反证均真；changed_failure_obligation只是独立字段3≠5，F03。",
+      "prior_judgment": {
+        "id": "T34",
+        "status": "accepted",
+        "reason": "泛型all-observations-preserve及变观察反证均真；changed_failure_obligation只是独立字段3≠5，F03。",
+        "findings": [
+          "F03"
+        ],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete",
+        "completion": "incomplete",
+        "repair_record": "source-code-review-domain-r2.json"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Engineering.contractPreservation",
+          "actual_type_sha256": "d9078e49c446deddda26e669891464c695136710e6b34620ca8ee4f08bdafbed"
+        },
+        {
+          "name": "CoreReader.Engineering.contractDistinctions",
+          "actual_type_sha256": "bc0f83a82833ba24fc73f01ff24ac513e5ce42fec36a8195c70d516365a07a28"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "order_preserving_refactor",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "sorted_order_revision",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "changed_failure_obligation",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "outside_scope_difference",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T35",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "software-engineering.revision",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.revision",
+          "clause": "p1"
+        }
+      ],
+      "reason": "当前ctx identity和记录内部变化例已实现；固定历史事件/本次任务绑定与泛化scope待F05。",
+      "prior_judgment": {
+        "id": "T35",
+        "status": "accepted",
+        "reason": "当前ctx identity和记录内部变化例已实现；固定历史事件/本次任务绑定与泛化scope待F05。",
+        "findings": [
+          "F05"
+        ],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete",
+        "completion": "incomplete",
+        "repair_record": "source-code-review-domain-r2.json"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Engineering.RevisionAccount",
+          "actual_type_sha256": "865a4c6c542f07f6b0ce44a67e98175239ef389738b16bc6071ccebffae61c8b"
+        },
+        {
+          "name": "CoreReader.Engineering.revisionCases",
+          "actual_type_sha256": "8e2008450f4c7a80eca24630a18e6c77bf570055daee2c75c2577987c06ff629"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "revised_change_forecast",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "changed_maintainers",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "changed_cost",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "changed_objective",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "failed_prediction_preserved",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "justified_retention",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T36",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "software-engineering.revision",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.revision",
+          "clause": "p1"
+        }
+      ],
+      "reason": "固定revisionRecord改report拒绝、agree但3≠5和局部成功反例成立；通用historical correspondence及stable record同任务限度待F05。",
+      "prior_judgment": {
+        "id": "T36",
+        "status": "accepted",
+        "reason": "固定revisionRecord改report拒绝、agree但3≠5和局部成功反例成立；通用historical correspondence及stable record同任务限度待F05。",
+        "findings": [
+          "F05"
+        ],
+        "acceptance_scope": "仅本次已读源及其披露的数学/有限应用片段；未完成最终blind backtranslation和完整Root集成审查",
+        "completion_status": "incomplete",
+        "completion": "incomplete",
+        "repair_record": "source-code-review-domain-r2.json"
+      },
+      "findings": [],
+      "declarations": [
+        {
+          "name": "CoreReader.Engineering.revisionLimits",
+          "actual_type_sha256": "071a3e5cddf46166eacbd56285cdb4abb9f11a94e50e8bf00f8bc100f01026d0"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "past_failure_not_rewritten",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "agreement_with_bad_case",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "local_success_global_failure",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        },
+        {
+          "id": "open_stable_design",
+          "status": "accepted-bounded-reused",
+          "scope": "preserved independent source review and repairs; comment-only identity verified"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T37",
+      "status": "pending-correspondence",
+      "sources": [
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        },
+        {
+          "unit": "extensions",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.revision",
+          "clause": "p2"
+        }
+      ],
+      "reason": "Actual priority object and static/live criticism are valid locally; full consistency and own adopted evaluator objects remain F07/F08.",
+      "prior_judgment": null,
+      "findings": [
+        "F07",
+        "F08"
+      ],
+      "declarations": [
+        {
+          "name": "CoreReader.Engineering.priorityRemainsReflexive",
+          "actual_type_sha256": "7348e0b4e8905385dad854787ce1959aff10ba9165df95a08a4fb9e4bfec7aed"
+        },
+        {
+          "name": "CoreReader.Engineering.priorityReflexiveCases",
+          "actual_type_sha256": "9bf307a3e762002cbd34684f2e7b5cb8f043447ba38346f6ac04df2d54c50df7"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "priority_self_assessment",
+          "status": "pending-aggregate-correspondence",
+          "scope": "actual Root source plus audit"
+        },
+        {
+          "id": "method_self_criticism",
+          "status": "pending-aggregate-correspondence",
+          "scope": "actual Root source plus audit"
+        },
+        {
+          "id": "no_selfproof_from_success",
+          "status": "pending-aggregate-correspondence",
+          "scope": "actual Root source plus audit"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T38",
+      "status": "pending-correspondence",
+      "sources": [
+        {
+          "unit": "organon.charter.overview",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.charter.overview",
+          "clause": "p3"
+        },
+        {
+          "unit": "organon.charter.self-transcendence",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.orientation",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.non-finality",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.charter.consistency",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.charter.consistency.limits",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.reflexivity",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.reflexivity.meaning",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.reflexivity.limits",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p3"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p3"
+        },
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.implementations.limits",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        },
+        {
+          "unit": "extensions",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "p3"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p3"
+        },
+        {
+          "unit": "software-engineering.evolution-meaning",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.evolution-meaning",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "p3"
+        },
+        {
+          "unit": "software-engineering.revision",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.revision",
+          "clause": "p2"
+        }
+      ],
+      "reason": "Actual shared evolvable context, complete present interfaces, requirements, extra complexity and maintainer paths proved; complete source-meaning correspondence remains F07/F08.",
+      "prior_judgment": null,
+      "findings": [
+        "F07",
+        "F08"
+      ],
+      "declarations": [
+        {
+          "name": "CoreReader.Engineering.jointWitness",
+          "actual_type_sha256": "56d1bd97b0ac6c069484812a2a975dc185a905a24ee133a780b5f23a7fdc0b59"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "joint_all_inherited_and_domain",
+          "status": "pending-aggregate-correspondence",
+          "scope": "actual Root source plus audit"
+        },
+        {
+          "id": "same_context_identity",
+          "status": "pending-aggregate-correspondence",
+          "scope": "actual Root source plus audit"
+        },
+        {
+          "id": "nonempty_claims_and_principles",
+          "status": "pending-aggregate-correspondence",
+          "scope": "actual Root source plus audit"
+        },
+        {
+          "id": "active_evolution_priority",
+          "status": "pending-aggregate-correspondence",
+          "scope": "actual Root source plus audit"
+        },
+        {
+          "id": "content_bearing_maintainer_change",
+          "status": "pending-aggregate-correspondence",
+          "scope": "actual Root source plus audit"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T39",
+      "status": "pending-correspondence",
+      "sources": [
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        },
+        {
+          "unit": "extensions",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p3"
+        }
+      ],
+      "reason": "Actual shared continuing simple choice, both requirements, credible design change, no cost/lifecycle escape, grounded alternative value all proved; complete inherited correspondence remains F07/F08.",
+      "prior_judgment": null,
+      "findings": [
+        "F07",
+        "F08"
+      ],
+      "declarations": [
+        {
+          "name": "CoreReader.Engineering.inheritedDoesNotEntailPriority",
+          "actual_type_sha256": "ad1b1b45257f57a53567b08bc87eb32bd6d8acf8395e9762a684c1116f270197"
+        }
+      ],
+      "semantic_cases": [
+        {
+          "id": "all_inherited_applicable_domain_not_adopted",
+          "status": "pending-aggregate-correspondence",
+          "scope": "actual Root source plus audit"
+        },
+        {
+          "id": "no_temporary_escape",
+          "status": "pending-aggregate-correspondence",
+          "scope": "actual Root source plus audit"
+        },
+        {
+          "id": "no_cost_escape",
+          "status": "pending-aggregate-correspondence",
+          "scope": "actual Root source plus audit"
+        },
+        {
+          "id": "genuine_priority_failure",
+          "status": "pending-aggregate-correspondence",
+          "scope": "actual Root source plus audit"
+        },
+        {
+          "id": "inherited_grounds_for_other_value",
+          "status": "pending-aggregate-correspondence",
+          "scope": "actual Root source plus audit"
+        }
+      ],
+      "completion_status": "incomplete"
+    },
+    {
+      "id": "T40",
+      "status": "accepted-bounded",
+      "sources": [
+        {
+          "unit": "organon.preamble",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.preamble",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p3"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p3"
+        },
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        },
+        {
+          "unit": "extensions",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "p3"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p3"
+        },
+        {
+          "unit": "software-engineering.evolution-meaning",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.evolution-meaning",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "p3"
+        },
+        {
+          "unit": "software-engineering.revision",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.revision",
+          "clause": "p2"
+        }
+      ],
+      "reason": "Disclosed documentary boundary or preserved source review and exact-byte repair reuse.",
+      "prior_judgment": null,
+      "findings": [],
+      "declarations": [],
+      "semantic_cases": [],
+      "completion_status": "incomplete"
+    }
+  ],
+  "source_clauses": [
+    {
+      "unit": "organon.preamble",
+      "clause": "p1",
+      "unit_sha256": "d612a2a8da20a4c70114c0767d79aa88269b48bcee97fc43328ae722ea890706",
+      "targets": [
+        "T01",
+        "T40"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "not-blocked-by-current-findings"
+    },
+    {
+      "unit": "organon.preamble",
+      "clause": "p2",
+      "unit_sha256": "d612a2a8da20a4c70114c0767d79aa88269b48bcee97fc43328ae722ea890706",
+      "targets": [
+        "T01",
+        "T40"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "not-blocked-by-current-findings"
+    },
+    {
+      "unit": "organon.charter.overview",
+      "clause": "p1",
+      "unit_sha256": "75d7d941d3c07ea748c4a9261d36a75fbd5664ff9c817c4034a9a36a3a12664c",
+      "targets": [
+        "T01"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "not-blocked-by-current-findings"
+    },
+    {
+      "unit": "organon.charter.overview",
+      "clause": "p2",
+      "unit_sha256": "75d7d941d3c07ea748c4a9261d36a75fbd5664ff9c817c4034a9a36a3a12664c",
+      "targets": [
+        "T01",
+        "T02",
+        "T38"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "organon.charter.overview",
+      "clause": "p3",
+      "unit_sha256": "75d7d941d3c07ea748c4a9261d36a75fbd5664ff9c817c4034a9a36a3a12664c",
+      "targets": [
+        "T01",
+        "T02",
+        "T38"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "organon.charter.self-transcendence",
+      "clause": "p1",
+      "unit_sha256": "f4ca590e2ae15e3882f70c7b2bc46a8911c97cee547c8b137b5493fbf862c8c0",
+      "targets": [
+        "T02",
+        "T38"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "organon.charter.self-transcendence.orientation",
+      "clause": "p1",
+      "unit_sha256": "7f9b85c0816b3d69e417cf3cbe17b7b59931388f84d799ce6730c998037358bf",
+      "targets": [
+        "T02",
+        "T03",
+        "T38"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "organon.charter.self-transcendence.non-finality",
+      "clause": "p1",
+      "unit_sha256": "4ae4497523e79e0606ab3849c47b6ea16f8888a952e063e6966eb36b750f3df8",
+      "targets": [
+        "T02",
+        "T03",
+        "T38"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "organon.charter.self-transcendence.limits",
+      "clause": "p1",
+      "unit_sha256": "6dade83f0b7fcc004bdb37b6726c15b31b06a377de4e86d506c9d2e67847029d",
+      "targets": [
+        "T03",
+        "T38"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "organon.charter.self-transcendence.limits",
+      "clause": "p2",
+      "unit_sha256": "6dade83f0b7fcc004bdb37b6726c15b31b06a377de4e86d506c9d2e67847029d",
+      "targets": [
+        "T02",
+        "T03",
+        "T38",
+        "T40"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "organon.charter.consistency",
+      "clause": "p1",
+      "unit_sha256": "c6960c590c096d33250599cf418e3c6a1dc26bfc7d7800c82b8efde656950f42",
+      "targets": [
+        "T04",
+        "T05",
+        "T38"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "organon.charter.consistency.meaning",
+      "clause": "p1",
+      "unit_sha256": "81c09e38a3349499f95401d1c08f6069666c13547a43bc4e4395330743055faa",
+      "targets": [
+        "T04",
+        "T05",
+        "T38"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "organon.charter.consistency.meaning",
+      "clause": "p2",
+      "unit_sha256": "81c09e38a3349499f95401d1c08f6069666c13547a43bc4e4395330743055faa",
+      "targets": [
+        "T04",
+        "T05",
+        "T06",
+        "T38"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "organon.charter.consistency.limits",
+      "clause": "p1",
+      "unit_sha256": "4fa1c29bf95ad6ef04c6d27671a832c0af8ba31b9c0d8018a8d09c4f33c38e75",
+      "targets": [
+        "T04",
+        "T05",
+        "T06",
+        "T38"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "organon.charter.reflexivity",
+      "clause": "p1",
+      "unit_sha256": "13293b45c2fa89068c68ae7ef3c5df38f0efadb3ef3873d78a5ba67d9691a757",
+      "targets": [
+        "T07",
+        "T38"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "organon.charter.reflexivity.meaning",
+      "clause": "p1",
+      "unit_sha256": "8a2caede01a43d8b6c60b54c78ac089c51868e9956f316948077ccee2e45c9cc",
+      "targets": [
+        "T07",
+        "T38"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "organon.charter.reflexivity.limits",
+      "clause": "p1",
+      "unit_sha256": "ac0baae0d86e69f84c1ca4dee837de2759e2d29c295ffc257d988962158d4bbc",
+      "targets": [
+        "T07",
+        "T08",
+        "T38"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "organon.grounds",
+      "clause": "p1",
+      "unit_sha256": "4ee74dc8617388ee75d63b507176ecb73b8527758b648f7c588d3ae7f3445ec6",
+      "targets": [
+        "T08",
+        "T09",
+        "T38",
+        "T40"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "organon.grounds.assessment",
+      "clause": "p1",
+      "unit_sha256": "ac2f84ce07036731964e26221e6d3ef83c9b647ebe249862eb2bc115856e6e4d",
+      "targets": [
+        "T09",
+        "T13",
+        "T38",
+        "T40"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "organon.grounds.assessment",
+      "clause": "p2",
+      "unit_sha256": "ac2f84ce07036731964e26221e6d3ef83c9b647ebe249862eb2bc115856e6e4d",
+      "targets": [
+        "T09",
+        "T10",
+        "T11",
+        "T12",
+        "T13",
+        "T38",
+        "T40"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "organon.grounds.assessment",
+      "clause": "p3",
+      "unit_sha256": "ac2f84ce07036731964e26221e6d3ef83c9b647ebe249862eb2bc115856e6e4d",
+      "targets": [
+        "T09",
+        "T12",
+        "T13",
+        "T38",
+        "T40"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "organon.grounds.scope",
+      "clause": "p1",
+      "unit_sha256": "4a0e93c7834e4ef62f129ee4621cf7bf1c93b64d86f9f145d1592adcf9fb6693",
+      "targets": [
+        "T14",
+        "T15",
+        "T38"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "organon.grounds.scope",
+      "clause": "p2",
+      "unit_sha256": "4a0e93c7834e4ef62f129ee4621cf7bf1c93b64d86f9f145d1592adcf9fb6693",
+      "targets": [
+        "T14",
+        "T15",
+        "T38",
+        "T40"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "organon.grounds.scope",
+      "clause": "p3",
+      "unit_sha256": "4a0e93c7834e4ef62f129ee4621cf7bf1c93b64d86f9f145d1592adcf9fb6693",
+      "targets": [
+        "T14",
+        "T15",
+        "T38",
+        "T40"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "organon.grounds.capabilities",
+      "clause": "p1",
+      "unit_sha256": "7249f6f2ef327baaa72349cae53b9245f23a34436356dd05f3c6005cab35e8f0",
+      "targets": [
+        "T16",
+        "T17",
+        "T38",
+        "T40"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "organon.grounds.capabilities",
+      "clause": "p2",
+      "unit_sha256": "7249f6f2ef327baaa72349cae53b9245f23a34436356dd05f3c6005cab35e8f0",
+      "targets": [
+        "T16",
+        "T17",
+        "T38",
+        "T40"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "organon.grounds.implementations",
+      "clause": "p1",
+      "unit_sha256": "bb2a822a304d4a20f513218f356ddbeeca8ee139e3ed802213591e9ff6c5095c",
+      "targets": [
+        "T18",
+        "T19",
+        "T38",
+        "T40"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "organon.grounds.implementations",
+      "clause": "p2",
+      "unit_sha256": "bb2a822a304d4a20f513218f356ddbeeca8ee139e3ed802213591e9ff6c5095c",
+      "targets": [
+        "T18",
+        "T19",
+        "T38",
+        "T40"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "organon.grounds.implementations.limits",
+      "clause": "p1",
+      "unit_sha256": "db9b5f1803baab0e1b05a3a9e068948667412afa7d692e1da3869ca54be4b870",
+      "targets": [
+        "T15",
+        "T18",
+        "T19",
+        "T38"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "organon.relationships.roles",
+      "clause": "p1",
+      "unit_sha256": "24b533c77fe93d0570da65ee361893f2c445842f48ee6f315f99f8abc06a0e5e",
+      "targets": [
+        "T01",
+        "T08",
+        "T20",
+        "T38",
+        "T39",
+        "T40"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "organon.relationships.roles",
+      "clause": "p2",
+      "unit_sha256": "24b533c77fe93d0570da65ee361893f2c445842f48ee6f315f99f8abc06a0e5e",
+      "targets": [
+        "T03",
+        "T06",
+        "T11",
+        "T16",
+        "T20",
+        "T38",
+        "T39",
+        "T40"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "organon.relationships.roles",
+      "clause": "p3",
+      "unit_sha256": "24b533c77fe93d0570da65ee361893f2c445842f48ee6f315f99f8abc06a0e5e",
+      "targets": [
+        "T07",
+        "T08",
+        "T16",
+        "T18",
+        "T20",
+        "T37",
+        "T38",
+        "T39",
+        "T40"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "organon.relationships.terms",
+      "clause": "p1",
+      "unit_sha256": "61cb7ce4f2920f1aa6771502b87a66536ae0504acccfebd9dd23bcc62756eddf",
+      "targets": [
+        "T02",
+        "T21"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "not-blocked-by-current-findings"
+    },
+    {
+      "unit": "extensions",
+      "clause": "p1",
+      "unit_sha256": "ec87a2f17b2f88addcadea0108add11ad3d4239daf56db466ba0ddbe7cc92b66",
+      "targets": [
+        "T01",
+        "T37",
+        "T38",
+        "T39",
+        "T40"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "software-engineering.purpose",
+      "clause": "p1",
+      "unit_sha256": "946a96680b1a00867f58e7921588e5a56e79b336ba3d322b8aef1122cc75a60b",
+      "targets": [
+        "T22",
+        "T23",
+        "T38",
+        "T40"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "software-engineering.purpose",
+      "clause": "p2",
+      "unit_sha256": "946a96680b1a00867f58e7921588e5a56e79b336ba3d322b8aef1122cc75a60b",
+      "targets": [
+        "T22",
+        "T23",
+        "T38",
+        "T40"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "software-engineering.purpose",
+      "clause": "p3",
+      "unit_sha256": "946a96680b1a00867f58e7921588e5a56e79b336ba3d322b8aef1122cc75a60b",
+      "targets": [
+        "T22",
+        "T23",
+        "T24",
+        "T38",
+        "T40"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "software-engineering.evolution-priority",
+      "clause": "p1",
+      "unit_sha256": "c2237515e869b2f88269cf19e3c97ef80c3c87342d1a03cd911cac03fe5a3a04",
+      "targets": [
+        "T24",
+        "T25",
+        "T38",
+        "T39",
+        "T40"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "software-engineering.evolution-priority",
+      "clause": "p2",
+      "unit_sha256": "c2237515e869b2f88269cf19e3c97ef80c3c87342d1a03cd911cac03fe5a3a04",
+      "targets": [
+        "T24",
+        "T25",
+        "T26",
+        "T27",
+        "T38",
+        "T39",
+        "T40"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "software-engineering.evolution-priority",
+      "clause": "p3",
+      "unit_sha256": "c2237515e869b2f88269cf19e3c97ef80c3c87342d1a03cd911cac03fe5a3a04",
+      "targets": [
+        "T24",
+        "T25",
+        "T26",
+        "T27",
+        "T28",
+        "T38",
+        "T39",
+        "T40"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "software-engineering.evolution-meaning",
+      "clause": "p1",
+      "unit_sha256": "c3fa878716f4370ebd1d352d2c135255695cfec6e1d33900a184cb46acb80bf6",
+      "targets": [
+        "T29",
+        "T30",
+        "T38",
+        "T40"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "software-engineering.evolution-meaning",
+      "clause": "p2",
+      "unit_sha256": "c3fa878716f4370ebd1d352d2c135255695cfec6e1d33900a184cb46acb80bf6",
+      "targets": [
+        "T29",
+        "T30",
+        "T38",
+        "T40"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "software-engineering.structural-judgment",
+      "clause": "p1",
+      "unit_sha256": "8014457feae3410a7220426dbbe4293f7b5d1d2aa152f4085ccd1f03d5983a42",
+      "targets": [
+        "T31",
+        "T32",
+        "T37",
+        "T38",
+        "T40"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "software-engineering.structural-judgment",
+      "clause": "p2",
+      "unit_sha256": "8014457feae3410a7220426dbbe4293f7b5d1d2aa152f4085ccd1f03d5983a42",
+      "targets": [
+        "T31",
+        "T32",
+        "T38",
+        "T40"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "software-engineering.structural-judgment",
+      "clause": "p3",
+      "unit_sha256": "8014457feae3410a7220426dbbe4293f7b5d1d2aa152f4085ccd1f03d5983a42",
+      "targets": [
+        "T33",
+        "T34",
+        "T38",
+        "T40"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "software-engineering.revision",
+      "clause": "p1",
+      "unit_sha256": "5d31bed0197ea7e7028eb7a85e56059516421c6c27613cc5479e0b98c5111d99",
+      "targets": [
+        "T35",
+        "T36",
+        "T38",
+        "T40"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    },
+    {
+      "unit": "software-engineering.revision",
+      "clause": "p2",
+      "unit_sha256": "5d31bed0197ea7e7028eb7a85e56059516421c6c27613cc5479e0b98c5111d99",
+      "targets": [
+        "T35",
+        "T36",
+        "T37",
+        "T38",
+        "T40"
+      ],
+      "local_status": "accepted-bounded",
+      "composition_status": "pending-F07-F08"
+    }
+  ],
+  "prior_review_hashes": {
+    "source-first-initial.md": "0975c0e97c220a9558cbb56c264c7253c70175cedf6cd771b860ec5764a13ab5",
+    "source-code-review-partial-initial.md": "bf7a6bd136720295e79c495e3980ecbe05a595a66d4aed9af4521390e87cd86a",
+    "source-code-review-adopted-f01-f06-final.md": "dc1952e457239f9c5a72d99b50ff043f3c243ff8914efea20e0bc49b3af441b4",
+    "source-code-review-domain-r2.md": "53288a6b2e5bdc55a18a004c0a3c38c0a31269d97309e1f4a0b864f9cfeba28f",
+    "source-code-review-domain-same-work-final.md": "c64b54d89ffed6592d5b745772835f9ff1ace23305a51dfa688289bf25c9cde2"
+  },
+  "remaining": [
+    "F07/F08 new-object review",
+    "fresh blind-code comparison",
+    "bilingual reader and type binding review"
+  ],
+  "production_changes": false
+}

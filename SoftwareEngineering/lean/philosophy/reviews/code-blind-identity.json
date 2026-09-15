@@ -1,0 +1,21 @@
+{
+  "stage": "initial-blind-code-only",
+  "frozen_utc": "2026-09-14T17:42:46.956973+00:00",
+  "source_fidelity": "unevaluated",
+  "artifacts": {
+    "initial-blind.md": "cf9280ddd3365440e848b14043a6208b9fea5114f9ff13cea4e236e3358317df",
+    "code-hashes.json": "fbb9a93af4b3be7c5d8cc2a574cc59bfbc9d381e5fc22ec2a74db13c8906f9f1",
+    "concerns.json": "977264439858f15c15c35113648b93b6484ed84458a04e0477e39e450de44ff0",
+    "declarations.json": "1c3a62cc58ad3460500d31cfd9fb27465c973f8f3107800e797fe3d4327e060c",
+    "DeclarationAudit.lean": "570ba85feccace76d7fe308ff10993c1ef9062c50345e3c73006b2ee7f48d5dd",
+    "declaration-axiom-audit.log": "e3339e6f2923bfa7b58ca172617a4730d47352f2a3255de9583f5c044bcc9629",
+    "declaration-axiom-audit-initial-failed.log": "899310d6d27514ff47ee07e749bc865c31e407d8c64cc7fae0b95a01d3be166b",
+    "axiom-summary.json": "9f8b38fcfa9ffbe9ecf7a2c6d2e2eb1afe4667230985346068dde79ed2d167fb",
+    "build.log": "cca67e38a0015c7e8688480683427b23813765586276d2626c4babbf0b23210c",
+    "toolchain.log": "7657cf16156f61420bea6e19ecc0a6e4bd47f2e27e3124146eddcf30c667885e",
+    "SemanticProbes.lean": "c4c124072c6864250fcd3a71ce3b65b5442770b6ffccf75e20fe9aa9347f37f4",
+    "semantic-probes.log": "2decc16edcc7c22f763d588ce758d66fcd2dcab935f724027cf7fa50b2db85a8",
+    "semantic-probes-initial-failed.log": "4c2cbd42a92d779df10846da9e91473adcfa022cb4077ccbccbc7d039096d761",
+    "preservation-check.log": "932de7d8f66d944a213c8cd126746b07f65a31198955ebe3259b5eda2c08a91e"
+  }
+}

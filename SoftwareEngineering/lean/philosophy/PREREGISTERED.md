@@ -1,0 +1,17 @@
+# Frozen proof objectives
+
+The selected source is the complete SoftwareEngineering 0.2.0 philosophy, adopted from Core 0.1.2. Its exact bytes have SHA256 `6c6ae78a23f2726c5c370434e808d76c206647fe7793245e88cae52c076abe34`. Rationale and executable examples supply context and cases; they are not additional whole-document proof obligations. The source, version and adoption lock remain unchanged.
+
+The independent source inventory and the author's inventory were compared before candidate Lean was written. Source references and one added bounded non-entailment statement were corrected before freezing. The accepted catalog is [targets.json](targets.json), SHA256 `c0939df35dad148a0543ba92a1ac7b7d3b2eb4946f92ac4be251ec51b6481d13`. It fixes the complete statements, premises, case meanings and acceptance conditions. This document is the delivery copy of those recorded objectives; its file creation time does not authenticate their earlier registration.
+
+All frozen provable targets and necessary independent reviews must finish. A failed target cannot be removed, weakened or reclassified to claim completion. Definitions express obligations; conditional theorems, finite examples, empirical grounds and value commitments retain distinct states. A finite successful model does not prove the philosophy universally correct.
+
+The composition checks use one nonempty engineering context. T38 requires all represented inherited and domain commitments jointly, with a continuing lifecycle and actual evolution priority. T39 requires every represented inherited commitment while the domain priority genuinely applies and is not adopted. Necessary requirements, a supported advantage for credible changes including design revision, and the absence of a defeating cost threat must hold. A temporary lifecycle, an exception, or merely completing assessment cannot substitute for this countermodel.
+
+The cases cover actual and mislabeled temporary lifecycles, credible and merely conceivable changes, every represented necessary-requirement failure, default priority and explained departure, addition and exit, successor and agent maintenance, preservation and deliberate revision of observable contracts, failed predictions and subsequent judgments. Each semantic case in the catalog needs an actual proposition and content explanation, even when a theorem groups several cases.
+
+Lean 4.33.1 and its core libraries check the registered declarations, full types and axiom dependencies. Project axioms and admitted proofs are forbidden. Independent code-only backtranslation is preserved before source comparison. English and Chinese overviews and detailed readers bind to the same source, code, target and review objects. Every nonblank Lean line receives an explanation in each detailed reader.
+
+The existing JavaScript and C++ examples are executed separately from the mathematical models. Their observed results do not establish future empirical maintainability. Portable verification uses only this child philosophy and the explicitly designated independent Core runtime, excluding the outer management repository, private records and build caches. The child carries no separately maintained copy of the checker.
+
+Method changes require an observed deficiency, preservation of the preceding objects, relevant preregistered variations, actual checks and independent review. Philosophical absorption remains an analysis of candidates; it does not change the source commitments or adoption baseline.

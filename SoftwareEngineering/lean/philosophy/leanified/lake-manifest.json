@@ -1,0 +1,6 @@
+{"version": "1.2.0",
+ "packagesDir": ".lake/packages",
+ "packages": [],
+ "name": "software_engineering",
+ "lakeDir": ".lake",
+ "fixedToolchain": false}

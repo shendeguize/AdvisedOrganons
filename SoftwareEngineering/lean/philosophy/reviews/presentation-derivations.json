@@ -1,0 +1,490 @@
+[
+  {
+    "role": "source_initial",
+    "file": "source-initial.md",
+    "original_sha256": "0975c0e97c220a9558cbb56c264c7253c70175cedf6cd771b860ec5764a13ab5",
+    "presentation_sha256": "edd1c4791b80068fdacc0fd168d918226abf9764de3d02554432dc160f3e1113",
+    "changed": true,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "source_initial_catalog",
+    "file": "source-initial-targets.json",
+    "original_sha256": "8642237a254b0fe4d4501f7ab59e0ef22cbec3f23ad22def57da3af2fe0d8bec",
+    "presentation_sha256": "a033f7aa1c4b5b570884a372578ba544ebe5303c453c91ce0f46bd46d8921a36",
+    "changed": true,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "freeze_review",
+    "file": "target-freeze-review.md",
+    "original_sha256": "cd994ee5ceb0e789c5c217914d4c0bc88e1dfeeae6d81bfef4f2ff3bc383c85f",
+    "presentation_sha256": "cd994ee5ceb0e789c5c217914d4c0bc88e1dfeeae6d81bfef4f2ff3bc383c85f",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "code_blind",
+    "file": "code-blind-initial.md",
+    "original_sha256": "cf9280ddd3365440e848b14043a6208b9fea5114f9ff13cea4e236e3358317df",
+    "presentation_sha256": "cf9280ddd3365440e848b14043a6208b9fea5114f9ff13cea4e236e3358317df",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "code_blind_identity",
+    "file": "code-blind-identity.json",
+    "original_sha256": "78c842326b65bc894eccf10e15ae9fef75f8850abbdb7025d766eefa4d8f7a53",
+    "presentation_sha256": "78c842326b65bc894eccf10e15ae9fef75f8850abbdb7025d766eefa4d8f7a53",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "code_blind_delta",
+    "file": "code-blind-delta.md",
+    "original_sha256": "a0a16628362882d5574bf41123d6fed41ce735083d55dccfb06650555cb3b776",
+    "presentation_sha256": "a0a16628362882d5574bf41123d6fed41ce735083d55dccfb06650555cb3b776",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "code_blind_delta_identity",
+    "file": "code-blind-delta-identity.json",
+    "original_sha256": "3cd8802c7670caf78d74027c73e76420b0df5eabe346b4fe55e16e19b71db88e",
+    "presentation_sha256": "3cd8802c7670caf78d74027c73e76420b0df5eabe346b4fe55e16e19b71db88e",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "blind_source_initial",
+    "file": "blind-source-initial.md",
+    "original_sha256": "41231e41278a6389f72db28cf2b75322cfdecaa0c8a831051aa7b10b7b30b2e9",
+    "presentation_sha256": "41231e41278a6389f72db28cf2b75322cfdecaa0c8a831051aa7b10b7b30b2e9",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "blind_source_initial_targets",
+    "file": "blind-source-initial.json",
+    "original_sha256": "458c5302b44cfcaa799fd1d9cebf34df392aebdf7fa57c74e2cd5b8c2fa96244",
+    "presentation_sha256": "458c5302b44cfcaa799fd1d9cebf34df392aebdf7fa57c74e2cd5b8c2fa96244",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "code_comparison_final",
+    "file": "code-comparison-final.md",
+    "original_sha256": "ba3e905877e33ef96e4251cb59b8a1f52cca397eecaef92570ebf28261a8fd0c",
+    "presentation_sha256": "ba3e905877e33ef96e4251cb59b8a1f52cca397eecaef92570ebf28261a8fd0c",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "code_target_final",
+    "file": "code-targets-final.json",
+    "original_sha256": "e01cd00cbcfa4ba8c6592917ea7321eb3826bc0b365a2b1b64170a1a24a93825",
+    "presentation_sha256": "e01cd00cbcfa4ba8c6592917ea7321eb3826bc0b365a2b1b64170a1a24a93825",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "code_review_identity",
+    "file": "code-review-identity.json",
+    "original_sha256": "abb056f71ed48ec009e9bd16bd037dd2f0dab84cf3746008e4fd536aecfe78ea",
+    "presentation_sha256": "abb056f71ed48ec009e9bd16bd037dd2f0dab84cf3746008e4fd536aecfe78ea",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "independent_actual_check",
+    "file": "r3-actual-audit.log",
+    "original_sha256": "b9f95581347504e245f0cea7f98cbf2b818c242aaa26615b031421e2fab7729c",
+    "presentation_sha256": "6aaad0f6c1f73f44631df61e4631af9d82596329fb71cac4a6f42f76bfb60b5b",
+    "changed": true,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "independent_actual_check",
+    "file": "r3-axiom-summary.json",
+    "original_sha256": "f23b5f29c342bb30dd274c9d7fad6932565eecd69c91f27f846d017fe5a253c7",
+    "presentation_sha256": "f23b5f29c342bb30dd274c9d7fad6932565eecd69c91f27f846d017fe5a253c7",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "independent_actual_check",
+    "file": "r3-build.log",
+    "original_sha256": "f6e727662ac83e00e087be3246525187946b87441afdb6cd9a3f3af9d3e5eedd",
+    "presentation_sha256": "f6e727662ac83e00e087be3246525187946b87441afdb6cd9a3f3af9d3e5eedd",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "independent_actual_check",
+    "file": "r3-declarations.json",
+    "original_sha256": "b92ca5728f275caeec340cdc63aa52dc44a303c30a887cfcfa3493542e7e6b07",
+    "presentation_sha256": "b92ca5728f275caeec340cdc63aa52dc44a303c30a887cfcfa3493542e7e6b07",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "independent_actual_check",
+    "file": "r3-audit-input.txt",
+    "original_sha256": "c31b98c29db2e12b2d7c2d7f968c0fa4db76a68061ea9bf14ce81727f376ea19",
+    "presentation_sha256": "c31b98c29db2e12b2d7c2d7f968c0fa4db76a68061ea9bf14ce81727f376ea19",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "independent_actual_check",
+    "file": "r3-probe-input.txt",
+    "original_sha256": "3c72af41c80077164e35a7ad2dcc8c927a0981c12f4c698702d658b543f8d8d5",
+    "presentation_sha256": "3c72af41c80077164e35a7ad2dcc8c927a0981c12f4c698702d658b543f8d8d5",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "independent_actual_check",
+    "file": "r3-probes.log",
+    "original_sha256": "7c5d415119ea3e427dfc06acbf415cf5a0cfbf12ac7155d553a7a7ea4ababdd7",
+    "presentation_sha256": "0c899aa78e9ae2473f6203f0f5e680657aeeac0584472a1f1c2d1798b4e75b44",
+    "changed": true,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "independent_actual_check",
+    "file": "r3-stability-probe-input.txt",
+    "original_sha256": "677f560a47f9262bf08cf337f423516c163970906668bd2d541e9383c56531dd",
+    "presentation_sha256": "677f560a47f9262bf08cf337f423516c163970906668bd2d541e9383c56531dd",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "independent_actual_check",
+    "file": "r3-stability-probe.log",
+    "original_sha256": "9fa3b6ead7afc298499f30c5b70014c78b6686a8269611537606fa5a7c02b6a2",
+    "presentation_sha256": "9fa3b6ead7afc298499f30c5b70014c78b6686a8269611537606fa5a7c02b6a2",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "source_comparison",
+    "file": "source-code-review-full-initial.md",
+    "original_sha256": "d1c38be6f8826ff29ff01ec12bb2d45f3f32e4e4b45830c7fd3250a40ab13767",
+    "presentation_sha256": "d1c38be6f8826ff29ff01ec12bb2d45f3f32e4e4b45830c7fd3250a40ab13767",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "source_comparison",
+    "file": "source-code-review-full-initial.json",
+    "original_sha256": "3def05f99f44b763c9bf7b3475f6aad631969ec2387d10b802965967f5f45386",
+    "presentation_sha256": "2fe6ec4c19ecf5d73b347c2a11c2c916c9ee69ca532b19746b160178222975c1",
+    "changed": true,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "source_comparison",
+    "file": "source-code-review-adopted-f01-f06-final.md",
+    "original_sha256": "dc1952e457239f9c5a72d99b50ff043f3c243ff8914efea20e0bc49b3af441b4",
+    "presentation_sha256": "dc1952e457239f9c5a72d99b50ff043f3c243ff8914efea20e0bc49b3af441b4",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "source_comparison",
+    "file": "source-code-review-adopted-f01-f06-final.json",
+    "original_sha256": "ad5a1cdb9184149462c412a3681a4b865138039468d46b1619f0714826127f54",
+    "presentation_sha256": "a43e9e3dd6b6d98497f3803f3c4e0d27666fa4aedb48e293ea7c6375561422eb",
+    "changed": true,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "source_comparison",
+    "file": "source-code-review-domain-r2.md",
+    "original_sha256": "53288a6b2e5bdc55a18a004c0a3c38c0a31269d97309e1f4a0b864f9cfeba28f",
+    "presentation_sha256": "53288a6b2e5bdc55a18a004c0a3c38c0a31269d97309e1f4a0b864f9cfeba28f",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "source_comparison",
+    "file": "source-code-review-domain-r2.json",
+    "original_sha256": "5d8eed0f715c6aeed7f32707478d89e576c8cc8758fb5523fb6b8b8fb9a53b2d",
+    "presentation_sha256": "5d8eed0f715c6aeed7f32707478d89e576c8cc8758fb5523fb6b8b8fb9a53b2d",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "source_comparison",
+    "file": "source-code-review-domain-same-work-final.md",
+    "original_sha256": "c64b54d89ffed6592d5b745772835f9ff1ace23305a51dfa688289bf25c9cde2",
+    "presentation_sha256": "c64b54d89ffed6592d5b745772835f9ff1ace23305a51dfa688289bf25c9cde2",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "source_comparison",
+    "file": "source-code-review-domain-same-work-final.json",
+    "original_sha256": "99c334f55fce1629cf3a2776832fb389305b81062dd129ce4e661158560d8d8b",
+    "presentation_sha256": "99c334f55fce1629cf3a2776832fb389305b81062dd129ce4e661158560d8d8b",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "source_comparison",
+    "file": "source-code-review-f07-f08.md",
+    "original_sha256": "898af33213a832832f4b6d84a8f94fd99bede9a0abae055b9e2a1af3b8ee5b1f",
+    "presentation_sha256": "898af33213a832832f4b6d84a8f94fd99bede9a0abae055b9e2a1af3b8ee5b1f",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "source_comparison",
+    "file": "source-code-review-f07-f08.json",
+    "original_sha256": "d7dcad383daf362011519d8c71b33bd6be78a2f17ea54f9d2d9f1d3be1b10641",
+    "presentation_sha256": "58928fb167139305c8284d64f66ab52fd2bd22e9eb751beedbf4dd6629282fa5",
+    "changed": true,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "source_comparison",
+    "file": "source-code-review-r3.md",
+    "original_sha256": "c3d06769eba25fec696936c87a560228ce04d675757adc8887a36357ff9939aa",
+    "presentation_sha256": "c3d06769eba25fec696936c87a560228ce04d675757adc8887a36357ff9939aa",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "source_comparison",
+    "file": "source-code-review-r3.json",
+    "original_sha256": "e39b5fb2b152f619f8c2b023b74d7b5d239d5368eaaf9b98dffbe630e47f4a16",
+    "presentation_sha256": "05bcb385022d349c92589785d98912746330350335602d47968c240f3b79d376",
+    "changed": true,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "reader_review",
+    "file": "reader-independent-source-review-r1.md",
+    "original_sha256": "2933d9049854ac3905a75493cecde9e72689a6883f337ca5f1da3f4da1ac8096",
+    "presentation_sha256": "2933d9049854ac3905a75493cecde9e72689a6883f337ca5f1da3f4da1ac8096",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "reader_review",
+    "file": "reader-independent-source-review-r1.json",
+    "original_sha256": "369a545cf59a9526ff841ca8b9b46fa40112a2a4ecf713a815ed51e30f164c5b",
+    "presentation_sha256": "6f167b52d7081adfc0bbc7dd631c7c97556efa875b972828d811b68b810f72de",
+    "changed": true,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "reader_review",
+    "file": "reader-independent-source-review-r1-anchors.md",
+    "original_sha256": "335b251e0f4ed2b7115230558169964ffd4f930569fcff7fa7f4c20310fa5054",
+    "presentation_sha256": "335b251e0f4ed2b7115230558169964ffd4f930569fcff7fa7f4c20310fa5054",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "reader_review",
+    "file": "reader-independent-source-review-r1-anchors.json",
+    "original_sha256": "b8d9d322c8702101b3846519e41b47c14a89d775df11e3f0c71436373313c711",
+    "presentation_sha256": "e8c827f7763b611d8cedc5350efd63cec727e76385fad18fc3286e6c8a8efb1a",
+    "changed": true,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "reader_review",
+    "file": "reader-independent-source-review-r2-components.md",
+    "original_sha256": "998c8a9aca43571ec4e094ef49d3b6e19c026f82f62aae2e727743812e1e0588",
+    "presentation_sha256": "998c8a9aca43571ec4e094ef49d3b6e19c026f82f62aae2e727743812e1e0588",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "reader_review",
+    "file": "reader-independent-source-review-r2-components.json",
+    "original_sha256": "2cd4fbdee43dff496a9099fe8d7186e6d133689c346e34f9c0c60d2a81ba6cea",
+    "presentation_sha256": "8454724e90e354eca9755f7113cba07d8d458c2c61fb86030ebb9377357bc3b8",
+    "changed": true,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "reader_review",
+    "file": "reader-independent-source-final.md",
+    "original_sha256": "93979bd24e25dede4dbfecd9a264d9e63d2e01855e7a4e27b8c03add7c48894a",
+    "presentation_sha256": "93979bd24e25dede4dbfecd9a264d9e63d2e01855e7a4e27b8c03add7c48894a",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "reader_review",
+    "file": "reader-independent-source-final.json",
+    "original_sha256": "0910bcf51934842a548b2177a081b91ada33b71a486f1f60fee55977f76ce823",
+    "presentation_sha256": "51ff57e3d2988cdd6e44b6e3d6709be061e80d777b79969f6a14aafcc6b81f54",
+    "changed": true,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "reader_review",
+    "file": "reader-independent-domain-r1.md",
+    "original_sha256": "2c411fb38eef7f4637c9c243930b4f30029b059893056518607e767cd851dae8",
+    "presentation_sha256": "2c411fb38eef7f4637c9c243930b4f30029b059893056518607e767cd851dae8",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "reader_review",
+    "file": "reader-independent-domain-r1.json",
+    "original_sha256": "fc60fdb13ba8f01734c78bcea55829701d2f6649a0064f9bdc58c0f9079f981d",
+    "presentation_sha256": "a472140f51246e278c9d8e3c69541c5fe78cb54b2f61f2eba3d64d8583645d8b",
+    "changed": true,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "reader_review",
+    "file": "reader-independent-domain-r2.md",
+    "original_sha256": "228a039b18206d6243e29afe3cd5e5480d930cb09d186c217284d618e61819bd",
+    "presentation_sha256": "228a039b18206d6243e29afe3cd5e5480d930cb09d186c217284d618e61819bd",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "reader_review",
+    "file": "reader-independent-domain-r2.json",
+    "original_sha256": "44b4697d44a5f28ca501f868e08680dfbf7614092860e87daa28c37a1fe30f82",
+    "presentation_sha256": "fc6364e3be49696cc517126a67f41e1452b3e0b54dfb70bc40594dc834d3cae8",
+    "changed": true,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "reader_review",
+    "file": "reader-independent-domain-final.md",
+    "original_sha256": "61b9667d465d01b4ec23a9ee70fe795871a197ad2ce93f92ae69148b3e336796",
+    "presentation_sha256": "feb93118a9fb8b976e53d35607d3afd592444057b2eff835c2e61f158c571ce3",
+    "changed": true,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "reader_review",
+    "file": "reader-independent-domain-final.json",
+    "original_sha256": "1136eaf8d3c11292354bf6f5fd7693e6638c087ec9c99eb5fe641a931c610264",
+    "presentation_sha256": "4d8fae4140622e27492b378f78d47766fc879fd43940942883a5daf0233e59f1",
+    "changed": true,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "reader_actual_check",
+    "file": "reader-independent-domain-r1-granularity-clarification.json",
+    "original_sha256": "9d6c9b64c164a072203911b24ced32e9e32bf47a2d82a5706771934c5faa6f6a",
+    "presentation_sha256": "9d6c9b64c164a072203911b24ced32e9e32bf47a2d82a5706771934c5faa6f6a",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "reader_actual_check",
+    "file": "reader-helper-reuse-probe-r1.json",
+    "original_sha256": "6221cea32fe0e60efb14ca00cdafac7d2535f373efc94d29dd953c8c521c2f93",
+    "presentation_sha256": "6221cea32fe0e60efb14ca00cdafac7d2535f373efc94d29dd953c8c521c2f93",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "reader_actual_check",
+    "file": "reader-helper-caption-reuse-probe-r1.json",
+    "original_sha256": "34fa13446db8cd3264bf506baa49ee544e37713cfa57598d9db05ecfe6b774fa",
+    "presentation_sha256": "34fa13446db8cd3264bf506baa49ee544e37713cfa57598d9db05ecfe6b774fa",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "reader_actual_check",
+    "file": "reader-independent-domain-r1-probes.txt",
+    "original_sha256": "c5bc1cb06352637044d694d9dcc49737862246576fba49ac0ecc481ea06dac21",
+    "presentation_sha256": "c5bc1cb06352637044d694d9dcc49737862246576fba49ac0ecc481ea06dac21",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "reader_actual_check",
+    "file": "reader-independent-domain-r1-probes.log",
+    "original_sha256": "7b1f6762c8a3a910b04b32067ba975daa3ceb4a3ea45cf29ef93e6e627194fd0",
+    "presentation_sha256": "7b1f6762c8a3a910b04b32067ba975daa3ceb4a3ea45cf29ef93e6e627194fd0",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "reader_actual_check",
+    "file": "reader-independent-domain-r1-probes-attempt1.txt",
+    "original_sha256": "aca48116bb1731f3e48abf43f0e292f81c39a45ddcba5cb78245d4a199d76ddf",
+    "presentation_sha256": "aca48116bb1731f3e48abf43f0e292f81c39a45ddcba5cb78245d4a199d76ddf",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "reader_actual_check",
+    "file": "reader-independent-domain-r1-probes-attempt1.log",
+    "original_sha256": "74ad440eb9dce2a397b754e17193af987798b6b1fce12cd2390a581de8fc394c",
+    "presentation_sha256": "74ad440eb9dce2a397b754e17193af987798b6b1fce12cd2390a581de8fc394c",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "reader_review",
+    "file": "reader-initial-overall.md",
+    "original_sha256": "016f35a6bc9670557bc70394675e1e413853969f7e597bf46d544fed9120a431",
+    "presentation_sha256": "016f35a6bc9670557bc70394675e1e413853969f7e597bf46d544fed9120a431",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "reader_review",
+    "file": "reader-initial-overall.json",
+    "original_sha256": "9b3fb49a28d4e658ac6b5b9b8c89aadb82d246d04a53ba6b9e7087d6e1c8df4b",
+    "presentation_sha256": "9b3fb49a28d4e658ac6b5b9b8c89aadb82d246d04a53ba6b9e7087d6e1c8df4b",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "reader_review",
+    "file": "reader-comparison.md",
+    "original_sha256": "c4e60c243ff0cfcde7debf4b2a38baaacadedc8e3a522fe89575ec350dc7c236",
+    "presentation_sha256": "c4e60c243ff0cfcde7debf4b2a38baaacadedc8e3a522fe89575ec350dc7c236",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "reader_review",
+    "file": "reader-comparison.json",
+    "original_sha256": "f0dc87c1cc3b85bfce1475219b2b63a4508d8986c47fd39125dcf3b57d550368",
+    "presentation_sha256": "f0dc87c1cc3b85bfce1475219b2b63a4508d8986c47fd39125dcf3b57d550368",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "reader_review",
+    "file": "reader-final-overall.md",
+    "original_sha256": "637b4b12e88b6226e944963d7ca34bbe0ab017e9cb1b113a2744e66164f0c2d3",
+    "presentation_sha256": "637b4b12e88b6226e944963d7ca34bbe0ab017e9cb1b113a2744e66164f0c2d3",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "reader_review",
+    "file": "reader-final-overall.json",
+    "original_sha256": "da2c4cfe5d3c5e5a585d2c8cd96a8329927b960aff853e262fb307f0cb855d1c",
+    "presentation_sha256": "da2c4cfe5d3c5e5a585d2c8cd96a8329927b960aff853e262fb307f0cb855d1c",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  },
+  {
+    "role": "reader_review",
+    "file": "reader-final-probes.json",
+    "original_sha256": "9fe82b010e045ac290ae43d471ac61ae8bb422777d3b78387b3592df93c79b84",
+    "presentation_sha256": "9fe82b010e045ac290ae43d471ac61ae8bb422777d3b78387b3592df93c79b84",
+    "changed": false,
+    "transformation": "Only host directory prefixes are replaced by descriptive labels. Original judgments, code and recorded hashes are retained; original bytes remain unchanged locally. Embedded references to prior snapshots are historical, not portable approval of those older objects."
+  }
+]

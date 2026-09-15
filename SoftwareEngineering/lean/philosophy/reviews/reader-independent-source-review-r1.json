@@ -1,0 +1,439 @@
+{
+  "stage": "informed independent reader QA; initial judgment before author comparison, except disclosed T24 observation",
+  "overall": "reader corrections required; no reopened formal target or new Lean/source-fidelity blocker",
+  "reviewer_exposure": [
+    "Authored original source-first review, subsequent informed code reviews and Domain line explanations.",
+    "Domain line explanations excluded from independent review.",
+    "Previously read blind-source comparison only after own saved initial code judgments.",
+    "Root relayed only the T24 author observation before this initial reader judgment."
+  ],
+  "objects": [
+    {
+      "path": "private software-engineering iteration records/target-narratives-current.json",
+      "sha256": "df5050441153971b0da444d0c9c5518555656b88dc9042e262f31e4714ef6068"
+    },
+    {
+      "path": "private software-engineering iteration records/adopted-line-explanations-en.json",
+      "sha256": "1a48dc20be4248b2e12245e3168ce6c11953e4eac61c8dec5c7c3ba759f5efd7"
+    },
+    {
+      "path": "private software-engineering iteration records/adopted-line-explanations-zh.json",
+      "sha256": "e318c547184bd22f8f88f4e303bf01b8c5e0a4ea77ff91cbfa486707e1c4aade"
+    },
+    {
+      "path": "private software-engineering iteration records/helper-line-explanations-en.json",
+      "sha256": "b7ad7f5670fb33f66b4b587e173ff85e4f3ba5c88fbeb6cb634abdba65e32377"
+    },
+    {
+      "path": "private software-engineering iteration records/helper-line-explanations-zh.json",
+      "sha256": "315c55014f188a348b41d369b1662c3c2f4626f531cc32f6a9577746b7c536d9"
+    },
+    {
+      "path": "private software-engineering iteration records/helper-line-explanation-reuse.json",
+      "sha256": "ffbf302affe01a6b87efab77a78f3534376c76a00fb9a93733a975bc1e623c0c"
+    },
+    {
+      "path": "private software-engineering iteration records/third-code-snapshot/CoreReader/Adopted.lean",
+      "sha256": "8de4d364bb3c64e29ab92e81d86cbe4c9e5af49ada3dad262d1378421fb588c2"
+    },
+    {
+      "path": "private software-engineering iteration records/third-code-snapshot/CoreReader/Agency.lean",
+      "sha256": "2722c34645f4256f20ce31205738f2f5712ab5dd5cc6fcf9f1180d0be5aa0303"
+    },
+    {
+      "path": "private software-engineering iteration records/third-code-snapshot/CoreReader/Choice.lean",
+      "sha256": "b28728df12ed7e73edb5569604cd2541c0ebd815ae3aaa0812e6557dece1d1ba"
+    },
+    {
+      "path": "private software-engineering iteration records/third-code-snapshot/CoreReader/Engineering/Domain.lean",
+      "sha256": "ce5653a2950cc7443cefbfe8b9726bd4859228e831ddb7d42601e501ccbfd855"
+    },
+    {
+      "path": "private software-engineering iteration records/third-code-snapshot/CoreReader/Engineering/Integration.lean",
+      "sha256": "a2b88062148b3f7ebea7da02d88cb29cb04d8f1b2e9e6b97bb2420ac2c006328"
+    },
+    {
+      "path": "private software-engineering iteration records/third-code-snapshot/CoreReader/Engineering/Reflection.lean",
+      "sha256": "c290d8472884d00bedbf945f0fc1866524e758740f40d42088c4ff9678a93fa2"
+    },
+    {
+      "path": "private software-engineering iteration records/third-code-snapshot/CoreReader/Engineering/SelfApplication.lean",
+      "sha256": "d69c0d369bd4fd8db4c21ce3b65abb5e9efd07ed5ab9a68d56b4db39bb9d2a21"
+    },
+    {
+      "path": "private software-engineering iteration records/third-code-snapshot/CoreReader/Engineering/Values.lean",
+      "sha256": "ccd45bf23d2f47c41d1b2f9955d753e290687d951a0c55af41ab9a63b9a8d9cb"
+    },
+    {
+      "path": "private software-engineering iteration records/third-code-snapshot/CoreReader/Evidence.lean",
+      "sha256": "d55f33e44902cef146841cbffb65710bd7c8a3bda79d01d084edc36f019fdc96"
+    },
+    {
+      "path": "private software-engineering iteration records/third-code-snapshot/CoreReader/Integration.lean",
+      "sha256": "97e2939c0b6714b78a3ed78358e174619a5028ad5b0b5025c0d4422b4294921b"
+    },
+    {
+      "path": "private software-engineering iteration records/third-code-snapshot/CoreReader/Logic.lean",
+      "sha256": "0ec342691766ebd83d251dcd0da3b0ae9840aed677a714bc1b01c45d89392bc0"
+    },
+    {
+      "path": "private software-engineering iteration records/third-code-snapshot/CoreReader/Reflexivity.lean",
+      "sha256": "48e2c74e7cbae571db1b990b9f32dd0d701f6881a8b0111d907f8861287d76fa"
+    },
+    {
+      "path": "private software-engineering iteration records/third-code-snapshot/CoreReader.lean",
+      "sha256": "c5574fae235419a7d6449b3ebb5d2da29d1e92a3b572c1b759438e3c470caaa9"
+    },
+    {
+      "path": "SoftwareEngineering/lean/README.md",
+      "sha256": "0385ac23e960787836042763d60277158e69b9cc5dedc6c1862221eedfc15764"
+    },
+    {
+      "path": "SoftwareEngineering/lean/VALIDATION.md",
+      "sha256": "766981b9cf1dfe096974bd8909ae2dc04745af984208cde49f29d3eaafbd7b2a"
+    },
+    {
+      "path": "SoftwareEngineering/lean/philosophy/SOURCE-CONTEXT.md",
+      "sha256": "fac570778f2dfb62470db370d63f0c039be9a9cce2a4db74ef47a059e5d6e067"
+    },
+    {
+      "path": "SoftwareEngineering/lean/philosophy/reviews/README.md",
+      "sha256": "050f39b438bf17341a6273dc671bbf1e0a67aa2a833f8453d005ad1885637299"
+    },
+    {
+      "path": "SoftwareEngineering/lean/philosophy/evidence/README.md",
+      "sha256": "2701fa13bf8b145c396f798856ed756fb2b36fa9bde958307cee915905e0d9c8"
+    },
+    {
+      "path": "SoftwareEngineering/README.md",
+      "sha256": "43a53c4a84fa4e595e5a3308448c8f44570e5fbe7ad7b342af126b395d4e19a4"
+    },
+    {
+      "path": "SoftwareEngineering/zh/README.md",
+      "sha256": "91834347037e8180d5fd978d0ac341c27ff36f45d3c82712ba66738b2aaa2703"
+    },
+    {
+      "path": "SoftwareEngineering/AGENTS.md",
+      "sha256": "214a0287920ddcfc5ece24fbdc5f3ebf62a7d1266c8b3d8bce86489b9a925ac2"
+    },
+    {
+      "path": "SoftwareEngineering/PHILOSOPHY.md",
+      "sha256": "6c6ae78a23f2726c5c370434e808d76c206647fe7793245e88cae52c076abe34"
+    }
+  ],
+  "findings": [
+    {
+      "id": "R01",
+      "status": "required_reader_correction",
+      "targets": [
+        "T24"
+      ],
+      "location": "target-narratives-current.json / T24 / premises_en,premises_zh",
+      "code": "CoreReader/Engineering/Domain.lean:49-54,107-113,307-313",
+      "finding": "Nonempty scope and a continuing-maintainer path conceal concrete conjuncts and the universal participant quantifier.",
+      "required": "State nonempty participants, software identity and tools, knowledge for each participant, and that every listed participant has every knowledge/tool prerequisite of the nonempty evolvable design-revision path. Retain continuing releases/maintenance, both Meets clauses, credible design revision, lower work and greater complexity.",
+      "exposure": "Root relayed author T24 observation before this report; independently checked actual definitions. This is not claimed as independently discovered."
+    },
+    {
+      "id": "R02",
+      "status": "required_reader_correction",
+      "targets": [
+        "T29"
+      ],
+      "location": "target-narratives-current.json / T29 / premises_en,premises_zh",
+      "code": "CoreReader/Engineering/Domain.lean:556-579",
+      "finding": "The prose attributes actual software transformation binding to EvolutionClaim itself. The predicate contains CanChange, contract account, contractRunner membership and preserve/revise sample behavior; transform occurs separately in the case conjunction.",
+      "required": "Attribute real SoftwareState transformations to evolutionKindsCases, and describe EvolutionClaim as binding direction/maintainer capability, the corresponding contract account, verification path and treatment of the stated observation. Preserve the limited observation scope."
+    },
+    {
+      "id": "R03",
+      "status": "required_reader_correction",
+      "targets": [
+        "T35"
+      ],
+      "location": "target-narratives-current.json / T35 / proof_en,proof_zh",
+      "code": "CoreReader/Engineering/Domain.lean:894-895,951-960,967-969",
+      "finding": "The claim that cases change one material ground at a time is false: the same old/new pair changes all five material fields. The tampering example alters old and recordedOld, not current and reported old.",
+      "required": "Say one before/after pair exhibits changes in forecast, maintenance, maintainers, migration cost and objective capacity; describe tampering with the stored old state and its reported copy. Do not imply one-factor isolation."
+    },
+    {
+      "id": "R04",
+      "status": "required_reader_correction",
+      "targets": [
+        "T36"
+      ],
+      "location": "target-narratives-current.json / T36 / proof_en,proof_zh",
+      "code": "CoreReader/Engineering/Domain.lean:908-916,943-945,993-1005",
+      "finding": "revisionLimits does not prove actual revisability of the retained design. It proves RevisionAccount stableRecord, unchanged selected candidate and RetentionJustified for the named unsupported alternative.",
+      "required": "Describe the valid fixed-history account, retained criticism-direction coverage and unchanged choice with the explicitly unsupported alternative. If discussing revisability from the complete reflection model, label it as a separately proved aggregate fact and cite that object, rather than treating it as a T36 case conclusion."
+    },
+    {
+      "id": "R05",
+      "status": "required_reader_correction",
+      "targets": [
+        "T19",
+        "T21"
+      ],
+      "location": "adopted-line-explanations-en.json and adopted-line-explanations-zh.json / CoreReader/Adopted.lean / 692,1314",
+      "code": "CoreReader/Adopted.lean:690-698,1313-1318",
+      "finding": "Both annotations say positive case, but these lines belong to the negated status-only choiceSpecification conjunct. The positive output-reason branch is at 695 and 1317.",
+      "required": "Use negative status-only branch, or neutral same implementation wording, in both languages at both occurrences."
+    }
+  ],
+  "targets": [
+    {
+      "id": "T01",
+      "status": "accepted_bounded_narrative",
+      "reason": "Authority and the adopted Core 0.1.2 baseline are distinct from checker success."
+    },
+    {
+      "id": "T02",
+      "status": "accepted_bounded_narrative",
+      "reason": "Generative is an adopted valuation/revisability predicate; no actual progress is inferred."
+    },
+    {
+      "id": "T03",
+      "status": "accepted_bounded_narrative",
+      "reason": "Finite expansion, resource and report counterexamples retain their concrete scope."
+    },
+    {
+      "id": "T04",
+      "status": "accepted_bounded_narrative",
+      "reason": "Whole-theory consistency uses the actual union and an inhabited current question/world context."
+    },
+    {
+      "id": "T05",
+      "status": "accepted_bounded_narrative",
+      "reason": "Temporal/context differences and truthful-change reporting are not simultaneous consistency or universal detection."
+    },
+    {
+      "id": "T06",
+      "status": "accepted_bounded_narrative",
+      "reason": "The satisfiable, false-at-actual, incomplete and compatible-but-not-entailed examples remain distinct."
+    },
+    {
+      "id": "T07",
+      "status": "accepted_bounded_narrative",
+      "reason": "Self applicability and same-rule/object bindings are retained; record existence is not universal correctness."
+    },
+    {
+      "id": "T08",
+      "status": "accepted_bounded_narrative",
+      "reason": "Complete Charter witness and the specified unsupported original-task package are distinguished; no universal absence of Grounds is claimed."
+    },
+    {
+      "id": "T09",
+      "status": "accepted_bounded_narrative",
+      "reason": "Original AssessmentTask, NatureAppropriate, same claim and independent grounds inputs retained; no Core 0.1.3 coverage import."
+    },
+    {
+      "id": "T10",
+      "status": "accepted_bounded_narrative",
+      "reason": "Compatible worlds, scope and uncertainty remain separate; observation/duplication do not automatically justify values."
+    },
+    {
+      "id": "T11",
+      "status": "accepted_bounded_narrative",
+      "reason": "Inferential assumptions and claim retained; an accurate negative assessment is not successful positive support."
+    },
+    {
+      "id": "T12",
+      "status": "accepted_bounded_narrative",
+      "reason": "Adopted options, joint reasons, consequences and scope form a sufficient local value adapter, not ultimate value proof."
+    },
+    {
+      "id": "T13",
+      "status": "accepted_bounded_narrative",
+      "reason": "Articulation, support and qualitative comparison are not reduced to nonempty names or a universal score."
+    },
+    {
+      "id": "T14",
+      "status": "accepted_bounded_narrative",
+      "reason": "Comparison scope and method roles retain actual interpretation, conditions and limits."
+    },
+    {
+      "id": "T15",
+      "status": "accepted_bounded_narrative",
+      "reason": "Agreement only in the declared local scope does not erase the explicit outside difference."
+    },
+    {
+      "id": "T16",
+      "status": "accepted_bounded_narrative",
+      "reason": "Same explained process; independent multiplier/input response tested at 3,1; full quantified good response and actual contract proof retained."
+    },
+    {
+      "id": "T17",
+      "status": "accepted_bounded_narrative",
+      "reason": "External output certificate targets the same process and does not produce an internal explanation."
+    },
+    {
+      "id": "T18",
+      "status": "accepted_bounded_narrative",
+      "reason": "Feasibility and actual valued method reason are both required; status may coexist with good reasons."
+    },
+    {
+      "id": "T19",
+      "status": "accepted_bounded_narrative",
+      "reason": "The accurate-assessment independence example is explicitly weaker than full inherited-duty countermodel T39."
+    },
+    {
+      "id": "T20",
+      "status": "accepted_bounded_narrative",
+      "reason": "Full Inherited premise, actual own normative contents, whole-theory support/consistency and current self-rule interpretation retained."
+    },
+    {
+      "id": "T21",
+      "status": "accepted_bounded_narrative",
+      "reason": "Current philosophy implementation and its actual proposed decisions are explicit; no universal test-only assessment rule."
+    },
+    {
+      "id": "T22",
+      "status": "accepted_bounded_narrative",
+      "reason": "Activity scope does not by itself give all participants all changes; finite schedules are model data."
+    },
+    {
+      "id": "T23",
+      "status": "accepted_bounded_narrative",
+      "reason": "Private original-maintainer path is distinguished from all-participant continuing capability."
+    },
+    {
+      "id": "T24",
+      "status": "correction_required",
+      "reason": "R01 requires complete participant/knowledge/tool quantification in the summary."
+    },
+    {
+      "id": "T25",
+      "status": "accepted_bounded_narrative",
+      "reason": "EvolutionPriority, PriorityConditions and noDeparture are actual premises, used by branch elimination and equality substitution."
+    },
+    {
+      "id": "T26",
+      "status": "accepted_bounded_narrative",
+      "reason": "Credibility checks actual disclosed grounds contents but not real-world predictive calibration."
+    },
+    {
+      "id": "T27",
+      "status": "accepted_bounded_narrative",
+      "reason": "Conceivable, unsupported, changing and finite registered directions remain separate."
+    },
+    {
+      "id": "T28",
+      "status": "accepted_bounded_narrative",
+      "reason": "ConcreteThreat compares added candidate burden with simpler cost and named objective capacity; seven separate threats are finite adapters."
+    },
+    {
+      "id": "T29",
+      "status": "correction_required",
+      "reason": "R02 separates actual transformation cases from the fields of EvolutionClaim."
+    },
+    {
+      "id": "T30",
+      "status": "accepted_bounded_narrative",
+      "reason": "The independent/coordinated and addition/design-revision comparisons do not imply every dimension improves."
+    },
+    {
+      "id": "T31",
+      "status": "accepted_bounded_narrative",
+      "reason": "Actual boundary edge, callee edit, caller verification and finite observed equality retained; no universal checklist."
+    },
+    {
+      "id": "T32",
+      "status": "accepted_bounded_narrative",
+      "reason": "Both real changed paths are retained: 17 to 18 and relocated verification 17 to 17; boundary count is not capability."
+    },
+    {
+      "id": "T33",
+      "status": "accepted_bounded_narrative",
+      "reason": "Order/retry contract and independently affected parties retained; no notification duty added."
+    },
+    {
+      "id": "T34",
+      "status": "accepted_bounded_narrative",
+      "reason": "Universal in-scope equality is an explicit premise; the finite suite cannot supply it automatically."
+    },
+    {
+      "id": "T35",
+      "status": "correction_required",
+      "reason": "R03 corrects actual variation design and old-field tampering identity."
+    },
+    {
+      "id": "T36",
+      "status": "correction_required",
+      "reason": "R04 restricts retention prose to the theorem actually proved."
+    },
+    {
+      "id": "T37",
+      "status": "accepted_bounded_narrative",
+      "reason": "Full Inherited/Domain premises and same-priority actual Grounds/member/consistency retained; local sample-aware critique disclosed."
+    },
+    {
+      "id": "T38",
+      "status": "accepted_bounded_narrative",
+      "reason": "One shared context satisfies complete represented inherited/domain bundles with true applicability and no cost threat."
+    },
+    {
+      "id": "T39",
+      "status": "accepted_bounded_narrative",
+      "reason": "Same continuing context, full inherited fulfillment, necessary requirements, credible design revision, actual supported simple selection and no escape are retained."
+    },
+    {
+      "id": "T40",
+      "status": "accepted_bounded_narrative",
+      "reason": "Declared nonformal boundaries and limited source statuses are not recast as complete proof."
+    }
+  ],
+  "adopted_reader": {
+    "nonblank_annotations_each_language": 1225,
+    "scope": "All English/Chinese annotations read against the fixed adopted code and prior exact-object source assessment, including provenance comments and T16 increment.",
+    "status": "R05 correction required; no other substantive reader mismatch identified"
+  },
+  "helper_reader": {
+    "identity": "All 2178 nonblank code and caption pairs per language exactly match corresponding Core reader lines after removing organon-map comments; see reader-helper-caption-reuse-probe-r1.json.",
+    "new_semantic_qa": {
+      "Logic": "all declarations and proof steps",
+      "Choice": "all declarations and proof steps",
+      "Agency": "all declarations and proof steps",
+      "Reflexivity": "all declarations and proof steps",
+      "Integration": "all declarations and proof steps",
+      "Evidence": "Grounds/ValueProcedure/Facet interfaces, canonical proofs, achievement/support/scope/duty proofs at lines 1-231; actual process/capability/identity/external-certificate proofs at 606-725"
+    },
+    "limits": "Secondary Evidence examples at 233-605 receive exact code/caption reuse identity verification rather than a fresh exhaustive line-content audit in this bounded pass. No philosophical approval is inferred from matching bytes. Engineering.Reflection is a separate new module, not one of these six helper JSON keys; its actual current semantics are checked through T20/T37 source/code narratives and prior fixed-object review.",
+    "status": "no substantive mismatch in freshly inspected key content; reuse disclosed"
+  },
+  "retrieval_probes": [
+    {
+      "query": "default priority full applicability and theorem premises",
+      "located": "Domain:49-54,107-113,298-343; T24/T25/T28",
+      "answer": "Continuing releases/maintenance; nonempty participant/software/tool scope with per-participant knowledge; both necessary requirement sets; credible design revision; every participant has path knowledge/tools; strict work advantage and current complexity cost. Priority is a separate adopted implication. With applicability and no departure, resolve the disjunction then substitute the selected candidate."
+    },
+    {
+      "query": "justified departure",
+      "located": "Domain:298-305,328-330; T28",
+      "answer": "A named burden must satisfy actual ConcreteThreat, including added cost over the simpler candidate and threat to the concrete objective/capacity. Mere recorded excuse is not enough; seven burden cases are distinct finite examples."
+    },
+    {
+      "query": "strong countermodel",
+      "located": "Integration:374-407,586-606; T39",
+      "answer": "Witness is sharedContext/presentSimple with every Inherited field, active PriorityConditions, continuing and not bounded lifecycle, no HasThreat or JustifiedDeparture, both Meets, credible designRevision, successor/agent evolvable paths, strict work and complexity tradeoff, actual value support and adoption; hence false EvolutionPriority. Accurate assessment alone would not suffice."
+    },
+    {
+      "query": "contract and history identity",
+      "located": "Domain:539-563,908-928,967-1005; T29/T33-T36",
+      "answer": "Actual original/new contract determines affected parties and retry duties; sample treatment is explicit. Independent observedHistory fixes software, old state, prediction3 and observation5. Revising report copies cannot rewrite those objects. R02/R03/R04 correct summary overstatements."
+    },
+    {
+      "query": "specification versus fulfillment",
+      "located": "Adopted Grounds012/specification definitions; Integration:374-407; T02/T07/T09/T20/T38; helper Evidence:25-26,51-59,71-110; Reflexivity:119-160",
+      "answer": "A definition states a predicate/duty; checking it compiles does not fulfill it. Full Inherited and DomainSatisfied are constructed proof bundles. Articulated and Performed are weaker than matched support/ValidApplication; negative assessment can be accurate without positive support."
+    }
+  ],
+  "delivery_docs": {
+    "status": "bounded wording/content checks passed with one precision recommendation and pending live-link execution checks",
+    "recommendation": "reviews/README.md says strong joint-witness and non-entailment statements remain unchanged. Prefer frozen proof goals/requirements remain unchanged, because predicates and elaborated types were substantively repaired; avoid suggesting identical historical declaration objects.",
+    "pending": [
+      "Four generated manuscripts and target/source/code anchors not yet final at this review stage.",
+      "Selected kernel/manuscript-check and portable-copy execution links require actual final object checks; current drafts do not count as their execution evidence."
+    ],
+    "scope": "Five new delivery documents read fully; appended Lean entry paragraphs in three parent documents reviewed. No added philosophical obligation or upgrade from Core 0.1.2 found."
+  }
+}

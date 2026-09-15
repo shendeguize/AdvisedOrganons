@@ -1,0 +1,6 @@
+**/evidence/checks/
+**/leanified/.lake/
+**/leanified/*.olean
+**/leanified/*.ilean
+!**/evidence/lean-audit.log
+!**/evidence/lake-build.log

@@ -38,3 +38,14 @@ htmlcov/
 node_modules/
 
 *.log
+
+# Lean compiler outputs
+*.olean
+
+# Public immutable review evidence required by the manuscript closure
+!/SoftwareEngineering/lean/philosophy/reviews/r3-actual-audit.log
+!/SoftwareEngineering/lean/philosophy/reviews/r3-build.log
+!/SoftwareEngineering/lean/philosophy/reviews/r3-probes.log
+!/SoftwareEngineering/lean/philosophy/reviews/r3-stability-probe.log
+!/SoftwareEngineering/lean/philosophy/reviews/reader-independent-domain-r1-probes-attempt1.log
+!/SoftwareEngineering/lean/philosophy/reviews/reader-independent-domain-r1-probes.log

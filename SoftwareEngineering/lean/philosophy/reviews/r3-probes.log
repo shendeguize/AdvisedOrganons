@@ -1,0 +1,13 @@
+$ lake env lean --stdin
+(2, 3)
+(true, false, false, false)
+(2,
+ 1,
+ [(0, CoreReader.Engineering.Tool.editor, CoreReader.Engineering.Knowledge.changeGuide),
+  (0, CoreReader.Engineering.Tool.contractRunner, CoreReader.Engineering.Knowledge.publicContract),
+  (1, CoreReader.Engineering.Tool.compiler, CoreReader.Engineering.Knowledge.changeGuide),
+  (2, CoreReader.Engineering.Tool.contractRunner, CoreReader.Engineering.Knowledge.publicContract)])
+(true, false, true, false, true)
+CoreReader.Engineering.Reflection.Verdict.counterexample
+
+exit_code=0

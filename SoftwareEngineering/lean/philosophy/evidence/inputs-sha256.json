@@ -1,0 +1,20 @@
+{
+  "run.json": "18a076e48d5b40c97031ddf35a293ef1399c38cc444cf028be21f6d956924b62",
+  "PREREGISTERED.md": "f39cb0e07ace7d0ea330d90f8102f06f8f623d976ad8e0f3e6df729772bfbfcc",
+  "snapshots/PHILOSOPHY.md": "adc8cce5ac55a5e3795f8806748603eb69d5695fa37bbe263bee20ac6c14a1a6",
+  "leanified/lakefile.toml": "05d8ba36975f87aca61e3b0ddcacc42669539f316ba9b8eef5859961e2aa6fdc",
+  "targets.json": "19184f5f301fb5a2f156d09a1d5b4fee5f9e8e9bbc96fdc5fbbc9ccb426287bb",
+  "leanified/CoreReader/Adopted.lean": "8de4d364bb3c64e29ab92e81d86cbe4c9e5af49ada3dad262d1378421fb588c2",
+  "leanified/CoreReader/Agency.lean": "2722c34645f4256f20ce31205738f2f5712ab5dd5cc6fcf9f1180d0be5aa0303",
+  "leanified/CoreReader/Choice.lean": "b28728df12ed7e73edb5569604cd2541c0ebd815ae3aaa0812e6557dece1d1ba",
+  "leanified/CoreReader/Engineering/Domain.lean": "ce5653a2950cc7443cefbfe8b9726bd4859228e831ddb7d42601e501ccbfd855",
+  "leanified/CoreReader/Engineering/Integration.lean": "a2b88062148b3f7ebea7da02d88cb29cb04d8f1b2e9e6b97bb2420ac2c006328",
+  "leanified/CoreReader/Engineering/Reflection.lean": "c290d8472884d00bedbf945f0fc1866524e758740f40d42088c4ff9678a93fa2",
+  "leanified/CoreReader/Engineering/SelfApplication.lean": "d69c0d369bd4fd8db4c21ce3b65abb5e9efd07ed5ab9a68d56b4db39bb9d2a21",
+  "leanified/CoreReader/Engineering/Values.lean": "ccd45bf23d2f47c41d1b2f9955d753e290687d951a0c55af41ab9a63b9a8d9cb",
+  "leanified/CoreReader/Evidence.lean": "d55f33e44902cef146841cbffb65710bd7c8a3bda79d01d084edc36f019fdc96",
+  "leanified/CoreReader/Integration.lean": "97e2939c0b6714b78a3ed78358e174619a5028ad5b0b5025c0d4422b4294921b",
+  "leanified/CoreReader/Logic.lean": "0ec342691766ebd83d251dcd0da3b0ae9840aed677a714bc1b01c45d89392bc0",
+  "leanified/CoreReader/Reflexivity.lean": "48e2c74e7cbae571db1b990b9f32dd0d701f6881a8b0111d907f8861287d76fa",
+  "leanified/CoreReader.lean": "c5574fae235419a7d6449b3ebb5d2da29d1e92a3b572c1b759438e3c470caaa9"
+}

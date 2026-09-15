@@ -1,0 +1,176 @@
+{
+  "format_version": "0.1.0",
+  "document_id": "urn:uuid:4dea4124-d1c4-411f-b052-bb4590d5e077",
+  "document_filename": "PHILOSOPHY.md",
+  "core_version": "0.1.2",
+  "core_source_id": "https://github.com/shendeguize/OrganonCore",
+  "sources": {
+    "https://github.com/shendeguize/OrganonCore": {
+      "kind": "core",
+      "format_version": "0.1.0",
+      "philosophy_version": "0.1.2",
+      "core_version": "0.1.2",
+      "content_hash": "cb23f8a44d6b877ff9b5385961ff8e5fa788f8021ae267cdc8e305870ec20ca7",
+      "sections": {
+        "organon.preamble": "450b06d19fd0e8d4975923efa2d02c47ee1faeafad89f5dd5a4a3ce76828dd5f",
+        "organon.charter": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "organon.charter.overview": "75d7d941d3c07ea748c4a9261d36a75fbd5664ff9c817c4034a9a36a3a12664c",
+        "organon.charter.self-transcendence": "f4ca590e2ae15e3882f70c7b2bc46a8911c97cee547c8b137b5493fbf862c8c0",
+        "organon.charter.self-transcendence.orientation": "7f9b85c0816b3d69e417cf3cbe17b7b59931388f84d799ce6730c998037358bf",
+        "organon.charter.self-transcendence.non-finality": "4ae4497523e79e0606ab3849c47b6ea16f8888a952e063e6966eb36b750f3df8",
+        "organon.charter.self-transcendence.limits": "6dade83f0b7fcc004bdb37b6726c15b31b06a377de4e86d506c9d2e67847029d",
+        "organon.charter.consistency": "c6960c590c096d33250599cf418e3c6a1dc26bfc7d7800c82b8efde656950f42",
+        "organon.charter.consistency.meaning": "81c09e38a3349499f95401d1c08f6069666c13547a43bc4e4395330743055faa",
+        "organon.charter.consistency.limits": "4fa1c29bf95ad6ef04c6d27671a832c0af8ba31b9c0d8018a8d09c4f33c38e75",
+        "organon.charter.reflexivity": "13293b45c2fa89068c68ae7ef3c5df38f0efadb3ef3873d78a5ba67d9691a757",
+        "organon.charter.reflexivity.meaning": "8a2caede01a43d8b6c60b54c78ac089c51868e9956f316948077ccee2e45c9cc",
+        "organon.charter.reflexivity.limits": "ac0baae0d86e69f84c1ca4dee837de2759e2d29c295ffc257d988962158d4bbc",
+        "organon.grounds": "4ee74dc8617388ee75d63b507176ecb73b8527758b648f7c588d3ae7f3445ec6",
+        "organon.grounds.assessment": "ac2f84ce07036731964e26221e6d3ef83c9b647ebe249862eb2bc115856e6e4d",
+        "organon.grounds.scope": "4a0e93c7834e4ef62f129ee4621cf7bf1c93b64d86f9f145d1592adcf9fb6693",
+        "organon.grounds.capabilities": "7249f6f2ef327baaa72349cae53b9245f23a34436356dd05f3c6005cab35e8f0",
+        "organon.grounds.implementations": "bb2a822a304d4a20f513218f356ddbeeca8ee139e3ed802213591e9ff6c5095c",
+        "organon.grounds.implementations.limits": "db9b5f1803baab0e1b05a3a9e068948667412afa7d692e1da3869ca54be4b870",
+        "organon.relationships": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "organon.relationships.roles": "24b533c77fe93d0570da65ee361893f2c445842f48ee6f315f99f8abc06a0e5e",
+        "organon.relationships.terms": "0d22f818e4466a5ab4272607ac0ab26997270cf05c64ce9ac547e866068907d1"
+      },
+      "structure": [
+        {
+          "id": "organon.preamble",
+          "title": "Organon Philosophy: Charter and Grounds",
+          "level": 1,
+          "parent": null
+        },
+        {
+          "id": "organon.charter",
+          "title": "1. Charter",
+          "level": 2,
+          "parent": "organon.preamble"
+        },
+        {
+          "id": "organon.charter.overview",
+          "title": "1.1 Overview",
+          "level": 3,
+          "parent": "organon.charter"
+        },
+        {
+          "id": "organon.charter.self-transcendence",
+          "title": "1.2 Self-Transcendence",
+          "level": 3,
+          "parent": "organon.charter"
+        },
+        {
+          "id": "organon.charter.self-transcendence.orientation",
+          "title": "1.2.1 Generative Orientation",
+          "level": 4,
+          "parent": "organon.charter.self-transcendence"
+        },
+        {
+          "id": "organon.charter.self-transcendence.non-finality",
+          "title": "1.2.2 Non-finality",
+          "level": 4,
+          "parent": "organon.charter.self-transcendence"
+        },
+        {
+          "id": "organon.charter.self-transcendence.limits",
+          "title": "1.2.3 Grounds for Achievement and Limits",
+          "level": 4,
+          "parent": "organon.charter.self-transcendence"
+        },
+        {
+          "id": "organon.charter.consistency",
+          "title": "1.3 Internal Consistency",
+          "level": 3,
+          "parent": "organon.charter"
+        },
+        {
+          "id": "organon.charter.consistency.meaning",
+          "title": "1.3.1 Meaning",
+          "level": 4,
+          "parent": "organon.charter.consistency"
+        },
+        {
+          "id": "organon.charter.consistency.limits",
+          "title": "1.3.2 Conditions and Limits",
+          "level": 4,
+          "parent": "organon.charter.consistency"
+        },
+        {
+          "id": "organon.charter.reflexivity",
+          "title": "1.4 Reflexivity",
+          "level": 3,
+          "parent": "organon.charter"
+        },
+        {
+          "id": "organon.charter.reflexivity.meaning",
+          "title": "1.4.1 Meaning",
+          "level": 4,
+          "parent": "organon.charter.reflexivity"
+        },
+        {
+          "id": "organon.charter.reflexivity.limits",
+          "title": "1.4.2 Conditions and Limits",
+          "level": 4,
+          "parent": "organon.charter.reflexivity"
+        },
+        {
+          "id": "organon.grounds",
+          "title": "2. Grounds",
+          "level": 2,
+          "parent": "organon.preamble"
+        },
+        {
+          "id": "organon.grounds.assessment",
+          "title": "2.1 Articulation and Responsibilities of Assessment",
+          "level": 3,
+          "parent": "organon.grounds"
+        },
+        {
+          "id": "organon.grounds.scope",
+          "title": "2.2 Relations, Scope, and the Limits of Measurement",
+          "level": 3,
+          "parent": "organon.grounds"
+        },
+        {
+          "id": "organon.grounds.capabilities",
+          "title": "2.3 Capability Claims",
+          "level": 3,
+          "parent": "organon.grounds"
+        },
+        {
+          "id": "organon.grounds.implementations",
+          "title": "2.4 Implementation Choices: Openness to Alternatives",
+          "level": 3,
+          "parent": "organon.grounds"
+        },
+        {
+          "id": "organon.grounds.implementations.limits",
+          "title": "2.4.1 Conditions and Limits",
+          "level": 4,
+          "parent": "organon.grounds.implementations"
+        },
+        {
+          "id": "organon.relationships",
+          "title": "3. Relationships and Necessary Terms",
+          "level": 2,
+          "parent": "organon.preamble"
+        },
+        {
+          "id": "organon.relationships.roles",
+          "title": "3.1 Roles and Mutual Constraints",
+          "level": 3,
+          "parent": "organon.relationships"
+        },
+        {
+          "id": "organon.relationships.terms",
+          "title": "3.2 Necessary Terms",
+          "level": 3,
+          "parent": "organon.relationships"
+        }
+      ],
+      "structure_hash": "f33bd82a1c16ea108e4b5114396165a9740691b22d1dfb503a8c86652e7e4005"
+    }
+  },
+  "declined": []
+}

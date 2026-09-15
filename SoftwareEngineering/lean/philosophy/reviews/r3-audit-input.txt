@@ -1,0 +1,1666 @@
+import CoreReader
+set_option pp.universes true
+set_option pp.explicit true
+set_option pp.fullNames true
+#check @CoreReader.Adopted.AssessmentTask
+#check @CoreReader.Adopted.taskOfFacet
+#check @CoreReader.Adopted.NatureAppropriate
+#check @CoreReader.Adopted.taskOfFacetAppropriate
+#check @CoreReader.Adopted.Grounds012
+#check @CoreReader.Adopted.grounds012Singleton
+#check @CoreReader.Adopted.generationSpecification
+#check @CoreReader.Adopted.consistencySpecification
+#check @CoreReader.Adopted.ReflexiveRule
+#check @CoreReader.Adopted.reflexivitySpecification
+#check @CoreReader.Adopted.legacyRule
+#check @CoreReader.Adopted.legacyPerformed
+#check @CoreReader.Adopted.legacyReflexivity
+#check @CoreReader.Adopted.empiricalSpecification
+#check @CoreReader.Adopted.inferentialSpecification
+#check @CoreReader.Adopted.valueSpecification
+#check @CoreReader.Adopted.AssessmentMethod
+#check @CoreReader.Adopted.ScopeAccount
+#check @CoreReader.Adopted.scopeSpecification
+#check @CoreReader.Adopted.capabilitySpecification
+#check @CoreReader.Adopted.choiceSpecification
+#check @CoreReader.Adopted.collaborativeRevision
+#check @CoreReader.Adopted.collaborativeProgress
+#check @CoreReader.Adopted.consistencyConsequences
+#check @CoreReader.Adopted.broadBoolContext
+#check @CoreReader.Adopted.sliceConsistency
+#check @CoreReader.Adopted.explicitlyConsistentLimits
+#check @CoreReader.Adopted.localFacet012
+#check @CoreReader.Adopted.globalFacet012
+#check @CoreReader.Adopted.strongFacet012
+#check @CoreReader.Adopted.localFacetChecked012
+#check @CoreReader.Adopted.scopeStrength012
+#check @CoreReader.Adopted.uncertainFacet012
+#check @CoreReader.Adopted.uncertainSupported012
+#check @CoreReader.Adopted.InferenceExamined
+#check @CoreReader.Adopted.inferenceChecked012
+#check @CoreReader.Adopted.closedPosition012
+#check @CoreReader.Adopted.closedCriticism012
+#check @CoreReader.Adopted.valueFulfilled012
+#check @CoreReader.Adopted.ClaimNoStronger
+#check @CoreReader.Adopted.qualitativeProportionality012
+#check @CoreReader.Adopted.scopeRole012
+#check @CoreReader.Adopted.scopeRoleContent012
+#check @CoreReader.Adopted.localScopeAccount012
+#check @CoreReader.Adopted.scopeFulfilled012
+#check @CoreReader.Adopted.capabilityFulfilled012
+#check @CoreReader.Adopted.MechanismApplication012
+#check @CoreReader.Adopted.mechanism012
+#check @CoreReader.Adopted.UnderstandingApplication012
+#check @CoreReader.Adopted.explainedWithoutVariation012
+#check @CoreReader.Adopted.mechanismResponder012
+#check @CoreReader.Adopted.understandingScope012
+#check @CoreReader.Adopted.understandingTask012
+#check @CoreReader.Adopted.understandingFacet012
+#check @CoreReader.Adopted.mechanismResponderUnderstands012
+#check @CoreReader.Adopted.explainedWithoutVariationFails012
+#check @CoreReader.Adopted.understandingApplicationCases012
+#check @CoreReader.Adopted.OwnCapability012
+#check @CoreReader.Adopted.ownCapability012
+#check @CoreReader.Adopted.CompleteCharter012
+#check @CoreReader.Adopted.completeCharter012
+#check @CoreReader.Adopted.charterWithoutGrounds012
+#check @CoreReader.Adopted.groundsPermission012
+#check @CoreReader.Adopted.GroundsProvision012
+#check @CoreReader.Adopted.groundsProvision012Meaning
+#check @CoreReader.Adopted.groundsExperimentTask012
+#check @CoreReader.Adopted.groundsExperiment012
+#check @CoreReader.Adopted.groundsPosition012
+#check @CoreReader.Adopted.groundsPosition012Checked
+#check @CoreReader.Adopted.groundsRationaleExperiment012
+#check @CoreReader.Adopted.groundsOnGrounds012
+#check @CoreReader.Adopted.reflexiveTargets012
+#check @CoreReader.Adopted.achievementSupported012
+#check @CoreReader.Adopted.semanticOrder012
+#check @CoreReader.Adopted.clearFalseArgument012
+#check @CoreReader.Adopted.clearFalseReason012
+#check @CoreReader.Adopted.valueNeutralRecord012
+#check @CoreReader.Adopted.valueNotFact012
+#check @CoreReader.Adopted.wrongExplanation012
+#check @CoreReader.Adopted.internalReasonDistinguishes012
+#check @CoreReader.Adopted.inventoryCases012
+#check @CoreReader.Adopted.selfExemptRule012
+#check @CoreReader.Adopted.selfExemptPerformed012
+#check @CoreReader.Adopted.openSelfExempt012
+#check @CoreReader.Adopted.ownPhilosophyStatus012
+#check @CoreReader.Adopted.jointContext012
+#check @CoreReader.Adopted.jointImplicationConflict012
+#check @CoreReader.Adopted.tensionContext012
+#check @CoreReader.Adopted.tensionConsistent012
+#check @CoreReader.Adopted.qualitativeUnmeasured012
+#check @CoreReader.Adopted.allStatusOnly012
+#check @CoreReader.Adopted.drawWeight012
+#check @CoreReader.Adopted.randomTrial012
+#check @CoreReader.Adopted.randomOutcomes012
+#check @CoreReader.Adopted.originalGlobalTask012
+#check @CoreReader.Adopted.originalLocalTask012
+#check @CoreReader.Adopted.circularGlobalFacet012
+#check @CoreReader.Adopted.circularGlobalConditional012
+#check @CoreReader.Adopted.circularSubstitutionRejected012
+#check @CoreReader.Adopted.observedPremises012
+#check @CoreReader.Adopted.observedInferenceFacet012
+#check @CoreReader.Adopted.observedInferenceChecked012
+#check @CoreReader.Adopted.sameEmpiricalTaskTwoMethods012
+#check @CoreReader.Adopted.originalUncertaintyTask012
+#check @CoreReader.Adopted.uncertaintyBypassFacet012
+#check @CoreReader.Adopted.uncertaintyBypassChecked012
+#check @CoreReader.Adopted.uncertaintySubstitutionRejected012
+#check @CoreReader.Adopted.selectedFactFacet012
+#check @CoreReader.Adopted.valueFactSubstitutionRejected012
+#check @CoreReader.Adopted.inferentialContextSubstitutionRejected012
+#check @CoreReader.Adopted.generationCases
+#check @CoreReader.Adopted.generationLimits012
+#check @CoreReader.Adopted.consistencyCases
+#check @CoreReader.Adopted.consistencyLimits012
+#check @CoreReader.Adopted.reflexivityCases012
+#check @CoreReader.Adopted.reflexivityLimits012
+#check @CoreReader.Adopted.groundsCases012
+#check @CoreReader.Adopted.empiricalCases012
+#check @CoreReader.Adopted.inferentialCases012
+#check @CoreReader.Adopted.valueCases012
+#check @CoreReader.Adopted.groundsLimits012
+#check @CoreReader.Adopted.scopeCases012
+#check @CoreReader.Adopted.scopeLimits012
+#check @CoreReader.Adopted.capabilityCases012
+#check @CoreReader.Adopted.capabilityLimits012
+#check @CoreReader.Adopted.choiceCases012
+#check @CoreReader.Adopted.choiceLimits012
+#check @CoreReader.Agency.FormKind
+#check @CoreReader.Agency.Form
+#check @CoreReader.Agency.Aim
+#check @CoreReader.Agency.Policy
+#check @CoreReader.Agency.Generative
+#check @CoreReader.Agency.openPolicy
+#check @CoreReader.Agency.neutralPolicy
+#check @CoreReader.Agency.permissionNotValuation
+#check @CoreReader.Agency.revisabilityCovers
+#check @CoreReader.Agency.Operation
+#check @CoreReader.Agency.Operation.run
+#check @CoreReader.Agency.InventoryKind
+#check @CoreReader.Agency.Item
+#check @CoreReader.Agency.Available
+#check @CoreReader.Agency.inventoryNotCapability
+#check @CoreReader.Agency.State
+#check @CoreReader.Agency.Expanded
+#check @CoreReader.Agency.baseState
+#check @CoreReader.Agency.inflatedState
+#check @CoreReader.Agency.stableTrace
+#check @CoreReader.Agency.revisionWithoutProgress
+#check @CoreReader.Agency.ExternalResources
+#check @CoreReader.Agency.assistedExecution
+#check @CoreReader.Agency.availableResources
+#check @CoreReader.Agency.StableReason
+#check @CoreReader.Agency.GeneratingSystem
+#check @CoreReader.Agency.generatingSystem
+#check @CoreReader.Agency.GeneratingSystem.stableAction
+#check @CoreReader.Agency.GeneratingSystem.requirementsMet
+#check @CoreReader.Agency.GeneratingSystem.withinBudget
+#check @CoreReader.Agency.Announcement
+#check @CoreReader.Agency.GeneratingSystem.report
+#check @CoreReader.Agency.Announcement.claim
+#check @CoreReader.Agency.announcementClaimImpliesExpansion
+#check @CoreReader.Agency.inflatedAnnouncement
+#check @CoreReader.Agency.inflatedAnnouncementRefuted
+#check @CoreReader.Agency.TransitionCase
+#check @CoreReader.Agency.extendedState
+#check @CoreReader.Agency.transitionBefore
+#check @CoreReader.Agency.transitionAfter
+#check @CoreReader.Agency.transitionInput
+#check @CoreReader.Agency.transitionAnnouncement
+#check @CoreReader.Agency.generationLimits
+#check @CoreReader.Agency.generationNotReflexivity
+#check @CoreReader.Agency.ownArithmeticPrinciple
+#check @CoreReader.Agency.selfTest
+#check @CoreReader.Agency.selfTestDoesNotProve
+#check @CoreReader.Choice.StatusKind
+#check @CoreReader.Choice.MethodReason
+#check @CoreReader.Choice.Reason
+#check @CoreReader.Choice.Implementation
+#check @CoreReader.Choice.Requirements
+#check @CoreReader.Choice.MethodContent
+#check @CoreReader.Choice.Relevant
+#check @CoreReader.Choice.Feasible
+#check @CoreReader.Choice.JustifiedChoice
+#check @CoreReader.Choice.statusOnlyFails
+#check @CoreReader.Choice.identityImpl
+#check @CoreReader.Choice.successorImpl
+#check @CoreReader.Choice.changedOutsideZero
+#check @CoreReader.Choice.identityRequirements
+#check @CoreReader.Choice.objectiveReason
+#check @CoreReader.Choice.identityOutputReason
+#check @CoreReader.Choice.identityFeasible
+#check @CoreReader.Choice.identityJustified
+#check @CoreReader.Choice.conventionWithReason
+#check @CoreReader.Choice.Candidate
+#check @CoreReader.Choice.implementation
+#check @CoreReader.Choice.singleFeasible
+#check @CoreReader.Choice.localNotGlobal
+#check @CoreReader.Choice.cheapSuccessor
+#check @CoreReader.Choice.eligibleInternalReasonNotSufficient
+#check @CoreReader.Choice.internalReasons
+#check @CoreReader.Choice.openNotEquivalent
+#check @CoreReader.Choice.priorityClaim
+#check @CoreReader.Choice.statusFacts
+#check @CoreReader.Choice.statusFactsModel
+#check @CoreReader.Choice.priorityArticulation
+#check @CoreReader.Choice.AssessmentAccurate
+#check @CoreReader.Choice.statusDoesNotEntailPriority
+#check @CoreReader.Choice.statusAssessmentNonEntailment
+#check @CoreReader.Choice.PriorityAssessment
+#check @CoreReader.Choice.PriorityAssessment.accurate
+#check @CoreReader.Choice.statusPriorityAudit
+#check @CoreReader.Choice.ChoicePolicy
+#check @CoreReader.Choice.GeneralAssessmentFulfilled
+#check @CoreReader.Choice.AdditionalChoiceNorm
+#check @CoreReader.Choice.statusPriorityPolicy
+#check @CoreReader.Choice.outputPriorityPolicy
+#check @CoreReader.Choice.statusPriorityAuditAccurate
+#check @CoreReader.Choice.PolicyIndependenceExample
+#check @CoreReader.Choice.policyIndependenceExample
+#check @CoreReader.Choice.generalGroundsNotChoice
+#check @CoreReader.Engineering.Maintainer
+#check @CoreReader.Engineering.Tool
+#check @CoreReader.Engineering.Knowledge
+#check @CoreReader.Engineering.Change
+#check @CoreReader.Engineering.Candidate
+#check @CoreReader.Engineering.Burden
+#check @CoreReader.Engineering.maintainers
+#check @CoreReader.Engineering.changes
+#check @CoreReader.Engineering.burdens
+#check @CoreReader.Engineering.Activity
+#check @CoreReader.Engineering.ActivityScope
+#check @CoreReader.Engineering.Continuing
+#check @CoreReader.Engineering.BoundedLifecycle
+#check @CoreReader.Engineering.continuingActivity
+#check @CoreReader.Engineering.temporaryActivity
+#check @CoreReader.Engineering.prototypeActivity
+#check @CoreReader.Engineering.retiringActivity
+#check @CoreReader.Engineering.EditStep
+#check @CoreReader.Engineering.changePath
+#check @CoreReader.Engineering.changeWork
+#check @CoreReader.Engineering.CanChange
+#check @CoreReader.Engineering.ContinuingCapability
+#check @CoreReader.Engineering.registeredDirections
+#check @CoreReader.Engineering.supportedDirections
+#check @CoreReader.Engineering.MaximumRegisteredCapability
+#check @CoreReader.Engineering.passiveArtifact
+#check @CoreReader.Engineering.orientation
+#check @CoreReader.Engineering.EngineeringAction
+#check @CoreReader.Engineering.maintainerActions
+#check @CoreReader.Engineering.artifactActions
+#check @CoreReader.Engineering.subjectLifecycleCases
+#check @CoreReader.Engineering.subjectLimits
+#check @CoreReader.Engineering.CredibleDirection
+#check @CoreReader.Engineering.DirectionGround
+#check @CoreReader.Engineering.articulateGround
+#check @CoreReader.Engineering.supportGround
+#check @CoreReader.Engineering.initialGrounds
+#check @CoreReader.Engineering.forecastGrounds
+#check @CoreReader.Engineering.credible
+#check @CoreReader.Engineering.WarrantedAccommodation
+#check @CoreReader.Engineering.credibilityCases
+#check @CoreReader.Engineering.abstractionComplexity
+#check @CoreReader.Engineering.implementedVariants
+#check @CoreReader.Engineering.CostVector
+#check @CoreReader.Engineering.CostLimits
+#check @CoreReader.Engineering.cost
+#check @CoreReader.Engineering.normalLimits
+#check @CoreReader.Engineering.Requirements
+#check @CoreReader.Engineering.normalRequirements
+#check @CoreReader.Engineering.behavior
+#check @CoreReader.Engineering.CandidateProfile
+#check @CoreReader.Engineering.profile
+#check @CoreReader.Engineering.Meets
+#check @CoreReader.Engineering.Context
+#check @CoreReader.Engineering.currentContinuing
+#check @CoreReader.Engineering.ConcreteThreat
+#check @CoreReader.Engineering.HasThreat
+#check @CoreReader.Engineering.JustifiedDeparture
+#check @CoreReader.Engineering.PriorityConditions
+#check @CoreReader.Engineering.EvolutionPriority
+#check @CoreReader.Engineering.currentPriorityConditions
+#check @CoreReader.Engineering.currentNoThreat
+#check @CoreReader.Engineering.threatened
+#check @CoreReader.Engineering.priorityWhenApplicable
+#check @CoreReader.Engineering.currentSimpleViolates
+#check @CoreReader.Engineering.withEvolvableProfile
+#check @CoreReader.Engineering.unmetRequirementsBlockPriority
+#check @CoreReader.Engineering.priorityConditionsCases
+#check @CoreReader.Engineering.priorityChoices
+#check @CoreReader.Engineering.credibilityLimits
+#check @CoreReader.Engineering.costCases
+#check @CoreReader.Engineering.orderedUnique
+#check @CoreReader.Engineering.orderedRefactor
+#check @CoreReader.Engineering.insertOrdered
+#check @CoreReader.Engineering.sortValues
+#check @CoreReader.Engineering.sortedUnique
+#check @CoreReader.Engineering.SoftwareState
+#check @CoreReader.Engineering.originalSoftware
+#check @CoreReader.Engineering.transform
+#check @CoreReader.Engineering.evolutionBehavior
+#check @CoreReader.Engineering.ObligationTreatment
+#check @CoreReader.Engineering.ChangeClaim
+#check @CoreReader.Engineering.contractInputs
+#check @CoreReader.Engineering.PreservesOn
+#check @CoreReader.Engineering.PreservesFinite
+#check @CoreReader.Engineering.ObservableContract
+#check @CoreReader.Engineering.retry
+#check @CoreReader.Engineering.orderContract
+#check @CoreReader.Engineering.originalContract
+#check @CoreReader.Engineering.refactoredContract
+#check @CoreReader.Engineering.revisedContract
+#check @CoreReader.Engineering.evolutionContract
+#check @CoreReader.Engineering.failureInputs
+#check @CoreReader.Engineering.PreservesContractFinite
+#check @CoreReader.Engineering.ContractAspect
+#check @CoreReader.Engineering.PartyDependency
+#check @CoreReader.Engineering.partyDependencies
+#check @CoreReader.Engineering.aspectChanged
+#check @CoreReader.Engineering.affectedParties
+#check @CoreReader.Engineering.ContractRevision
+#check @CoreReader.Engineering.normalRevision
+#check @CoreReader.Engineering.RevisionDuties
+#check @CoreReader.Engineering.ContractChangeAccount
+#check @CoreReader.Engineering.EvolutionClaim
+#check @CoreReader.Engineering.evolutionKindsCases
+#check @CoreReader.Engineering.evolutionDimensionsLimits
+#check @CoreReader.Engineering.oneDimensionDoesNotEntailEveryDimension
+#check @CoreReader.Engineering.propagation
+#check @CoreReader.Engineering.batchCount
+#check @CoreReader.Engineering.staticBatch
+#check @CoreReader.Engineering.liveBatch
+#check @CoreReader.Engineering.StructuralEvidence
+#check @CoreReader.Engineering.structuralEvidence
+#check @CoreReader.Engineering.StructuralAccount
+#check @CoreReader.Engineering.InterfaceView
+#check @CoreReader.Engineering.sameShape
+#check @CoreReader.Engineering.moduleAssumptions
+#check @CoreReader.Engineering.modulesNeedingRevision
+#check @CoreReader.Engineering.Boundary
+#check @CoreReader.Engineering.EngineeringDesign
+#check @CoreReader.Engineering.privateDesign
+#check @CoreReader.Engineering.documentedDesign
+#check @CoreReader.Engineering.sortedDesign
+#check @CoreReader.Engineering.coordinatedBoundary
+#check @CoreReader.Engineering.boundaryDesign
+#check @CoreReader.Engineering.crossesBoundary
+#check @CoreReader.Engineering.boundaryObligationChecked
+#check @CoreReader.Engineering.omittedCallerCheck
+#check @CoreReader.Engineering.otherCalleeBoundary
+#check @CoreReader.Engineering.otherCalleeDesign
+#check @CoreReader.Engineering.actualCrossBoundaryObligation
+#check @CoreReader.Engineering.structuralCases
+#check @CoreReader.Engineering.DesignCanChange
+#check @CoreReader.Engineering.designWork
+#check @CoreReader.Engineering.designModulesNeedingRevision
+#check @CoreReader.Engineering.introduceBoundary
+#check @CoreReader.Engineering.wrappedDesign
+#check @CoreReader.Engineering.relocateVerification
+#check @CoreReader.Engineering.sameWorkDesign
+#check @CoreReader.Engineering.structureNotCapability
+#check @CoreReader.Engineering.contractPreservation
+#check @CoreReader.Engineering.changedObservationNotPreserved
+#check @CoreReader.Engineering.contractRevisionObligations
+#check @CoreReader.Engineering.retiredBehavior
+#check @CoreReader.Engineering.contractCases
+#check @CoreReader.Engineering.contractDistinctions
+#check @CoreReader.Engineering.RevisionState
+#check @CoreReader.Engineering.RevisionRecord
+#check @CoreReader.Engineering.MaterialGroundsChanged
+#check @CoreReader.Engineering.oldState
+#check @CoreReader.Engineering.newState
+#check @CoreReader.Engineering.HistoricalEvidence
+#check @CoreReader.Engineering.observedHistory
+#check @CoreReader.Engineering.RevisionAccountAgainst
+#check @CoreReader.Engineering.RevisionAccount
+#check @CoreReader.Engineering.failedHistoryNotRewritten
+#check @CoreReader.Engineering.revisionRecord
+#check @CoreReader.Engineering.SupportedAlternative
+#check @CoreReader.Engineering.RetentionJustified
+#check @CoreReader.Engineering.stableRecord
+#check @CoreReader.Engineering.revisionCases
+#check @CoreReader.Engineering.observations
+#check @CoreReader.Engineering.revisionsMade
+#check @CoreReader.Engineering.agreedBatch
+#check @CoreReader.Engineering.rewrittenOldRecord
+#check @CoreReader.Engineering.rewrittenPredictionRecord
+#check @CoreReader.Engineering.rewrittenObservationRecord
+#check @CoreReader.Engineering.unrelatedSoftwareRecord
+#check @CoreReader.Engineering.historicalTamperingRejected
+#check @CoreReader.Engineering.revisionLimits
+#check @CoreReader.Engineering.groundedChanges
+#check @CoreReader.Engineering.currentRevisionState
+#check @CoreReader.Engineering.revisionFor
+#check @CoreReader.Engineering.revisionContextIdentity
+#check @CoreReader.Engineering.DomainSatisfied
+#check @CoreReader.Engineering.currentDomainSatisfied
+#check @CoreReader.Engineering.sharedContext
+#check @CoreReader.Engineering.maintainedOutput
+#check @CoreReader.Engineering.chosenImplementation
+#check @CoreReader.Engineering.chosenRequirements
+#check @CoreReader.Engineering.chosenReasons
+#check @CoreReader.Engineering.maintainedOutputCorrect
+#check @CoreReader.Engineering.implementationReasoned
+#check @CoreReader.Engineering.capabilityOutput
+#check @CoreReader.Engineering.engineeringProcess
+#check @CoreReader.Engineering.engineeringCapability
+#check @CoreReader.Engineering.engineeringCapabilityGrounded
+#check @CoreReader.Engineering.actualCapabilityContrast
+#check @CoreReader.Engineering.presentBudgetRecord
+#check @CoreReader.Engineering.presentBudgetClaim
+#check @CoreReader.Engineering.budgetObservationMeaning
+#check @CoreReader.Engineering.budgetEmpiricalFacet
+#check @CoreReader.Engineering.budgetEmpiricalDischarged
+#check @CoreReader.Engineering.capacityClaim
+#check @CoreReader.Engineering.capacityAssumptions
+#check @CoreReader.Engineering.budgetInferentialFacet
+#check @CoreReader.Engineering.budgetInferentialDischarged
+#check @CoreReader.Engineering.budgetScopeAccount
+#check @CoreReader.Engineering.budgetScopeExplained
+#check @CoreReader.Engineering.budgetObservationLimit
+#check @CoreReader.Engineering.engineeringPolicy
+#check @CoreReader.Engineering.engineeringGenerative
+#check @CoreReader.Engineering.OwnFact
+#check @CoreReader.Engineering.ownFactClaim
+#check @CoreReader.Engineering.actualOwnFact
+#check @CoreReader.Engineering.ownFactPremises
+#check @CoreReader.Engineering.actualOwnFactGrounded
+#check @CoreReader.Engineering.priorityValueMeaning
+#check @CoreReader.Engineering.priorityGrounds
+#check @CoreReader.Engineering.OwnNorm
+#check @CoreReader.Engineering.normApplies
+#check @CoreReader.Engineering.ownNormClaim
+#check @CoreReader.Engineering.actualOwnNorm
+#check @CoreReader.Engineering.ownFactTheory
+#check @CoreReader.Engineering.ownNormTheory
+#check @CoreReader.Engineering.ownTheory
+#check @CoreReader.Engineering.allNormativeContentHeld
+#check @CoreReader.Engineering.nonemptyOwnObjects
+#check @CoreReader.Engineering.comparisonContext
+#check @CoreReader.Engineering.engineeringSnapshot
+#check @CoreReader.Engineering.currentAdmissible
+#check @CoreReader.Engineering.currentConsistency
+#check @CoreReader.Engineering.wholeClaimGrounded
+#check @CoreReader.Engineering.incompatibleNormTheory
+#check @CoreReader.Engineering.incompatibleNormContext
+#check @CoreReader.Engineering.normativeContentVariation
+#check @CoreReader.Engineering.Inherited
+#check @CoreReader.Engineering.inheritedCurrent
+#check @CoreReader.Engineering.inheritedMutualApplication
+#check @CoreReader.Engineering.inheritedMutualCases
+#check @CoreReader.Engineering.priorityRemainsReflexive
+#check @CoreReader.Engineering.priorityReflexiveCases
+#check @CoreReader.Engineering.jointWitness
+#check @CoreReader.Engineering.inheritedDoesNotEntailPriority
+#check @CoreReader.Engineering.Reflection.Target
+#check @CoreReader.Engineering.Reflection.Contract
+#check @CoreReader.Engineering.Reflection.Input
+#check @CoreReader.Engineering.Reflection.Verdict
+#check @CoreReader.Engineering.Reflection.Outcome
+#check @CoreReader.Engineering.Reflection.evaluate
+#check @CoreReader.Engineering.Reflection.generate
+#check @CoreReader.Engineering.Reflection.interpret
+#check @CoreReader.Engineering.Reflection.Model
+#check @CoreReader.Engineering.Reflection.Model.input
+#check @CoreReader.Engineering.Reflection.Model.self
+#check @CoreReader.Engineering.Reflection.Model.rule
+#check @CoreReader.Engineering.Reflection.Model.rules
+#check @CoreReader.Engineering.Reflection.Model.performed
+#check @CoreReader.Engineering.Reflection.Model.follows
+#check @CoreReader.Engineering.Reflection.recordedReflexivity
+#check @CoreReader.Engineering.ReviewObject
+#check @CoreReader.Engineering.ReviewCase
+#check @CoreReader.Engineering.generationApplies
+#check @CoreReader.Engineering.assessmentApplies
+#check @CoreReader.Engineering.ruleObject
+#check @CoreReader.Engineering.ruleProbe
+#check @CoreReader.Engineering.generationRuleTest
+#check @CoreReader.Engineering.assessmentRuleTest
+#check @CoreReader.Engineering.sampleAwareAssessment
+#check @CoreReader.Engineering.objectTest
+#check @CoreReader.Engineering.reviewObjects
+#check @CoreReader.Engineering.requestedCases
+#check @CoreReader.Engineering.reviewReasons
+#check @CoreReader.Engineering.statedReview
+#check @CoreReader.Engineering.reviewBasis
+#check @CoreReader.Engineering.selfModel
+#check @CoreReader.Engineering.reviewIdentity
+#check @CoreReader.Engineering.currentSelfRecords
+#check @CoreReader.Engineering.currentSelfApplication
+#check @CoreReader.Engineering.actualSelfCriticism
+#check @CoreReader.Engineering.ownRuleIdentity
+#check @CoreReader.Engineering.ownRuleContentVariation
+#check @CoreReader.Engineering.proposedRuleRevision
+#check @CoreReader.Engineering.CoreCommitment
+#check @CoreReader.Engineering.coreCommitments
+#check @CoreReader.Engineering.coreAdopted
+#check @CoreReader.Engineering.AdoptionReason
+#check @CoreReader.Engineering.reasonFor
+#check @CoreReader.Engineering.ReasonRelevant
+#check @CoreReader.Engineering.valueScope
+#check @CoreReader.Engineering.safeguardExperiment
+#check @CoreReader.Engineering.criticismFor
+#check @CoreReader.Engineering.governancePosition
+#check @CoreReader.Engineering.adoptionReasonRelevant
+#check @CoreReader.Engineering.safeguardEnabled
+#check @CoreReader.Engineering.safeguardDisabled
+#check @CoreReader.Engineering.governanceValueProcedure
+#check @CoreReader.Engineering.governanceGrounded
+#check @CoreReader.Engineering.governanceRationaleLimits
+#check @CoreReader.Engineering.selectionObjective
+#check @CoreReader.Engineering.selectionPosition
+#check @CoreReader.Engineering.selectionValueProcedure
+#check @CoreReader.Engineering.selectionGrounded
+#check @CoreReader.Evidence.Record
+#check @CoreReader.Evidence.Compatible
+#check @CoreReader.Evidence.Supports
+#check @CoreReader.Evidence.Articulation
+#check @CoreReader.Evidence.Articulated
+#check @CoreReader.Evidence.ValuePosition
+#check @CoreReader.Evidence.ValuePosition.commitment
+#check @CoreReader.Evidence.ValuePosition.consequence
+#check @CoreReader.Evidence.ValuePosition.activeReasons
+#check @CoreReader.Evidence.JointAdoption
+#check @CoreReader.Evidence.ValueProcedure
+#check @CoreReader.Evidence.Facet
+#check @CoreReader.Evidence.Facet.claim
+#check @CoreReader.Evidence.FacetDischarged
+#check @CoreReader.Evidence.FacetArticulated
+#check @CoreReader.Evidence.canonicalArticulation
+#check @CoreReader.Evidence.canonicalFacetArticulated
+#check @CoreReader.Evidence.canonicalArticulated
+#check @CoreReader.Evidence.Grounds
+#check @CoreReader.Evidence.AchievementAccountability
+#check @CoreReader.Evidence.transitionAchievement
+#check @CoreReader.Evidence.transitionPerformanceRecord
+#check @CoreReader.Evidence.transitionReportRecord
+#check @CoreReader.Evidence.transitionPerformanceCompatible
+#check @CoreReader.Evidence.transitionSupported
+#check @CoreReader.Evidence.transitionFacet
+#check @CoreReader.Evidence.transitionFacetDischarged
+#check @CoreReader.Evidence.transitionAccountable
+#check @CoreReader.Evidence.transitionReportCompatible
+#check @CoreReader.Evidence.transitionReportDoesNotSupport
+#check @CoreReader.Evidence.ConcreteAchievementExample
+#check @CoreReader.Evidence.concreteAchievementExample
+#check @CoreReader.Evidence.achievementNeedsSupport
+#check @CoreReader.Evidence.supportWeakening
+#check @CoreReader.Evidence.evidenceWeakeningCanLoseSupport
+#check @CoreReader.Evidence.scopeRestriction
+#check @CoreReader.Evidence.Duties
+#check @CoreReader.Evidence.LabeledDuties
+#check @CoreReader.Evidence.assessmentUnion
+#check @CoreReader.Evidence.labelsCannotWaive
+#check @CoreReader.Evidence.switchRecord
+#check @CoreReader.Evidence.switchCompatible
+#check @CoreReader.Evidence.switchSupported
+#check @CoreReader.Evidence.optionBenefit
+#check @CoreReader.Evidence.optionCost
+#check @CoreReader.Evidence.optionReport
+#check @CoreReader.Evidence.switchPosition
+#check @CoreReader.Evidence.switchValueProcedure
+#check @CoreReader.Evidence.oppositePosition
+#check @CoreReader.Evidence.oppositePositionRejected
+#check @CoreReader.Evidence.contradictoryStartingPosition
+#check @CoreReader.Evidence.impossibleAdoptionPosition
+#check @CoreReader.Evidence.inadmissibleValuePositionsRejected
+#check @CoreReader.Evidence.unsupportedPosition
+#check @CoreReader.Evidence.switchEmpirical
+#check @CoreReader.Evidence.switchEmpiricalDischarged
+#check @CoreReader.Evidence.mixedMissingResponsibility
+#check @CoreReader.Evidence.uninformativeArgument
+#check @CoreReader.Evidence.articulationNotSupport
+#check @CoreReader.Evidence.unrelatedArticulationRejected
+#check @CoreReader.Evidence.temperatureRecord
+#check @CoreReader.Evidence.temperatureCompatible
+#check @CoreReader.Evidence.BudgetWorld
+#check @CoreReader.Evidence.announcement
+#check @CoreReader.Evidence.announcementPosition
+#check @CoreReader.Evidence.announcementHasJointAdoption
+#check @CoreReader.Evidence.announcementNotBudgetReason
+#check @CoreReader.Evidence.actionRecord
+#check @CoreReader.Evidence.actionCompatible
+#check @CoreReader.Evidence.measurementRepeatNotSupport
+#check @CoreReader.Evidence.selfAssertionNotReason
+#check @CoreReader.Evidence.valueWithoutSelfProof
+#check @CoreReader.Evidence.BenefitCostWorld
+#check @CoreReader.Evidence.measuredOutcome
+#check @CoreReader.Evidence.benefitReason
+#check @CoreReader.Evidence.costReason
+#check @CoreReader.Evidence.jointReasonPosition
+#check @CoreReader.Evidence.jointReasonProcedure
+#check @CoreReader.Evidence.JointReasonsExample
+#check @CoreReader.Evidence.jointReasonsExample
+#check @CoreReader.Evidence.heterogeneousReasons
+#check @CoreReader.Evidence.zeroRecord
+#check @CoreReader.Evidence.localGenerator
+#check @CoreReader.Evidence.allTrue
+#check @CoreReader.Evidence.zeroCompatible
+#check @CoreReader.Evidence.GeneratingProcess
+#check @CoreReader.Evidence.GeneratingProcess.outputRevision
+#check @CoreReader.Evidence.ProducedRevision
+#check @CoreReader.Evidence.GeneratingProcess.produce
+#check @CoreReader.Evidence.sampleGeneratingProcess
+#check @CoreReader.Evidence.OwnedRevisionExample
+#check @CoreReader.Evidence.ownedRevisionExample
+#check @CoreReader.Evidence.selfOriginDoesNotSupport
+#check @CoreReader.Evidence.localNotUniversal
+#check @CoreReader.Evidence.hiddenDifference
+#check @CoreReader.Evidence.singleObservation
+#check @CoreReader.Evidence.arithmeticFacet
+#check @CoreReader.Evidence.usesObservation
+#check @CoreReader.Evidence.noUniversalChain
+#check @CoreReader.Evidence.Trial
+#check @CoreReader.Evidence.Verified
+#check @CoreReader.Evidence.Reproduced
+#check @CoreReader.Evidence.Bounded
+#check @CoreReader.Evidence.variableOutcomesStableBound
+#check @CoreReader.Evidence.verificationReproductionStability
+#check @CoreReader.Evidence.Program
+#check @CoreReader.Evidence.Program.eval
+#check @CoreReader.Evidence.Process
+#check @CoreReader.Evidence.OutputContract
+#check @CoreReader.Evidence.ExplanationContract
+#check @CoreReader.Evidence.outputOnlyProcess
+#check @CoreReader.Evidence.explainedProcess
+#check @CoreReader.Evidence.processScope
+#check @CoreReader.Evidence.processContractFacet
+#check @CoreReader.Evidence.processScopeModels
+#check @CoreReader.Evidence.processContractDischarged
+#check @CoreReader.Evidence.ProcessGrounds
+#check @CoreReader.Evidence.processGrounds
+#check @CoreReader.Evidence.outputCorrectByEvaluation
+#check @CoreReader.Evidence.outputOnlyNoExplanation
+#check @CoreReader.Evidence.FullProcessContract
+#check @CoreReader.Evidence.OutputContractEvidence
+#check @CoreReader.Evidence.outputContractEvidence
+#check @CoreReader.Evidence.ScopedApplicationEvidence
+#check @CoreReader.Evidence.scopedApplicationEvidence
+#check @CoreReader.Evidence.outputNotExplanation
+#check @CoreReader.Evidence.applicationContractsDiffer
+#check @CoreReader.Evidence.ExternalCertificate
+#check @CoreReader.Evidence.externalOutputCertificate
+#check @CoreReader.Evidence.externalAssessment
+#check @CoreReader.Evidence.arithmeticArticulation
+#check @CoreReader.Evidence.nonExecutableAssessment
+#check @CoreReader.Integration.canonicalGrounds
+#check @CoreReader.Integration.canonicalGroundsForSingleton
+#check @CoreReader.Integration.Mode
+#check @CoreReader.Integration.World
+#check @CoreReader.Integration.actual
+#check @CoreReader.Integration.Method
+#check @CoreReader.Integration.System
+#check @CoreReader.Integration.policyFor
+#check @CoreReader.Integration.workFor
+#check @CoreReader.Integration.System.policy
+#check @CoreReader.Integration.System.rules
+#check @CoreReader.Integration.System.work
+#check @CoreReader.Integration.actualSystem
+#check @CoreReader.Integration.systemCapability
+#check @CoreReader.Integration.systemBudget
+#check @CoreReader.Integration.systemObservation
+#check @CoreReader.Integration.systemHeld
+#check @CoreReader.Integration.Question
+#check @CoreReader.Integration.systemContext
+#check @CoreReader.Integration.capability
+#check @CoreReader.Integration.observation
+#check @CoreReader.Integration.held
+#check @CoreReader.Integration.context
+#check @CoreReader.Integration.observationIdentifies
+#check @CoreReader.Integration.capabilityActual
+#check @CoreReader.Integration.observedCapability
+#check @CoreReader.Integration.capabilityFacet
+#check @CoreReader.Integration.capabilityFacetChecked
+#check @CoreReader.Integration.capabilityGrounds
+#check @CoreReader.Integration.actualAdmissible
+#check @CoreReader.Integration.jointConsistent
+#check @CoreReader.Integration.Charter
+#check @CoreReader.Integration.charterChecked
+#check @CoreReader.Integration.revisedHeld
+#check @CoreReader.Integration.initialSnapshot
+#check @CoreReader.Integration.revisedSnapshot
+#check @CoreReader.Integration.revisionKeepsConsistency
+#check @CoreReader.Integration.OwnCapabilityDuty
+#check @CoreReader.Integration.ownCapabilityGrounded
+#check @CoreReader.Integration.costAllowanceRecord
+#check @CoreReader.Integration.unsupportedCapabilityFacet
+#check @CoreReader.Integration.costCompatibleWithFailure
+#check @CoreReader.Integration.costDoesNotSupportOutput
+#check @CoreReader.Integration.unsupportedGrounds
+#check @CoreReader.Integration.Commitment
+#check @CoreReader.Integration.groundsPermission
+#check @CoreReader.Integration.GroundsProvision
+#check @CoreReader.Integration.groundsProvisionMeaning
+#check @CoreReader.Integration.consistencyPermission
+#check @CoreReader.Integration.conflictingHeld
+#check @CoreReader.Integration.conflictConsequences
+#check @CoreReader.Integration.conflictingHeldInconsistent
+#check @CoreReader.Integration.choicePermission
+#check @CoreReader.Integration.proposedOperation
+#check @CoreReader.Integration.selfSamples
+#check @CoreReader.Integration.conflictDecision
+#check @CoreReader.Integration.groundsDecision
+#check @CoreReader.Integration.choiceDecision
+#check @CoreReader.Integration.decisionsApply
+#check @CoreReader.Integration.decisionsWaive
+#check @CoreReader.Integration.commitmentPositionFor
+#check @CoreReader.Integration.commitmentPosition
+#check @CoreReader.Integration.positionReasons
+#check @CoreReader.Integration.positionConsequence
+#check @CoreReader.Integration.positionProcedure
+#check @CoreReader.Integration.criticismWithinScope
+#check @CoreReader.Integration.oppositeConsequenceFails
+#check @CoreReader.Integration.oppositeProcedureRejected
+#check @CoreReader.Integration.commitmentClaim
+#check @CoreReader.Integration.commitmentFacet
+#check @CoreReader.Integration.reasonsBelongToCommitments
+#check @CoreReader.Integration.groundsCommitmentIsProvision
+#check @CoreReader.Integration.groundsSelfAssessment
+#check @CoreReader.Integration.PhilosophyMethod
+#check @CoreReader.Integration.currentPhilosophy
+#check @CoreReader.Integration.PhilosophyMethod.review
+#check @CoreReader.Integration.PhilosophyMethod.implementation
+#check @CoreReader.Integration.proposalRequirements
+#check @CoreReader.Integration.currentReviewCorrect
+#check @CoreReader.Integration.existingPhilosophyNotPrivileged
+#check @CoreReader.Integration.applicationClaim
+#check @CoreReader.Integration.ApplicationDuties
+#check @CoreReader.Integration.applicationRetainsDuties
+#check @CoreReader.Integration.outputContract
+#check @CoreReader.Integration.successorRequirements
+#check @CoreReader.Integration.changedObjectiveFacet
+#check @CoreReader.Integration.applicationVariation
+#check @CoreReader.Integration.charterNotGrounds
+#check @CoreReader.Integration.jointWitness
+#check @CoreReader.Logic.Claim
+#check @CoreReader.Logic.Theory
+#check @CoreReader.Logic.Models
+#check @CoreReader.Logic.Entails
+#check @CoreReader.Logic.Satisfiable
+#check @CoreReader.Logic.Context
+#check @CoreReader.Logic.Admissible
+#check @CoreReader.Logic.Consequence
+#check @CoreReader.Logic.Consistent
+#check @CoreReader.Logic.consequenceConsistency
+#check @CoreReader.Logic.emptyTheory
+#check @CoreReader.Logic.singleton
+#check @CoreReader.Logic.union
+#check @CoreReader.Logic.modelsSingleton
+#check @CoreReader.Logic.modelsUnion
+#check @CoreReader.Logic.premiseP
+#check @CoreReader.Logic.premiseRule
+#check @CoreReader.Logic.premiseNotQ
+#check @CoreReader.Logic.jointTheory
+#check @CoreReader.Logic.jointConflict
+#check @CoreReader.Logic.revisionSlice
+#check @CoreReader.Logic.revisionCanReverse
+#check @CoreReader.Logic.onQuestion
+#check @CoreReader.Logic.assumptionContext
+#check @CoreReader.Logic.meaningContext
+#check @CoreReader.Logic.scopeContext
+#check @CoreReader.Logic.contextDifferences
+#check @CoreReader.Logic.Snapshot
+#check @CoreReader.Logic.SameContent
+#check @CoreReader.Logic.TruthfulReport
+#check @CoreReader.Logic.semanticChangeMustBeReported
+#check @CoreReader.Logic.representationOrderIrrelevant
+#check @CoreReader.Logic.contextSnapshot
+#check @CoreReader.Logic.hiddenContextChangeRejected
+#check @CoreReader.Logic.tensionWithoutContradiction
+#check @CoreReader.Logic.conflictRequiresChange
+#check @CoreReader.Logic.consistentFalse
+#check @CoreReader.Logic.consistentIncomplete
+#check @CoreReader.Logic.compatibilityNotEntailment
+#check @CoreReader.Agency.Phase
+#check @CoreReader.Agency.PrincipleKey
+#check @CoreReader.Agency.Subject
+#check @CoreReader.Agency.Subject.owner
+#check @CoreReader.Agency.Activity
+#check @CoreReader.Agency.QuestionKind
+#check @CoreReader.Agency.SampleProgram
+#check @CoreReader.Agency.SampleProgram.run
+#check @CoreReader.Agency.MethodDraft
+#check @CoreReader.Agency.MethodDraft.accepts
+#check @CoreReader.Agency.Inquiry
+#check @CoreReader.Agency.ReasonContent
+#check @CoreReader.Agency.ReasonContent.identifier
+#check @CoreReader.Agency.ReasonObject
+#check @CoreReader.Agency.AssessmentResult
+#check @CoreReader.Agency.WorkOutcome
+#check @CoreReader.Agency.Principle
+#check @CoreReader.Agency.WorkRecord
+#check @CoreReader.Agency.RegistryCoherent
+#check @CoreReader.Agency.TargetResolved
+#check @CoreReader.Agency.TargetContentResolved
+#check @CoreReader.Agency.Performed
+#check @CoreReader.Agency.ReflexiveScope
+#check @CoreReader.Agency.ValidApplication
+#check @CoreReader.Agency.Reflexive
+#check @CoreReader.Agency.Reflexive.toScope
+#check @CoreReader.Agency.noSelfExemption
+#check @CoreReader.Agency.localMethod
+#check @CoreReader.Agency.inquiryFor
+#check @CoreReader.Agency.sourceReasonContents
+#check @CoreReader.Agency.reasonsFor
+#check @CoreReader.Agency.assessInquiry
+#check @CoreReader.Agency.finiteMethodResult
+#check @CoreReader.Agency.finiteMethodMeaning
+#check @CoreReader.Agency.ownSubjects
+#check @CoreReader.Agency.generationEligible
+#check @CoreReader.Agency.generatingRule
+#check @CoreReader.Agency.assessingRule
+#check @CoreReader.Agency.ownRules
+#check @CoreReader.Agency.statedOutcome
+#check @CoreReader.Agency.recordFor
+#check @CoreReader.Agency.reasonsFor_nonempty
+#check @CoreReader.Agency.reasonsFor_target
+#check @CoreReader.Agency.inquiryFor_target
+#check @CoreReader.Agency.ownContentEvaluates
+#check @CoreReader.Agency.ownRegistryCoherent
+#check @CoreReader.Agency.ownTargetResolved
+#check @CoreReader.Agency.ownTargetContent
+#check @CoreReader.Agency.ownRecordValid
+#check @CoreReader.Agency.completeOwnWork
+#check @CoreReader.Agency.assessingRecord_member
+#check @CoreReader.Agency.generatingRecord_member
+#check @CoreReader.Agency.completeOwnWork_reflexive
+#check @CoreReader.Agency.ownAssessmentPerformed
+#check @CoreReader.Agency.applicationRule
+#check @CoreReader.Agency.applicationWork
+#check @CoreReader.Agency.applicationWork_reflexive
+#check @CoreReader.Agency.applicabilityRetained
+#print axioms CoreReader.Adopted.AssessmentTask
+#print axioms CoreReader.Adopted.taskOfFacet
+#print axioms CoreReader.Adopted.NatureAppropriate
+#print axioms CoreReader.Adopted.taskOfFacetAppropriate
+#print axioms CoreReader.Adopted.Grounds012
+#print axioms CoreReader.Adopted.grounds012Singleton
+#print axioms CoreReader.Adopted.generationSpecification
+#print axioms CoreReader.Adopted.consistencySpecification
+#print axioms CoreReader.Adopted.ReflexiveRule
+#print axioms CoreReader.Adopted.reflexivitySpecification
+#print axioms CoreReader.Adopted.legacyRule
+#print axioms CoreReader.Adopted.legacyPerformed
+#print axioms CoreReader.Adopted.legacyReflexivity
+#print axioms CoreReader.Adopted.empiricalSpecification
+#print axioms CoreReader.Adopted.inferentialSpecification
+#print axioms CoreReader.Adopted.valueSpecification
+#print axioms CoreReader.Adopted.AssessmentMethod
+#print axioms CoreReader.Adopted.ScopeAccount
+#print axioms CoreReader.Adopted.scopeSpecification
+#print axioms CoreReader.Adopted.capabilitySpecification
+#print axioms CoreReader.Adopted.choiceSpecification
+#print axioms CoreReader.Adopted.collaborativeRevision
+#print axioms CoreReader.Adopted.collaborativeProgress
+#print axioms CoreReader.Adopted.consistencyConsequences
+#print axioms CoreReader.Adopted.broadBoolContext
+#print axioms CoreReader.Adopted.sliceConsistency
+#print axioms CoreReader.Adopted.explicitlyConsistentLimits
+#print axioms CoreReader.Adopted.localFacet012
+#print axioms CoreReader.Adopted.globalFacet012
+#print axioms CoreReader.Adopted.strongFacet012
+#print axioms CoreReader.Adopted.localFacetChecked012
+#print axioms CoreReader.Adopted.scopeStrength012
+#print axioms CoreReader.Adopted.uncertainFacet012
+#print axioms CoreReader.Adopted.uncertainSupported012
+#print axioms CoreReader.Adopted.InferenceExamined
+#print axioms CoreReader.Adopted.inferenceChecked012
+#print axioms CoreReader.Adopted.closedPosition012
+#print axioms CoreReader.Adopted.closedCriticism012
+#print axioms CoreReader.Adopted.valueFulfilled012
+#print axioms CoreReader.Adopted.ClaimNoStronger
+#print axioms CoreReader.Adopted.qualitativeProportionality012
+#print axioms CoreReader.Adopted.scopeRole012
+#print axioms CoreReader.Adopted.scopeRoleContent012
+#print axioms CoreReader.Adopted.localScopeAccount012
+#print axioms CoreReader.Adopted.scopeFulfilled012
+#print axioms CoreReader.Adopted.capabilityFulfilled012
+#print axioms CoreReader.Adopted.MechanismApplication012
+#print axioms CoreReader.Adopted.mechanism012
+#print axioms CoreReader.Adopted.UnderstandingApplication012
+#print axioms CoreReader.Adopted.explainedWithoutVariation012
+#print axioms CoreReader.Adopted.mechanismResponder012
+#print axioms CoreReader.Adopted.understandingScope012
+#print axioms CoreReader.Adopted.understandingTask012
+#print axioms CoreReader.Adopted.understandingFacet012
+#print axioms CoreReader.Adopted.mechanismResponderUnderstands012
+#print axioms CoreReader.Adopted.explainedWithoutVariationFails012
+#print axioms CoreReader.Adopted.understandingApplicationCases012
+#print axioms CoreReader.Adopted.OwnCapability012
+#print axioms CoreReader.Adopted.ownCapability012
+#print axioms CoreReader.Adopted.CompleteCharter012
+#print axioms CoreReader.Adopted.completeCharter012
+#print axioms CoreReader.Adopted.charterWithoutGrounds012
+#print axioms CoreReader.Adopted.groundsPermission012
+#print axioms CoreReader.Adopted.GroundsProvision012
+#print axioms CoreReader.Adopted.groundsProvision012Meaning
+#print axioms CoreReader.Adopted.groundsExperimentTask012
+#print axioms CoreReader.Adopted.groundsExperiment012
+#print axioms CoreReader.Adopted.groundsPosition012
+#print axioms CoreReader.Adopted.groundsPosition012Checked
+#print axioms CoreReader.Adopted.groundsRationaleExperiment012
+#print axioms CoreReader.Adopted.groundsOnGrounds012
+#print axioms CoreReader.Adopted.reflexiveTargets012
+#print axioms CoreReader.Adopted.achievementSupported012
+#print axioms CoreReader.Adopted.semanticOrder012
+#print axioms CoreReader.Adopted.clearFalseArgument012
+#print axioms CoreReader.Adopted.clearFalseReason012
+#print axioms CoreReader.Adopted.valueNeutralRecord012
+#print axioms CoreReader.Adopted.valueNotFact012
+#print axioms CoreReader.Adopted.wrongExplanation012
+#print axioms CoreReader.Adopted.internalReasonDistinguishes012
+#print axioms CoreReader.Adopted.inventoryCases012
+#print axioms CoreReader.Adopted.selfExemptRule012
+#print axioms CoreReader.Adopted.selfExemptPerformed012
+#print axioms CoreReader.Adopted.openSelfExempt012
+#print axioms CoreReader.Adopted.ownPhilosophyStatus012
+#print axioms CoreReader.Adopted.jointContext012
+#print axioms CoreReader.Adopted.jointImplicationConflict012
+#print axioms CoreReader.Adopted.tensionContext012
+#print axioms CoreReader.Adopted.tensionConsistent012
+#print axioms CoreReader.Adopted.qualitativeUnmeasured012
+#print axioms CoreReader.Adopted.allStatusOnly012
+#print axioms CoreReader.Adopted.drawWeight012
+#print axioms CoreReader.Adopted.randomTrial012
+#print axioms CoreReader.Adopted.randomOutcomes012
+#print axioms CoreReader.Adopted.originalGlobalTask012
+#print axioms CoreReader.Adopted.originalLocalTask012
+#print axioms CoreReader.Adopted.circularGlobalFacet012
+#print axioms CoreReader.Adopted.circularGlobalConditional012
+#print axioms CoreReader.Adopted.circularSubstitutionRejected012
+#print axioms CoreReader.Adopted.observedPremises012
+#print axioms CoreReader.Adopted.observedInferenceFacet012
+#print axioms CoreReader.Adopted.observedInferenceChecked012
+#print axioms CoreReader.Adopted.sameEmpiricalTaskTwoMethods012
+#print axioms CoreReader.Adopted.originalUncertaintyTask012
+#print axioms CoreReader.Adopted.uncertaintyBypassFacet012
+#print axioms CoreReader.Adopted.uncertaintyBypassChecked012
+#print axioms CoreReader.Adopted.uncertaintySubstitutionRejected012
+#print axioms CoreReader.Adopted.selectedFactFacet012
+#print axioms CoreReader.Adopted.valueFactSubstitutionRejected012
+#print axioms CoreReader.Adopted.inferentialContextSubstitutionRejected012
+#print axioms CoreReader.Adopted.generationCases
+#print axioms CoreReader.Adopted.generationLimits012
+#print axioms CoreReader.Adopted.consistencyCases
+#print axioms CoreReader.Adopted.consistencyLimits012
+#print axioms CoreReader.Adopted.reflexivityCases012
+#print axioms CoreReader.Adopted.reflexivityLimits012
+#print axioms CoreReader.Adopted.groundsCases012
+#print axioms CoreReader.Adopted.empiricalCases012
+#print axioms CoreReader.Adopted.inferentialCases012
+#print axioms CoreReader.Adopted.valueCases012
+#print axioms CoreReader.Adopted.groundsLimits012
+#print axioms CoreReader.Adopted.scopeCases012
+#print axioms CoreReader.Adopted.scopeLimits012
+#print axioms CoreReader.Adopted.capabilityCases012
+#print axioms CoreReader.Adopted.capabilityLimits012
+#print axioms CoreReader.Adopted.choiceCases012
+#print axioms CoreReader.Adopted.choiceLimits012
+#print axioms CoreReader.Agency.FormKind
+#print axioms CoreReader.Agency.Form
+#print axioms CoreReader.Agency.Aim
+#print axioms CoreReader.Agency.Policy
+#print axioms CoreReader.Agency.Generative
+#print axioms CoreReader.Agency.openPolicy
+#print axioms CoreReader.Agency.neutralPolicy
+#print axioms CoreReader.Agency.permissionNotValuation
+#print axioms CoreReader.Agency.revisabilityCovers
+#print axioms CoreReader.Agency.Operation
+#print axioms CoreReader.Agency.Operation.run
+#print axioms CoreReader.Agency.InventoryKind
+#print axioms CoreReader.Agency.Item
+#print axioms CoreReader.Agency.Available
+#print axioms CoreReader.Agency.inventoryNotCapability
+#print axioms CoreReader.Agency.State
+#print axioms CoreReader.Agency.Expanded
+#print axioms CoreReader.Agency.baseState
+#print axioms CoreReader.Agency.inflatedState
+#print axioms CoreReader.Agency.stableTrace
+#print axioms CoreReader.Agency.revisionWithoutProgress
+#print axioms CoreReader.Agency.ExternalResources
+#print axioms CoreReader.Agency.assistedExecution
+#print axioms CoreReader.Agency.availableResources
+#print axioms CoreReader.Agency.StableReason
+#print axioms CoreReader.Agency.GeneratingSystem
+#print axioms CoreReader.Agency.generatingSystem
+#print axioms CoreReader.Agency.GeneratingSystem.stableAction
+#print axioms CoreReader.Agency.GeneratingSystem.requirementsMet
+#print axioms CoreReader.Agency.GeneratingSystem.withinBudget
+#print axioms CoreReader.Agency.Announcement
+#print axioms CoreReader.Agency.GeneratingSystem.report
+#print axioms CoreReader.Agency.Announcement.claim
+#print axioms CoreReader.Agency.announcementClaimImpliesExpansion
+#print axioms CoreReader.Agency.inflatedAnnouncement
+#print axioms CoreReader.Agency.inflatedAnnouncementRefuted
+#print axioms CoreReader.Agency.TransitionCase
+#print axioms CoreReader.Agency.extendedState
+#print axioms CoreReader.Agency.transitionBefore
+#print axioms CoreReader.Agency.transitionAfter
+#print axioms CoreReader.Agency.transitionInput
+#print axioms CoreReader.Agency.transitionAnnouncement
+#print axioms CoreReader.Agency.generationLimits
+#print axioms CoreReader.Agency.generationNotReflexivity
+#print axioms CoreReader.Agency.ownArithmeticPrinciple
+#print axioms CoreReader.Agency.selfTest
+#print axioms CoreReader.Agency.selfTestDoesNotProve
+#print axioms CoreReader.Choice.StatusKind
+#print axioms CoreReader.Choice.MethodReason
+#print axioms CoreReader.Choice.Reason
+#print axioms CoreReader.Choice.Implementation
+#print axioms CoreReader.Choice.Requirements
+#print axioms CoreReader.Choice.MethodContent
+#print axioms CoreReader.Choice.Relevant
+#print axioms CoreReader.Choice.Feasible
+#print axioms CoreReader.Choice.JustifiedChoice
+#print axioms CoreReader.Choice.statusOnlyFails
+#print axioms CoreReader.Choice.identityImpl
+#print axioms CoreReader.Choice.successorImpl
+#print axioms CoreReader.Choice.changedOutsideZero
+#print axioms CoreReader.Choice.identityRequirements
+#print axioms CoreReader.Choice.objectiveReason
+#print axioms CoreReader.Choice.identityOutputReason
+#print axioms CoreReader.Choice.identityFeasible
+#print axioms CoreReader.Choice.identityJustified
+#print axioms CoreReader.Choice.conventionWithReason
+#print axioms CoreReader.Choice.Candidate
+#print axioms CoreReader.Choice.implementation
+#print axioms CoreReader.Choice.singleFeasible
+#print axioms CoreReader.Choice.localNotGlobal
+#print axioms CoreReader.Choice.cheapSuccessor
+#print axioms CoreReader.Choice.eligibleInternalReasonNotSufficient
+#print axioms CoreReader.Choice.internalReasons
+#print axioms CoreReader.Choice.openNotEquivalent
+#print axioms CoreReader.Choice.priorityClaim
+#print axioms CoreReader.Choice.statusFacts
+#print axioms CoreReader.Choice.statusFactsModel
+#print axioms CoreReader.Choice.priorityArticulation
+#print axioms CoreReader.Choice.AssessmentAccurate
+#print axioms CoreReader.Choice.statusDoesNotEntailPriority
+#print axioms CoreReader.Choice.statusAssessmentNonEntailment
+#print axioms CoreReader.Choice.PriorityAssessment
+#print axioms CoreReader.Choice.PriorityAssessment.accurate
+#print axioms CoreReader.Choice.statusPriorityAudit
+#print axioms CoreReader.Choice.ChoicePolicy
+#print axioms CoreReader.Choice.GeneralAssessmentFulfilled
+#print axioms CoreReader.Choice.AdditionalChoiceNorm
+#print axioms CoreReader.Choice.statusPriorityPolicy
+#print axioms CoreReader.Choice.outputPriorityPolicy
+#print axioms CoreReader.Choice.statusPriorityAuditAccurate
+#print axioms CoreReader.Choice.PolicyIndependenceExample
+#print axioms CoreReader.Choice.policyIndependenceExample
+#print axioms CoreReader.Choice.generalGroundsNotChoice
+#print axioms CoreReader.Engineering.Maintainer
+#print axioms CoreReader.Engineering.Tool
+#print axioms CoreReader.Engineering.Knowledge
+#print axioms CoreReader.Engineering.Change
+#print axioms CoreReader.Engineering.Candidate
+#print axioms CoreReader.Engineering.Burden
+#print axioms CoreReader.Engineering.maintainers
+#print axioms CoreReader.Engineering.changes
+#print axioms CoreReader.Engineering.burdens
+#print axioms CoreReader.Engineering.Activity
+#print axioms CoreReader.Engineering.ActivityScope
+#print axioms CoreReader.Engineering.Continuing
+#print axioms CoreReader.Engineering.BoundedLifecycle
+#print axioms CoreReader.Engineering.continuingActivity
+#print axioms CoreReader.Engineering.temporaryActivity
+#print axioms CoreReader.Engineering.prototypeActivity
+#print axioms CoreReader.Engineering.retiringActivity
+#print axioms CoreReader.Engineering.EditStep
+#print axioms CoreReader.Engineering.changePath
+#print axioms CoreReader.Engineering.changeWork
+#print axioms CoreReader.Engineering.CanChange
+#print axioms CoreReader.Engineering.ContinuingCapability
+#print axioms CoreReader.Engineering.registeredDirections
+#print axioms CoreReader.Engineering.supportedDirections
+#print axioms CoreReader.Engineering.MaximumRegisteredCapability
+#print axioms CoreReader.Engineering.passiveArtifact
+#print axioms CoreReader.Engineering.orientation
+#print axioms CoreReader.Engineering.EngineeringAction
+#print axioms CoreReader.Engineering.maintainerActions
+#print axioms CoreReader.Engineering.artifactActions
+#print axioms CoreReader.Engineering.subjectLifecycleCases
+#print axioms CoreReader.Engineering.subjectLimits
+#print axioms CoreReader.Engineering.CredibleDirection
+#print axioms CoreReader.Engineering.DirectionGround
+#print axioms CoreReader.Engineering.articulateGround
+#print axioms CoreReader.Engineering.supportGround
+#print axioms CoreReader.Engineering.initialGrounds
+#print axioms CoreReader.Engineering.forecastGrounds
+#print axioms CoreReader.Engineering.credible
+#print axioms CoreReader.Engineering.WarrantedAccommodation
+#print axioms CoreReader.Engineering.credibilityCases
+#print axioms CoreReader.Engineering.abstractionComplexity
+#print axioms CoreReader.Engineering.implementedVariants
+#print axioms CoreReader.Engineering.CostVector
+#print axioms CoreReader.Engineering.CostLimits
+#print axioms CoreReader.Engineering.cost
+#print axioms CoreReader.Engineering.normalLimits
+#print axioms CoreReader.Engineering.Requirements
+#print axioms CoreReader.Engineering.normalRequirements
+#print axioms CoreReader.Engineering.behavior
+#print axioms CoreReader.Engineering.CandidateProfile
+#print axioms CoreReader.Engineering.profile
+#print axioms CoreReader.Engineering.Meets
+#print axioms CoreReader.Engineering.Context
+#print axioms CoreReader.Engineering.currentContinuing
+#print axioms CoreReader.Engineering.ConcreteThreat
+#print axioms CoreReader.Engineering.HasThreat
+#print axioms CoreReader.Engineering.JustifiedDeparture
+#print axioms CoreReader.Engineering.PriorityConditions
+#print axioms CoreReader.Engineering.EvolutionPriority
+#print axioms CoreReader.Engineering.currentPriorityConditions
+#print axioms CoreReader.Engineering.currentNoThreat
+#print axioms CoreReader.Engineering.threatened
+#print axioms CoreReader.Engineering.priorityWhenApplicable
+#print axioms CoreReader.Engineering.currentSimpleViolates
+#print axioms CoreReader.Engineering.withEvolvableProfile
+#print axioms CoreReader.Engineering.unmetRequirementsBlockPriority
+#print axioms CoreReader.Engineering.priorityConditionsCases
+#print axioms CoreReader.Engineering.priorityChoices
+#print axioms CoreReader.Engineering.credibilityLimits
+#print axioms CoreReader.Engineering.costCases
+#print axioms CoreReader.Engineering.orderedUnique
+#print axioms CoreReader.Engineering.orderedRefactor
+#print axioms CoreReader.Engineering.insertOrdered
+#print axioms CoreReader.Engineering.sortValues
+#print axioms CoreReader.Engineering.sortedUnique
+#print axioms CoreReader.Engineering.SoftwareState
+#print axioms CoreReader.Engineering.originalSoftware
+#print axioms CoreReader.Engineering.transform
+#print axioms CoreReader.Engineering.evolutionBehavior
+#print axioms CoreReader.Engineering.ObligationTreatment
+#print axioms CoreReader.Engineering.ChangeClaim
+#print axioms CoreReader.Engineering.contractInputs
+#print axioms CoreReader.Engineering.PreservesOn
+#print axioms CoreReader.Engineering.PreservesFinite
+#print axioms CoreReader.Engineering.ObservableContract
+#print axioms CoreReader.Engineering.retry
+#print axioms CoreReader.Engineering.orderContract
+#print axioms CoreReader.Engineering.originalContract
+#print axioms CoreReader.Engineering.refactoredContract
+#print axioms CoreReader.Engineering.revisedContract
+#print axioms CoreReader.Engineering.evolutionContract
+#print axioms CoreReader.Engineering.failureInputs
+#print axioms CoreReader.Engineering.PreservesContractFinite
+#print axioms CoreReader.Engineering.ContractAspect
+#print axioms CoreReader.Engineering.PartyDependency
+#print axioms CoreReader.Engineering.partyDependencies
+#print axioms CoreReader.Engineering.aspectChanged
+#print axioms CoreReader.Engineering.affectedParties
+#print axioms CoreReader.Engineering.ContractRevision
+#print axioms CoreReader.Engineering.normalRevision
+#print axioms CoreReader.Engineering.RevisionDuties
+#print axioms CoreReader.Engineering.ContractChangeAccount
+#print axioms CoreReader.Engineering.EvolutionClaim
+#print axioms CoreReader.Engineering.evolutionKindsCases
+#print axioms CoreReader.Engineering.evolutionDimensionsLimits
+#print axioms CoreReader.Engineering.oneDimensionDoesNotEntailEveryDimension
+#print axioms CoreReader.Engineering.propagation
+#print axioms CoreReader.Engineering.batchCount
+#print axioms CoreReader.Engineering.staticBatch
+#print axioms CoreReader.Engineering.liveBatch
+#print axioms CoreReader.Engineering.StructuralEvidence
+#print axioms CoreReader.Engineering.structuralEvidence
+#print axioms CoreReader.Engineering.StructuralAccount
+#print axioms CoreReader.Engineering.InterfaceView
+#print axioms CoreReader.Engineering.sameShape
+#print axioms CoreReader.Engineering.moduleAssumptions
+#print axioms CoreReader.Engineering.modulesNeedingRevision
+#print axioms CoreReader.Engineering.Boundary
+#print axioms CoreReader.Engineering.EngineeringDesign
+#print axioms CoreReader.Engineering.privateDesign
+#print axioms CoreReader.Engineering.documentedDesign
+#print axioms CoreReader.Engineering.sortedDesign
+#print axioms CoreReader.Engineering.coordinatedBoundary
+#print axioms CoreReader.Engineering.boundaryDesign
+#print axioms CoreReader.Engineering.crossesBoundary
+#print axioms CoreReader.Engineering.boundaryObligationChecked
+#print axioms CoreReader.Engineering.omittedCallerCheck
+#print axioms CoreReader.Engineering.otherCalleeBoundary
+#print axioms CoreReader.Engineering.otherCalleeDesign
+#print axioms CoreReader.Engineering.actualCrossBoundaryObligation
+#print axioms CoreReader.Engineering.structuralCases
+#print axioms CoreReader.Engineering.DesignCanChange
+#print axioms CoreReader.Engineering.designWork
+#print axioms CoreReader.Engineering.designModulesNeedingRevision
+#print axioms CoreReader.Engineering.introduceBoundary
+#print axioms CoreReader.Engineering.wrappedDesign
+#print axioms CoreReader.Engineering.relocateVerification
+#print axioms CoreReader.Engineering.sameWorkDesign
+#print axioms CoreReader.Engineering.structureNotCapability
+#print axioms CoreReader.Engineering.contractPreservation
+#print axioms CoreReader.Engineering.changedObservationNotPreserved
+#print axioms CoreReader.Engineering.contractRevisionObligations
+#print axioms CoreReader.Engineering.retiredBehavior
+#print axioms CoreReader.Engineering.contractCases
+#print axioms CoreReader.Engineering.contractDistinctions
+#print axioms CoreReader.Engineering.RevisionState
+#print axioms CoreReader.Engineering.RevisionRecord
+#print axioms CoreReader.Engineering.MaterialGroundsChanged
+#print axioms CoreReader.Engineering.oldState
+#print axioms CoreReader.Engineering.newState
+#print axioms CoreReader.Engineering.HistoricalEvidence
+#print axioms CoreReader.Engineering.observedHistory
+#print axioms CoreReader.Engineering.RevisionAccountAgainst
+#print axioms CoreReader.Engineering.RevisionAccount
+#print axioms CoreReader.Engineering.failedHistoryNotRewritten
+#print axioms CoreReader.Engineering.revisionRecord
+#print axioms CoreReader.Engineering.SupportedAlternative
+#print axioms CoreReader.Engineering.RetentionJustified
+#print axioms CoreReader.Engineering.stableRecord
+#print axioms CoreReader.Engineering.revisionCases
+#print axioms CoreReader.Engineering.observations
+#print axioms CoreReader.Engineering.revisionsMade
+#print axioms CoreReader.Engineering.agreedBatch
+#print axioms CoreReader.Engineering.rewrittenOldRecord
+#print axioms CoreReader.Engineering.rewrittenPredictionRecord
+#print axioms CoreReader.Engineering.rewrittenObservationRecord
+#print axioms CoreReader.Engineering.unrelatedSoftwareRecord
+#print axioms CoreReader.Engineering.historicalTamperingRejected
+#print axioms CoreReader.Engineering.revisionLimits
+#print axioms CoreReader.Engineering.groundedChanges
+#print axioms CoreReader.Engineering.currentRevisionState
+#print axioms CoreReader.Engineering.revisionFor
+#print axioms CoreReader.Engineering.revisionContextIdentity
+#print axioms CoreReader.Engineering.DomainSatisfied
+#print axioms CoreReader.Engineering.currentDomainSatisfied
+#print axioms CoreReader.Engineering.sharedContext
+#print axioms CoreReader.Engineering.maintainedOutput
+#print axioms CoreReader.Engineering.chosenImplementation
+#print axioms CoreReader.Engineering.chosenRequirements
+#print axioms CoreReader.Engineering.chosenReasons
+#print axioms CoreReader.Engineering.maintainedOutputCorrect
+#print axioms CoreReader.Engineering.implementationReasoned
+#print axioms CoreReader.Engineering.capabilityOutput
+#print axioms CoreReader.Engineering.engineeringProcess
+#print axioms CoreReader.Engineering.engineeringCapability
+#print axioms CoreReader.Engineering.engineeringCapabilityGrounded
+#print axioms CoreReader.Engineering.actualCapabilityContrast
+#print axioms CoreReader.Engineering.presentBudgetRecord
+#print axioms CoreReader.Engineering.presentBudgetClaim
+#print axioms CoreReader.Engineering.budgetObservationMeaning
+#print axioms CoreReader.Engineering.budgetEmpiricalFacet
+#print axioms CoreReader.Engineering.budgetEmpiricalDischarged
+#print axioms CoreReader.Engineering.capacityClaim
+#print axioms CoreReader.Engineering.capacityAssumptions
+#print axioms CoreReader.Engineering.budgetInferentialFacet
+#print axioms CoreReader.Engineering.budgetInferentialDischarged
+#print axioms CoreReader.Engineering.budgetScopeAccount
+#print axioms CoreReader.Engineering.budgetScopeExplained
+#print axioms CoreReader.Engineering.budgetObservationLimit
+#print axioms CoreReader.Engineering.engineeringPolicy
+#print axioms CoreReader.Engineering.engineeringGenerative
+#print axioms CoreReader.Engineering.OwnFact
+#print axioms CoreReader.Engineering.ownFactClaim
+#print axioms CoreReader.Engineering.actualOwnFact
+#print axioms CoreReader.Engineering.ownFactPremises
+#print axioms CoreReader.Engineering.actualOwnFactGrounded
+#print axioms CoreReader.Engineering.priorityValueMeaning
+#print axioms CoreReader.Engineering.priorityGrounds
+#print axioms CoreReader.Engineering.OwnNorm
+#print axioms CoreReader.Engineering.normApplies
+#print axioms CoreReader.Engineering.ownNormClaim
+#print axioms CoreReader.Engineering.actualOwnNorm
+#print axioms CoreReader.Engineering.ownFactTheory
+#print axioms CoreReader.Engineering.ownNormTheory
+#print axioms CoreReader.Engineering.ownTheory
+#print axioms CoreReader.Engineering.allNormativeContentHeld
+#print axioms CoreReader.Engineering.nonemptyOwnObjects
+#print axioms CoreReader.Engineering.comparisonContext
+#print axioms CoreReader.Engineering.engineeringSnapshot
+#print axioms CoreReader.Engineering.currentAdmissible
+#print axioms CoreReader.Engineering.currentConsistency
+#print axioms CoreReader.Engineering.wholeClaimGrounded
+#print axioms CoreReader.Engineering.incompatibleNormTheory
+#print axioms CoreReader.Engineering.incompatibleNormContext
+#print axioms CoreReader.Engineering.normativeContentVariation
+#print axioms CoreReader.Engineering.Inherited
+#print axioms CoreReader.Engineering.inheritedCurrent
+#print axioms CoreReader.Engineering.inheritedMutualApplication
+#print axioms CoreReader.Engineering.inheritedMutualCases
+#print axioms CoreReader.Engineering.priorityRemainsReflexive
+#print axioms CoreReader.Engineering.priorityReflexiveCases
+#print axioms CoreReader.Engineering.jointWitness
+#print axioms CoreReader.Engineering.inheritedDoesNotEntailPriority
+#print axioms CoreReader.Engineering.Reflection.Target
+#print axioms CoreReader.Engineering.Reflection.Contract
+#print axioms CoreReader.Engineering.Reflection.Input
+#print axioms CoreReader.Engineering.Reflection.Verdict
+#print axioms CoreReader.Engineering.Reflection.Outcome
+#print axioms CoreReader.Engineering.Reflection.evaluate
+#print axioms CoreReader.Engineering.Reflection.generate
+#print axioms CoreReader.Engineering.Reflection.interpret
+#print axioms CoreReader.Engineering.Reflection.Model
+#print axioms CoreReader.Engineering.Reflection.Model.input
+#print axioms CoreReader.Engineering.Reflection.Model.self
+#print axioms CoreReader.Engineering.Reflection.Model.rule
+#print axioms CoreReader.Engineering.Reflection.Model.rules
+#print axioms CoreReader.Engineering.Reflection.Model.performed
+#print axioms CoreReader.Engineering.Reflection.Model.follows
+#print axioms CoreReader.Engineering.Reflection.recordedReflexivity
+#print axioms CoreReader.Engineering.ReviewObject
+#print axioms CoreReader.Engineering.ReviewCase
+#print axioms CoreReader.Engineering.generationApplies
+#print axioms CoreReader.Engineering.assessmentApplies
+#print axioms CoreReader.Engineering.ruleObject
+#print axioms CoreReader.Engineering.ruleProbe
+#print axioms CoreReader.Engineering.generationRuleTest
+#print axioms CoreReader.Engineering.assessmentRuleTest
+#print axioms CoreReader.Engineering.sampleAwareAssessment
+#print axioms CoreReader.Engineering.objectTest
+#print axioms CoreReader.Engineering.reviewObjects
+#print axioms CoreReader.Engineering.requestedCases
+#print axioms CoreReader.Engineering.reviewReasons
+#print axioms CoreReader.Engineering.statedReview
+#print axioms CoreReader.Engineering.reviewBasis
+#print axioms CoreReader.Engineering.selfModel
+#print axioms CoreReader.Engineering.reviewIdentity
+#print axioms CoreReader.Engineering.currentSelfRecords
+#print axioms CoreReader.Engineering.currentSelfApplication
+#print axioms CoreReader.Engineering.actualSelfCriticism
+#print axioms CoreReader.Engineering.ownRuleIdentity
+#print axioms CoreReader.Engineering.ownRuleContentVariation
+#print axioms CoreReader.Engineering.proposedRuleRevision
+#print axioms CoreReader.Engineering.CoreCommitment
+#print axioms CoreReader.Engineering.coreCommitments
+#print axioms CoreReader.Engineering.coreAdopted
+#print axioms CoreReader.Engineering.AdoptionReason
+#print axioms CoreReader.Engineering.reasonFor
+#print axioms CoreReader.Engineering.ReasonRelevant
+#print axioms CoreReader.Engineering.valueScope
+#print axioms CoreReader.Engineering.safeguardExperiment
+#print axioms CoreReader.Engineering.criticismFor
+#print axioms CoreReader.Engineering.governancePosition
+#print axioms CoreReader.Engineering.adoptionReasonRelevant
+#print axioms CoreReader.Engineering.safeguardEnabled
+#print axioms CoreReader.Engineering.safeguardDisabled
+#print axioms CoreReader.Engineering.governanceValueProcedure
+#print axioms CoreReader.Engineering.governanceGrounded
+#print axioms CoreReader.Engineering.governanceRationaleLimits
+#print axioms CoreReader.Engineering.selectionObjective
+#print axioms CoreReader.Engineering.selectionPosition
+#print axioms CoreReader.Engineering.selectionValueProcedure
+#print axioms CoreReader.Engineering.selectionGrounded
+#print axioms CoreReader.Evidence.Record
+#print axioms CoreReader.Evidence.Compatible
+#print axioms CoreReader.Evidence.Supports
+#print axioms CoreReader.Evidence.Articulation
+#print axioms CoreReader.Evidence.Articulated
+#print axioms CoreReader.Evidence.ValuePosition
+#print axioms CoreReader.Evidence.ValuePosition.commitment
+#print axioms CoreReader.Evidence.ValuePosition.consequence
+#print axioms CoreReader.Evidence.ValuePosition.activeReasons
+#print axioms CoreReader.Evidence.JointAdoption
+#print axioms CoreReader.Evidence.ValueProcedure
+#print axioms CoreReader.Evidence.Facet
+#print axioms CoreReader.Evidence.Facet.claim
+#print axioms CoreReader.Evidence.FacetDischarged
+#print axioms CoreReader.Evidence.FacetArticulated
+#print axioms CoreReader.Evidence.canonicalArticulation
+#print axioms CoreReader.Evidence.canonicalFacetArticulated
+#print axioms CoreReader.Evidence.canonicalArticulated
+#print axioms CoreReader.Evidence.Grounds
+#print axioms CoreReader.Evidence.AchievementAccountability
+#print axioms CoreReader.Evidence.transitionAchievement
+#print axioms CoreReader.Evidence.transitionPerformanceRecord
+#print axioms CoreReader.Evidence.transitionReportRecord
+#print axioms CoreReader.Evidence.transitionPerformanceCompatible
+#print axioms CoreReader.Evidence.transitionSupported
+#print axioms CoreReader.Evidence.transitionFacet
+#print axioms CoreReader.Evidence.transitionFacetDischarged
+#print axioms CoreReader.Evidence.transitionAccountable
+#print axioms CoreReader.Evidence.transitionReportCompatible
+#print axioms CoreReader.Evidence.transitionReportDoesNotSupport
+#print axioms CoreReader.Evidence.ConcreteAchievementExample
+#print axioms CoreReader.Evidence.concreteAchievementExample
+#print axioms CoreReader.Evidence.achievementNeedsSupport
+#print axioms CoreReader.Evidence.supportWeakening
+#print axioms CoreReader.Evidence.evidenceWeakeningCanLoseSupport
+#print axioms CoreReader.Evidence.scopeRestriction
+#print axioms CoreReader.Evidence.Duties
+#print axioms CoreReader.Evidence.LabeledDuties
+#print axioms CoreReader.Evidence.assessmentUnion
+#print axioms CoreReader.Evidence.labelsCannotWaive
+#print axioms CoreReader.Evidence.switchRecord
+#print axioms CoreReader.Evidence.switchCompatible
+#print axioms CoreReader.Evidence.switchSupported
+#print axioms CoreReader.Evidence.optionBenefit
+#print axioms CoreReader.Evidence.optionCost
+#print axioms CoreReader.Evidence.optionReport
+#print axioms CoreReader.Evidence.switchPosition
+#print axioms CoreReader.Evidence.switchValueProcedure
+#print axioms CoreReader.Evidence.oppositePosition
+#print axioms CoreReader.Evidence.oppositePositionRejected
+#print axioms CoreReader.Evidence.contradictoryStartingPosition
+#print axioms CoreReader.Evidence.impossibleAdoptionPosition
+#print axioms CoreReader.Evidence.inadmissibleValuePositionsRejected
+#print axioms CoreReader.Evidence.unsupportedPosition
+#print axioms CoreReader.Evidence.switchEmpirical
+#print axioms CoreReader.Evidence.switchEmpiricalDischarged
+#print axioms CoreReader.Evidence.mixedMissingResponsibility
+#print axioms CoreReader.Evidence.uninformativeArgument
+#print axioms CoreReader.Evidence.articulationNotSupport
+#print axioms CoreReader.Evidence.unrelatedArticulationRejected
+#print axioms CoreReader.Evidence.temperatureRecord
+#print axioms CoreReader.Evidence.temperatureCompatible
+#print axioms CoreReader.Evidence.BudgetWorld
+#print axioms CoreReader.Evidence.announcement
+#print axioms CoreReader.Evidence.announcementPosition
+#print axioms CoreReader.Evidence.announcementHasJointAdoption
+#print axioms CoreReader.Evidence.announcementNotBudgetReason
+#print axioms CoreReader.Evidence.actionRecord
+#print axioms CoreReader.Evidence.actionCompatible
+#print axioms CoreReader.Evidence.measurementRepeatNotSupport
+#print axioms CoreReader.Evidence.selfAssertionNotReason
+#print axioms CoreReader.Evidence.valueWithoutSelfProof
+#print axioms CoreReader.Evidence.BenefitCostWorld
+#print axioms CoreReader.Evidence.measuredOutcome
+#print axioms CoreReader.Evidence.benefitReason
+#print axioms CoreReader.Evidence.costReason
+#print axioms CoreReader.Evidence.jointReasonPosition
+#print axioms CoreReader.Evidence.jointReasonProcedure
+#print axioms CoreReader.Evidence.JointReasonsExample
+#print axioms CoreReader.Evidence.jointReasonsExample
+#print axioms CoreReader.Evidence.heterogeneousReasons
+#print axioms CoreReader.Evidence.zeroRecord
+#print axioms CoreReader.Evidence.localGenerator
+#print axioms CoreReader.Evidence.allTrue
+#print axioms CoreReader.Evidence.zeroCompatible
+#print axioms CoreReader.Evidence.GeneratingProcess
+#print axioms CoreReader.Evidence.GeneratingProcess.outputRevision
+#print axioms CoreReader.Evidence.ProducedRevision
+#print axioms CoreReader.Evidence.GeneratingProcess.produce
+#print axioms CoreReader.Evidence.sampleGeneratingProcess
+#print axioms CoreReader.Evidence.OwnedRevisionExample
+#print axioms CoreReader.Evidence.ownedRevisionExample
+#print axioms CoreReader.Evidence.selfOriginDoesNotSupport
+#print axioms CoreReader.Evidence.localNotUniversal
+#print axioms CoreReader.Evidence.hiddenDifference
+#print axioms CoreReader.Evidence.singleObservation
+#print axioms CoreReader.Evidence.arithmeticFacet
+#print axioms CoreReader.Evidence.usesObservation
+#print axioms CoreReader.Evidence.noUniversalChain
+#print axioms CoreReader.Evidence.Trial
+#print axioms CoreReader.Evidence.Verified
+#print axioms CoreReader.Evidence.Reproduced
+#print axioms CoreReader.Evidence.Bounded
+#print axioms CoreReader.Evidence.variableOutcomesStableBound
+#print axioms CoreReader.Evidence.verificationReproductionStability
+#print axioms CoreReader.Evidence.Program
+#print axioms CoreReader.Evidence.Program.eval
+#print axioms CoreReader.Evidence.Process
+#print axioms CoreReader.Evidence.OutputContract
+#print axioms CoreReader.Evidence.ExplanationContract
+#print axioms CoreReader.Evidence.outputOnlyProcess
+#print axioms CoreReader.Evidence.explainedProcess
+#print axioms CoreReader.Evidence.processScope
+#print axioms CoreReader.Evidence.processContractFacet
+#print axioms CoreReader.Evidence.processScopeModels
+#print axioms CoreReader.Evidence.processContractDischarged
+#print axioms CoreReader.Evidence.ProcessGrounds
+#print axioms CoreReader.Evidence.processGrounds
+#print axioms CoreReader.Evidence.outputCorrectByEvaluation
+#print axioms CoreReader.Evidence.outputOnlyNoExplanation
+#print axioms CoreReader.Evidence.FullProcessContract
+#print axioms CoreReader.Evidence.OutputContractEvidence
+#print axioms CoreReader.Evidence.outputContractEvidence
+#print axioms CoreReader.Evidence.ScopedApplicationEvidence
+#print axioms CoreReader.Evidence.scopedApplicationEvidence
+#print axioms CoreReader.Evidence.outputNotExplanation
+#print axioms CoreReader.Evidence.applicationContractsDiffer
+#print axioms CoreReader.Evidence.ExternalCertificate
+#print axioms CoreReader.Evidence.externalOutputCertificate
+#print axioms CoreReader.Evidence.externalAssessment
+#print axioms CoreReader.Evidence.arithmeticArticulation
+#print axioms CoreReader.Evidence.nonExecutableAssessment
+#print axioms CoreReader.Integration.canonicalGrounds
+#print axioms CoreReader.Integration.canonicalGroundsForSingleton
+#print axioms CoreReader.Integration.Mode
+#print axioms CoreReader.Integration.World
+#print axioms CoreReader.Integration.actual
+#print axioms CoreReader.Integration.Method
+#print axioms CoreReader.Integration.System
+#print axioms CoreReader.Integration.policyFor
+#print axioms CoreReader.Integration.workFor
+#print axioms CoreReader.Integration.System.policy
+#print axioms CoreReader.Integration.System.rules
+#print axioms CoreReader.Integration.System.work
+#print axioms CoreReader.Integration.actualSystem
+#print axioms CoreReader.Integration.systemCapability
+#print axioms CoreReader.Integration.systemBudget
+#print axioms CoreReader.Integration.systemObservation
+#print axioms CoreReader.Integration.systemHeld
+#print axioms CoreReader.Integration.Question
+#print axioms CoreReader.Integration.systemContext
+#print axioms CoreReader.Integration.capability
+#print axioms CoreReader.Integration.observation
+#print axioms CoreReader.Integration.held
+#print axioms CoreReader.Integration.context
+#print axioms CoreReader.Integration.observationIdentifies
+#print axioms CoreReader.Integration.capabilityActual
+#print axioms CoreReader.Integration.observedCapability
+#print axioms CoreReader.Integration.capabilityFacet
+#print axioms CoreReader.Integration.capabilityFacetChecked
+#print axioms CoreReader.Integration.capabilityGrounds
+#print axioms CoreReader.Integration.actualAdmissible
+#print axioms CoreReader.Integration.jointConsistent
+#print axioms CoreReader.Integration.Charter
+#print axioms CoreReader.Integration.charterChecked
+#print axioms CoreReader.Integration.revisedHeld
+#print axioms CoreReader.Integration.initialSnapshot
+#print axioms CoreReader.Integration.revisedSnapshot
+#print axioms CoreReader.Integration.revisionKeepsConsistency
+#print axioms CoreReader.Integration.OwnCapabilityDuty
+#print axioms CoreReader.Integration.ownCapabilityGrounded
+#print axioms CoreReader.Integration.costAllowanceRecord
+#print axioms CoreReader.Integration.unsupportedCapabilityFacet
+#print axioms CoreReader.Integration.costCompatibleWithFailure
+#print axioms CoreReader.Integration.costDoesNotSupportOutput
+#print axioms CoreReader.Integration.unsupportedGrounds
+#print axioms CoreReader.Integration.Commitment
+#print axioms CoreReader.Integration.groundsPermission
+#print axioms CoreReader.Integration.GroundsProvision
+#print axioms CoreReader.Integration.groundsProvisionMeaning
+#print axioms CoreReader.Integration.consistencyPermission
+#print axioms CoreReader.Integration.conflictingHeld
+#print axioms CoreReader.Integration.conflictConsequences
+#print axioms CoreReader.Integration.conflictingHeldInconsistent
+#print axioms CoreReader.Integration.choicePermission
+#print axioms CoreReader.Integration.proposedOperation
+#print axioms CoreReader.Integration.selfSamples
+#print axioms CoreReader.Integration.conflictDecision
+#print axioms CoreReader.Integration.groundsDecision
+#print axioms CoreReader.Integration.choiceDecision
+#print axioms CoreReader.Integration.decisionsApply
+#print axioms CoreReader.Integration.decisionsWaive
+#print axioms CoreReader.Integration.commitmentPositionFor
+#print axioms CoreReader.Integration.commitmentPosition
+#print axioms CoreReader.Integration.positionReasons
+#print axioms CoreReader.Integration.positionConsequence
+#print axioms CoreReader.Integration.positionProcedure
+#print axioms CoreReader.Integration.criticismWithinScope
+#print axioms CoreReader.Integration.oppositeConsequenceFails
+#print axioms CoreReader.Integration.oppositeProcedureRejected
+#print axioms CoreReader.Integration.commitmentClaim
+#print axioms CoreReader.Integration.commitmentFacet
+#print axioms CoreReader.Integration.reasonsBelongToCommitments
+#print axioms CoreReader.Integration.groundsCommitmentIsProvision
+#print axioms CoreReader.Integration.groundsSelfAssessment
+#print axioms CoreReader.Integration.PhilosophyMethod
+#print axioms CoreReader.Integration.currentPhilosophy
+#print axioms CoreReader.Integration.PhilosophyMethod.review
+#print axioms CoreReader.Integration.PhilosophyMethod.implementation
+#print axioms CoreReader.Integration.proposalRequirements
+#print axioms CoreReader.Integration.currentReviewCorrect
+#print axioms CoreReader.Integration.existingPhilosophyNotPrivileged
+#print axioms CoreReader.Integration.applicationClaim
+#print axioms CoreReader.Integration.ApplicationDuties
+#print axioms CoreReader.Integration.applicationRetainsDuties
+#print axioms CoreReader.Integration.outputContract
+#print axioms CoreReader.Integration.successorRequirements
+#print axioms CoreReader.Integration.changedObjectiveFacet
+#print axioms CoreReader.Integration.applicationVariation
+#print axioms CoreReader.Integration.charterNotGrounds
+#print axioms CoreReader.Integration.jointWitness
+#print axioms CoreReader.Logic.Claim
+#print axioms CoreReader.Logic.Theory
+#print axioms CoreReader.Logic.Models
+#print axioms CoreReader.Logic.Entails
+#print axioms CoreReader.Logic.Satisfiable
+#print axioms CoreReader.Logic.Context
+#print axioms CoreReader.Logic.Admissible
+#print axioms CoreReader.Logic.Consequence
+#print axioms CoreReader.Logic.Consistent
+#print axioms CoreReader.Logic.consequenceConsistency
+#print axioms CoreReader.Logic.emptyTheory
+#print axioms CoreReader.Logic.singleton
+#print axioms CoreReader.Logic.union
+#print axioms CoreReader.Logic.modelsSingleton
+#print axioms CoreReader.Logic.modelsUnion
+#print axioms CoreReader.Logic.premiseP
+#print axioms CoreReader.Logic.premiseRule
+#print axioms CoreReader.Logic.premiseNotQ
+#print axioms CoreReader.Logic.jointTheory
+#print axioms CoreReader.Logic.jointConflict
+#print axioms CoreReader.Logic.revisionSlice
+#print axioms CoreReader.Logic.revisionCanReverse
+#print axioms CoreReader.Logic.onQuestion
+#print axioms CoreReader.Logic.assumptionContext
+#print axioms CoreReader.Logic.meaningContext
+#print axioms CoreReader.Logic.scopeContext
+#print axioms CoreReader.Logic.contextDifferences
+#print axioms CoreReader.Logic.Snapshot
+#print axioms CoreReader.Logic.SameContent
+#print axioms CoreReader.Logic.TruthfulReport
+#print axioms CoreReader.Logic.semanticChangeMustBeReported
+#print axioms CoreReader.Logic.representationOrderIrrelevant
+#print axioms CoreReader.Logic.contextSnapshot
+#print axioms CoreReader.Logic.hiddenContextChangeRejected
+#print axioms CoreReader.Logic.tensionWithoutContradiction
+#print axioms CoreReader.Logic.conflictRequiresChange
+#print axioms CoreReader.Logic.consistentFalse
+#print axioms CoreReader.Logic.consistentIncomplete
+#print axioms CoreReader.Logic.compatibilityNotEntailment
+#print axioms CoreReader.Agency.Phase
+#print axioms CoreReader.Agency.PrincipleKey
+#print axioms CoreReader.Agency.Subject
+#print axioms CoreReader.Agency.Subject.owner
+#print axioms CoreReader.Agency.Activity
+#print axioms CoreReader.Agency.QuestionKind
+#print axioms CoreReader.Agency.SampleProgram
+#print axioms CoreReader.Agency.SampleProgram.run
+#print axioms CoreReader.Agency.MethodDraft
+#print axioms CoreReader.Agency.MethodDraft.accepts
+#print axioms CoreReader.Agency.Inquiry
+#print axioms CoreReader.Agency.ReasonContent
+#print axioms CoreReader.Agency.ReasonContent.identifier
+#print axioms CoreReader.Agency.ReasonObject
+#print axioms CoreReader.Agency.AssessmentResult
+#print axioms CoreReader.Agency.WorkOutcome
+#print axioms CoreReader.Agency.Principle
+#print axioms CoreReader.Agency.WorkRecord
+#print axioms CoreReader.Agency.RegistryCoherent
+#print axioms CoreReader.Agency.TargetResolved
+#print axioms CoreReader.Agency.TargetContentResolved
+#print axioms CoreReader.Agency.Performed
+#print axioms CoreReader.Agency.ReflexiveScope
+#print axioms CoreReader.Agency.ValidApplication
+#print axioms CoreReader.Agency.Reflexive
+#print axioms CoreReader.Agency.Reflexive.toScope
+#print axioms CoreReader.Agency.noSelfExemption
+#print axioms CoreReader.Agency.localMethod
+#print axioms CoreReader.Agency.inquiryFor
+#print axioms CoreReader.Agency.sourceReasonContents
+#print axioms CoreReader.Agency.reasonsFor
+#print axioms CoreReader.Agency.assessInquiry
+#print axioms CoreReader.Agency.finiteMethodResult
+#print axioms CoreReader.Agency.finiteMethodMeaning
+#print axioms CoreReader.Agency.ownSubjects
+#print axioms CoreReader.Agency.generationEligible
+#print axioms CoreReader.Agency.generatingRule
+#print axioms CoreReader.Agency.assessingRule
+#print axioms CoreReader.Agency.ownRules
+#print axioms CoreReader.Agency.statedOutcome
+#print axioms CoreReader.Agency.recordFor
+#print axioms CoreReader.Agency.reasonsFor_nonempty
+#print axioms CoreReader.Agency.reasonsFor_target
+#print axioms CoreReader.Agency.inquiryFor_target
+#print axioms CoreReader.Agency.ownContentEvaluates
+#print axioms CoreReader.Agency.ownRegistryCoherent
+#print axioms CoreReader.Agency.ownTargetResolved
+#print axioms CoreReader.Agency.ownTargetContent
+#print axioms CoreReader.Agency.ownRecordValid
+#print axioms CoreReader.Agency.completeOwnWork
+#print axioms CoreReader.Agency.assessingRecord_member
+#print axioms CoreReader.Agency.generatingRecord_member
+#print axioms CoreReader.Agency.completeOwnWork_reflexive
+#print axioms CoreReader.Agency.ownAssessmentPerformed
+#print axioms CoreReader.Agency.applicationRule
+#print axioms CoreReader.Agency.applicationWork
+#print axioms CoreReader.Agency.applicationWork_reflexive
+#print axioms CoreReader.Agency.applicabilityRetained

@@ -1,0 +1,153 @@
+{
+  "schema": "independent-repair-review-v1",
+  "reviewer": "/root/se_source_first",
+  "recorded_at": "2026-09-14T18:01:11.678348+00:00",
+  "phase": "informed repair review; author response seen; other independent blind/source comparison not seen",
+  "candidate": "private software-engineering iteration records/f07-f08-candidate",
+  "candidate_files": {
+    "leanified/lakefile.toml": "05d8ba36975f87aca61e3b0ddcacc42669539f316ba9b8eef5859961e2aa6fdc",
+    "leanified/CoreReader/Adopted.lean": "81337c6b8d85dc02a27a20e0969e8c09e41aa85a1784c0c22c9cf4b150dd7f1e",
+    "leanified/CoreReader/Agency.lean": "2722c34645f4256f20ce31205738f2f5712ab5dd5cc6fcf9f1180d0be5aa0303",
+    "leanified/CoreReader/Choice.lean": "b28728df12ed7e73edb5569604cd2541c0ebd815ae3aaa0812e6557dece1d1ba",
+    "leanified/CoreReader/Engineering/Domain.lean": "9adc72e3a072d16aefb0e12a55584caa87205fc484aea488cdd80a785a8ff90b",
+    "leanified/CoreReader/Engineering/Integration.lean": "a2b88062148b3f7ebea7da02d88cb29cb04d8f1b2e9e6b97bb2420ac2c006328",
+    "leanified/CoreReader/Engineering/Reflection.lean": "c290d8472884d00bedbf945f0fc1866524e758740f40d42088c4ff9678a93fa2",
+    "leanified/CoreReader/Engineering/SelfApplication.lean": "d69c0d369bd4fd8db4c21ce3b65abb5e9efd07ed5ab9a68d56b4db39bb9d2a21",
+    "leanified/CoreReader/Engineering/Values.lean": "ccd45bf23d2f47c41d1b2f9955d753e290687d951a0c55af41ab9a63b9a8d9cb",
+    "leanified/CoreReader/Evidence.lean": "d55f33e44902cef146841cbffb65710bd7c8a3bda79d01d084edc36f019fdc96",
+    "leanified/CoreReader/Integration.lean": "97e2939c0b6714b78a3ed78358e174619a5028ad5b0b5025c0d4422b4294921b",
+    "leanified/CoreReader/Logic.lean": "0ec342691766ebd83d251dcd0da3b0ae9840aed677a714bc1b01c45d89392bc0",
+    "leanified/CoreReader/Reflexivity.lean": "48e2c74e7cbae571db1b990b9f32dd0d701f6881a8b0111d907f8861287d76fa",
+    "leanified/CoreReader.lean": "c5574fae235419a7d6449b3ebb5d2da29d1e92a3b572c1b759438e3c470caaa9"
+  },
+  "read_object_hashes": {
+    "Integration": "a2b88062148b3f7ebea7da02d88cb29cb04d8f1b2e9e6b97bb2420ac2c006328",
+    "SelfApplication": "d69c0d369bd4fd8db4c21ce3b65abb5e9efd07ed5ab9a68d56b4db39bb9d2a21",
+    "Reflection": "c290d8472884d00bedbf945f0fc1866524e758740f40d42088c4ff9678a93fa2"
+  },
+  "findings": [
+    {
+      "id": "F07",
+      "status": "resolved-bounded",
+      "basis": "Actual OwnNorm content family, whole fact/norm union, member bridge and one shared admissible witness; consistency constrains that union without self-reference."
+    },
+    {
+      "id": "F08",
+      "status": "resolved-bounded",
+      "basis": "Actual generation/evaluation functions are objects, with actual applicability, executed records, generator mutation and empty-initial-sample contract criticism."
+    }
+  ],
+  "target_changes": [
+    {
+      "id": "T20",
+      "status": "accepted-bounded",
+      "previous": "pending-correspondence",
+      "resolved_findings": [
+        "F07",
+        "F08"
+      ],
+      "completion": "incomplete",
+      "declarations": [
+        {
+          "name": "CoreReader.Engineering.inheritedMutualApplication",
+          "type_sha256": "b60496465943a095fdd0772f4002302eb9242ece03be7a2e20ce616f0253ee4a"
+        },
+        {
+          "name": "CoreReader.Engineering.inheritedMutualCases",
+          "type_sha256": "e3c73c4f98c7a3fe5bfadc8b2bc7a9a5231473504e047179d6299e3417f2ba4c"
+        }
+      ]
+    },
+    {
+      "id": "T37",
+      "status": "accepted-bounded",
+      "previous": "pending-correspondence",
+      "resolved_findings": [
+        "F07",
+        "F08"
+      ],
+      "completion": "incomplete",
+      "declarations": [
+        {
+          "name": "CoreReader.Engineering.priorityRemainsReflexive",
+          "type_sha256": "285b4edb7397d25ccc631b194a1ff8ebb5204df450d52ec8eaf0685519b289c2"
+        },
+        {
+          "name": "CoreReader.Engineering.priorityReflexiveCases",
+          "type_sha256": "2be55699c66ab5ba0f6310f298e19b890de4caef622e0d69676f2d6a7a3b5170"
+        }
+      ]
+    },
+    {
+      "id": "T38",
+      "status": "accepted-bounded",
+      "previous": "pending-correspondence",
+      "resolved_findings": [
+        "F07",
+        "F08"
+      ],
+      "completion": "incomplete",
+      "declarations": [
+        {
+          "name": "CoreReader.Engineering.jointWitness",
+          "type_sha256": "56d1bd97b0ac6c069484812a2a975dc185a905a24ee133a780b5f23a7fdc0b59"
+        }
+      ]
+    },
+    {
+      "id": "T39",
+      "status": "accepted-bounded",
+      "previous": "pending-correspondence",
+      "resolved_findings": [
+        "F07",
+        "F08"
+      ],
+      "completion": "incomplete",
+      "declarations": [
+        {
+          "name": "CoreReader.Engineering.inheritedDoesNotEntailPriority",
+          "type_sha256": "ad1b1b45257f57a53567b08bc87eb32bd6d8acf8395e9762a684c1116f270197"
+        }
+      ]
+    }
+  ],
+  "report_sha256": "898af33213a832832f4b6d84a8f94fd99bede9a0abae055b9e2a1af3b8ee5b1f",
+  "previous_full_report_sha256": "d1c38be6f8826ff29ff01ec12bb2d45f3f32e4e4b45830c7fd3250a40ab13767",
+  "evidence": {
+    "directory": "SoftwareEngineering/lean/philosophy/evidence/checks/2026-09-14T17-57-36.138Z-30664-f57092",
+    "files": {
+      "lake-build.log": "da5816c9a0767c1dbc2657dfb0528d52ef82bd1516d320d6d5d6d8d5dd988437",
+      "lake-build.json": "db13e62e4e665741eb1b53f915a4047cde44b220a34c5ca391036ea0030e4441",
+      "lean-audit.log": "872ab0c947ec133e88753dde51e0498f9b008934cd3f50baf9b474fef9f8a6e6",
+      "lean-audit.json": "79d9c23b7c3c51661ece41afbceb2c7416ed21cb84a6bdc1aa023c215e1e09e7",
+      "declaration-types.json": "ef139b207e05d1272871ee627f60636a0e9f886d2eac65aea18915e7fc33e27b",
+      "inputs-sha256.json": "ca316a4d6cf8bc01ec0efc4bdd91cbc0e76faea226ae227b4248cd128af18cb3"
+    },
+    "local_files": {
+      "f07-f08-check.json": "a2f4ed406588dfe87840e1675ec653646a12b048f4287bc68456737bc7e43aeb",
+      "f07-f08-build-05-receipt.json": "1a5b64e758bb89d21f5439f1758784542b43d7e22b1b290597a1a42a2751be10",
+      "f07-f08-build-05.log": "aa3095899a65115b25b644ab266a5813550e301b9817f1084c87a44b55ad5f5a",
+      "f07-f08-author-response.md": "6850fe7b7693200544b4df76337a89ed7655871a523cccfc2a7faa59766f6da8"
+    },
+    "observed": "build and audit actual status 0; 15 full build jobs; 59 real declaration types and only propext/Classical.choice/Quot.sound; all14 evidence inputs equal frozen candidate"
+  },
+  "strong_statement_preservation": {
+    "jointWitness": "exact public statement unchanged against before-f07-f08",
+    "inheritedDoesNotEntailPriority": "exact public statement unchanged against before-f07-f08",
+    "qualification": "Inherited and ownTheory changed substantively and were independently re-read"
+  },
+  "counterarguments_and_limits": [
+    "Empty initial sample is a failure against a local sample-aware contract, not a universal source obligation that every assessment requires samples; requested tests still supply computational information.",
+    "Priority value/claim equivalence holds only in the fixed shared applicable no-cost-exception context.",
+    "Whole-claim mathematical support from fixed model identity does not replace original empirical/value/capability tasks.",
+    "No need to put a self-referential Consistent theory proposition inside its own definition; actual consistency constrains the exact whole theory.",
+    "Actual evaluator retains the exposed finite defect; sampleAwareAssessment is a distinct proposal, not silently adopted.",
+    "Later public Domain/Adopted changes are outside this frozen review."
+  ],
+  "production_changes": false,
+  "reviewer_authored_lean_probes": false,
+  "remaining": [
+    "other independent comparison and incremental change review",
+    "manuscript and final delivery bindings"
+  ]
+}

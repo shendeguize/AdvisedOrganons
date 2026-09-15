@@ -1,0 +1,19 @@
+{
+  "schema": "independent-repair-review-v1",
+  "reviewer": "/root/se_source_first",
+  "code_sha256": "0ed052c3692d8c91a41eed60bb0cba6ca033a7c9d1163aac66b32e4291927377",
+  "finding": "F04",
+  "status": "resolved-including-frozen-same-work-case",
+  "target_changes": [
+    {
+      "id": "T32",
+      "previous": "pending",
+      "status": "accepted",
+      "completion": "incomplete"
+    }
+  ],
+  "review_sha256": "c64b54d89ffed6592d5b745772835f9ff1ace23305a51dfa688289bf25c9cde2",
+  "receipt_sha256": "412f975863cd2f3d803673776807a0205cd5e4b5ac7d37328d69f332abab7323",
+  "receipt_exit_code": 0,
+  "scope": "new same-work actual boundary variation only; Root independent review pending"
+}

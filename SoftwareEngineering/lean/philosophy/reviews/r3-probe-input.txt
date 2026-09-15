@@ -1,0 +1,42 @@
+import CoreReader
+open CoreReader.Engineering CoreReader.Adopted CoreReader.Logic
+#eval (explainedWithoutVariation012.answer 3 1, mechanismResponder012.answer 3 1)
+example : explainedWithoutVariation012.process = mechanismResponder012.process := rfl
+example : ¬ UnderstandingApplication012 explainedWithoutVariation012 := explainedWithoutVariationFails012
+example : UnderstandingApplication012 mechanismResponder012 := mechanismResponderUnderstands012
+#eval (boundaryObligationChecked boundaryDesign .coordinated coordinatedBoundary,
+       boundaryObligationChecked omittedCallerCheck .coordinated coordinatedBoundary,
+       crossesBoundary otherCalleeDesign .coordinated otherCalleeBoundary,
+       boundaryObligationChecked { boundaryDesign with run := sortedUnique } .coordinated coordinatedBoundary)
+#eval (coordinatedBoundary.caller, coordinatedBoundary.callee,
+       (boundaryDesign.paths .coordinated).map (fun step => (step.component, step.tool, step.requires)))
+example (ctx : CoreReader.Engineering.Context) (chosen : CoreReader.Engineering.Candidate)
+    (h : Inherited ctx chosen) :
+    consistencySpecification (engineeringSnapshot .evolvable 0) (engineeringSnapshot chosen 1) true := by
+  have all := inheritedMutualApplication ctx chosen h
+  exact all.2.2.2.2.2.2.2.2
+example (ctx : CoreReader.Engineering.Context) (chosen : CoreReader.Engineering.Candidate)
+    (h : Inherited ctx chosen) (d : DomainSatisfied ctx chosen)
+    (a : PriorityConditions ctx) (n : ¬ JustifiedDeparture ctx .evolvable) :
+    Grounds012 (EvolutionPriority ctx) CoreReader.Evidence.canonicalArticulation
+      [.value (selectionPosition .evolvable)] (.value (selectionPosition .evolvable)) := by
+  have all := priorityRemainsReflexive ctx chosen h d a n
+  exact all.2.2.2.2.1
+example (ctx : CoreReader.Engineering.Context) (chosen : CoreReader.Engineering.Candidate)
+    (h : Inherited ctx chosen) (d : DomainSatisfied ctx chosen)
+    (a : PriorityConditions ctx) (n : ¬ JustifiedDeparture ctx .evolvable) :
+    consistencySpecification (engineeringSnapshot .evolvable 0) (engineeringSnapshot chosen 1) true := by
+  have all := priorityRemainsReflexive ctx chosen h d a n
+  exact all.2.2.2.2.2.2
+#eval (generationRuleTest Reflection.generate (.evolvable, 10),
+       generationRuleTest (fun _ => .generated [] []) (.evolvable, 10),
+       assessmentRuleTest Reflection.evaluate (.evolvable, 10),
+       assessmentRuleTest Reflection.evaluate (.evolvable, 5),
+       assessmentRuleTest sampleAwareAssessment (.evolvable, 5))
+#eval Reflection.evaluate ((selfModel .evolvable).input ⟨0, .assessmentRule, .revision⟩)
+example : ownTheory .evolvable (ownNormClaim .evolvable .domain) :=
+  allNormativeContentHeld .evolvable .domain rfl
+example : ¬ ownTheory .presentSimple (ownNormClaim .presentSimple .domain) :=
+  normativeContentVariation.2.2.2.2.2
+example : ¬ Consistent incompatibleNormTheory incompatibleNormContext :=
+  normativeContentVariation.2.1

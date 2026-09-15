@@ -1,0 +1,650 @@
+{
+  "role": "independent_changed_scope_public_embedding_and_lookup_recheck",
+  "verdict": "accepted_for_reviewed_Domain_and_T35_changed_scope",
+  "scope": "Exactly the accepted 14 Domain line changes in both languages, their embedding in current detailed views, and accepted T35 fields in all four views; related target/declaration/source-anchor lookup.",
+  "authorship_separation": "Reviewer did not author Domain or T35. Reviewer-authored Root Reflection/SelfApplication/Values/Integration prose is excluded; whole-view hashes identify bytes only and do not constitute this reviewer self-approving their other contents.",
+  "baseline": "SoftwareEngineering 0.2.0 / adopted Core 0.1.2",
+  "actual_objects": [
+    {
+      "path": "SoftwareEngineering/PHILOSOPHY.md",
+      "snapshot": "private software-engineering iteration records/reader-independent-domain-final-input/PHILOSOPHY.md",
+      "sha256": "6c6ae78a23f2726c5c370434e808d76c206647fe7793245e88cae52c076abe34",
+      "bytes": 19419
+    },
+    {
+      "path": "SoftwareEngineering/lean/philosophy/run.json",
+      "snapshot": "private software-engineering iteration records/reader-independent-domain-final-input/lean__philosophy__run.json",
+      "sha256": "661ee91e1727a628c9e5933f6c6690011c575f99123b2a669ddb2b9c036a163d",
+      "bytes": 92244
+    },
+    {
+      "path": "SoftwareEngineering/lean/philosophy/targets.json",
+      "snapshot": "private software-engineering iteration records/reader-independent-domain-final-input/lean__philosophy__targets.json",
+      "sha256": "c0939df35dad148a0543ba92a1ac7b7d3b2eb4946f92ac4be251ec51b6481d13",
+      "bytes": 81994
+    },
+    {
+      "path": "private software-engineering iteration records/target-narratives-current.json",
+      "snapshot": "private software-engineering iteration records/reader-independent-domain-final-input/target-narratives-current.json",
+      "sha256": "12f534ce9489527799edebe937e5cca39dc3166afb6aec5783473334423b06d4",
+      "bytes": 63287
+    },
+    {
+      "path": "private software-engineering iteration records/domain-line-explanations-en.json",
+      "snapshot": "private software-engineering iteration records/reader-independent-domain-final-input/domain-line-explanations-en.json",
+      "sha256": "d1773e14c9e68a81850a9a949f11ab3722dcb3a4c2bd8c663ecf1e8102d3c471",
+      "bytes": 121330
+    },
+    {
+      "path": "private software-engineering iteration records/domain-line-explanations-zh.json",
+      "snapshot": "private software-engineering iteration records/reader-independent-domain-final-input/domain-line-explanations-zh.json",
+      "sha256": "24bf6725f169fad4ec28f335296c0e95c3212136e46ec3ad0974f61a32820c85",
+      "bytes": 101118
+    },
+    {
+      "path": "SoftwareEngineering/lean/philosophy/leanified/CoreReader/Engineering/Domain.lean",
+      "snapshot": "private software-engineering iteration records/reader-independent-domain-final-input/lean__philosophy__leanified__CoreReader__Engineering__Domain.lean",
+      "sha256": "ce5653a2950cc7443cefbfe8b9726bd4859228e831ddb7d42601e501ccbfd855",
+      "bytes": 54444
+    },
+    {
+      "path": "SoftwareEngineering/lean/philosophy/overview.md",
+      "snapshot": "private software-engineering iteration records/reader-independent-domain-final-input/lean__philosophy__overview.md",
+      "sha256": "c8b01525a54a9beb78086a17652ea4ded4740dad956a0a9a4f9c0ae3ee7171a2",
+      "bytes": 123993
+    },
+    {
+      "path": "SoftwareEngineering/lean/philosophy/details.md",
+      "snapshot": "private software-engineering iteration records/reader-independent-domain-final-input/lean__philosophy__details.md",
+      "sha256": "1b8d07cbbf3a0e7005821bc2261f89b1675d43a053802e8b779b1930e0d782af",
+      "bytes": 1803974
+    },
+    {
+      "path": "SoftwareEngineering/zh/lean/philosophy/overview.md",
+      "snapshot": "private software-engineering iteration records/reader-independent-domain-final-input/zh__lean__philosophy__overview.md",
+      "sha256": "31fd96fd034ab16e92d3ecc600237bf9f27fcddaff754b308e4ca14573b58a61",
+      "bytes": 110895
+    },
+    {
+      "path": "SoftwareEngineering/zh/lean/philosophy/details.md",
+      "snapshot": "private software-engineering iteration records/reader-independent-domain-final-input/zh__lean__philosophy__details.md",
+      "sha256": "5eba3d944c7bcef294bfed822e6c4aa8205e3e238157da5fb95365bbb57169ff",
+      "bytes": 1685077
+    }
+  ],
+  "code_hashes": {
+    "CoreReader.lean": "c5574fae235419a7d6449b3ebb5d2da29d1e92a3b572c1b759438e3c470caaa9",
+    "CoreReader/Choice.lean": "b28728df12ed7e73edb5569604cd2541c0ebd815ae3aaa0812e6557dece1d1ba",
+    "CoreReader/Logic.lean": "0ec342691766ebd83d251dcd0da3b0ae9840aed677a714bc1b01c45d89392bc0",
+    "CoreReader/Integration.lean": "97e2939c0b6714b78a3ed78358e174619a5028ad5b0b5025c0d4422b4294921b",
+    "CoreReader/Agency.lean": "2722c34645f4256f20ce31205738f2f5712ab5dd5cc6fcf9f1180d0be5aa0303",
+    "CoreReader/Reflexivity.lean": "48e2c74e7cbae571db1b990b9f32dd0d701f6881a8b0111d907f8861287d76fa",
+    "CoreReader/Evidence.lean": "d55f33e44902cef146841cbffb65710bd7c8a3bda79d01d084edc36f019fdc96",
+    "CoreReader/Adopted.lean": "8de4d364bb3c64e29ab92e81d86cbe4c9e5af49ada3dad262d1378421fb588c2",
+    "CoreReader/Engineering/Reflection.lean": "c290d8472884d00bedbf945f0fc1866524e758740f40d42088c4ff9678a93fa2",
+    "CoreReader/Engineering/Integration.lean": "a2b88062148b3f7ebea7da02d88cb29cb04d8f1b2e9e6b97bb2420ac2c006328",
+    "CoreReader/Engineering/Values.lean": "ccd45bf23d2f47c41d1b2f9955d753e290687d951a0c55af41ab9a63b9a8d9cb",
+    "CoreReader/Engineering/SelfApplication.lean": "d69c0d369bd4fd8db4c21ce3b65abb5e9efd07ed5ab9a68d56b4db39bb9d2a21",
+    "CoreReader/Engineering/Domain.lean": "ce5653a2950cc7443cefbfe8b9726bd4859228e831ddb7d42601e501ccbfd855"
+  },
+  "all_code_hashes_match_third_snapshot": true,
+  "source_hash_matches_prior_review": true,
+  "actual_targets_hash": "c0939df35dad148a0543ba92a1ac7b7d3b2eb4946f92ac4be251ec51b6481d13",
+  "targets_match_frozen": true,
+  "T35_exact_record": {
+    "id": "T35",
+    "title_en": "Revision and preserved historical evidence",
+    "title_zh": "修订与保留历史证据",
+    "conclusion_en": "Changed forecasts, maintainers, costs or objectives can justify changed judgments. A new record must retain the earlier prediction and its observed failure.",
+    "conclusion_zh": "预测、维护者、成本或目标变化可支持改判；新记录须保留旧预测及其观测失败。",
+    "premises_en": "RevisionAccount compares the revision with independently fixed observedHistory, including software identity, old prediction and actual observed result. revisionFor uses the current context and selected candidate. MaterialGroundsChanged is a disjunction of five recorded differences; it does not prove that each difference alone adequately justifies the new choice.",
+    "premises_zh": "RevisionAccount 将修订与独立固定的 observedHistory 比较，包括软件身份、旧预测及实际观测结果；revisionFor 使用当前语境和所选实现。 MaterialGroundsChanged 是五项记录差异的析取，不证明任一差异单独足以充分支持新选择。",
+    "proof_en": "The same old/new state pair changes forecast, maintenance, maintainers, migration cost and objective capacity together; the theorem lists all five differences. Tampering with both old and recordedOld cannot change the independent history. Separate retention cases use an unsupported alternative or a justified migration-cost departure.",
+    "proof_zh": "同一旧／新状态对同时改变预测、维护、维护者、迁移成本和目标容量；定理列出这五项差异。同步篡改 old 与 recordedOld 不能改变独立历史。另有保留案例分别使用无支持的替代方向或有根据的迁移成本让步。",
+    "limits_en": "The recorded history is fixed model evidence; the theorem does not authenticate arbitrary real-world logs or prove every criticism response adequate.",
+    "limits_zh": "记录的历史是固定模型证据；定理不鉴定任意现实日志，也不证明所有批评回应均充分。"
+  },
+  "T35_canonical_hash": "8242e8ff1069f5fc2072eb780fecbfb2ba66faa637f6608e818b270fbc720a52",
+  "checks": [
+    {
+      "language": "en",
+      "changed_domain_line_embeddings": [
+        {
+          "source_line": 88,
+          "actual_source": "  match d with",
+          "anchor": "line-code-leanified-corereader-engineering-domain-lean-88",
+          "anchor_unique": true,
+          "view_anchor_line": 10829,
+          "view_explanation_line": 10830,
+          "exact_accepted_explanation": "Dispatch on the requested Change to choose its corresponding editing path; the following branches distinguish the different directions."
+        },
+        {
+          "source_line": 244,
+          "actual_source": "  objective := fun b => match b with",
+          "anchor": "line-code-leanified-corereader-engineering-domain-lean-244",
+          "anchor_unique": true,
+          "view_anchor_line": 11228,
+          "view_explanation_line": 11229,
+          "exact_accepted_explanation": "Assign each Burden its objective name by matching on the burden; the following branches supply the distinct engineering objectives."
+        },
+        {
+          "source_line": 298,
+          "actual_source": "abbrev JustifiedDeparture (ctx : Context) (c : Candidate) : Prop :=",
+          "anchor": "line-code-leanified-corereader-engineering-domain-lean-298",
+          "anchor_unique": true,
+          "view_anchor_line": 11363,
+          "view_explanation_line": 11364,
+          "exact_accepted_explanation": "Define justified departure for this context and candidate through a recorded burden whose concrete cost threat must hold."
+        },
+        {
+          "source_line": 299,
+          "actual_source": "  match ctx.departure with",
+          "anchor": "line-code-leanified-corereader-engineering-domain-lean-299",
+          "anchor_unique": true,
+          "view_anchor_line": 11366,
+          "view_explanation_line": 11367,
+          "exact_accepted_explanation": "Inspect this same context’s departure option to distinguish an absent explanation from a named burden."
+        },
+        {
+          "source_line": 300,
+          "actual_source": "  | none => False",
+          "anchor": "line-code-leanified-corereader-engineering-domain-lean-300",
+          "anchor_unique": true,
+          "view_anchor_line": 11369,
+          "view_explanation_line": 11370,
+          "exact_accepted_explanation": "With no recorded departure burden, justification is False; absence supplies no exception."
+        },
+        {
+          "source_line": 301,
+          "actual_source": "  | some b => ConcreteThreat ctx c b",
+          "anchor": "line-code-leanified-corereader-engineering-domain-lean-301",
+          "anchor_unique": true,
+          "view_anchor_line": 11372,
+          "view_explanation_line": 11373,
+          "exact_accepted_explanation": "For the recorded burden b, require ConcreteThreat for this exact context, candidate and burden."
+        },
+        {
+          "source_line": 353,
+          "actual_source": "theorem unmetRequirementsBlockPriority :",
+          "anchor": "line-code-leanified-corereader-engineering-domain-lean-353",
+          "anchor_unique": true,
+          "view_anchor_line": 11501,
+          "view_explanation_line": 11502,
+          "exact_accepted_explanation": "Check that each of the four displayed requirement failures makes PriorityConditions false. This only disables priority activation: EvolutionPriority and the later DomainSatisfied do not impose an unconditional Meets rejection."
+        },
+        {
+          "source_line": 424,
+          "actual_source": "def insertOrdered (n : Nat) : List Nat → List Nat",
+          "anchor": "line-code-leanified-corereader-engineering-domain-lean-424",
+          "anchor_unique": true,
+          "view_anchor_line": 11699,
+          "view_explanation_line": 11700,
+          "exact_accepted_explanation": "Take a natural number and an arbitrary natural-number list; the type has no sorted-input premise. sortValues uses this helper for ordered insertion into its recursively sorted tail."
+        },
+        {
+          "source_line": 710,
+          "actual_source": "def omittedCallerCheck : EngineeringDesign :=",
+          "anchor": "line-code-leanified-corereader-engineering-domain-lean-710",
+          "anchor_unique": true,
+          "view_anchor_line": 12428,
+          "view_explanation_line": 12429,
+          "exact_accepted_explanation": "Construct omittedCallerCheck as a design variant whose paths omit caller contract-runner work, for the later boundary-obligation counterexample."
+        },
+        {
+          "source_line": 711,
+          "actual_source": "  { boundaryDesign with paths := fun direction =>",
+          "anchor": "line-code-leanified-corereader-engineering-domain-lean-711",
+          "anchor_unique": true,
+          "view_anchor_line": 12431,
+          "view_explanation_line": 12432,
+          "exact_accepted_explanation": "Copy boundaryDesign’s other fields unchanged and replace paths with a function that transforms the path for each requested direction."
+        },
+        {
+          "source_line": 712,
+          "actual_source": "      (boundaryDesign.paths direction).filter (fun step =>",
+          "anchor": "line-code-leanified-corereader-engineering-domain-lean-712",
+          "anchor_unique": true,
+          "view_anchor_line": 12434,
+          "view_explanation_line": 12435,
+          "exact_accepted_explanation": "Filter the original boundaryDesign path for this same direction, retaining precisely the steps accepted by the following predicate."
+        },
+        {
+          "source_line": 713,
+          "actual_source": "        !(step.component == coordinatedBoundary.caller && step.tool == .contractRunner)) }",
+          "anchor": "line-code-leanified-corereader-engineering-domain-lean-713",
+          "anchor_unique": true,
+          "view_anchor_line": 12437,
+          "view_explanation_line": 12438,
+          "exact_accepted_explanation": "Exclude a step exactly when it is at coordinatedBoundary.caller and uses contractRunner; keep all other steps and finish the record update."
+        },
+        {
+          "source_line": 1034,
+          "actual_source": "abbrev DomainSatisfied (ctx : Context) (chosen : Candidate) : Prop :=",
+          "anchor": "line-code-leanified-corereader-engineering-domain-lean-1034",
+          "anchor_unique": true,
+          "view_anchor_line": 13271,
+          "view_explanation_line": 13272,
+          "exact_accepted_explanation": "Combine the represented domain duties for one context and selected design. This bundle has no unconditional Meets field; priority applicability is not an overall requirement-rejection test."
+        },
+        {
+          "source_line": 1035,
+          "actual_source": "  ActivityScope ctx.activity ∧ EvolutionPriority ctx chosen ∧",
+          "anchor": "line-code-leanified-corereader-engineering-domain-lean-1035",
+          "anchor_unique": true,
+          "view_anchor_line": 13274,
+          "view_explanation_line": 13275,
+          "exact_accepted_explanation": "Require ActivityScope and the conditional EvolutionPriority. If PriorityConditions is false, that implication holds vacuously; this conjunct does not reject the choice for unmet requirements, while the remaining domain duties still apply."
+        }
+      ],
+      "all_domain_entries_mechanically_match_accepted_component": true,
+      "domain_code_fence_exact": true,
+      "related_navigation": [
+        {
+          "target": "T23",
+          "overview_to_details_resolves": true,
+          "domain_declaration_links": [
+            {
+              "source_line": 159,
+              "anchor": "line-code-leanified-corereader-engineering-domain-lean-159",
+              "actual_source": "theorem subjectLimits :"
+            }
+          ]
+        },
+        {
+          "target": "T24",
+          "overview_to_details_resolves": true,
+          "domain_declaration_links": [
+            {
+              "source_line": 321,
+              "anchor": "line-code-leanified-corereader-engineering-domain-lean-321",
+              "actual_source": "abbrev EvolutionPriority (ctx : Context) (chosen : Candidate) : Prop :="
+            },
+            {
+              "source_line": 367,
+              "anchor": "line-code-leanified-corereader-engineering-domain-lean-367",
+              "actual_source": "theorem priorityConditionsCases :"
+            }
+          ]
+        },
+        {
+          "target": "T26",
+          "overview_to_details_resolves": true,
+          "domain_declaration_links": [
+            {
+              "source_line": 174,
+              "anchor": "line-code-leanified-corereader-engineering-domain-lean-174",
+              "actual_source": "abbrev CredibleDirection {Ground : Type} (grounds : List Ground)"
+            },
+            {
+              "source_line": 212,
+              "anchor": "line-code-leanified-corereader-engineering-domain-lean-212",
+              "actual_source": "theorem credibilityCases :"
+            }
+          ]
+        },
+        {
+          "target": "T28",
+          "overview_to_details_resolves": true,
+          "domain_declaration_links": [
+            {
+              "source_line": 298,
+              "anchor": "line-code-leanified-corereader-engineering-domain-lean-298",
+              "actual_source": "abbrev JustifiedDeparture (ctx : Context) (c : Candidate) : Prop :="
+            },
+            {
+              "source_line": 410,
+              "anchor": "line-code-leanified-corereader-engineering-domain-lean-410",
+              "actual_source": "theorem costCases :"
+            }
+          ]
+        },
+        {
+          "target": "T31",
+          "overview_to_details_resolves": true,
+          "domain_declaration_links": [
+            {
+              "source_line": 641,
+              "anchor": "line-code-leanified-corereader-engineering-domain-lean-641",
+              "actual_source": "abbrev StructuralAccount (a : Activity) (c : Candidate) (e : StructuralEvidence) : Prop :="
+            },
+            {
+              "source_line": 733,
+              "anchor": "line-code-leanified-corereader-engineering-domain-lean-733",
+              "actual_source": "theorem structuralCases :"
+            }
+          ]
+        },
+        {
+          "target": "T35",
+          "overview_to_details_resolves": true,
+          "domain_declaration_links": [
+            {
+              "source_line": 922,
+              "anchor": "line-code-leanified-corereader-engineering-domain-lean-922",
+              "actual_source": "abbrev RevisionAccount (r : RevisionRecord) : Prop := RevisionAccountAgainst observedHistory r"
+            },
+            {
+              "source_line": 951,
+              "anchor": "line-code-leanified-corereader-engineering-domain-lean-951",
+              "actual_source": "theorem revisionCases :"
+            }
+          ]
+        }
+      ],
+      "T35_embedding": [
+        {
+          "view": "overview",
+          "all_accepted_fields_embedded_exactly": {
+            "title": true,
+            "conclusion": true,
+            "premises": true,
+            "proof": true,
+            "limits": true
+          },
+          "source_links_resolve": [
+            "source-software-engineering-revision-p2",
+            "source-software-engineering-revision-p1"
+          ]
+        },
+        {
+          "view": "details",
+          "all_accepted_fields_embedded_exactly": {
+            "title": true,
+            "conclusion": true,
+            "premises": true,
+            "proof": true,
+            "limits": true
+          },
+          "source_links_resolve": [
+            "source-software-engineering-revision-p2",
+            "source-software-engineering-revision-p1"
+          ]
+        }
+      ]
+    },
+    {
+      "language": "zh",
+      "changed_domain_line_embeddings": [
+        {
+          "source_line": 88,
+          "actual_source": "  match d with",
+          "anchor": "line-code-leanified-corereader-engineering-domain-lean-88",
+          "anchor_unique": true,
+          "view_anchor_line": 10829,
+          "view_explanation_line": 10830,
+          "exact_accepted_explanation": "按请求的 Change 选择对应编辑路径；后续各分支区分不同变更方向。"
+        },
+        {
+          "source_line": 244,
+          "actual_source": "  objective := fun b => match b with",
+          "anchor": "line-code-leanified-corereader-engineering-domain-lean-244",
+          "anchor_unique": true,
+          "view_anchor_line": 11228,
+          "view_explanation_line": 11229,
+          "exact_accepted_explanation": "按 Burden 分派并指定对应目标名称；后续分支给出各自不同的工程目标。"
+        },
+        {
+          "source_line": 298,
+          "actual_source": "abbrev JustifiedDeparture (ctx : Context) (c : Candidate) : Prop :=",
+          "anchor": "line-code-leanified-corereader-engineering-domain-lean-298",
+          "anchor_unique": true,
+          "view_anchor_line": 11363,
+          "view_explanation_line": 11364,
+          "exact_accepted_explanation": "以记录的负担及其必须成立的具体成本威胁，定义此情境与候选的有根据让步。"
+        },
+        {
+          "source_line": 299,
+          "actual_source": "  match ctx.departure with",
+          "anchor": "line-code-leanified-corereader-engineering-domain-lean-299",
+          "anchor_unique": true,
+          "view_anchor_line": 11366,
+          "view_explanation_line": 11367,
+          "exact_accepted_explanation": "检查同一情境的 departure 选项，区分未指定说明与已指定负担。"
+        },
+        {
+          "source_line": 300,
+          "actual_source": "  | none => False",
+          "anchor": "line-code-leanified-corereader-engineering-domain-lean-300",
+          "anchor_unique": true,
+          "view_anchor_line": 11369,
+          "view_explanation_line": 11370,
+          "exact_accepted_explanation": "未记录让步负担时，根据条件为 False；缺省记录不提供例外。"
+        },
+        {
+          "source_line": 301,
+          "actual_source": "  | some b => ConcreteThreat ctx c b",
+          "anchor": "line-code-leanified-corereader-engineering-domain-lean-301",
+          "anchor_unique": true,
+          "view_anchor_line": 11372,
+          "view_explanation_line": 11373,
+          "exact_accepted_explanation": "对记录的负担 b，要求同一情境、候选及该负担满足 ConcreteThreat。"
+        },
+        {
+          "source_line": 353,
+          "actual_source": "theorem unmetRequirementsBlockPriority :",
+          "anchor": "line-code-leanified-corereader-engineering-domain-lean-353",
+          "anchor_unique": true,
+          "view_anchor_line": 11501,
+          "view_explanation_line": 11502,
+          "exact_accepted_explanation": "检查所示四种需求失败各自使 PriorityConditions 为假。这仅阻止优先条件激活；EvolutionPriority 及后面的 DomainSatisfied 并未施加无条件的 Meets 拒绝要求。"
+        },
+        {
+          "source_line": 424,
+          "actual_source": "def insertOrdered (n : Nat) : List Nat → List Nat",
+          "anchor": "line-code-leanified-corereader-engineering-domain-lean-424",
+          "anchor_unique": true,
+          "view_anchor_line": 11699,
+          "view_explanation_line": 11700,
+          "exact_accepted_explanation": "接收一个自然数及任意自然数列表；类型不含输入已排序的前提。sortValues 调用此辅助函数，在递归排序后的尾列表中按序插入。"
+        },
+        {
+          "source_line": 710,
+          "actual_source": "def omittedCallerCheck : EngineeringDesign :=",
+          "anchor": "line-code-leanified-corereader-engineering-domain-lean-710",
+          "anchor_unique": true,
+          "view_anchor_line": 12428,
+          "view_explanation_line": 12429,
+          "exact_accepted_explanation": "构造设计变式 omittedCallerCheck，在路径中省去调用方合同执行器工作，用于后面的边界义务反例。"
+        },
+        {
+          "source_line": 711,
+          "actual_source": "  { boundaryDesign with paths := fun direction =>",
+          "anchor": "line-code-leanified-corereader-engineering-domain-lean-711",
+          "anchor_unique": true,
+          "view_anchor_line": 12431,
+          "view_explanation_line": 12432,
+          "exact_accepted_explanation": "保持 boundaryDesign 的其他字段不变，将 paths 替换为按请求方向变换对应路径的函数。"
+        },
+        {
+          "source_line": 712,
+          "actual_source": "      (boundaryDesign.paths direction).filter (fun step =>",
+          "anchor": "line-code-leanified-corereader-engineering-domain-lean-712",
+          "anchor_unique": true,
+          "view_anchor_line": 12434,
+          "view_explanation_line": 12435,
+          "exact_accepted_explanation": "筛选 boundaryDesign 在同一方向的原路径，只保留下述谓词接受的步骤。"
+        },
+        {
+          "source_line": 713,
+          "actual_source": "        !(step.component == coordinatedBoundary.caller && step.tool == .contractRunner)) }",
+          "anchor": "line-code-leanified-corereader-engineering-domain-lean-713",
+          "anchor_unique": true,
+          "view_anchor_line": 12437,
+          "view_explanation_line": 12438,
+          "exact_accepted_explanation": "仅在步骤位于 coordinatedBoundary.caller 且使用 contractRunner 时删除它；保留其余步骤，并完成记录更新。"
+        },
+        {
+          "source_line": 1034,
+          "actual_source": "abbrev DomainSatisfied (ctx : Context) (chosen : Candidate) : Prop :=",
+          "anchor": "line-code-leanified-corereader-engineering-domain-lean-1034",
+          "anchor_unique": true,
+          "view_anchor_line": 13271,
+          "view_explanation_line": 13272,
+          "exact_accepted_explanation": "组合同一情境与所选设计的已表示领域义务。此组合没有无条件的 Meets 字段；优先适用性并不是整体需求拒绝检查。"
+        },
+        {
+          "source_line": 1035,
+          "actual_source": "  ActivityScope ctx.activity ∧ EvolutionPriority ctx chosen ∧",
+          "anchor": "line-code-leanified-corereader-engineering-domain-lean-1035",
+          "anchor_unique": true,
+          "view_anchor_line": 13274,
+          "view_explanation_line": 13275,
+          "exact_accepted_explanation": "要求 ActivityScope 及条件式 EvolutionPriority。若 PriorityConditions 为假，该蕴含空真；此合取项不会因需求未满足而拒绝选择，其余领域义务仍须履行。"
+        }
+      ],
+      "all_domain_entries_mechanically_match_accepted_component": true,
+      "domain_code_fence_exact": true,
+      "related_navigation": [
+        {
+          "target": "T23",
+          "overview_to_details_resolves": true,
+          "domain_declaration_links": [
+            {
+              "source_line": 159,
+              "anchor": "line-code-leanified-corereader-engineering-domain-lean-159",
+              "actual_source": "theorem subjectLimits :"
+            }
+          ]
+        },
+        {
+          "target": "T24",
+          "overview_to_details_resolves": true,
+          "domain_declaration_links": [
+            {
+              "source_line": 321,
+              "anchor": "line-code-leanified-corereader-engineering-domain-lean-321",
+              "actual_source": "abbrev EvolutionPriority (ctx : Context) (chosen : Candidate) : Prop :="
+            },
+            {
+              "source_line": 367,
+              "anchor": "line-code-leanified-corereader-engineering-domain-lean-367",
+              "actual_source": "theorem priorityConditionsCases :"
+            }
+          ]
+        },
+        {
+          "target": "T26",
+          "overview_to_details_resolves": true,
+          "domain_declaration_links": [
+            {
+              "source_line": 174,
+              "anchor": "line-code-leanified-corereader-engineering-domain-lean-174",
+              "actual_source": "abbrev CredibleDirection {Ground : Type} (grounds : List Ground)"
+            },
+            {
+              "source_line": 212,
+              "anchor": "line-code-leanified-corereader-engineering-domain-lean-212",
+              "actual_source": "theorem credibilityCases :"
+            }
+          ]
+        },
+        {
+          "target": "T28",
+          "overview_to_details_resolves": true,
+          "domain_declaration_links": [
+            {
+              "source_line": 298,
+              "anchor": "line-code-leanified-corereader-engineering-domain-lean-298",
+              "actual_source": "abbrev JustifiedDeparture (ctx : Context) (c : Candidate) : Prop :="
+            },
+            {
+              "source_line": 410,
+              "anchor": "line-code-leanified-corereader-engineering-domain-lean-410",
+              "actual_source": "theorem costCases :"
+            }
+          ]
+        },
+        {
+          "target": "T31",
+          "overview_to_details_resolves": true,
+          "domain_declaration_links": [
+            {
+              "source_line": 641,
+              "anchor": "line-code-leanified-corereader-engineering-domain-lean-641",
+              "actual_source": "abbrev StructuralAccount (a : Activity) (c : Candidate) (e : StructuralEvidence) : Prop :="
+            },
+            {
+              "source_line": 733,
+              "anchor": "line-code-leanified-corereader-engineering-domain-lean-733",
+              "actual_source": "theorem structuralCases :"
+            }
+          ]
+        },
+        {
+          "target": "T35",
+          "overview_to_details_resolves": true,
+          "domain_declaration_links": [
+            {
+              "source_line": 922,
+              "anchor": "line-code-leanified-corereader-engineering-domain-lean-922",
+              "actual_source": "abbrev RevisionAccount (r : RevisionRecord) : Prop := RevisionAccountAgainst observedHistory r"
+            },
+            {
+              "source_line": 951,
+              "anchor": "line-code-leanified-corereader-engineering-domain-lean-951",
+              "actual_source": "theorem revisionCases :"
+            }
+          ]
+        }
+      ],
+      "T35_embedding": [
+        {
+          "view": "overview",
+          "all_accepted_fields_embedded_exactly": {
+            "title": true,
+            "conclusion": true,
+            "premises": true,
+            "proof": true,
+            "limits": true
+          },
+          "source_links_resolve": [
+            "source-software-engineering-revision-p2",
+            "source-software-engineering-revision-p1"
+          ]
+        },
+        {
+          "view": "details",
+          "all_accepted_fields_embedded_exactly": {
+            "title": true,
+            "conclusion": true,
+            "premises": true,
+            "proof": true,
+            "limits": true
+          },
+          "source_links_resolve": [
+            "source-software-engineering-revision-p2",
+            "source-software-engineering-revision-p1"
+          ]
+        }
+      ]
+    }
+  ],
+  "closed_findings": [
+    "RD1",
+    "RD2",
+    "RD3",
+    "RD4 necessary line corrections"
+  ],
+  "optional_improvements_embedded": [
+    "RD4 option/filter local explanations"
+  ],
+  "prior_records_preserved": {
+    "reader-independent-domain-r1.md": "2c411fb38eef7f4637c9c243930b4f30029b059893056518607e767cd851dae8",
+    "reader-independent-domain-r1.json": "fc60fdb13ba8f01734c78bcea55829701d2f6649a0064f9bdc58c0f9079f981d",
+    "reader-independent-domain-r1-granularity-clarification.json": "9d6c9b64c164a072203911b24ced32e9e32bf47a2d82a5706771934c5faa6f6a",
+    "reader-independent-domain-r2.md": "228a039b18206d6243e29afe3cd5e5480d930cb09d186c217284d618e61819bd",
+    "reader-independent-domain-r2.json": "44b4697d44a5f28ca501f868e08680dfbf7614092860e87daa28c37a1fe30f82"
+  },
+  "reported_metadata_only": {
+    "manifest_hash_reported_by_initiator": "1707734f6c51b9f7cd802ba8b84ed2a4d80fb6a7617d53eac081568689fee0c1",
+    "actualgate_pass_reported_by_initiator": true,
+    "not_reused_as_this_review_evidence": "This review independently checks actual manuscript/code/source/target bytes and exact embeddings. Later public-QA metadata may change manifest identity without changing these reviewed objects."
+  },
+  "reuse": "Reuses the preserved r1 full Domain semantics and actual probes plus r2 changed-component semantic acceptance, since code and accepted component values are unchanged. No new Lean build or full Domain semantic reread was performed for a prose embedding check.",
+  "limitations": [
+    "Accepts only the stated changed scope, not all four manuscripts philosophically or semantically.",
+    "No self-review of the four Root module explanations authored by this reviewer.",
+    "Markdown anchor/embedding checks are actual text navigation, not screenshot/browser visual QA.",
+    "A later change to any relevant view/source/code/T35 bytes requires impact-based rechecking; metadata-only manifest changes do not silently change this reviewed byte object."
+  ]
+}

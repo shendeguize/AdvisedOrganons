@@ -1,0 +1,7 @@
+import CoreReader
+open CoreReader.Engineering CoreReader.Adopted
+example : (revisionFor sharedContext .evolvable).old.choice =
+    (revisionFor sharedContext .evolvable).current.choice ∧
+    reflexivitySpecification (selfModel .evolvable).rules (selfModel .evolvable).self
+      (selfModel .evolvable).performed :=
+  ⟨rfl, currentSelfApplication .evolvable (Or.inr rfl)⟩

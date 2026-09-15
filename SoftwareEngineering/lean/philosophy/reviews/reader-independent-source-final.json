@@ -1,0 +1,377 @@
+{
+  "stage": "final narrow informed reader-source re-review of synchronized r2 views",
+  "verdict": "accepted within assigned independent reader scope; no outstanding R01-R05 or link/reuse blocker",
+  "manifest_observed_sha256": "1707734f6c51b9f7cd802ba8b84ed2a4d80fb6a7617d53eac081568689fee0c1",
+  "manifest_limit": "Observed current metadata identity only. Later metadata additions do not refresh or extend the fixed views/source/code/target objects below.",
+  "view_objects": [
+    {
+      "view": "overview_en",
+      "path": "SoftwareEngineering/lean/philosophy/overview.md",
+      "sha256": "c8b01525a54a9beb78086a17652ea4ded4740dad956a0a9a4f9c0ae3ee7171a2"
+    },
+    {
+      "view": "details_en",
+      "path": "SoftwareEngineering/lean/philosophy/details.md",
+      "sha256": "1b8d07cbbf3a0e7005821bc2261f89b1675d43a053802e8b779b1930e0d782af"
+    },
+    {
+      "view": "overview_zh",
+      "path": "SoftwareEngineering/zh/lean/philosophy/overview.md",
+      "sha256": "31fd96fd034ab16e92d3ecc600237bf9f27fcddaff754b308e4ca14573b58a61"
+    },
+    {
+      "view": "details_zh",
+      "path": "SoftwareEngineering/zh/lean/philosophy/details.md",
+      "sha256": "5eba3d944c7bcef294bfed822e6c4aa8205e3e238157da5fb95365bbb57169ff"
+    }
+  ],
+  "source_target_document_objects": [
+    {
+      "path": "SoftwareEngineering/PHILOSOPHY.md",
+      "sha256": "6c6ae78a23f2726c5c370434e808d76c206647fe7793245e88cae52c076abe34"
+    },
+    {
+      "path": "SoftwareEngineering/lean/philosophy/snapshots/PHILOSOPHY.md",
+      "sha256": "6c6ae78a23f2726c5c370434e808d76c206647fe7793245e88cae52c076abe34"
+    },
+    {
+      "path": "SoftwareEngineering/lean/philosophy/targets.json",
+      "sha256": "c0939df35dad148a0543ba92a1ac7b7d3b2eb4946f92ac4be251ec51b6481d13"
+    },
+    {
+      "path": "SoftwareEngineering/lean/philosophy/reviews/README.md",
+      "sha256": "f7bcec3e4e78c8cfa09f933ae42c0a5e4b59ee491bf521b66755a8f6c4ba8e4b"
+    }
+  ],
+  "code_objects": [
+    {
+      "path": "SoftwareEngineering/lean/philosophy/leanified/CoreReader/Adopted.lean",
+      "sha256": "8de4d364bb3c64e29ab92e81d86cbe4c9e5af49ada3dad262d1378421fb588c2",
+      "manifest_match": true,
+      "same_reviewed_third_object": true
+    },
+    {
+      "path": "SoftwareEngineering/lean/philosophy/leanified/CoreReader/Agency.lean",
+      "sha256": "2722c34645f4256f20ce31205738f2f5712ab5dd5cc6fcf9f1180d0be5aa0303",
+      "manifest_match": true,
+      "same_reviewed_third_object": true
+    },
+    {
+      "path": "SoftwareEngineering/lean/philosophy/leanified/CoreReader/Choice.lean",
+      "sha256": "b28728df12ed7e73edb5569604cd2541c0ebd815ae3aaa0812e6557dece1d1ba",
+      "manifest_match": true,
+      "same_reviewed_third_object": true
+    },
+    {
+      "path": "SoftwareEngineering/lean/philosophy/leanified/CoreReader/Engineering/Domain.lean",
+      "sha256": "ce5653a2950cc7443cefbfe8b9726bd4859228e831ddb7d42601e501ccbfd855",
+      "manifest_match": true,
+      "same_reviewed_third_object": true
+    },
+    {
+      "path": "SoftwareEngineering/lean/philosophy/leanified/CoreReader/Engineering/Integration.lean",
+      "sha256": "a2b88062148b3f7ebea7da02d88cb29cb04d8f1b2e9e6b97bb2420ac2c006328",
+      "manifest_match": true,
+      "same_reviewed_third_object": true
+    },
+    {
+      "path": "SoftwareEngineering/lean/philosophy/leanified/CoreReader/Engineering/Reflection.lean",
+      "sha256": "c290d8472884d00bedbf945f0fc1866524e758740f40d42088c4ff9678a93fa2",
+      "manifest_match": true,
+      "same_reviewed_third_object": true
+    },
+    {
+      "path": "SoftwareEngineering/lean/philosophy/leanified/CoreReader/Engineering/SelfApplication.lean",
+      "sha256": "d69c0d369bd4fd8db4c21ce3b65abb5e9efd07ed5ab9a68d56b4db39bb9d2a21",
+      "manifest_match": true,
+      "same_reviewed_third_object": true
+    },
+    {
+      "path": "SoftwareEngineering/lean/philosophy/leanified/CoreReader/Engineering/Values.lean",
+      "sha256": "ccd45bf23d2f47c41d1b2f9955d753e290687d951a0c55af41ab9a63b9a8d9cb",
+      "manifest_match": true,
+      "same_reviewed_third_object": true
+    },
+    {
+      "path": "SoftwareEngineering/lean/philosophy/leanified/CoreReader/Evidence.lean",
+      "sha256": "d55f33e44902cef146841cbffb65710bd7c8a3bda79d01d084edc36f019fdc96",
+      "manifest_match": true,
+      "same_reviewed_third_object": true
+    },
+    {
+      "path": "SoftwareEngineering/lean/philosophy/leanified/CoreReader/Integration.lean",
+      "sha256": "97e2939c0b6714b78a3ed78358e174619a5028ad5b0b5025c0d4422b4294921b",
+      "manifest_match": true,
+      "same_reviewed_third_object": true
+    },
+    {
+      "path": "SoftwareEngineering/lean/philosophy/leanified/CoreReader/Logic.lean",
+      "sha256": "0ec342691766ebd83d251dcd0da3b0ae9840aed677a714bc1b01c45d89392bc0",
+      "manifest_match": true,
+      "same_reviewed_third_object": true
+    },
+    {
+      "path": "SoftwareEngineering/lean/philosophy/leanified/CoreReader/Reflexivity.lean",
+      "sha256": "48e2c74e7cbae571db1b990b9f32dd0d701f6881a8b0111d907f8861287d76fa",
+      "manifest_match": true,
+      "same_reviewed_third_object": true
+    },
+    {
+      "path": "SoftwareEngineering/lean/philosophy/leanified/CoreReader.lean",
+      "sha256": "c5574fae235419a7d6449b3ebb5d2da29d1e92a3b572c1b759438e3c470caaa9",
+      "manifest_match": true,
+      "same_reviewed_third_object": true
+    }
+  ],
+  "target_narratives_sha256": "12f534ce9489527799edebe937e5cca39dc3166afb6aec5783473334423b06d4",
+  "narrative_delta": [
+    {
+      "target": "T01",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T02",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T03",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T04",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T05",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T06",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T07",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T08",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T09",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T10",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T11",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T12",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T13",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T14",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T15",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T16",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T17",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T18",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T19",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T20",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T21",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T22",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T23",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T24",
+      "fields_changed_from_r1": [
+        "premises_en",
+        "premises_zh"
+      ],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T25",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T26",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T27",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T28",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T29",
+      "fields_changed_from_r1": [
+        "premises_en",
+        "premises_zh",
+        "proof_en",
+        "proof_zh"
+      ],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T30",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T31",
+      "fields_changed_from_r1": [
+        "proof_en",
+        "proof_zh"
+      ],
+      "fields_changed_from_accepted_r2": [
+        "proof_en",
+        "proof_zh"
+      ]
+    },
+    {
+      "target": "T32",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T33",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T34",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T35",
+      "fields_changed_from_r1": [
+        "premises_en",
+        "premises_zh",
+        "proof_en",
+        "proof_zh"
+      ],
+      "fields_changed_from_accepted_r2": [
+        "premises_en",
+        "premises_zh"
+      ]
+    },
+    {
+      "target": "T36",
+      "fields_changed_from_r1": [
+        "proof_en",
+        "proof_zh"
+      ],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T37",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T38",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T39",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    },
+    {
+      "target": "T40",
+      "fields_changed_from_r1": [],
+      "fields_changed_from_accepted_r2": []
+    }
+  ],
+  "correction_judgments": {
+    "T24": "Previously accepted complete conditions and participant quantification exactly present in both languages and both granularities.",
+    "T29": "Previously accepted separation of transformation conjunctions from EvolutionClaim is present, including the corrected proof description.",
+    "T35": "Previously accepted simultaneous-five-change and old/recordedOld wording is present. Added MaterialGroundsChanged OR/adequacy guard is an identified further change assigned to Domain reviewer; only scope/embedding checked here.",
+    "T36": "Previously accepted valid-history/criticism coverage and unchanged-choice result replaces actual-revisability overclaim in all four views.",
+    "Adopted692_1314": "Accepted status-only negative wording exactly rendered at both source-line anchors in both detail languages.",
+    "README": "The strong countermodel now supplies the explicit referent after the frozen-goals/new-code-object distinction."
+  },
+  "assigned_elsewhere": {
+    "T31": "The only additional proof prose change replaces ambiguous account with boundaryObligationChecked; meaning review belongs to method reviewer.",
+    "Domain_line_explanations": "Authored by this reviewer; not independently approved here. Independent Domain review and its delta approval belong to the other reviewer.",
+    "Engineering_root_line_explanations": "Not re-opened by this narrow final check; retained separate independent reader review."
+  },
+  "retrieval": "reader-independent-source-final-retrieval.json records actual per-view/per-target source labels, declaration-line destinations, overview-to-details links, full-code identity and exact49 source excerpts including two blank headings. These checks support navigation/identity; semantic acceptance rests on prior substantive r1/r2 reasoning plus accepted-correction embedding.",
+  "previous_records": [
+    "reader-independent-source-review-r1.md",
+    "reader-independent-source-review-r1.json",
+    "reader-independent-source-review-r1-anchors.md",
+    "reader-independent-source-review-r2-components.md",
+    "reader-independent-source-review-r2-components.json"
+  ],
+  "exposure": "Source-first initial work preceded code; this final stage knows source, code and previous independent comparisons. It is not a new blind review. This reviewer later authored Domain line prose and excludes it from independent approval.",
+  "no_scope_expansion": "Source0.2.0/adoptedCore0.1.2, frozen40 targets, required cases and all reviewed Lean code are unchanged. Bounded source statuses and specified-duty/actual-fulfillment distinctions remain; no universal philosophical correctness claim is made."
+}

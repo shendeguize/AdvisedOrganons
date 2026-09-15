@@ -1,0 +1,73 @@
+{
+  "stage": "narrow informed independent component re-review of reader R01-R05; not final manuscript approval",
+  "objects": [
+    {
+      "path": "private software-engineering iteration records/target-narratives-current.json",
+      "sha256": "2a6334809fc3f23ca874f839f612906e32774c3821582c03c5bf97f521e1e584",
+      "matches_author_response": true
+    },
+    {
+      "path": "private software-engineering iteration records/adopted-line-explanations-en.json",
+      "sha256": "aa4f297fb4250cf8cf1883092f74152fb6567a5b9ec4ee74dae7a8f28b1fb9b9",
+      "matches_author_response": true
+    },
+    {
+      "path": "private software-engineering iteration records/adopted-line-explanations-zh.json",
+      "sha256": "69ae42b723e8fd901701c32226d7daa6adb879923ce29e8d4b58ebf58d724714",
+      "matches_author_response": true
+    },
+    {
+      "path": "SoftwareEngineering/lean/philosophy/reviews/README.md",
+      "sha256": "ec3a7d6cf775d311aff2f43af085400e011727c0735ae7ef2e69b8093fcee825"
+    }
+  ],
+  "code_identity": [
+    {
+      "path": "SoftwareEngineering/lean/philosophy/leanified/CoreReader/Adopted.lean",
+      "sha256": "8de4d364bb3c64e29ab92e81d86cbe4c9e5af49ada3dad262d1378421fb588c2",
+      "matches_third_code_snapshot": true
+    },
+    {
+      "path": "SoftwareEngineering/lean/philosophy/leanified/CoreReader/Engineering/Domain.lean",
+      "sha256": "ce5653a2950cc7443cefbfe8b9726bd4859228e831ddb7d42601e501ccbfd855",
+      "matches_third_code_snapshot": true
+    }
+  ],
+  "closed_findings": [
+    {
+      "id": "R01",
+      "judgment": "accepted",
+      "reason": "T24 now includes nonempty participants/software/tools, per-participant knowledge and all listed participants possessing the nonempty path prerequisites; all remaining priority conjuncts retained."
+    },
+    {
+      "id": "R02",
+      "judgment": "accepted",
+      "reason": "T29 now separates actual SoftwareState transformations from EvolutionClaim capability, contractRunner and observation treatment; proof description identifies actual cases instead of claiming a predicate field."
+    },
+    {
+      "id": "R03",
+      "judgment": "accepted",
+      "reason": "T35 correctly describes one pair with five simultaneously changed grounds, old/recordedOld tampering, and separately justified retention examples."
+    },
+    {
+      "id": "R04",
+      "judgment": "accepted",
+      "reason": "T36 restricts the proved result to a valid history/criticism account, unchanged choice and the named unsupported alternative; explicitly disclaims actual design revisability in this case."
+    },
+    {
+      "id": "R05",
+      "judgment": "accepted",
+      "reason": "Both English and Chinese at Adopted 692 and 1314 now identify the status-only negative branch; positive branch lines unchanged."
+    }
+  ],
+  "documentation": {
+    "frozen_goal_wording": "accepted: goals/requirements unchanged, corrected predicates and expanded types identify new review objects.",
+    "remaining_minor_correction": "At reviews/README.md:20 replace The latter satisfies with The strong countermodel satisfies. Inserting the preceding predicates/types sentence made latter ambiguous.",
+    "philosophical_scope": "No new source obligation or baseline change."
+  },
+  "delta_scope": "Actual JSON comparison against preserved r1 shows only the specified four target narratives and two repeated Adopted line annotations changed.",
+  "pending": [
+    "Regenerated four-view hash and anchor checks.",
+    "Any later Domain author revision is separate work following another reviewer’s saved independent initial report; this reviewer will not self-certify it."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "workspace": {
+    "repository": "shendeguize/AgentOrganon",
+    "commit": "98b93e18c1b7e2a332dfadb79295b751f2736530"
+  },
+  "core": {
+    "repository": "shendeguize/OrganonCore",
+    "commit": "73f669cdba440437f5f784b28ffab87ddeb475e1"
+  }
+}

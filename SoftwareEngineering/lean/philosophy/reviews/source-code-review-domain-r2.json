@@ -1,0 +1,76 @@
+{
+  "schema": "independent-repair-review-v1",
+  "reviewer": "/root/se_source_first",
+  "candidate_sha256": "2949bc55e78de008c1b5bad067373e27ea1cac763db5a2404396d2ba66bbb96a",
+  "findings": [
+    {
+      "id": "F02",
+      "status": "resolved"
+    },
+    {
+      "id": "F03",
+      "status": "resolved"
+    },
+    {
+      "id": "F04",
+      "status": "resolved-source-relation",
+      "remaining": "same-work frozen semantic-case preservation"
+    },
+    {
+      "id": "F05",
+      "status": "resolved"
+    }
+  ],
+  "target_changes": [
+    {
+      "id": "T24",
+      "status": "accepted",
+      "completion": "incomplete"
+    },
+    {
+      "id": "T27",
+      "status": "accepted",
+      "completion": "incomplete"
+    },
+    {
+      "id": "T29",
+      "status": "accepted",
+      "completion": "incomplete"
+    },
+    {
+      "id": "T30",
+      "status": "accepted",
+      "completion": "incomplete"
+    },
+    {
+      "id": "T33",
+      "status": "accepted",
+      "completion": "incomplete"
+    },
+    {
+      "id": "T34",
+      "status": "accepted",
+      "completion": "incomplete"
+    },
+    {
+      "id": "T35",
+      "status": "accepted",
+      "completion": "incomplete"
+    },
+    {
+      "id": "T36",
+      "status": "accepted",
+      "completion": "incomplete"
+    },
+    {
+      "id": "T32",
+      "status": "pending",
+      "reason": "common-object and actual-boundary defect resolved; frozen same-work case now totals17→18 and needs precise preservation judgment or supplementary equal-work instance",
+      "completion": "incomplete"
+    }
+  ],
+  "record_sha256": "53288a6b2e5bdc55a18a004c0a3c38c0a31269d97309e1f4a0b864f9cfeba28f",
+  "audit_sha256": "3e14447cd433375bb8408fe4e49f95907ee77d7686742e709bc7f57f43827566",
+  "build_log_note": "domain-build-19.log empty; exit receipt needed for final mechanical completion",
+  "excluded": "Root T20/T37–T39, final blind backtranslation and evidence binding"
+}

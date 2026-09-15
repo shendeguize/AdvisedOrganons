@@ -1,0 +1,98 @@
+[
+  {
+    "language": "en",
+    "file": "CoreReader/Logic.lean",
+    "source_reader_sha256": "f1a90f0aacdd9d6ba8eccc82973e770cb8317f527c4db15de42e9e41ecc2fbf5",
+    "nonblank_pairs": 185,
+    "all_code_and_caption_exact": true,
+    "mismatches": []
+  },
+  {
+    "language": "en",
+    "file": "CoreReader/Evidence.lean",
+    "source_reader_sha256": "f1a90f0aacdd9d6ba8eccc82973e770cb8317f527c4db15de42e9e41ecc2fbf5",
+    "nonblank_pairs": 721,
+    "all_code_and_caption_exact": true,
+    "mismatches": []
+  },
+  {
+    "language": "en",
+    "file": "CoreReader/Choice.lean",
+    "source_reader_sha256": "f1a90f0aacdd9d6ba8eccc82973e770cb8317f527c4db15de42e9e41ecc2fbf5",
+    "nonblank_pairs": 228,
+    "all_code_and_caption_exact": true,
+    "mismatches": []
+  },
+  {
+    "language": "en",
+    "file": "CoreReader/Agency.lean",
+    "source_reader_sha256": "f1a90f0aacdd9d6ba8eccc82973e770cb8317f527c4db15de42e9e41ecc2fbf5",
+    "nonblank_pairs": 215,
+    "all_code_and_caption_exact": true,
+    "mismatches": []
+  },
+  {
+    "language": "en",
+    "file": "CoreReader/Reflexivity.lean",
+    "source_reader_sha256": "f1a90f0aacdd9d6ba8eccc82973e770cb8317f527c4db15de42e9e41ecc2fbf5",
+    "nonblank_pairs": 356,
+    "all_code_and_caption_exact": true,
+    "mismatches": []
+  },
+  {
+    "language": "en",
+    "file": "CoreReader/Integration.lean",
+    "source_reader_sha256": "f1a90f0aacdd9d6ba8eccc82973e770cb8317f527c4db15de42e9e41ecc2fbf5",
+    "nonblank_pairs": 473,
+    "all_code_and_caption_exact": true,
+    "mismatches": []
+  },
+  {
+    "language": "zh",
+    "file": "CoreReader/Logic.lean",
+    "source_reader_sha256": "9e5c27ac66c60d74d58b75ef2cb194c48e813b3dd0cdc2c4a73acc4e9aa8dcc0",
+    "nonblank_pairs": 185,
+    "all_code_and_caption_exact": true,
+    "mismatches": []
+  },
+  {
+    "language": "zh",
+    "file": "CoreReader/Evidence.lean",
+    "source_reader_sha256": "9e5c27ac66c60d74d58b75ef2cb194c48e813b3dd0cdc2c4a73acc4e9aa8dcc0",
+    "nonblank_pairs": 721,
+    "all_code_and_caption_exact": true,
+    "mismatches": []
+  },
+  {
+    "language": "zh",
+    "file": "CoreReader/Choice.lean",
+    "source_reader_sha256": "9e5c27ac66c60d74d58b75ef2cb194c48e813b3dd0cdc2c4a73acc4e9aa8dcc0",
+    "nonblank_pairs": 228,
+    "all_code_and_caption_exact": true,
+    "mismatches": []
+  },
+  {
+    "language": "zh",
+    "file": "CoreReader/Agency.lean",
+    "source_reader_sha256": "9e5c27ac66c60d74d58b75ef2cb194c48e813b3dd0cdc2c4a73acc4e9aa8dcc0",
+    "nonblank_pairs": 215,
+    "all_code_and_caption_exact": true,
+    "mismatches": []
+  },
+  {
+    "language": "zh",
+    "file": "CoreReader/Reflexivity.lean",
+    "source_reader_sha256": "9e5c27ac66c60d74d58b75ef2cb194c48e813b3dd0cdc2c4a73acc4e9aa8dcc0",
+    "nonblank_pairs": 356,
+    "all_code_and_caption_exact": true,
+    "mismatches": []
+  },
+  {
+    "language": "zh",
+    "file": "CoreReader/Integration.lean",
+    "source_reader_sha256": "9e5c27ac66c60d74d58b75ef2cb194c48e813b3dd0cdc2c4a73acc4e9aa8dcc0",
+    "nonblank_pairs": 473,
+    "all_code_and_caption_exact": true,
+    "mismatches": []
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "manifest_sha256": "cd300f086c45afc1ff28a63ecce92c75ec06d94164eb0cd14d898a0f7eedcf6e",
+  "snapshot": "private software-engineering iteration records/before-reader-r1-revision/SoftwareEngineering",
+  "narrative_identity": [
+    {
+      "view": "overview_en",
+      "all_40_narratives_exact": true,
+      "missing": []
+    },
+    {
+      "view": "details_en",
+      "all_40_narratives_exact": true,
+      "missing": []
+    },
+    {
+      "view": "overview_zh",
+      "all_40_narratives_exact": true,
+      "missing": []
+    },
+    {
+      "view": "details_zh",
+      "all_40_narratives_exact": true,
+      "missing": []
+    }
+  ],
+  "anchor_probe": "reader-r1-anchor-probe.json",
+  "judgment": "All four view hashes match the frozen r1 manifest. All queried target/source/declaration/nonblank-line anchors resolve; no duplicate or missing internal anchor found. R01-R05 are still substantive defects in the exact generated r1 prose, despite successful structural checks. This supplements, not overwrites, reader-independent-source-review-r1.",
+  "own_authorship_limit": "Domain line prose was authored by this reviewer: only navigation/location was exercised on that block, not independent semantic approval.",
+  "limits": [
+    "Not a new complete independent review of Engineering root line explanations assigned elsewhere.",
+    "Final corrected-view hashes and anchors require narrow delta check after regeneration.",
+    "No claim here that every natural-language sentence is validated by code/narrative identity checks."
+  ]
+}

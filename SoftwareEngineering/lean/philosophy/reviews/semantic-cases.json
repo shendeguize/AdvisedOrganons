@@ -1,0 +1,2769 @@
+{
+  "role": "Derived from the hash-bound R3 independent source/code review; semantic acceptance is reported by the reviewer, not produced by this export.",
+  "review_original_sha256": "e01cd00cbcfa4ba8c6592917ea7321eb3826bc0b365a2b1b64170a1a24a93825",
+  "frozen_targets_sha256": "c0939df35dad148a0543ba92a1ac7b7d3b2eb4946f92ac4be251ec51b6481d13",
+  "cases": [
+    {
+      "target": "T02",
+      "case": "positive_valued_open_forms",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.generationCases",
+          "file": "CoreReader/Adopted.lean",
+          "line": 862,
+          "axioms": "[propext, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "Generative requires valuation of expansion and revisability of every current Form, including organization, method and principle. Current examples are nonempty; the stable trace and budget-respecting stable action show that generativity does not require change in every act. This is an adopted policy predicate, not proof all systems possess it.",
+      "special_limits": []
+    },
+    {
+      "target": "T02",
+      "case": "negative_permission_only",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Agency.permissionNotValuation",
+          "file": "CoreReader/Agency.lean",
+          "line": 37,
+          "axioms": "[propext, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "Generative requires valuation of expansion and revisability of every current Form, including organization, method and principle. Current examples are nonempty; the stable trace and budget-respecting stable action show that generativity does not require change in every act. This is an adopted policy predicate, not proof all systems possess it.",
+      "special_limits": []
+    },
+    {
+      "target": "T02",
+      "case": "positive_stability",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Agency.generationLimits",
+          "file": "CoreReader/Agency.lean",
+          "line": 194,
+          "axioms": "[propext, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "Generative requires valuation of expansion and revisability of every current Form, including organization, method and principle. Current examples are nonempty; the stable trace and budget-respecting stable action show that generativity does not require change in every act. This is an adopted policy predicate, not proof all systems possess it.",
+      "special_limits": []
+    },
+    {
+      "target": "T02",
+      "case": "external_collaboration",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.collaborativeProgress",
+          "file": "CoreReader/Adopted.lean",
+          "line": 223,
+          "axioms": "[propext, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "Generative requires valuation of expansion and revisability of every current Form, including organization, method and principle. Current examples are nonempty; the stable trace and budget-respecting stable action show that generativity does not require change in every act. This is an adopted policy predicate, not proof all systems possess it.",
+      "special_limits": []
+    },
+    {
+      "target": "T03",
+      "case": "permission_without_value",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Agency.permissionNotValuation",
+          "file": "CoreReader/Agency.lean",
+          "line": 37,
+          "axioms": "[propext, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "The neutral policy permits change without valuing it; openPolicy plus stableTrace lacks progress; inflatedState adds counts without new operations. Collaborative revision depends on a collaborator; execution lacks a result when required resources are absent. The transition achievement record concerns the same before/after/operation/input, while assertion records admit the failed inflation case. All are explicit finite constructions.",
+      "special_limits": []
+    },
+    {
+      "target": "T03",
+      "case": "orientation_without_progress",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Agency.revisionWithoutProgress",
+          "file": "CoreReader/Agency.lean",
+          "line": 99,
+          "axioms": "[propext, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "The neutral policy permits change without valuing it; openPolicy plus stableTrace lacks progress; inflatedState adds counts without new operations. Collaborative revision depends on a collaborator; execution lacks a result when required resources are absent. The transition achievement record concerns the same before/after/operation/input, while assertion records admit the failed inflation case. All are explicit finite constructions.",
+      "special_limits": []
+    },
+    {
+      "target": "T03",
+      "case": "count_growth_without_capability",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Agency.generationLimits",
+          "file": "CoreReader/Agency.lean",
+          "line": 194,
+          "axioms": "[propext, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "The neutral policy permits change without valuing it; openPolicy plus stableTrace lacks progress; inflatedState adds counts without new operations. Collaborative revision depends on a collaborator; execution lacks a result when required resources are absent. The transition achievement record concerns the same before/after/operation/input, while assertion records admit the failed inflation case. All are explicit finite constructions.",
+      "special_limits": []
+    },
+    {
+      "target": "T03",
+      "case": "collaborative_nonautonomous_progress",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.collaborativeProgress",
+          "file": "CoreReader/Adopted.lean",
+          "line": 223,
+          "axioms": "[propext, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "The neutral policy permits change without valuing it; openPolicy plus stableTrace lacks progress; inflatedState adds counts without new operations. Collaborative revision depends on a collaborator; execution lacks a result when required resources are absent. The transition achievement record concerns the same before/after/operation/input, while assertion records admit the failed inflation case. All are explicit finite constructions.",
+      "special_limits": []
+    },
+    {
+      "target": "T03",
+      "case": "claim_without_achievement",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Agency.inflatedAnnouncementRefuted",
+          "file": "CoreReader/Agency.lean",
+          "line": 171,
+          "axioms": "[propext, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "The neutral policy permits change without valuing it; openPolicy plus stableTrace lacks progress; inflatedState adds counts without new operations. Collaborative revision depends on a collaborator; execution lacks a result when required resources are absent. The transition achievement record concerns the same before/after/operation/input, while assertion records admit the failed inflation case. All are explicit finite constructions.",
+      "special_limits": []
+    },
+    {
+      "target": "T03",
+      "case": "achievement_support_for_same_claim",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.achievementSupported012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 620,
+          "axioms": "[propext, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "The neutral policy permits change without valuing it; openPolicy plus stableTrace lacks progress; inflatedState adds counts without new operations. Collaborative revision depends on a collaborator; execution lacks a result when required resources are absent. The transition achievement record concerns the same before/after/operation/input, while assertion records admit the failed inflation case. All are explicit finite constructions.",
+      "special_limits": []
+    },
+    {
+      "target": "T04",
+      "case": "joint_only_contradiction",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.jointImplicationConflict012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 703,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "Consistent quantifies over joint semantic consequences of the whole held theory under one Context. Snapshot change reporting is a separate one-way Boolean obligation. The code preserves same-question/assumptions/meaning/scope and time-slice distinctions; it does not model every way a prose report could conceal change.",
+      "special_limits": []
+    },
+    {
+      "target": "T04",
+      "case": "changed_scope_not_concealed",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Logic.hiddenContextChangeRejected",
+          "file": "CoreReader/Logic.lean",
+          "line": 134,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "Consistent quantifies over joint semantic consequences of the whole held theory under one Context. Snapshot change reporting is a separate one-way Boolean obligation. The code preserves same-question/assumptions/meaning/scope and time-slice distinctions; it does not model every way a prose report could conceal change.",
+      "special_limits": []
+    },
+    {
+      "target": "T04",
+      "case": "revision_withdraws_old",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Logic.revisionCanReverse",
+          "file": "CoreReader/Logic.lean",
+          "line": 68,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "Consistent quantifies over joint semantic consequences of the whole held theory under one Context. Snapshot change reporting is a separate one-way Boolean obligation. The code preserves same-question/assumptions/meaning/scope and time-slice distinctions; it does not model every way a prose report could conceal change.",
+      "special_limits": []
+    },
+    {
+      "target": "T04",
+      "case": "incompatible_same_context",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.consistencyConsequences",
+          "file": "CoreReader/Adopted.lean",
+          "line": 241,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "Consistent quantifies over joint semantic consequences of the whole held theory under one Context. Snapshot change reporting is a separate one-way Boolean obligation. The code preserves same-question/assumptions/meaning/scope and time-slice distinctions; it does not model every way a prose report could conceal change.",
+      "special_limits": []
+    },
+    {
+      "target": "T05",
+      "case": "pair_conflict",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.consistencyConsequences",
+          "file": "CoreReader/Adopted.lean",
+          "line": 241,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "consistencyConsequences directly applies the consistency prohibition to supplied positive and negative consequences. The revisionSlice examples provide distinct satisfiable times and inconsistent union; context examples preserve an admissible witness for each context. The theorem neither proves premises nor mandates permanent historical compatibility.",
+      "special_limits": []
+    },
+    {
+      "target": "T05",
+      "case": "joint_premise_conflict",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.jointImplicationConflict012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 703,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "consistencyConsequences directly applies the consistency prohibition to supplied positive and negative consequences. The revisionSlice examples provide distinct satisfiable times and inconsistent union; context examples preserve an admissible witness for each context. The theorem neither proves premises nor mandates permanent historical compatibility.",
+      "special_limits": []
+    },
+    {
+      "target": "T05",
+      "case": "old_new_separate_times",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.sliceConsistency",
+          "file": "CoreReader/Adopted.lean",
+          "line": 247,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "consistencyConsequences directly applies the consistency prohibition to supplied positive and negative consequences. The revisionSlice examples provide distinct satisfiable times and inconsistent union; context examples preserve an admissible witness for each context. The theorem neither proves premises nor mandates permanent historical compatibility.",
+      "special_limits": []
+    },
+    {
+      "target": "T05",
+      "case": "distinct_context_judgments",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Logic.contextDifferences",
+          "file": "CoreReader/Logic.lean",
+          "line": 88,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "consistencyConsequences directly applies the consistency prohibition to supplied positive and negative consequences. The revisionSlice examples provide distinct satisfiable times and inconsistent union; context examples preserve an admissible witness for each context. The theorem neither proves premises nor mandates permanent historical compatibility.",
+      "special_limits": []
+    },
+    {
+      "target": "T05",
+      "case": "truthful_semantic_change_and_reordering",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Logic.hiddenContextChangeRejected",
+          "file": "CoreReader/Logic.lean",
+          "line": 134,
+          "axioms": "[]"
+        },
+        {
+          "name": "CoreReader.Adopted.semanticOrder012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 630,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "consistencyConsequences directly applies the consistency prohibition to supplied positive and negative consequences. The revisionSlice examples provide distinct satisfiable times and inconsistent union; context examples preserve an admissible witness for each context. The theorem neither proves premises nor mandates permanent historical compatibility.",
+      "special_limits": []
+    },
+    {
+      "target": "T06",
+      "case": "different_contexts",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Logic.contextDifferences",
+          "file": "CoreReader/Logic.lean",
+          "line": 88,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "Concrete contexts, overlapping inequalities, a consistent theory false at the selected outside world, and empty-theory countervaluations distinguish contradiction, truth, sufficiency and entailment. These support the source limits without relying on a free false support flag.",
+      "special_limits": []
+    },
+    {
+      "target": "T06",
+      "case": "tension_compatible",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.tensionConsistent012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 718,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "Concrete contexts, overlapping inequalities, a consistent theory false at the selected outside world, and empty-theory countervaluations distinguish contradiction, truth, sufficiency and entailment. These support the source limits without relying on a free false support flag.",
+      "special_limits": []
+    },
+    {
+      "target": "T06",
+      "case": "consistent_false_assumption",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.explicitlyConsistentLimits",
+          "file": "CoreReader/Adopted.lean",
+          "line": 262,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "Concrete contexts, overlapping inequalities, a consistent theory false at the selected outside world, and empty-theory countervaluations distinguish contradiction, truth, sufficiency and entailment. These support the source limits without relying on a free false support flag.",
+      "special_limits": []
+    },
+    {
+      "target": "T06",
+      "case": "consistent_omitted_question",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.explicitlyConsistentLimits",
+          "file": "CoreReader/Adopted.lean",
+          "line": 262,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "Concrete contexts, overlapping inequalities, a consistent theory false at the selected outside world, and empty-theory countervaluations distinguish contradiction, truth, sufficiency and entailment. These support the source limits without relying on a free false support flag.",
+      "special_limits": []
+    },
+    {
+      "target": "T06",
+      "case": "compatible_not_entailed",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Logic.compatibilityNotEntailment",
+          "file": "CoreReader/Logic.lean",
+          "line": 180,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "Concrete contexts, overlapping inequalities, a consistent theory false at the selected outside world, and empty-theory countervaluations distinguish contradiction, truth, sufficiency and entailment. These support the source limits without relying on a free false support flag.",
+      "special_limits": []
+    },
+    {
+      "target": "T07",
+      "case": "self_applicable",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.reflexiveTargets012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 605,
+          "axioms": "[propext, Classical.choice.{u}, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "The general interface/cases are reused; its engineering realization was rereviewed because selfModel now includes actual generation/evaluation rule objects and applicability. This strengthens rather than universalizes the source conditions.",
+      "special_limits": []
+    },
+    {
+      "target": "T07",
+      "case": "self_inapplicable",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Agency.applicabilityRetained",
+          "file": "CoreReader/Reflexivity.lean",
+          "line": 396,
+          "axioms": "[propext, Classical.choice.{u}, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "The general interface/cases are reused; its engineering realization was rereviewed because selfModel now includes actual generation/evaluation rule objects and applicability. This strengthens rather than universalizes the source conditions.",
+      "special_limits": []
+    },
+    {
+      "target": "T07",
+      "case": "principle_formation",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Agency.completeOwnWork_reflexive",
+          "file": "CoreReader/Reflexivity.lean",
+          "line": 358,
+          "axioms": "[propext, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "The general interface/cases are reused; its engineering realization was rereviewed because selfModel now includes actual generation/evaluation rule objects and applicability. This strengthens rather than universalizes the source conditions.",
+      "special_limits": []
+    },
+    {
+      "target": "T07",
+      "case": "principle_application",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.reflexiveTargets012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 605,
+          "axioms": "[propext, Classical.choice.{u}, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "The general interface/cases are reused; its engineering realization was rereviewed because selfModel now includes actual generation/evaluation rule objects and applicability. This strengthens rather than universalizes the source conditions.",
+      "special_limits": []
+    },
+    {
+      "target": "T07",
+      "case": "principle_revision",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.reflexiveTargets012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 605,
+          "axioms": "[propext, Classical.choice.{u}, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "The general interface/cases are reused; its engineering realization was rereviewed because selfModel now includes actual generation/evaluation rule objects and applicability. This strengthens rather than universalizes the source conditions.",
+      "special_limits": []
+    },
+    {
+      "target": "T07",
+      "case": "grounds_on_grounds",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.groundsOnGrounds012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 595,
+          "axioms": "[propext, Classical.choice.{u}, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "The general interface/cases are reused; its engineering realization was rereviewed because selfModel now includes actual generation/evaluation rule objects and applicability. This strengthens rather than universalizes the source conditions.",
+      "special_limits": []
+    },
+    {
+      "target": "T08",
+      "case": "self_assessed_incorrect",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Agency.selfTestDoesNotProve",
+          "file": "CoreReader/Agency.lean",
+          "line": 239,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "A revisable principle applied only to target 1 fails required self-target 0; self tests fail elsewhere; owned revisions retain unsupported global claims. CompleteCharter012 is inhabited yet costAllowanceRecord admits an incorrect-output world, so the concrete corresponding Grounds012 claim fails. This is a bounded charter-versus-support model, not philosophical independence in all interpretations.",
+      "special_limits": []
+    },
+    {
+      "target": "T08",
+      "case": "self_generated_unsupported",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Evidence.selfOriginDoesNotSupport",
+          "file": "CoreReader/Evidence.lean",
+          "line": 541,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "A revisable principle applied only to target 1 fails required self-target 0; self tests fail elsewhere; owned revisions retain unsupported global claims. CompleteCharter012 is inhabited yet costAllowanceRecord admits an incorrect-output world, so the concrete corresponding Grounds012 claim fails. This is a bounded charter-versus-support model, not philosophical independence in all interpretations.",
+      "special_limits": []
+    },
+    {
+      "target": "T08",
+      "case": "open_but_self_exempt",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.openSelfExempt012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 680,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "A revisable principle applied only to target 1 fails required self-target 0; self tests fail elsewhere; owned revisions retain unsupported global claims. CompleteCharter012 is inhabited yet costAllowanceRecord admits an incorrect-output world, so the concrete corresponding Grounds012 claim fails. This is a bounded charter-versus-support model, not philosophical independence in all interpretations.",
+      "special_limits": []
+    },
+    {
+      "target": "T08",
+      "case": "charter_not_general_grounds",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.charterWithoutGrounds012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 499,
+          "axioms": "[propext, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "A revisable principle applied only to target 1 fails required self-target 0; self tests fail elsewhere; owned revisions retain unsupported global claims. CompleteCharter012 is inhabited yet costAllowanceRecord admits an incorrect-output world, so the concrete corresponding Grounds012 claim fails. This is a bounded charter-versus-support model, not philosophical independence in all interpretations.",
+      "special_limits": []
+    },
+    {
+      "target": "T09",
+      "case": "articulable_supported",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.scopeStrength012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 286,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Grounds012 formalizes successful supported grounds for one declared task using same claim/articulation/discharge and task-appropriateness. Local/global and stronger-claim countermodels preserve force and scope. It is not a complete classifier or universal procedure for deciding all possible mixed claims. Calling it the obligation to examine rather than the successful support condition would overstate the correspondence. No Core 0.1.3 all-facet obligation is introduced.",
+      "special_limits": []
+    },
+    {
+      "target": "T09",
+      "case": "articulable_unsupported",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Evidence.articulationNotSupport",
+          "file": "CoreReader/Evidence.lean",
+          "line": 325,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Grounds012 formalizes successful supported grounds for one declared task using same claim/articulation/discharge and task-appropriateness. Local/global and stronger-claim countermodels preserve force and scope. It is not a complete classifier or universal procedure for deciding all possible mixed claims. Calling it the obligation to examine rather than the successful support condition would overstate the correspondence. No Core 0.1.3 all-facet obligation is introduced.",
+      "special_limits": []
+    },
+    {
+      "target": "T09",
+      "case": "scope_overreach",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.scopeStrength012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 286,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Grounds012 formalizes successful supported grounds for one declared task using same claim/articulation/discharge and task-appropriateness. Local/global and stronger-claim countermodels preserve force and scope. It is not a complete classifier or universal procedure for deciding all possible mixed claims. Calling it the obligation to examine rather than the successful support condition would overstate the correspondence. No Core 0.1.3 all-facet obligation is introduced.",
+      "special_limits": []
+    },
+    {
+      "target": "T09",
+      "case": "strength_overreach",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.scopeStrength012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 286,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Grounds012 formalizes successful supported grounds for one declared task using same claim/articulation/discharge and task-appropriateness. Local/global and stronger-claim countermodels preserve force and scope. It is not a complete classifier or universal procedure for deciding all possible mixed claims. Calling it the obligation to examine rather than the successful support condition would overstate the correspondence. No Core 0.1.3 all-facet obligation is introduced.",
+      "special_limits": []
+    },
+    {
+      "target": "T10",
+      "case": "observed_relevant",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.localFacetChecked012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 282,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Empirical discharge includes an in-scope compatible witness, scoped support and uncertainty support. Repetition of irrelevant first-coordinate/action observations cannot establish the second coordinate or budget value. The successful uncertainty is the exhaustive Boolean disjunction, not a quantified confidence estimate or a production measurement.",
+      "special_limits": []
+    },
+    {
+      "target": "T10",
+      "case": "repeatable_irrelevant",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Evidence.measurementRepeatNotSupport",
+          "file": "CoreReader/Evidence.lean",
+          "line": 394,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Empirical discharge includes an in-scope compatible witness, scoped support and uncertainty support. Repetition of irrelevant first-coordinate/action observations cannot establish the second coordinate or budget value. The successful uncertainty is the exhaustive Boolean disjunction, not a quantified confidence estimate or a production measurement.",
+      "special_limits": []
+    },
+    {
+      "target": "T10",
+      "case": "measured_wrong_scope",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.scopeStrength012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 286,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Empirical discharge includes an in-scope compatible witness, scoped support and uncertainty support. Repetition of irrelevant first-coordinate/action observations cannot establish the second coordinate or budget value. The successful uncertainty is the exhaustive Boolean disjunction, not a quantified confidence estimate or a production measurement.",
+      "special_limits": []
+    },
+    {
+      "target": "T10",
+      "case": "uncertain_limited",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.uncertainSupported012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 308,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Empirical discharge includes an in-scope compatible witness, scoped support and uncertainty support. Repetition of irrelevant first-coordinate/action observations cannot establish the second coordinate or budget value. The successful uncertainty is the exhaustive Boolean disjunction, not a quantified confidence estimate or a production measurement.",
+      "special_limits": []
+    },
+    {
+      "target": "T11",
+      "case": "valid_inference",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.inferenceChecked012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 323,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "The inferential wrapper requires satisfiable assumptions and actual entailment. Correct rejection of an unentailed conclusion is represented separately by InferenceExamined false and a countervaluation. Together they preserve the examination/success distinction, provided the wrapper alone is not described as the full act of assessment.",
+      "special_limits": []
+    },
+    {
+      "target": "T11",
+      "case": "compatible_unentailed",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Logic.compatibilityNotEntailment",
+          "file": "CoreReader/Logic.lean",
+          "line": 180,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "The inferential wrapper requires satisfiable assumptions and actual entailment. Correct rejection of an unentailed conclusion is represented separately by InferenceExamined false and a countervaluation. Together they preserve the examination/success distinction, provided the wrapper alone is not described as the full act of assessment.",
+      "special_limits": []
+    },
+    {
+      "target": "T11",
+      "case": "false_inference_detected",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.inferenceChecked012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 323,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "The inferential wrapper requires satisfiable assumptions and actual entailment. Correct rejection of an unentailed conclusion is represented separately by InferenceExamined false and a countervaluation. Together they preserve the examination/success distinction, provided the wrapper alone is not described as the full act of assessment.",
+      "special_limits": []
+    },
+    {
+      "target": "T12",
+      "case": "reasoned_value",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.valueFulfilled012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 341,
+          "axioms": "[propext, Classical.choice.{u}, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "The value construction identifies position, joint reasons, application limits, consequences and relevant criticism responses. It assumes starting claims and supplies a joint witness instead of proving every starting assumption. The universal consequence test and response nonemptiness are this application's sufficient procedure, not newly mandatory philosophical proof requirements or proof of response adequacy.",
+      "special_limits": []
+    },
+    {
+      "target": "T12",
+      "case": "unsupported_self_assertion",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Evidence.announcementNotBudgetReason",
+          "file": "CoreReader/Evidence.lean",
+          "line": 372,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "The value construction identifies position, joint reasons, application limits, consequences and relevant criticism responses. It assumes starting claims and supplies a joint witness instead of proving every starting assumption. The universal consequence test and response nonemptiness are this application's sufficient procedure, not newly mandatory philosophical proof requirements or proof of response adequacy.",
+      "special_limits": []
+    },
+    {
+      "target": "T12",
+      "case": "closed_criticism",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.closedCriticism012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 336,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "The value construction identifies position, joint reasons, application limits, consequences and relevant criticism responses. It assumes starting claims and supplies a joint witness instead of proving every starting assumption. The universal consequence test and response nonemptiness are this application's sufficient procedure, not newly mandatory philosophical proof requirements or proof of response adequacy.",
+      "special_limits": []
+    },
+    {
+      "target": "T12",
+      "case": "explicit_initial_commitment",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Evidence.valueWithoutSelfProof",
+          "file": "CoreReader/Evidence.lean",
+          "line": 426,
+          "axioms": "[propext, Classical.choice.{u}, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "The value construction identifies position, joint reasons, application limits, consequences and relevant criticism responses. It assumes starting claims and supplies a joint witness instead of proving every starting assumption. The universal consequence test and response nonemptiness are this application's sufficient procedure, not newly mandatory philosophical proof requirements or proof of response adequacy.",
+      "special_limits": []
+    },
+    {
+      "target": "T13",
+      "case": "clear_false_reason",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.clearFalseReason012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 637,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Clearly articulated false assumptions, repeated wrong-object observations, neutral records compatible with nonadoption, and the ordinary value example show the intended non-substitutions. Qualitative implication orders claim strength without imposing a numerical scale.",
+      "special_limits": []
+    },
+    {
+      "target": "T13",
+      "case": "repeatable_wrong_object",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Evidence.measurementRepeatNotSupport",
+          "file": "CoreReader/Evidence.lean",
+          "line": 394,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Clearly articulated false assumptions, repeated wrong-object observations, neutral records compatible with nonadoption, and the ordinary value example show the intended non-substitutions. Qualitative implication orders claim strength without imposing a numerical scale.",
+      "special_limits": []
+    },
+    {
+      "target": "T13",
+      "case": "value_not_fact",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.valueNotFact012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 643,
+          "axioms": "[propext, Classical.choice.{u}, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "Clearly articulated false assumptions, repeated wrong-object observations, neutral records compatible with nonadoption, and the ordinary value example show the intended non-substitutions. Qualitative implication orders claim strength without imposing a numerical scale.",
+      "special_limits": []
+    },
+    {
+      "target": "T13",
+      "case": "initial_value_without_selfproof",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Evidence.valueWithoutSelfProof",
+          "file": "CoreReader/Evidence.lean",
+          "line": 426,
+          "axioms": "[propext, Classical.choice.{u}, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "Clearly articulated false assumptions, repeated wrong-object observations, neutral records compatible with nonadoption, and the ordinary value example show the intended non-substitutions. Qualitative implication orders claim strength without imposing a numerical scale.",
+      "special_limits": []
+    },
+    {
+      "target": "T13",
+      "case": "qualitative_proportionality",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.qualitativeProportionality012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 348,
+          "axioms": "[propext, Classical.choice.{u}, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "Clearly articulated false assumptions, repeated wrong-object observations, neutral records compatible with nonadoption, and the ordinary value example show the intended non-substitutions. Qualitative implication orders claim strength without imposing a numerical scale.",
+      "special_limits": []
+    },
+    {
+      "target": "T14",
+      "case": "local_scope_declared",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.scopeFulfilled012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 379,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "The local scope account binds comparison pairs, conditions, observed scope, relevance and each method explanation to the same claim. Its concrete method meanings prove local/repeated support and failure of global support. The generic explains relation remains supplied and the interface does not force every method to be used.",
+      "special_limits": []
+    },
+    {
+      "target": "T14",
+      "case": "omitted_relevant_difference",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Evidence.hiddenDifference",
+          "file": "CoreReader/Evidence.lean",
+          "line": 560,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "The local scope account binds comparison pairs, conditions, observed scope, relevance and each method explanation to the same claim. Its concrete method meanings prove local/repeated support and failure of global support. The generic explains relation remains supplied and the interface does not force every method to be used.",
+      "special_limits": []
+    },
+    {
+      "target": "T14",
+      "case": "measurement_role",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.scopeFulfilled012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 379,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "The local scope account binds comparison pairs, conditions, observed scope, relevance and each method explanation to the same claim. Its concrete method meanings prove local/repeated support and failure of global support. The generic explains relation remains supplied and the interface does not force every method to be used.",
+      "special_limits": []
+    },
+    {
+      "target": "T14",
+      "case": "repetition_role",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.scopeFulfilled012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 379,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "The local scope account binds comparison pairs, conditions, observed scope, relevance and each method explanation to the same claim. Its concrete method meanings prove local/repeated support and failure of global support. The generic explains relation remains supplied and the interface does not force every method to be used.",
+      "special_limits": []
+    },
+    {
+      "target": "T14",
+      "case": "framework_role",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.scopeFulfilled012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 379,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "The local scope account binds comparison pairs, conditions, observed scope, relevance and each method explanation to the same claim. Its concrete method meanings prove local/repeated support and failure of global support. The generic explains relation remains supplied and the interface does not force every method to be used.",
+      "special_limits": []
+    },
+    {
+      "target": "T15",
+      "case": "equal_local_different_global",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Evidence.localNotUniversal",
+          "file": "CoreReader/Evidence.lean",
+          "line": 550,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Explicit functions agree only at zero and differ at one; one observation supplies local support. Trial fields separate recorded accuracy, equal settings and bounded output, and Boolean draws have equal positive weights with different outcomes. This is a finite possible-outcome model, not verification of a real stochastic process.",
+      "special_limits": []
+    },
+    {
+      "target": "T15",
+      "case": "excluded_difference",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Evidence.hiddenDifference",
+          "file": "CoreReader/Evidence.lean",
+          "line": 560,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "Explicit functions agree only at zero and differ at one; one observation supplies local support. Trial fields separate recorded accuracy, equal settings and bounded output, and Boolean draws have equal positive weights with different outcomes. This is a finite possible-outcome model, not verification of a real stochastic process.",
+      "special_limits": []
+    },
+    {
+      "target": "T15",
+      "case": "one_observation_limited_support",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Evidence.singleObservation",
+          "file": "CoreReader/Evidence.lean",
+          "line": 566,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Explicit functions agree only at zero and differ at one; one observation supplies local support. Trial fields separate recorded accuracy, equal settings and bounded output, and Boolean draws have equal positive weights with different outcomes. This is a finite possible-outcome model, not verification of a real stochastic process.",
+      "special_limits": []
+    },
+    {
+      "target": "T15",
+      "case": "varying_random_outcomes",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.randomOutcomes012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 744,
+          "axioms": "[propext, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "Explicit functions agree only at zero and differ at one; one observation supplies local support. Trial fields separate recorded accuracy, equal settings and bounded output, and Boolean draws have equal positive weights with different outcomes. This is a finite possible-outcome model, not verification of a real stochastic process.",
+      "special_limits": []
+    },
+    {
+      "target": "T15",
+      "case": "qualitative_unmeasured_judgment",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.qualitativeUnmeasured012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 724,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Explicit functions agree only at zero and differ at one; one observation supplies local support. Trial fields separate recorded accuracy, equal settings and bounded output, and Boolean draws have equal positive weights with different outcomes. This is a finite possible-outcome model, not verification of a real stochastic process.",
+      "special_limits": []
+    },
+    {
+      "target": "T16",
+      "case": "external_output_capability",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.capabilityFulfilled012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 391,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Resolved for the explicitly declared application capability UnderstandingApplication012: the same explained doubling process must also answer all multiplier/input variations using the actual multiplication mechanism. Identical output and ExplanationContract no longer suffice: the fixed-double answer gives 2 instead of 3 at multiplier=3,input=1, while mechanismResponder answers the declared variations and receives same-object Grounds. This is an operational understanding/variation-answer capability selected by the application, not a cognitive definition or universal standard of understanding.",
+      "special_limits": []
+    },
+    {
+      "target": "T16",
+      "case": "application_requires_understanding",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.understandingApplicationCases012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 447,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Resolved for the explicitly declared application capability UnderstandingApplication012: the same explained doubling process must also answer all multiplier/input variations using the actual multiplication mechanism. Identical output and ExplanationContract no longer suffice: the fixed-double answer gives 2 instead of 3 at multiplier=3,input=1, while mechanismResponder answers the declared variations and receives same-object Grounds. This is an operational understanding/variation-answer capability selected by the application, not a cognitive definition or universal standard of understanding.",
+      "special_limits": [
+        "Application-defined all-multiplier variation-answer criterion; not an unrestricted cognitive claim.",
+        "Positive result uses the mechanism function; negative result fixes same Process and ExplanationContract but fails at (3,1)."
+      ]
+    },
+    {
+      "target": "T16",
+      "case": "own_capability_assessment",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.ownCapability012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 474,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Resolved for the explicitly declared application capability UnderstandingApplication012: the same explained doubling process must also answer all multiplier/input variations using the actual multiplication mechanism. Identical output and ExplanationContract no longer suffice: the fixed-double answer gives 2 instead of 3 at multiplier=3,input=1, while mechanismResponder answers the declared variations and receives same-object Grounds. This is an operational understanding/variation-answer capability selected by the application, not a cognitive definition or universal standard of understanding.",
+      "special_limits": []
+    },
+    {
+      "target": "T17",
+      "case": "reliable_opaque_generator",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Evidence.outputNotExplanation",
+          "file": "CoreReader/Evidence.lean",
+          "line": 684,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Reliable double output with explanation = none refutes the stronger declared explanation contract; repeated item counts do not add an unavailable operation. This establishes limits on the represented output/explanation capability, not a cognitive account of human or agent understanding.",
+      "special_limits": []
+    },
+    {
+      "target": "T17",
+      "case": "high_count_no_stronger_capability",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.inventoryCases012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 667,
+          "axioms": "[propext, Quot.sound.{u}]"
+        },
+        {
+          "name": "CoreReader.Agency.generationLimits",
+          "file": "CoreReader/Agency.lean",
+          "line": 194,
+          "axioms": "[propext, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "Reliable double output with explanation = none refutes the stronger declared explanation contract; repeated item counts do not add an unavailable operation. This establishes limits on the represented output/explanation capability, not a cognitive account of human or agent understanding.",
+      "special_limits": []
+    },
+    {
+      "target": "T17",
+      "case": "externally_articulated_no_introspection",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Evidence.externalAssessment",
+          "file": "CoreReader/Evidence.lean",
+          "line": 704,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Reliable double output with explanation = none refutes the stronger declared explanation contract; repeated item counts do not add an unavailable operation. This establishes limits on the represented output/explanation capability, not a cognitive account of human or agent understanding.",
+      "special_limits": []
+    },
+    {
+      "target": "T18",
+      "case": "named_only_rejected",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.allStatusOnly012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 733,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "JustifiedChoice combines feasibility with a valued method-content reason; status-only reasons fail by definition as the additional adopted evaluative commitment. Conventional identity remains eligible, internal explanation/applicability/simplicity/procedure reasons are admissible, and the current philosophy review is assessed by actual output reasons. No optimality or all-reasons-valid theorem is claimed.",
+      "special_limits": []
+    },
+    {
+      "target": "T18",
+      "case": "conventional_grounded_priority",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Choice.conventionWithReason",
+          "file": "CoreReader/Choice.lean",
+          "line": 108,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "JustifiedChoice combines feasibility with a valued method-content reason; status-only reasons fail by definition as the additional adopted evaluative commitment. Conventional identity remains eligible, internal explanation/applicability/simplicity/procedure reasons are admissible, and the current philosophy review is assessed by actual output reasons. No optimality or all-reasons-valid theorem is claimed.",
+      "special_limits": []
+    },
+    {
+      "target": "T18",
+      "case": "method_internal_reason",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Choice.internalReasons",
+          "file": "CoreReader/Choice.lean",
+          "line": 151,
+          "axioms": "[]"
+        },
+        {
+          "name": "CoreReader.Adopted.internalReasonDistinguishes012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 657,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "JustifiedChoice combines feasibility with a valued method-content reason; status-only reasons fail by definition as the additional adopted evaluative commitment. Conventional identity remains eligible, internal explanation/applicability/simplicity/procedure reasons are admissible, and the current philosophy review is assessed by actual output reasons. No optimality or all-reasons-valid theorem is claimed.",
+      "special_limits": []
+    },
+    {
+      "target": "T18",
+      "case": "own_philosophy_status_only",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.ownPhilosophyStatus012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 690,
+          "axioms": "[propext, Classical.choice.{u}, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "JustifiedChoice combines feasibility with a valued method-content reason; status-only reasons fail by definition as the additional adopted evaluative commitment. Conventional identity remains eligible, internal explanation/applicability/simplicity/procedure reasons are admissible, and the current philosophy review is assessed by actual output reasons. No optimality or all-reasons-valid theorem is claimed.",
+      "special_limits": []
+    },
+    {
+      "target": "T19",
+      "case": "single_feasible_conventional",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Choice.singleFeasible",
+          "file": "CoreReader/Choice.lean",
+          "line": 121,
+          "axioms": "[propext, Classical.choice.{u}, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "A single feasible conventional choice, unequal outputs, equal local but different global behavior, and a distinguishing internal explanation meet the requested cases. The additional-choice example distinguishes accurate general assessment of non-entailment from the separate priority norm; this is deliberately the limited general-assessment relation in the target, not all Grounds duties.",
+      "special_limits": []
+    },
+    {
+      "target": "T19",
+      "case": "internal_reason_distinguishes",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Adopted.internalReasonDistinguishes012",
+          "file": "CoreReader/Adopted.lean",
+          "line": 657,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "A single feasible conventional choice, unequal outputs, equal local but different global behavior, and a distinguishing internal explanation meet the requested cases. The additional-choice example distinguishes accurate general assessment of non-entailment from the separate priority norm; this is deliberately the limited general-assessment relation in the target, not all Grounds duties.",
+      "special_limits": []
+    },
+    {
+      "target": "T19",
+      "case": "unequal_open_options",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Choice.openNotEquivalent",
+          "file": "CoreReader/Choice.lean",
+          "line": 162,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "A single feasible conventional choice, unequal outputs, equal local but different global behavior, and a distinguishing internal explanation meet the requested cases. The additional-choice example distinguishes accurate general assessment of non-entailment from the separate priority norm; this is deliberately the limited general-assessment relation in the target, not all Grounds duties.",
+      "special_limits": []
+    },
+    {
+      "target": "T19",
+      "case": "local_equal_global_difference",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Choice.localNotGlobal",
+          "file": "CoreReader/Choice.lean",
+          "line": 132,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "A single feasible conventional choice, unequal outputs, equal local but different global behavior, and a distinguishing internal explanation meet the requested cases. The additional-choice example distinguishes accurate general assessment of non-entailment from the separate priority norm; this is deliberately the limited general-assessment relation in the target, not all Grounds duties.",
+      "special_limits": []
+    },
+    {
+      "target": "T19",
+      "case": "added_choice_not_from_general_assessment",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Choice.generalGroundsNotChoice",
+          "file": "CoreReader/Choice.lean",
+          "line": 257,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "A single feasible conventional choice, unequal outputs, equal local but different global behavior, and a distinguishing internal explanation meet the requested cases. The additional-choice example distinguishes accurate general assessment of non-entailment from the separate priority norm; this is deliberately the limited general-assessment relation in the target, not all Grounds duties.",
+      "special_limits": []
+    },
+    {
+      "target": "T20",
+      "case": "own_grounds_articulable",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.inheritedMutualApplication",
+          "file": "CoreReader/Engineering/Integration.lean",
+          "line": 420,
+          "axioms": "[propext]"
+        },
+        {
+          "name": "CoreReader.Engineering.governanceGrounded",
+          "file": "CoreReader/Engineering/Values.lean",
+          "line": 137,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Resolved. The theorem now explicitly concludes the full normative-content membership, grounds for every held claim, and consistencySpecification for the same expanded ownTheory. It remains a legitimate projection of Inherited, not mutual logical derivation from fewer premises. Actual self-rule generation/assessment objects are included and checked; original empirical/inferential/value tasks remain separate.",
+      "special_limits": []
+    },
+    {
+      "target": "T20",
+      "case": "own_capability_supported",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.inheritedMutualApplication",
+          "file": "CoreReader/Engineering/Integration.lean",
+          "line": 420,
+          "axioms": "[propext]"
+        },
+        {
+          "name": "CoreReader.Engineering.engineeringCapabilityGrounded",
+          "file": "CoreReader/Engineering/Integration.lean",
+          "line": 63,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Resolved. The theorem now explicitly concludes the full normative-content membership, grounds for every held claim, and consistencySpecification for the same expanded ownTheory. It remains a legitimate projection of Inherited, not mutual logical derivation from fewer premises. Actual self-rule generation/assessment objects are included and checked; original empirical/inferential/value tasks remain separate.",
+      "special_limits": []
+    },
+    {
+      "target": "T20",
+      "case": "own_choice_not_status_only",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.inheritedMutualApplication",
+          "file": "CoreReader/Engineering/Integration.lean",
+          "line": 420,
+          "axioms": "[propext]"
+        },
+        {
+          "name": "CoreReader.Engineering.implementationReasoned",
+          "file": "CoreReader/Engineering/Integration.lean",
+          "line": 41,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Resolved. The theorem now explicitly concludes the full normative-content membership, grounds for every held claim, and consistencySpecification for the same expanded ownTheory. It remains a legitimate projection of Inherited, not mutual logical derivation from fewer premises. Actual self-rule generation/assessment objects are included and checked; original empirical/inferential/value tasks remain separate.",
+      "special_limits": []
+    },
+    {
+      "target": "T20",
+      "case": "relevant_self_application",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.inheritedMutualCases",
+          "file": "CoreReader/Engineering/Integration.lean",
+          "line": 442,
+          "axioms": "[propext, Classical.choice.{u}, Quot.sound.{u}]"
+        },
+        {
+          "name": "CoreReader.Engineering.ownRuleContentVariation",
+          "file": "CoreReader/Engineering/SelfApplication.lean",
+          "line": 204,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Resolved. The theorem now explicitly concludes the full normative-content membership, grounds for every held claim, and consistencySpecification for the same expanded ownTheory. It remains a legitimate projection of Inherited, not mutual logical derivation from fewer premises. Actual self-rule generation/assessment objects are included and checked; original empirical/inferential/value tasks remain separate.",
+      "special_limits": [
+        "The empty-tested-list criticism concerns the sample-aware local assessmentRuleTest contract; it is not a philosophical demand for empirical samples in every judgment."
+      ]
+    },
+    {
+      "target": "T22",
+      "case": "successor_maintainer",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.subjectLifecycleCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 146,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "ActivityScope plus explicit maintainers, tools, knowledge and lifecycle fields represent the intended continuing engineering subject. Successor/agent examples are positive; temporary/prototype/retiring cases use actual bounded-run and zero-maintenance fields rather than their labels. Credibility of a real lifecycle forecast is assumed by the interpretation, not independently established.",
+      "special_limits": []
+    },
+    {
+      "target": "T22",
+      "case": "agent_maintainer",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.subjectLifecycleCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 146,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "ActivityScope plus explicit maintainers, tools, knowledge and lifecycle fields represent the intended continuing engineering subject. Successor/agent examples are positive; temporary/prototype/retiring cases use actual bounded-run and zero-maintenance fields rather than their labels. Credibility of a real lifecycle forecast is assumed by the interpretation, not independently established.",
+      "special_limits": []
+    },
+    {
+      "target": "T22",
+      "case": "continuing_labeled_temporary",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.subjectLifecycleCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 146,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "ActivityScope plus explicit maintainers, tools, knowledge and lifecycle fields represent the intended continuing engineering subject. Successor/agent examples are positive; temporary/prototype/retiring cases use actual bounded-run and zero-maintenance fields rather than their labels. Credibility of a real lifecycle forecast is assumed by the interpretation, not independently established.",
+      "special_limits": []
+    },
+    {
+      "target": "T22",
+      "case": "genuinely_temporary",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.subjectLifecycleCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 146,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "ActivityScope plus explicit maintainers, tools, knowledge and lifecycle fields represent the intended continuing engineering subject. Successor/agent examples are positive; temporary/prototype/retiring cases use actual bounded-run and zero-maintenance fields rather than their labels. Credibility of a real lifecycle forecast is assumed by the interpretation, not independently established.",
+      "special_limits": []
+    },
+    {
+      "target": "T22",
+      "case": "bounded_prototype",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.subjectLifecycleCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 146,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "ActivityScope plus explicit maintainers, tools, knowledge and lifecycle fields represent the intended continuing engineering subject. Successor/agent examples are positive; temporary/prototype/retiring cases use actual bounded-run and zero-maintenance fields rather than their labels. Credibility of a real lifecycle forecast is assumed by the interpretation, not independently established.",
+      "special_limits": []
+    },
+    {
+      "target": "T22",
+      "case": "retiring_system",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.subjectLifecycleCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 146,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "ActivityScope plus explicit maintainers, tools, knowledge and lifecycle fields represent the intended continuing engineering subject. Successor/agent examples are positive; temporary/prototype/retiring cases use actual bounded-run and zero-maintenance fields rather than their labels. Credibility of a real lifecycle forecast is assumed by the interpretation, not independently established.",
+      "special_limits": []
+    },
+    {
+      "target": "T23",
+      "case": "author_only_private_knowledge",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.subjectLimits",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 159,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "The original maintainer has privateLayout while the successor lacks it; explicit path prerequisite failure establishes the contrast. The continuing activity remains nonbounded despite its temporary label. The passive artifact returns inputs and has no propose action by its actual definition, providing one counterexample rather than a law of all artifacts.",
+      "special_limits": []
+    },
+    {
+      "target": "T23",
+      "case": "successor_missing_path",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.subjectLimits",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 159,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "The original maintainer has privateLayout while the successor lacks it; explicit path prerequisite failure establishes the contrast. The continuing activity remains nonbounded despite its temporary label. The passive artifact returns inputs and has no propose action by its actual definition, providing one counterexample rather than a law of all artifacts.",
+      "special_limits": []
+    },
+    {
+      "target": "T23",
+      "case": "false_temporary_label",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.subjectLimits",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 159,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "The original maintainer has privateLayout while the successor lacks it; explicit path prerequisite failure establishes the contrast. The continuing activity remains nonbounded despite its temporary label. The passive artifact returns inputs and has no propose action by its actual definition, providing one counterexample rather than a law of all artifacts.",
+      "special_limits": []
+    },
+    {
+      "target": "T23",
+      "case": "passive_artifact",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.subjectLimits",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 159,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "The original maintainer has privateLayout while the successor lacks it; explicit path prerequisite failure establishes the contrast. The continuing activity remains nonbounded despite its temporary label. The passive artifact returns inputs and has no propose action by its actual definition, providing one counterexample rather than a law of all artifacts.",
+      "special_limits": []
+    },
+    {
+      "target": "T24",
+      "case": "ordinary_priority",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.priorityConditionsCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 367,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "EvolutionPriority is an explicit defeasible norm over the fixed candidate/change comparison: when lifecycle/scope, both profiles, credible revision and capability/work/complexity conditions hold, choose evolvable or identify a cost threat. Four profile failures block the antecedent; selected burdens produce qualified departures. The numerical data are local model parameters, not universal exchange rates.",
+      "special_limits": []
+    },
+    {
+      "target": "T24",
+      "case": "missing_behavior",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.unmetRequirementsBlockPriority",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 353,
+          "axioms": "[propext, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "EvolutionPriority is an explicit defeasible norm over the fixed candidate/change comparison: when lifecycle/scope, both profiles, credible revision and capability/work/complexity conditions hold, choose evolvable or identify a cost threat. Four profile failures block the antecedent; selected burdens produce qualified departures. The numerical data are local model parameters, not universal exchange rates.",
+      "special_limits": []
+    },
+    {
+      "target": "T24",
+      "case": "missing_safety",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.unmetRequirementsBlockPriority",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 353,
+          "axioms": "[propext, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "EvolutionPriority is an explicit defeasible norm over the fixed candidate/change comparison: when lifecycle/scope, both profiles, credible revision and capability/work/complexity conditions hold, choose evolvable or identify a cost threat. Four profile failures block the antecedent; selected burdens produce qualified departures. The numerical data are local model parameters, not universal exchange rates.",
+      "special_limits": []
+    },
+    {
+      "target": "T24",
+      "case": "missing_performance",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.unmetRequirementsBlockPriority",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 353,
+          "axioms": "[propext, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "EvolutionPriority is an explicit defeasible norm over the fixed candidate/change comparison: when lifecycle/scope, both profiles, credible revision and capability/work/complexity conditions hold, choose evolvable or identify a cost threat. Four profile failures block the antecedent; selected burdens produce qualified departures. The numerical data are local model parameters, not universal exchange rates.",
+      "special_limits": []
+    },
+    {
+      "target": "T24",
+      "case": "missing_other_necessary",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.unmetRequirementsBlockPriority",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 353,
+          "axioms": "[propext, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "EvolutionPriority is an explicit defeasible norm over the fixed candidate/change comparison: when lifecycle/scope, both profiles, credible revision and capability/work/complexity conditions hold, choose evolvable or identify a cost threat. Four profile failures block the antecedent; selected burdens produce qualified departures. The numerical data are local model parameters, not universal exchange rates.",
+      "special_limits": []
+    },
+    {
+      "target": "T24",
+      "case": "concrete_cost_override",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.priorityConditionsCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 367,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "EvolutionPriority is an explicit defeasible norm over the fixed candidate/change comparison: when lifecycle/scope, both profiles, credible revision and capability/work/complexity conditions hold, choose evolvable or identify a cost threat. Four profile failures block the antecedent; selected burdens produce qualified departures. The numerical data are local model parameters, not universal exchange rates.",
+      "special_limits": []
+    },
+    {
+      "target": "T24",
+      "case": "unexplained_departure",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.priorityConditionsCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 367,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "EvolutionPriority is an explicit defeasible norm over the fixed candidate/change comparison: when lifecycle/scope, both profiles, credible revision and capability/work/complexity conditions hold, choose evolvable or identify a cost threat. Four profile failures block the antecedent; selected burdens produce qualified departures. The numerical data are local model parameters, not universal exchange rates.",
+      "special_limits": []
+    },
+    {
+      "target": "T24",
+      "case": "no_extensibility_maximum",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.credibilityLimits",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 394,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "EvolutionPriority is an explicit defeasible norm over the fixed candidate/change comparison: when lifecycle/scope, both profiles, credible revision and capability/work/complexity conditions hold, choose evolvable or identify a cost threat. Four profile failures block the antecedent; selected burdens produce qualified departures. The numerical data are local model parameters, not universal exchange rates.",
+      "special_limits": []
+    },
+    {
+      "target": "T25",
+      "case": "applicable_choose_evolution",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.priorityWhenApplicable",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 337,
+          "axioms": "[]"
+        },
+        {
+          "name": "CoreReader.Engineering.priorityChoices",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 384,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "The theorem explicitly assumes the adopted EvolutionPriority rule, applicability and no departure; it extracts the chosen evolvable value and substitutes into the supplied complexity comparison. This matches the target's normative-premise requirement. Concrete choices show simple violates the rule without a threat and can pass with the accounted threat.",
+      "special_limits": []
+    },
+    {
+      "target": "T25",
+      "case": "applicable_choose_simple_violates_domain",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.currentSimpleViolates",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 345,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "The theorem explicitly assumes the adopted EvolutionPriority rule, applicability and no departure; it extracts the chosen evolvable value and substitutes into the supplied complexity comparison. This matches the target's normative-premise requirement. Concrete choices show simple violates the rule without a threat and can pass with the accounted threat.",
+      "special_limits": []
+    },
+    {
+      "target": "T25",
+      "case": "threat_allows_departure_with_account",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.priorityChoices",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 384,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "The theorem explicitly assumes the adopted EvolutionPriority rule, applicability and no departure; it extracts the chosen evolvable value and substitutes into the supplied complexity comparison. This matches the target's normative-premise requirement. Concrete choices show simple violates the rule without a threat and can pass with the accounted threat.",
+      "special_limits": []
+    },
+    {
+      "target": "T26",
+      "case": "committed_plan_one_implementation",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.credibilityCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 212,
+          "axioms": "[]"
+        },
+        {
+          "name": "CoreReader.Engineering.credibilityLimits",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 394,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "The generic Ground interface does not restrict ground categories. Concrete plans identify a positive release and direction; knowledge/history cases contain a service/mechanism or repeated direction list, and forecast revision changes supported directions. The adapter only checks designated strings/list content, so actual relevance of a mechanism/history is a stipulated interpretation. It must not be reported as independent validation of arbitrary knowledge records.",
+      "special_limits": []
+    },
+    {
+      "target": "T26",
+      "case": "domain_knowledge",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.credibilityCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 212,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "The generic Ground interface does not restrict ground categories. Concrete plans identify a positive release and direction; knowledge/history cases contain a service/mechanism or repeated direction list, and forecast revision changes supported directions. The adapter only checks designated strings/list content, so actual relevance of a mechanism/history is a stipulated interpretation. It must not be reported as independent validation of arbitrary knowledge records.",
+      "special_limits": []
+    },
+    {
+      "target": "T26",
+      "case": "applicable_history",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.credibilityCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 212,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "The generic Ground interface does not restrict ground categories. Concrete plans identify a positive release and direction; knowledge/history cases contain a service/mechanism or repeated direction list, and forecast revision changes supported directions. The adapter only checks designated strings/list content, so actual relevance of a mechanism/history is a stipulated interpretation. It must not be reported as independent validation of arbitrary knowledge records.",
+      "special_limits": []
+    },
+    {
+      "target": "T26",
+      "case": "conceivable_only",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.credibilityCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 212,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "The generic Ground interface does not restrict ground categories. Concrete plans identify a positive release and direction; knowledge/history cases contain a service/mechanism or repeated direction list, and forecast revision changes supported directions. The adapter only checks designated strings/list content, so actual relevance of a mechanism/history is a stipulated interpretation. It must not be reported as independent validation of arbitrary knowledge records.",
+      "special_limits": []
+    },
+    {
+      "target": "T26",
+      "case": "revised_forecast",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.credibilityCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 212,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "The generic Ground interface does not restrict ground categories. Concrete plans identify a positive release and direction; knowledge/history cases contain a service/mechanism or repeated direction list, and forecast revision changes supported directions. The adapter only checks designated strings/list content, so actual relevance of a mechanism/history is a stipulated interpretation. It must not be reported as independent validation of arbitrary knowledge records.",
+      "special_limits": []
+    },
+    {
+      "target": "T27",
+      "case": "one_implementation_credible",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.credibilityLimits",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 394,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "One implemented variant coexists with credible direction; unsupported imagined changes do not warrant the defined investment; evolvable supports nine registered directions while maximal supports ten but is not the priority. Different per-burden bounds and work comparisons demonstrate a selective example, not a mathematical impossibility of numerical tradeoffs.",
+      "special_limits": []
+    },
+    {
+      "target": "T27",
+      "case": "imagined_unwarranted",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.credibilityLimits",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 394,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "One implemented variant coexists with credible direction; unsupported imagined changes do not warrant the defined investment; evolvable supports nine registered directions while maximal supports ten but is not the priority. Different per-burden bounds and work comparisons demonstrate a selective example, not a mathematical impossibility of numerical tradeoffs.",
+      "special_limits": []
+    },
+    {
+      "target": "T27",
+      "case": "selective_evolution",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.credibilityLimits",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 394,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "One implemented variant coexists with credible direction; unsupported imagined changes do not warrant the defined investment; evolvable supports nine registered directions while maximal supports ten but is not the priority. Different per-burden bounds and work comparisons demonstrate a selective example, not a mathematical impossibility of numerical tradeoffs.",
+      "special_limits": []
+    },
+    {
+      "target": "T27",
+      "case": "qualitative_tradeoff",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.credibilityLimits",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 394,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "One implemented variant coexists with credible direction; unsupported imagined changes do not warrant the defined investment; evolvable supports nine registered directions while maximal supports ten but is not the priority. Different per-burden bounds and work comparisons demonstrate a selective example, not a mathematical impossibility of numerical tradeoffs.",
+      "special_limits": []
+    },
+    {
+      "target": "T28",
+      "case": "understanding_threat",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.costCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 410,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Every named burden can trigger a departure when its candidate-specific cost exceeds a concrete objective capacity and the baseline; merely selecting a burden without a threat fails. This gives a substantive inequality reason rather than a free exception flag. Objective names and capacities remain application assumptions.",
+      "special_limits": []
+    },
+    {
+      "target": "T28",
+      "case": "construction_threat",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.costCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 410,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Every named burden can trigger a departure when its candidate-specific cost exceeds a concrete objective capacity and the baseline; merely selecting a burden without a threat fails. This gives a substantive inequality reason rather than a free exception flag. Objective names and capacities remain application assumptions.",
+      "special_limits": []
+    },
+    {
+      "target": "T28",
+      "case": "diagnosis_threat",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.costCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 410,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Every named burden can trigger a departure when its candidate-specific cost exceeds a concrete objective capacity and the baseline; merely selecting a burden without a threat fails. This gives a substantive inequality reason rather than a free exception flag. Objective names and capacities remain application assumptions.",
+      "special_limits": []
+    },
+    {
+      "target": "T28",
+      "case": "verification_threat",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.costCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 410,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Every named burden can trigger a departure when its candidate-specific cost exceeds a concrete objective capacity and the baseline; merely selecting a burden without a threat fails. This gives a substantive inequality reason rather than a free exception flag. Objective names and capacities remain application assumptions.",
+      "special_limits": []
+    },
+    {
+      "target": "T28",
+      "case": "coordination_threat",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.costCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 410,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Every named burden can trigger a departure when its candidate-specific cost exceeds a concrete objective capacity and the baseline; merely selecting a burden without a threat fails. This gives a substantive inequality reason rather than a free exception flag. Objective names and capacities remain application assumptions.",
+      "special_limits": []
+    },
+    {
+      "target": "T28",
+      "case": "operation_threat",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.costCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 410,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Every named burden can trigger a departure when its candidate-specific cost exceeds a concrete objective capacity and the baseline; merely selecting a burden without a threat fails. This gives a substantive inequality reason rather than a free exception flag. Objective names and capacities remain application assumptions.",
+      "special_limits": []
+    },
+    {
+      "target": "T28",
+      "case": "migration_threat",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.costCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 410,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Every named burden can trigger a departure when its candidate-specific cost exceeds a concrete objective capacity and the baseline; merely selecting a burden without a threat fails. This gives a substantive inequality reason rather than a free exception flag. Objective names and capacities remain application assumptions.",
+      "special_limits": []
+    },
+    {
+      "target": "T28",
+      "case": "unsupported_cost_excuse",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.costCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 410,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Every named burden can trigger a departure when its candidate-specific cost exceeds a concrete objective capacity and the baseline; merely selecting a burden without a threat fails. This gives a substantive inequality reason rather than a free exception flag. Objective names and capacities remain application assumptions.",
+      "special_limits": []
+    },
+    {
+      "target": "T29",
+      "case": "addition",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.evolutionKindsCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 569,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Distinct software-state transformations and knowledge/tool paths cover additions, replacement, deletion, withdrawal, redrawing and migration; other String keeps the include-list open. EvolutionClaim binds maintainer/direction and contract treatment, and independent/coordinated paths differ. The state fields and behavior/path functions are assigned rather than derived by an actual editing interpreter.",
+      "special_limits": []
+    },
+    {
+      "target": "T29",
+      "case": "replacement",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.evolutionKindsCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 569,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Distinct software-state transformations and knowledge/tool paths cover additions, replacement, deletion, withdrawal, redrawing and migration; other String keeps the include-list open. EvolutionClaim binds maintainer/direction and contract treatment, and independent/coordinated paths differ. The state fields and behavior/path functions are assigned rather than derived by an actual editing interpreter.",
+      "special_limits": []
+    },
+    {
+      "target": "T29",
+      "case": "deletion",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.evolutionKindsCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 569,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Distinct software-state transformations and knowledge/tool paths cover additions, replacement, deletion, withdrawal, redrawing and migration; other String keeps the include-list open. EvolutionClaim binds maintainer/direction and contract treatment, and independent/coordinated paths differ. The state fields and behavior/path functions are assigned rather than derived by an actual editing interpreter.",
+      "special_limits": []
+    },
+    {
+      "target": "T29",
+      "case": "withdrawal",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.evolutionKindsCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 569,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Distinct software-state transformations and knowledge/tool paths cover additions, replacement, deletion, withdrawal, redrawing and migration; other String keeps the include-list open. EvolutionClaim binds maintainer/direction and contract treatment, and independent/coordinated paths differ. The state fields and behavior/path functions are assigned rather than derived by an actual editing interpreter.",
+      "special_limits": []
+    },
+    {
+      "target": "T29",
+      "case": "redrawing",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.evolutionKindsCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 569,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Distinct software-state transformations and knowledge/tool paths cover additions, replacement, deletion, withdrawal, redrawing and migration; other String keeps the include-list open. EvolutionClaim binds maintainer/direction and contract treatment, and independent/coordinated paths differ. The state fields and behavior/path functions are assigned rather than derived by an actual editing interpreter.",
+      "special_limits": []
+    },
+    {
+      "target": "T29",
+      "case": "migration",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.evolutionKindsCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 569,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Distinct software-state transformations and knowledge/tool paths cover additions, replacement, deletion, withdrawal, redrawing and migration; other String keeps the include-list open. EvolutionClaim binds maintainer/direction and contract treatment, and independent/coordinated paths differ. The state fields and behavior/path functions are assigned rather than derived by an actual editing interpreter.",
+      "special_limits": []
+    },
+    {
+      "target": "T29",
+      "case": "independent",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.evolutionKindsCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 569,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Distinct software-state transformations and knowledge/tool paths cover additions, replacement, deletion, withdrawal, redrawing and migration; other String keeps the include-list open. EvolutionClaim binds maintainer/direction and contract treatment, and independent/coordinated paths differ. The state fields and behavior/path functions are assigned rather than derived by an actual editing interpreter.",
+      "special_limits": []
+    },
+    {
+      "target": "T29",
+      "case": "coordinated",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.evolutionKindsCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 569,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Distinct software-state transformations and knowledge/tool paths cover additions, replacement, deletion, withdrawal, redrawing and migration; other String keeps the include-list open. EvolutionClaim binds maintainer/direction and contract treatment, and independent/coordinated paths differ. The state fields and behavior/path functions are assigned rather than derived by an actual editing interpreter.",
+      "special_limits": []
+    },
+    {
+      "target": "T29",
+      "case": "preserve_obligation",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.evolutionKindsCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 569,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Distinct software-state transformations and knowledge/tool paths cover additions, replacement, deletion, withdrawal, redrawing and migration; other String keeps the include-list open. EvolutionClaim binds maintainer/direction and contract treatment, and independent/coordinated paths differ. The state fields and behavior/path functions are assigned rather than derived by an actual editing interpreter.",
+      "special_limits": []
+    },
+    {
+      "target": "T29",
+      "case": "revise_obligation",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.evolutionKindsCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 569,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Distinct software-state transformations and knowledge/tool paths cover additions, replacement, deletion, withdrawal, redrawing and migration; other String keeps the include-list open. EvolutionClaim binds maintainer/direction and contract treatment, and independent/coordinated paths differ. The state fields and behavior/path functions are assigned rather than derived by an actual editing interpreter.",
+      "special_limits": []
+    },
+    {
+      "target": "T30",
+      "case": "easy_add_hard_exit",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.evolutionDimensionsLimits",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 585,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Addition can cost two while withdrawal/revision costs seventeen; coordinated work exceeds independent work; migration can remain expensive while evolution priority holds. Equal addition cost directly refutes universal strict improvement over all Change values.",
+      "special_limits": []
+    },
+    {
+      "target": "T30",
+      "case": "independent_easy_coordinated_hard",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.evolutionDimensionsLimits",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 585,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Addition can cost two while withdrawal/revision costs seventeen; coordinated work exceeds independent work; migration can remain expensive while evolution priority holds. Equal addition cost directly refutes universal strict improvement over all Change values.",
+      "special_limits": []
+    },
+    {
+      "target": "T30",
+      "case": "some_change_expensive_permitted",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.evolutionDimensionsLimits",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 585,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Addition can cost two while withdrawal/revision costs seventeen; coordinated work exceeds independent work; migration can remain expensive while evolution priority holds. Equal addition cost directly refutes universal strict improvement over all Change values.",
+      "special_limits": []
+    },
+    {
+      "target": "T31",
+      "case": "contract_and_work_comparison",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.structuralCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 733,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Resolved as a finite intended-change case. actualCrossBoundaryObligation links the registered edge caller 2/callee 1 to a real callee compiler edit, a caller contractRunner/publicContract step and finite observed order preservation. Removing the caller check leaves the crossing true but rejects the obligation; changing the callee to 7 loses the crossing; replacing output with sortedUnique fails the contract. No network/runtime semantics or universal completeness of every edge is claimed.",
+      "special_limits": []
+    },
+    {
+      "target": "T31",
+      "case": "propagation_relation",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.structuralCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 733,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Resolved as a finite intended-change case. actualCrossBoundaryObligation links the registered edge caller 2/callee 1 to a real callee compiler edit, a caller contractRunner/publicContract step and finite observed order preservation. Removing the caller check leaves the crossing true but rejects the obligation; changing the callee to 7 loses the crossing; replacing output with sortedUnique fails the contract. No network/runtime semantics or universal completeness of every edge is claimed.",
+      "special_limits": []
+    },
+    {
+      "target": "T31",
+      "case": "cross_boundary_obligation",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.actualCrossBoundaryObligation",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 720,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "Resolved as a finite intended-change case. actualCrossBoundaryObligation links the registered edge caller 2/callee 1 to a real callee compiler edit, a caller contractRunner/publicContract step and finite observed order preservation. Removing the caller check leaves the crossing true but rejects the obligation; changing the callee to 7 loses the crossing; replacing output with sortedUnique fails the contract. No network/runtime semantics or universal completeness of every edge is claimed.",
+      "special_limits": [
+        "Fixed caller/callee/contract family and finite observation domain; no universal runtime dependency semantics."
+      ]
+    },
+    {
+      "target": "T31",
+      "case": "fixed_assumption",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.structuralCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 733,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Resolved as a finite intended-change case. actualCrossBoundaryObligation links the registered edge caller 2/callee 1 to a real callee compiler edit, a caller contractRunner/publicContract step and finite observed order preservation. Removing the caller check leaves the crossing true but rejects the obligation; changing the callee to 7 loses the crossing; replacing output with sortedUnique fails the contract. No network/runtime semantics or universal completeness of every edge is claimed.",
+      "special_limits": []
+    },
+    {
+      "target": "T31",
+      "case": "withdrawal_cost",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.structuralCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 733,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Resolved as a finite intended-change case. actualCrossBoundaryObligation links the registered edge caller 2/callee 1 to a real callee compiler edit, a caller contractRunner/publicContract step and finite observed order preservation. Removing the caller check leaves the crossing true but rejects the obligation; changing the callee to 7 loses the crossing; replacing output with sortedUnique fails the contract. No network/runtime semantics or universal completeness of every edge is claimed.",
+      "special_limits": []
+    },
+    {
+      "target": "T32",
+      "case": "same_shape_broken_order",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.structureNotCapability",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 793,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "The frozen delta now supplies the exact new_boundary_same_work case missing from the initial code: an actual added boundary and changed path with identical units/work and remaining successor prerequisite failure. The original increased-work example is retained. These and the signature/module/named-pattern examples meet the finite negative target, without proving real-world overhead or boundary execution semantics.",
+      "special_limits": []
+    },
+    {
+      "target": "T32",
+      "case": "many_modules_shared_obligation",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.structureNotCapability",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 793,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "The frozen delta now supplies the exact new_boundary_same_work case missing from the initial code: an actual added boundary and changed path with identical units/work and remaining successor prerequisite failure. The original increased-work example is retained. These and the signature/module/named-pattern examples meet the finite negative target, without proving real-world overhead or boundary execution semantics.",
+      "special_limits": []
+    },
+    {
+      "target": "T32",
+      "case": "named_pattern_no_change_path",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.structureNotCapability",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 793,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "The frozen delta now supplies the exact new_boundary_same_work case missing from the initial code: an actual added boundary and changed path with identical units/work and remaining successor prerequisite failure. The original increased-work example is retained. These and the signature/module/named-pattern examples meet the finite negative target, without proving real-world overhead or boundary execution semantics.",
+      "special_limits": []
+    },
+    {
+      "target": "T32",
+      "case": "new_boundary_same_work",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.structureNotCapability",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 793,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "The frozen delta now supplies the exact new_boundary_same_work case missing from the initial code: an actual added boundary and changed path with identical units/work and remaining successor prerequisite failure. The original increased-work example is retained. These and the signature/module/named-pattern examples meet the finite negative target, without proving real-world overhead or boundary execution semantics.",
+      "special_limits": []
+    },
+    {
+      "target": "T33",
+      "case": "preserve_identified_contract",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.contractCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 843,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "ContractChangeAccount separates finite scoped equality from deliberate revision with changed order/retry obligations and affected-party coverage. Missing operator/incorrect old limits fail; [99] demonstrates an intentionally out-of-scope historical difference; changing procedure text remains allowed. Actual notification, completeness of parties and all-input equivalence are not modeled.",
+      "special_limits": []
+    },
+    {
+      "target": "T33",
+      "case": "deliberate_revision_with_account",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.contractCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 843,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "ContractChangeAccount separates finite scoped equality from deliberate revision with changed order/retry obligations and affected-party coverage. Missing operator/incorrect old limits fail; [99] demonstrates an intentionally out-of-scope historical difference; changing procedure text remains allowed. Actual notification, completeness of parties and all-input equivalence are not modeled.",
+      "special_limits": []
+    },
+    {
+      "target": "T33",
+      "case": "revision_missing_parties",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.contractCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 843,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "ContractChangeAccount separates finite scoped equality from deliberate revision with changed order/retry obligations and affected-party coverage. Missing operator/incorrect old limits fail; [99] demonstrates an intentionally out-of-scope historical difference; changing procedure text remains allowed. Actual notification, completeness of parties and all-input equivalence are not modeled.",
+      "special_limits": []
+    },
+    {
+      "target": "T33",
+      "case": "retired_historical_behavior",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.contractCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 843,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "ContractChangeAccount separates finite scoped equality from deliberate revision with changed order/retry obligations and affected-party coverage. Missing operator/incorrect old limits fail; [99] demonstrates an intentionally out-of-scope historical difference; changing procedure text remains allowed. Actual notification, completeness of parties and all-input equivalence are not modeled.",
+      "special_limits": []
+    },
+    {
+      "target": "T33",
+      "case": "alternative_procedure",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.contractCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 843,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "ContractChangeAccount separates finite scoped equality from deliberate revision with changed order/retry obligations and affected-party coverage. Missing operator/incorrect old limits fail; [99] demonstrates an intentionally out-of-scope historical difference; changing procedure text remains allowed. Actual notification, completeness of parties and all-input equivalence are not modeled.",
+      "special_limits": []
+    },
+    {
+      "target": "T34",
+      "case": "order_preserving_refactor",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.contractPreservation",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 822,
+          "axioms": "[]"
+        },
+        {
+          "name": "CoreReader.Engineering.contractDistinctions",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 853,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "contractPreservation returns the supplied universal in-scope equality proof, rather than deriving it from finite tests. changedObservationNotPreserved gives the counterexample implication; contractRevisionObligations eliminates the failed preservation branch of the assumed account. Finite order/retry cases illustrate the distinction. This is the correct conditional reading of the target, not an empirical proof from test success.",
+      "special_limits": []
+    },
+    {
+      "target": "T34",
+      "case": "sorted_order_revision",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.changedObservationNotPreserved",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 826,
+          "axioms": "[]"
+        },
+        {
+          "name": "CoreReader.Engineering.contractDistinctions",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 853,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "contractPreservation returns the supplied universal in-scope equality proof, rather than deriving it from finite tests. changedObservationNotPreserved gives the counterexample implication; contractRevisionObligations eliminates the failed preservation branch of the assumed account. Finite order/retry cases illustrate the distinction. This is the correct conditional reading of the target, not an empirical proof from test success.",
+      "special_limits": []
+    },
+    {
+      "target": "T34",
+      "case": "changed_failure_obligation",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.contractRevisionObligations",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 832,
+          "axioms": "[]"
+        },
+        {
+          "name": "CoreReader.Engineering.contractDistinctions",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 853,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "contractPreservation returns the supplied universal in-scope equality proof, rather than deriving it from finite tests. changedObservationNotPreserved gives the counterexample implication; contractRevisionObligations eliminates the failed preservation branch of the assumed account. Finite order/retry cases illustrate the distinction. This is the correct conditional reading of the target, not an empirical proof from test success.",
+      "special_limits": []
+    },
+    {
+      "target": "T34",
+      "case": "outside_scope_difference",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.contractDistinctions",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 853,
+          "axioms": "[]"
+        }
+      ],
+      "interpretation": "contractPreservation returns the supplied universal in-scope equality proof, rather than deriving it from finite tests. changedObservationNotPreserved gives the counterexample implication; contractRevisionObligations eliminates the failed preservation branch of the assumed account. Finite order/retry cases illustrate the distinction. This is the correct conditional reading of the target, not an empirical proof from test success.",
+      "special_limits": []
+    },
+    {
+      "target": "T35",
+      "case": "revised_change_forecast",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.revisionCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 951,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "The account binds old/new software/state/prediction/observation, increasing time, changed grounds when choice differs, and honest failure reporting. Concrete forecast, maintainer, cost and capacity changes are present. Retention is permitted by the adapter's unsupported-alternative or threat conditions. The account records necessary identity/acknowledgment conditions, not sufficient substantive justification of every possible redesign.",
+      "special_limits": []
+    },
+    {
+      "target": "T35",
+      "case": "changed_maintainers",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.revisionCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 951,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "The account binds old/new software/state/prediction/observation, increasing time, changed grounds when choice differs, and honest failure reporting. Concrete forecast, maintainer, cost and capacity changes are present. Retention is permitted by the adapter's unsupported-alternative or threat conditions. The account records necessary identity/acknowledgment conditions, not sufficient substantive justification of every possible redesign.",
+      "special_limits": []
+    },
+    {
+      "target": "T35",
+      "case": "changed_cost",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.revisionCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 951,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "The account binds old/new software/state/prediction/observation, increasing time, changed grounds when choice differs, and honest failure reporting. Concrete forecast, maintainer, cost and capacity changes are present. Retention is permitted by the adapter's unsupported-alternative or threat conditions. The account records necessary identity/acknowledgment conditions, not sufficient substantive justification of every possible redesign.",
+      "special_limits": []
+    },
+    {
+      "target": "T35",
+      "case": "changed_objective",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.revisionCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 951,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "The account binds old/new software/state/prediction/observation, increasing time, changed grounds when choice differs, and honest failure reporting. Concrete forecast, maintainer, cost and capacity changes are present. Retention is permitted by the adapter's unsupported-alternative or threat conditions. The account records necessary identity/acknowledgment conditions, not sufficient substantive justification of every possible redesign.",
+      "special_limits": []
+    },
+    {
+      "target": "T35",
+      "case": "failed_prediction_preserved",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.historicalTamperingRejected",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 980,
+          "axioms": "[]"
+        },
+        {
+          "name": "CoreReader.Engineering.failedHistoryNotRewritten",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 924,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "The account binds old/new software/state/prediction/observation, increasing time, changed grounds when choice differs, and honest failure reporting. Concrete forecast, maintainer, cost and capacity changes are present. Retention is permitted by the adapter's unsupported-alternative or threat conditions. The account records necessary identity/acknowledgment conditions, not sufficient substantive justification of every possible redesign.",
+      "special_limits": []
+    },
+    {
+      "target": "T35",
+      "case": "justified_retention",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.revisionCases",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 951,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "The account binds old/new software/state/prediction/observation, increasing time, changed grounds when choice differs, and honest failure reporting. Concrete forecast, maintainer, cost and capacity changes are present. Retention is permitted by the adapter's unsupported-alternative or threat conditions. The account records necessary identity/acknowledgment conditions, not sufficient substantive justification of every possible redesign.",
+      "special_limits": []
+    },
+    {
+      "target": "T36",
+      "case": "past_failure_not_rewritten",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.historicalTamperingRejected",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 980,
+          "axioms": "[]"
+        },
+        {
+          "name": "CoreReader.Engineering.failedHistoryNotRewritten",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 924,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Prior finite no-retroactive-success/consensus/success examples are retained. A fresh same-object probe proves revisionFor sharedContext evolvable retains the old/current design choice while selfModel evolvable satisfies reflection; this makes the open-stable example explicit without turning all stability into a duty.",
+      "special_limits": []
+    },
+    {
+      "target": "T36",
+      "case": "agreement_with_bad_case",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.revisionLimits",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 993,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Prior finite no-retroactive-success/consensus/success examples are retained. A fresh same-object probe proves revisionFor sharedContext evolvable retains the old/current design choice while selfModel evolvable satisfies reflection; this makes the open-stable example explicit without turning all stability into a duty.",
+      "special_limits": []
+    },
+    {
+      "target": "T36",
+      "case": "local_success_global_failure",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.revisionLimits",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 993,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Prior finite no-retroactive-success/consensus/success examples are retained. A fresh same-object probe proves revisionFor sharedContext evolvable retains the old/current design choice while selfModel evolvable satisfies reflection; this makes the open-stable example explicit without turning all stability into a duty.",
+      "special_limits": []
+    },
+    {
+      "target": "T36",
+      "case": "open_stable_design",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.revisionContextIdentity",
+          "file": "CoreReader/Engineering/Domain.lean",
+          "line": 1020,
+          "axioms": "[propext]"
+        },
+        {
+          "name": "CoreReader.Engineering.currentSelfApplication",
+          "file": "CoreReader/Engineering/SelfApplication.lean",
+          "line": 161,
+          "axioms": "[propext, Classical.choice.{u}, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "Prior finite no-retroactive-success/consensus/success examples are retained. A fresh same-object probe proves revisionFor sharedContext evolvable retains the old/current design choice while selfModel evolvable satisfies reflection; this makes the open-stable example explicit without turning all stability into a duty.",
+      "special_limits": []
+    },
+    {
+      "target": "T37",
+      "case": "priority_self_assessment",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.priorityRemainsReflexive",
+          "file": "CoreReader/Engineering/Integration.lean",
+          "line": 467,
+          "axioms": "[propext, Classical.choice.{u}, Quot.sound.{u}]"
+        },
+        {
+          "name": "CoreReader.Engineering.priorityReflexiveCases",
+          "file": "CoreReader/Engineering/Integration.lean",
+          "line": 493,
+          "axioms": "[propext, Classical.choice.{u}, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "Resolved in the same fixed shared context. priorityValueMeaning proves candidate-by-candidate equivalence between the adopted evolvable selection commitment and actual EvolutionPriority; priorityGrounds transports value support through that explicit equality while preserving the value task. The theorem now returns that exact priority claim's Grounds, domain-content membership and complete-theory consistency, in addition to reflection. The equivalence depends on current applicability/no-departure and must not be generalized to other contexts.",
+      "special_limits": []
+    },
+    {
+      "target": "T37",
+      "case": "method_self_criticism",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.actualSelfCriticism",
+          "file": "CoreReader/Engineering/SelfApplication.lean",
+          "line": 170,
+          "axioms": "[propext, Classical.choice.{u}, Quot.sound.{u}]"
+        },
+        {
+          "name": "CoreReader.Engineering.ownRuleContentVariation",
+          "file": "CoreReader/Engineering/SelfApplication.lean",
+          "line": 204,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Resolved in the same fixed shared context. priorityValueMeaning proves candidate-by-candidate equivalence between the adopted evolvable selection commitment and actual EvolutionPriority; priorityGrounds transports value support through that explicit equality while preserving the value task. The theorem now returns that exact priority claim's Grounds, domain-content membership and complete-theory consistency, in addition to reflection. The equivalence depends on current applicability/no-departure and must not be generalized to other contexts.",
+      "special_limits": [
+        "The empty-tested-list criticism concerns the sample-aware local assessmentRuleTest contract; it is not a philosophical demand for empirical samples in every judgment."
+      ]
+    },
+    {
+      "target": "T37",
+      "case": "no_selfproof_from_success",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.priorityReflexiveCases",
+          "file": "CoreReader/Engineering/Integration.lean",
+          "line": 493,
+          "axioms": "[propext, Classical.choice.{u}, Quot.sound.{u}]"
+        },
+        {
+          "name": "CoreReader.Engineering.proposedRuleRevision",
+          "file": "CoreReader/Engineering/SelfApplication.lean",
+          "line": 218,
+          "axioms": "[propext, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "Resolved in the same fixed shared context. priorityValueMeaning proves candidate-by-candidate equivalence between the adopted evolvable selection commitment and actual EvolutionPriority; priorityGrounds transports value support through that explicit equality while preserving the value task. The theorem now returns that exact priority claim's Grounds, domain-content membership and complete-theory consistency, in addition to reflection. The equivalence depends on current applicability/no-departure and must not be generalized to other contexts.",
+      "special_limits": [
+        "The empty-tested-list criticism concerns the sample-aware local assessmentRuleTest contract; it is not a philosophical demand for empirical samples in every judgment."
+      ]
+    },
+    {
+      "target": "T38",
+      "case": "joint_all_inherited_and_domain",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.jointWitness",
+          "file": "CoreReader/Engineering/Integration.lean",
+          "line": 557,
+          "axioms": "[propext, Classical.choice.{u}, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "Accepted as the requested bounded inhabitation witness after rechecking expanded Inherited and ownTheory, not merely its unchanged exterior theorem statement. The same evolvable candidate/context satisfies original necessary requirements, applicable priority/no threat, actual maintainer paths, full held fact/norm content, original support tasks and actual self-rule reflection. Source interpretation remains a revisable finite model; no empirical or philosophical universal correctness follows.",
+      "special_limits": []
+    },
+    {
+      "target": "T38",
+      "case": "same_context_identity",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.jointWitness",
+          "file": "CoreReader/Engineering/Integration.lean",
+          "line": 557,
+          "axioms": "[propext, Classical.choice.{u}, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "Accepted as the requested bounded inhabitation witness after rechecking expanded Inherited and ownTheory, not merely its unchanged exterior theorem statement. The same evolvable candidate/context satisfies original necessary requirements, applicable priority/no threat, actual maintainer paths, full held fact/norm content, original support tasks and actual self-rule reflection. Source interpretation remains a revisable finite model; no empirical or philosophical universal correctness follows.",
+      "special_limits": []
+    },
+    {
+      "target": "T38",
+      "case": "nonempty_claims_and_principles",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.jointWitness",
+          "file": "CoreReader/Engineering/Integration.lean",
+          "line": 557,
+          "axioms": "[propext, Classical.choice.{u}, Quot.sound.{u}]"
+        },
+        {
+          "name": "CoreReader.Engineering.allNormativeContentHeld",
+          "file": "CoreReader/Engineering/Integration.lean",
+          "line": 293,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Accepted as the requested bounded inhabitation witness after rechecking expanded Inherited and ownTheory, not merely its unchanged exterior theorem statement. The same evolvable candidate/context satisfies original necessary requirements, applicable priority/no threat, actual maintainer paths, full held fact/norm content, original support tasks and actual self-rule reflection. Source interpretation remains a revisable finite model; no empirical or philosophical universal correctness follows.",
+      "special_limits": []
+    },
+    {
+      "target": "T38",
+      "case": "active_evolution_priority",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.jointWitness",
+          "file": "CoreReader/Engineering/Integration.lean",
+          "line": 557,
+          "axioms": "[propext, Classical.choice.{u}, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "Accepted as the requested bounded inhabitation witness after rechecking expanded Inherited and ownTheory, not merely its unchanged exterior theorem statement. The same evolvable candidate/context satisfies original necessary requirements, applicable priority/no threat, actual maintainer paths, full held fact/norm content, original support tasks and actual self-rule reflection. Source interpretation remains a revisable finite model; no empirical or philosophical universal correctness follows.",
+      "special_limits": []
+    },
+    {
+      "target": "T38",
+      "case": "content_bearing_maintainer_change",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.jointWitness",
+          "file": "CoreReader/Engineering/Integration.lean",
+          "line": 557,
+          "axioms": "[propext, Classical.choice.{u}, Quot.sound.{u}]"
+        },
+        {
+          "name": "CoreReader.Engineering.actualCapabilityContrast",
+          "file": "CoreReader/Engineering/Integration.lean",
+          "line": 67,
+          "axioms": "[propext]"
+        }
+      ],
+      "interpretation": "Accepted as the requested bounded inhabitation witness after rechecking expanded Inherited and ownTheory, not merely its unchanged exterior theorem statement. The same evolvable candidate/context satisfies original necessary requirements, applicable priority/no threat, actual maintainer paths, full held fact/norm content, original support tasks and actual self-rule reflection. Source interpretation remains a revisable finite model; no empirical or philosophical universal correctness follows.",
+      "special_limits": []
+    },
+    {
+      "target": "T39",
+      "case": "all_inherited_applicable_domain_not_adopted",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.inheritedDoesNotEntailPriority",
+          "file": "CoreReader/Engineering/Integration.lean",
+          "line": 586,
+          "axioms": "[propext,\n Classical.choice.{u},\n Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "Accepted as the requested bounded non-entailment witness with every original strong branch preserved. The same continuing shared context has real encoded applicability/advantage and no lifecycle/cost escape; presentSimple adopts a separately grounded simplicity value and satisfies expanded inherited duties yet fails the extra priority. normApplies records adoption of the additional domain norm, not disappearance of its actual PriorityConditions. This distinction is central to the source's additional-value claim.",
+      "special_limits": []
+    },
+    {
+      "target": "T39",
+      "case": "no_temporary_escape",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.inheritedDoesNotEntailPriority",
+          "file": "CoreReader/Engineering/Integration.lean",
+          "line": 586,
+          "axioms": "[propext,\n Classical.choice.{u},\n Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "Accepted as the requested bounded non-entailment witness with every original strong branch preserved. The same continuing shared context has real encoded applicability/advantage and no lifecycle/cost escape; presentSimple adopts a separately grounded simplicity value and satisfies expanded inherited duties yet fails the extra priority. normApplies records adoption of the additional domain norm, not disappearance of its actual PriorityConditions. This distinction is central to the source's additional-value claim.",
+      "special_limits": []
+    },
+    {
+      "target": "T39",
+      "case": "no_cost_escape",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.inheritedDoesNotEntailPriority",
+          "file": "CoreReader/Engineering/Integration.lean",
+          "line": 586,
+          "axioms": "[propext,\n Classical.choice.{u},\n Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "Accepted as the requested bounded non-entailment witness with every original strong branch preserved. The same continuing shared context has real encoded applicability/advantage and no lifecycle/cost escape; presentSimple adopts a separately grounded simplicity value and satisfies expanded inherited duties yet fails the extra priority. normApplies records adoption of the additional domain norm, not disappearance of its actual PriorityConditions. This distinction is central to the source's additional-value claim.",
+      "special_limits": []
+    },
+    {
+      "target": "T39",
+      "case": "genuine_priority_failure",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.inheritedDoesNotEntailPriority",
+          "file": "CoreReader/Engineering/Integration.lean",
+          "line": 586,
+          "axioms": "[propext,\n Classical.choice.{u},\n Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "Accepted as the requested bounded non-entailment witness with every original strong branch preserved. The same continuing shared context has real encoded applicability/advantage and no lifecycle/cost escape; presentSimple adopts a separately grounded simplicity value and satisfies expanded inherited duties yet fails the extra priority. normApplies records adoption of the additional domain norm, not disappearance of its actual PriorityConditions. This distinction is central to the source's additional-value claim.",
+      "special_limits": []
+    },
+    {
+      "target": "T39",
+      "case": "inherited_grounds_for_other_value",
+      "status": "accepted-bounded",
+      "actual_evidence": [
+        {
+          "name": "CoreReader.Engineering.inheritedDoesNotEntailPriority",
+          "file": "CoreReader/Engineering/Integration.lean",
+          "line": 586,
+          "axioms": "[propext,\n Classical.choice.{u},\n Quot.sound.{u}]"
+        },
+        {
+          "name": "CoreReader.Engineering.selectionGrounded",
+          "file": "CoreReader/Engineering/Values.lean",
+          "line": 219,
+          "axioms": "[propext, Classical.choice.{u}, Quot.sound.{u}]"
+        }
+      ],
+      "interpretation": "Accepted as the requested bounded non-entailment witness with every original strong branch preserved. The same continuing shared context has real encoded applicability/advantage and no lifecycle/cost escape; presentSimple adopts a separately grounded simplicity value and satisfies expanded inherited duties yet fails the extra priority. normApplies records adoption of the additional domain norm, not disappearance of its actual PriorityConditions. This distinction is central to the source's additional-value claim.",
+      "special_limits": []
+    }
+  ]
+}

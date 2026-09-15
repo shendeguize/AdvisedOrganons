@@ -1,0 +1,1044 @@
+{
+  "schema_version": 1,
+  "run_sha256": "18a076e48d5b40c97031ddf35a293ef1399c38cc444cf028be21f6d956924b62",
+  "source_sha256": "adc8cce5ac55a5e3795f8806748603eb69d5695fa37bbe263bee20ac6c14a1a6",
+  "code_sha256": {
+    "leanified/CoreReader/Adopted.lean": "8de4d364bb3c64e29ab92e81d86cbe4c9e5af49ada3dad262d1378421fb588c2",
+    "leanified/CoreReader/Agency.lean": "2722c34645f4256f20ce31205738f2f5712ab5dd5cc6fcf9f1180d0be5aa0303",
+    "leanified/CoreReader/Choice.lean": "b28728df12ed7e73edb5569604cd2541c0ebd815ae3aaa0812e6557dece1d1ba",
+    "leanified/CoreReader/Engineering/Domain.lean": "ce5653a2950cc7443cefbfe8b9726bd4859228e831ddb7d42601e501ccbfd855",
+    "leanified/CoreReader/Engineering/Integration.lean": "a2b88062148b3f7ebea7da02d88cb29cb04d8f1b2e9e6b97bb2420ac2c006328",
+    "leanified/CoreReader/Engineering/Reflection.lean": "c290d8472884d00bedbf945f0fc1866524e758740f40d42088c4ff9678a93fa2",
+    "leanified/CoreReader/Engineering/SelfApplication.lean": "d69c0d369bd4fd8db4c21ce3b65abb5e9efd07ed5ab9a68d56b4db39bb9d2a21",
+    "leanified/CoreReader/Engineering/Values.lean": "ccd45bf23d2f47c41d1b2f9955d753e290687d951a0c55af41ab9a63b9a8d9cb",
+    "leanified/CoreReader/Evidence.lean": "d55f33e44902cef146841cbffb65710bd7c8a3bda79d01d084edc36f019fdc96",
+    "leanified/CoreReader/Integration.lean": "97e2939c0b6714b78a3ed78358e174619a5028ad5b0b5025c0d4422b4294921b",
+    "leanified/CoreReader/Logic.lean": "0ec342691766ebd83d251dcd0da3b0ae9840aed677a714bc1b01c45d89392bc0",
+    "leanified/CoreReader/Reflexivity.lean": "48e2c74e7cbae571db1b990b9f32dd0d701f6881a8b0111d907f8861287d76fa",
+    "leanified/CoreReader.lean": "c5574fae235419a7d6449b3ebb5d2da29d1e92a3b572c1b759438e3c470caaa9"
+  },
+  "proof_targets_sha256": "19184f5f301fb5a2f156d09a1d5b4fee5f9e8e9bbc96fdc5fbbc9ccb426287bb",
+  "initial_records": [
+    {
+      "role": "source_initial",
+      "path": "reviews/source-initial.md",
+      "sha256": "edd1c4791b80068fdacc0fd168d918226abf9764de3d02554432dc160f3e1113"
+    },
+    {
+      "role": "source_initial_catalog",
+      "path": "reviews/source-initial-targets.json",
+      "sha256": "a033f7aa1c4b5b570884a372578ba544ebe5303c453c91ce0f46bd46d8921a36"
+    },
+    {
+      "role": "freeze_review",
+      "path": "reviews/target-freeze-review.md",
+      "sha256": "cd994ee5ceb0e789c5c217914d4c0bc88e1dfeeae6d81bfef4f2ff3bc383c85f"
+    },
+    {
+      "role": "code_blind",
+      "path": "reviews/code-blind-initial.md",
+      "sha256": "cf9280ddd3365440e848b14043a6208b9fea5114f9ff13cea4e236e3358317df"
+    },
+    {
+      "role": "code_blind_identity",
+      "path": "reviews/code-blind-identity.json",
+      "sha256": "78c842326b65bc894eccf10e15ae9fef75f8850abbdb7025d766eefa4d8f7a53"
+    },
+    {
+      "role": "code_blind_delta",
+      "path": "reviews/code-blind-delta.md",
+      "sha256": "a0a16628362882d5574bf41123d6fed41ce735083d55dccfb06650555cb3b776"
+    },
+    {
+      "role": "code_blind_delta_identity",
+      "path": "reviews/code-blind-delta-identity.json",
+      "sha256": "3cd8802c7670caf78d74027c73e76420b0df5eabe346b4fe55e16e19b71db88e"
+    },
+    {
+      "role": "blind_source_initial",
+      "path": "reviews/blind-source-initial.md",
+      "sha256": "41231e41278a6389f72db28cf2b75322cfdecaa0c8a831051aa7b10b7b30b2e9"
+    },
+    {
+      "role": "blind_source_initial_targets",
+      "path": "reviews/blind-source-initial.json",
+      "sha256": "458c5302b44cfcaa799fd1d9cebf34df392aebdf7fa57c74e2cd5b8c2fa96244"
+    },
+    {
+      "role": "code_comparison_final",
+      "path": "reviews/code-comparison-final.md",
+      "sha256": "ba3e905877e33ef96e4251cb59b8a1f52cca397eecaef92570ebf28261a8fd0c"
+    },
+    {
+      "role": "code_target_final",
+      "path": "reviews/code-targets-final.json",
+      "sha256": "e01cd00cbcfa4ba8c6592917ea7321eb3826bc0b365a2b1b64170a1a24a93825"
+    },
+    {
+      "role": "code_review_identity",
+      "path": "reviews/code-review-identity.json",
+      "sha256": "abb056f71ed48ec009e9bd16bd037dd2f0dab84cf3746008e4fd536aecfe78ea"
+    },
+    {
+      "role": "independent_actual_check",
+      "path": "reviews/r3-actual-audit.log",
+      "sha256": "6aaad0f6c1f73f44631df61e4631af9d82596329fb71cac4a6f42f76bfb60b5b"
+    },
+    {
+      "role": "independent_actual_check",
+      "path": "reviews/r3-axiom-summary.json",
+      "sha256": "f23b5f29c342bb30dd274c9d7fad6932565eecd69c91f27f846d017fe5a253c7"
+    },
+    {
+      "role": "independent_actual_check",
+      "path": "reviews/r3-build.log",
+      "sha256": "f6e727662ac83e00e087be3246525187946b87441afdb6cd9a3f3af9d3e5eedd"
+    },
+    {
+      "role": "independent_actual_check",
+      "path": "reviews/r3-declarations.json",
+      "sha256": "b92ca5728f275caeec340cdc63aa52dc44a303c30a887cfcfa3493542e7e6b07"
+    },
+    {
+      "role": "independent_actual_check",
+      "path": "reviews/r3-audit-input.txt",
+      "sha256": "c31b98c29db2e12b2d7c2d7f968c0fa4db76a68061ea9bf14ce81727f376ea19"
+    },
+    {
+      "role": "independent_actual_check",
+      "path": "reviews/r3-probe-input.txt",
+      "sha256": "3c72af41c80077164e35a7ad2dcc8c927a0981c12f4c698702d658b543f8d8d5"
+    },
+    {
+      "role": "independent_actual_check",
+      "path": "reviews/r3-probes.log",
+      "sha256": "0c899aa78e9ae2473f6203f0f5e680657aeeac0584472a1f1c2d1798b4e75b44"
+    },
+    {
+      "role": "independent_actual_check",
+      "path": "reviews/r3-stability-probe-input.txt",
+      "sha256": "677f560a47f9262bf08cf337f423516c163970906668bd2d541e9383c56531dd"
+    },
+    {
+      "role": "independent_actual_check",
+      "path": "reviews/r3-stability-probe.log",
+      "sha256": "9fa3b6ead7afc298499f30c5b70014c78b6686a8269611537606fa5a7c02b6a2"
+    },
+    {
+      "role": "source_comparison",
+      "path": "reviews/source-code-review-full-initial.md",
+      "sha256": "d1c38be6f8826ff29ff01ec12bb2d45f3f32e4e4b45830c7fd3250a40ab13767"
+    },
+    {
+      "role": "source_comparison",
+      "path": "reviews/source-code-review-full-initial.json",
+      "sha256": "2fe6ec4c19ecf5d73b347c2a11c2c916c9ee69ca532b19746b160178222975c1"
+    },
+    {
+      "role": "source_comparison",
+      "path": "reviews/source-code-review-adopted-f01-f06-final.md",
+      "sha256": "dc1952e457239f9c5a72d99b50ff043f3c243ff8914efea20e0bc49b3af441b4"
+    },
+    {
+      "role": "source_comparison",
+      "path": "reviews/source-code-review-adopted-f01-f06-final.json",
+      "sha256": "a43e9e3dd6b6d98497f3803f3c4e0d27666fa4aedb48e293ea7c6375561422eb"
+    },
+    {
+      "role": "source_comparison",
+      "path": "reviews/source-code-review-domain-r2.md",
+      "sha256": "53288a6b2e5bdc55a18a004c0a3c38c0a31269d97309e1f4a0b864f9cfeba28f"
+    },
+    {
+      "role": "source_comparison",
+      "path": "reviews/source-code-review-domain-r2.json",
+      "sha256": "5d8eed0f715c6aeed7f32707478d89e576c8cc8758fb5523fb6b8b8fb9a53b2d"
+    },
+    {
+      "role": "source_comparison",
+      "path": "reviews/source-code-review-domain-same-work-final.md",
+      "sha256": "c64b54d89ffed6592d5b745772835f9ff1ace23305a51dfa688289bf25c9cde2"
+    },
+    {
+      "role": "source_comparison",
+      "path": "reviews/source-code-review-domain-same-work-final.json",
+      "sha256": "99c334f55fce1629cf3a2776832fb389305b81062dd129ce4e661158560d8d8b"
+    },
+    {
+      "role": "source_comparison",
+      "path": "reviews/source-code-review-f07-f08.md",
+      "sha256": "898af33213a832832f4b6d84a8f94fd99bede9a0abae055b9e2a1af3b8ee5b1f"
+    },
+    {
+      "role": "source_comparison",
+      "path": "reviews/source-code-review-f07-f08.json",
+      "sha256": "58928fb167139305c8284d64f66ab52fd2bd22e9eb751beedbf4dd6629282fa5"
+    },
+    {
+      "role": "source_comparison",
+      "path": "reviews/source-code-review-r3.md",
+      "sha256": "c3d06769eba25fec696936c87a560228ce04d675757adc8887a36357ff9939aa"
+    },
+    {
+      "role": "source_comparison",
+      "path": "reviews/source-code-review-r3.json",
+      "sha256": "05bcb385022d349c92589785d98912746330350335602d47968c240f3b79d376"
+    },
+    {
+      "role": "reader_review",
+      "path": "reviews/reader-independent-source-review-r1.md",
+      "sha256": "2933d9049854ac3905a75493cecde9e72689a6883f337ca5f1da3f4da1ac8096"
+    },
+    {
+      "role": "reader_review",
+      "path": "reviews/reader-independent-source-review-r1.json",
+      "sha256": "6f167b52d7081adfc0bbc7dd631c7c97556efa875b972828d811b68b810f72de"
+    },
+    {
+      "role": "reader_review",
+      "path": "reviews/reader-independent-source-review-r1-anchors.md",
+      "sha256": "335b251e0f4ed2b7115230558169964ffd4f930569fcff7fa7f4c20310fa5054"
+    },
+    {
+      "role": "reader_review",
+      "path": "reviews/reader-independent-source-review-r1-anchors.json",
+      "sha256": "e8c827f7763b611d8cedc5350efd63cec727e76385fad18fc3286e6c8a8efb1a"
+    },
+    {
+      "role": "reader_review",
+      "path": "reviews/reader-independent-source-review-r2-components.md",
+      "sha256": "998c8a9aca43571ec4e094ef49d3b6e19c026f82f62aae2e727743812e1e0588"
+    },
+    {
+      "role": "reader_review",
+      "path": "reviews/reader-independent-source-review-r2-components.json",
+      "sha256": "8454724e90e354eca9755f7113cba07d8d458c2c61fb86030ebb9377357bc3b8"
+    },
+    {
+      "role": "reader_review",
+      "path": "reviews/reader-independent-source-final.md",
+      "sha256": "93979bd24e25dede4dbfecd9a264d9e63d2e01855e7a4e27b8c03add7c48894a"
+    },
+    {
+      "role": "reader_review",
+      "path": "reviews/reader-independent-source-final.json",
+      "sha256": "51ff57e3d2988cdd6e44b6e3d6709be061e80d777b79969f6a14aafcc6b81f54"
+    },
+    {
+      "role": "reader_review",
+      "path": "reviews/reader-independent-domain-r1.md",
+      "sha256": "2c411fb38eef7f4637c9c243930b4f30029b059893056518607e767cd851dae8"
+    },
+    {
+      "role": "reader_review",
+      "path": "reviews/reader-independent-domain-r1.json",
+      "sha256": "a472140f51246e278c9d8e3c69541c5fe78cb54b2f61f2eba3d64d8583645d8b"
+    },
+    {
+      "role": "reader_review",
+      "path": "reviews/reader-independent-domain-r2.md",
+      "sha256": "228a039b18206d6243e29afe3cd5e5480d930cb09d186c217284d618e61819bd"
+    },
+    {
+      "role": "reader_review",
+      "path": "reviews/reader-independent-domain-r2.json",
+      "sha256": "fc6364e3be49696cc517126a67f41e1452b3e0b54dfb70bc40594dc834d3cae8"
+    },
+    {
+      "role": "reader_review",
+      "path": "reviews/reader-independent-domain-final.md",
+      "sha256": "feb93118a9fb8b976e53d35607d3afd592444057b2eff835c2e61f158c571ce3"
+    },
+    {
+      "role": "reader_review",
+      "path": "reviews/reader-independent-domain-final.json",
+      "sha256": "4d8fae4140622e27492b378f78d47766fc879fd43940942883a5daf0233e59f1"
+    },
+    {
+      "role": "reader_actual_check",
+      "path": "reviews/reader-independent-domain-r1-granularity-clarification.json",
+      "sha256": "9d6c9b64c164a072203911b24ced32e9e32bf47a2d82a5706771934c5faa6f6a"
+    },
+    {
+      "role": "reader_actual_check",
+      "path": "reviews/reader-helper-reuse-probe-r1.json",
+      "sha256": "6221cea32fe0e60efb14ca00cdafac7d2535f373efc94d29dd953c8c521c2f93"
+    },
+    {
+      "role": "reader_actual_check",
+      "path": "reviews/reader-helper-caption-reuse-probe-r1.json",
+      "sha256": "34fa13446db8cd3264bf506baa49ee544e37713cfa57598d9db05ecfe6b774fa"
+    },
+    {
+      "role": "reader_actual_check",
+      "path": "reviews/reader-independent-domain-r1-probes.txt",
+      "sha256": "c5bc1cb06352637044d694d9dcc49737862246576fba49ac0ecc481ea06dac21"
+    },
+    {
+      "role": "reader_actual_check",
+      "path": "reviews/reader-independent-domain-r1-probes.log",
+      "sha256": "7b1f6762c8a3a910b04b32067ba975daa3ceb4a3ea45cf29ef93e6e627194fd0"
+    },
+    {
+      "role": "reader_actual_check",
+      "path": "reviews/reader-independent-domain-r1-probes-attempt1.txt",
+      "sha256": "aca48116bb1731f3e48abf43f0e292f81c39a45ddcba5cb78245d4a199d76ddf"
+    },
+    {
+      "role": "reader_actual_check",
+      "path": "reviews/reader-independent-domain-r1-probes-attempt1.log",
+      "sha256": "74ad440eb9dce2a397b754e17193af987798b6b1fce12cd2390a581de8fc394c"
+    },
+    {
+      "role": "reader_review",
+      "path": "reviews/reader-initial-overall.md",
+      "sha256": "016f35a6bc9670557bc70394675e1e413853969f7e597bf46d544fed9120a431"
+    },
+    {
+      "role": "reader_review",
+      "path": "reviews/reader-initial-overall.json",
+      "sha256": "9b3fb49a28d4e658ac6b5b9b8c89aadb82d246d04a53ba6b9e7087d6e1c8df4b"
+    },
+    {
+      "role": "reader_review",
+      "path": "reviews/reader-comparison.md",
+      "sha256": "c4e60c243ff0cfcde7debf4b2a38baaacadedc8e3a522fe89575ec350dc7c236"
+    },
+    {
+      "role": "reader_review",
+      "path": "reviews/reader-comparison.json",
+      "sha256": "f0dc87c1cc3b85bfce1475219b2b63a4508d8986c47fd39125dcf3b57d550368"
+    },
+    {
+      "role": "reader_review",
+      "path": "reviews/reader-final-overall.md",
+      "sha256": "637b4b12e88b6226e944963d7ca34bbe0ab017e9cb1b113a2744e66164f0c2d3"
+    },
+    {
+      "role": "reader_review",
+      "path": "reviews/reader-final-overall.json",
+      "sha256": "da2c4cfe5d3c5e5a585d2c8cd96a8329927b960aff853e262fb307f0cb855d1c"
+    },
+    {
+      "role": "reader_review",
+      "path": "reviews/reader-final-probes.json",
+      "sha256": "9fe82b010e045ac290ae43d471ac61ae8bb422777d3b78387b3592df93c79b84"
+    },
+    {
+      "role": "source_migration_comparison",
+      "path": "reviews/source-migration-2026-09-15.md",
+      "sha256": "39e7a846f1d52577417bf7a5928b230793ac6b6b8e82ec3d1967f86dc5e9a0cf"
+    }
+  ],
+  "entries": [
+    {
+      "id": "organon.charter.overview.p2",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T02, T38. The definition expresses an adopted duty; it neither causes change nor proves that all systems autonomously improve. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "organon.charter.overview.p3",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T02, T38. The definition expresses an adopted duty; it neither causes change nor proves that all systems autonomously improve. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "organon.charter.self-transcendence.p1",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T02, T38. The definition expresses an adopted duty; it neither causes change nor proves that all systems autonomously improve. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "organon.charter.self-transcendence.orientation.p1",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T02, T03, T38. The definition expresses an adopted duty; it neither causes change nor proves that all systems autonomously improve. These are concrete non-entailments and a bounded support example, not empirical forecasts of learning or autonomous execution. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "organon.charter.self-transcendence.non-finality.p1",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T02, T03, T38. The definition expresses an adopted duty; it neither causes change nor proves that all systems autonomously improve. These are concrete non-entailments and a bounded support example, not empirical forecasts of learning or autonomous execution. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "organon.charter.self-transcendence.limits.p1",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T03, T38. These are concrete non-entailments and a bounded support example, not empirical forecasts of learning or autonomous execution. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "organon.charter.self-transcendence.limits.p2",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T02, T03, T38. The definition expresses an adopted duty; it neither causes change nor proves that all systems autonomously improve. These are concrete non-entailments and a bounded support example, not empirical forecasts of learning or autonomous execution. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "organon.charter.consistency.p1",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T04, T05, T38. A generic empty question domain can make the interface vacuous; the engineering instance uses an inhabited question family and a concrete admissible candidate. The result requires no permanent compatibility with withdrawn claims and does not identify every prose omission that could conceal a revision. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "organon.charter.consistency.meaning.p1",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T04, T05, T38. A generic empty question domain can make the interface vacuous; the engineering instance uses an inhabited question family and a concrete admissible candidate. The result requires no permanent compatibility with withdrawn claims and does not identify every prose omission that could conceal a revision. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "organon.charter.consistency.meaning.p2",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T04, T05, T06, T38. A generic empty question domain can make the interface vacuous; the engineering instance uses an inhabited question family and a concrete admissible candidate. The result requires no permanent compatibility with withdrawn claims and does not identify every prose omission that could conceal a revision. Consistency is not sufficient empirical or value support; the counterexamples concern the disclosed mathematical representation. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "organon.charter.consistency.limits.p1",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T04, T05, T06, T38. A generic empty question domain can make the interface vacuous; the engineering instance uses an inhabited question family and a concrete admissible candidate. The result requires no permanent compatibility with withdrawn claims and does not identify every prose omission that could conceal a revision. Consistency is not sufficient empirical or value support; the counterexamples concern the disclosed mathematical representation. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "organon.charter.reflexivity.p1",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T07, T38. Generic supplied predicates need interpretation. Nonempty concrete objects and actual records establish the modeled duty, not universal self-proof. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "organon.charter.reflexivity.meaning.p1",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T07, T38. Generic supplied predicates need interpretation. Nonempty concrete objects and actual records establish the modeled duty, not universal self-proof. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "organon.charter.reflexivity.limits.p1",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T07, T08, T38. Generic supplied predicates need interpretation. Nonempty concrete objects and actual records establish the modeled duty, not universal self-proof. This bounded countermodel does not prove independence in every possible encoding; keeping forms open is also not a substitute for actual reflexive work. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "organon.grounds.p1",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T08, T09, T38. This bounded countermodel does not prove independence in every possible encoding; keeping forms open is also not a substitute for actual reflexive work. This is a sufficient finite adapter for declared tasks, not an exhaustive classification or an import of Core 0.1.3 all-aspect coverage. Declaring a new task does not license replacing an already fixed one. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "organon.grounds.assessment.p1",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T09, T13, T38. This is a sufficient finite adapter for declared tasks, not an exhaustive classification or an import of Core 0.1.3 all-aspect coverage. Declaring a new task does not license replacing an already fixed one. These distinctions do not require values, empirical evidence and inference to be reduced to one score. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "organon.grounds.assessment.p2",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T09, T10, T11, T12, T13, T38. This is a sufficient finite adapter for declared tasks, not an exhaustive classification or an import of Core 0.1.3 all-aspect coverage. Declaring a new task does not license replacing an already fixed one. Repeatability or measurability alone does not establish relevance, correctness or value; varying unobserved outcomes need not contradict limited support. Failure of support is not failure to assess correctly; consistency with assumptions is weaker than entailment. The application supplies a sufficient value assessment, not a universal requirement to prove every starting assumption or a proof that one value is universally best. These distinctions do not require values, empirical evidence and inference to be reduced to one score. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "organon.grounds.assessment.p3",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T09, T12, T13, T38. This is a sufficient finite adapter for declared tasks, not an exhaustive classification or an import of Core 0.1.3 all-aspect coverage. Declaring a new task does not license replacing an already fixed one. The application supplies a sufficient value assessment, not a universal requirement to prove every starting assumption or a proof that one value is universally best. These distinctions do not require values, empirical evidence and inference to be reduced to one score. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "organon.grounds.scope.p1",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T14, T15, T38. A nonempty role string alone is not sufficient interpretation, and an unused method does not become compulsory. Omitting an input from comparison is not evidence that no relevant difference exists there. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "organon.grounds.scope.p2",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T14, T15, T38. A nonempty role string alone is not sufficient interpretation, and an unused method does not become compulsory. Omitting an input from comparison is not evidence that no relevant difference exists there. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "organon.grounds.scope.p3",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T14, T15, T38. A nonempty role string alone is not sufficient interpretation, and an unused method does not become compulsory. Omitting an input from comparison is not evidence that no relevant difference exists there. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "organon.grounds.capabilities.p1",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T16, T17, T38. This does not define psychological understanding universally. Exact identity is a scope premise; actual contract proofs, not identity alone, discharge support. An external assessor can ground the selected output claim without establishing how the assessed system understands its generation process. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "organon.grounds.capabilities.p2",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T16, T17, T38. This does not define psychological understanding universally. Exact identity is a scope premise; actual contract proofs, not identity alone, discharge support. An external assessor can ground the selected output claim without establishing how the assessed system understands its generation process. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "organon.grounds.implementations.p1",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T18, T19, T38. These are application reasons, not a universal cost function or a rule that conventional implementations must lose. No result asserts all implementations equivalent, multiple feasible implementations guaranteed, or the choice commitment derivable from chapter placement. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "organon.grounds.implementations.p2",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T18, T19, T38. These are application reasons, not a universal cost function or a rule that conventional implementations must lose. No result asserts all implementations equivalent, multiple feasible implementations guaranteed, or the choice commitment derivable from chapter placement. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "organon.grounds.implementations.limits.p1",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T15, T18, T19, T38. Omitting an input from comparison is not evidence that no relevant difference exists there. These are application reasons, not a universal cost function or a rule that conventional implementations must lose. No result asserts all implementations equivalent, multiple feasible implementations guaranteed, or the choice commitment derivable from chapter placement. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "organon.relationships.roles.p1",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T08, T20, T38, T39. This bounded countermodel does not prove independence in every possible encoding; keeping forms open is also not a substitute for actual reflexive work. Projection does not derive all duties from one principle. Adoption markers are separate facts; they do not substitute for normative content. The sample-aware criticism is an application criterion, not a universal requirement for observations. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem. The countermodel permits different added value priorities, as Core does. It establishes bounded non-entailment, not that the domain priority is unjustified or that simple design is better for future maintenance."
+    },
+    {
+      "id": "organon.relationships.roles.p2",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T03, T06, T11, T16, T20, T38, T39. These are concrete non-entailments and a bounded support example, not empirical forecasts of learning or autonomous execution. Consistency is not sufficient empirical or value support; the counterexamples concern the disclosed mathematical representation. Failure of support is not failure to assess correctly; consistency with assumptions is weaker than entailment. This does not define psychological understanding universally. Exact identity is a scope premise; actual contract proofs, not identity alone, discharge support. Projection does not derive all duties from one principle. Adoption markers are separate facts; they do not substitute for normative content. The sample-aware criticism is an application criterion, not a universal requirement for observations. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem. The countermodel permits different added value priorities, as Core does. It establishes bounded non-entailment, not that the domain priority is unjustified or that simple design is better for future maintenance."
+    },
+    {
+      "id": "organon.relationships.roles.p3",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T07, T08, T16, T18, T20, T37, T38, T39. Generic supplied predicates need interpretation. Nonempty concrete objects and actual records establish the modeled duty, not universal self-proof. This bounded countermodel does not prove independence in every possible encoding; keeping forms open is also not a substitute for actual reflexive work. This does not define psychological understanding universally. Exact identity is a scope premise; actual contract proofs, not identity alone, discharge support. These are application reasons, not a universal cost function or a rule that conventional implementations must lose. Projection does not derive all duties from one principle. Adoption markers are separate facts; they do not substitute for normative content. The sample-aware criticism is an application criterion, not a universal requirement for observations. Successful self-assessment proves neither universal priority correctness nor universal sample requirements. The empty-sample criticism applies to the declared local assessment contract. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem. The countermodel permits different added value priorities, as Core does. It establishes bounded non-entailment, not that the domain priority is unjustified or that simple design is better for future maintenance."
+    },
+    {
+      "id": "organon.relationships.terms.p1",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T02. The definition expresses an adopted duty; it neither causes change nor proves that all systems autonomously improve."
+    },
+    {
+      "id": "extensions.p1",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T37, T38, T39. Successful self-assessment proves neither universal priority correctness nor universal sample requirements. The empty-sample criticism applies to the declared local assessment contract. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem. The countermodel permits different added value priorities, as Core does. It establishes bounded non-entailment, not that the domain priority is unjustified or that simple design is better for future maintenance."
+    },
+    {
+      "id": "software-engineering.purpose.p1",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T22, T23, T38. These numerical schedules are finite model data, not project time estimates. Scope alone does not prove every participant can perform every change. The result concerns the represented paths; lack of one documented path is not a universal impossibility theorem about all maintenance. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "software-engineering.purpose.p2",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T22, T23, T38. These numerical schedules are finite model data, not project time estimates. Scope alone does not prove every participant can perform every change. The result concerns the represented paths; lack of one documented path is not a universal impossibility theorem about all maintenance. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "software-engineering.purpose.p3",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T22, T23, T24, T38. These numerical schedules are finite model data, not project time estimates. Scope alone does not prove every participant can perform every change. The result concerns the represented paths; lack of one documented path is not a universal impossibility theorem about all maintenance. This specifies and exemplifies a default value priority; it does not deduce that priority from Core or require maximal extensibility. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "software-engineering.evolution-priority.p1",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T24, T25, T38, T39. This specifies and exemplifies a default value priority; it does not deduce that priority from Core or require maximal extensibility. The theorem neither proves the value rule from facts nor establishes that every apparently complex design has the relevant advantage. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem. The countermodel permits different added value priorities, as Core does. It establishes bounded non-entailment, not that the domain priority is unjustified or that simple design is better for future maintenance."
+    },
+    {
+      "id": "software-engineering.evolution-priority.p2",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T24, T25, T26, T27, T38, T39. This specifies and exemplifies a default value priority; it does not deduce that priority from Core or require maximal extensibility. The theorem neither proves the value rule from facts nor establishes that every apparently complex design has the relevant advantage. The proof checks stipulated evidence contents, not the real-world credibility or predictive calibration of arbitrary plans. No finite list of directions proves all future changes predictable or all omitted possibilities irrelevant. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem. The countermodel permits different added value priorities, as Core does. It establishes bounded non-entailment, not that the domain priority is unjustified or that simple design is better for future maintenance."
+    },
+    {
+      "id": "software-engineering.evolution-priority.p3",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T24, T25, T26, T27, T28, T38, T39. This specifies and exemplifies a default value priority; it does not deduce that priority from Core or require maximal extensibility. The theorem neither proves the value rule from facts nor establishes that every apparently complex design has the relevant advantage. The proof checks stipulated evidence contents, not the real-world credibility or predictive calibration of arbitrary plans. No finite list of directions proves all future changes predictable or all omitted possibilities irrelevant. The finite costs are modeled work/budget data. The source does not require every category to apply or provide a universal numerical tradeoff. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem. The countermodel permits different added value priorities, as Core does. It establishes bounded non-entailment, not that the domain priority is unjustified or that simple design is better for future maintenance."
+    },
+    {
+      "id": "software-engineering.evolution-meaning.p1",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T29, T30, T38. The enumerated constructors illustrate source dimensions and allow an other direction; they do not claim every possible evolution is represented or cheap. These counterexamples reject unjustified cross-dimension inference without adding a duty that every change be inexpensive. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "software-engineering.evolution-meaning.p2",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T29, T30, T38. The enumerated constructors illustrate source dimensions and allow an other direction; they do not claim every possible evolution is represented or cheap. These counterexamples reject unjustified cross-dimension inference without adding a duty that every change be inexpensive. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "software-engineering.structural-judgment.p1",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T31, T32, T37, T38. These are relevant finite inquiries, not a mandatory universal checklist or a real-world estimate of all boundary costs. The equal-work case preserves step units through an actual path transformation; these units are a disclosed model measure, not observed engineering effort. Successful self-assessment proves neither universal priority correctness nor universal sample requirements. The empty-sample criticism applies to the declared local assessment contract. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "software-engineering.structural-judgment.p2",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T31, T32, T38. These are relevant finite inquiries, not a mandatory universal checklist or a real-world estimate of all boundary costs. The equal-work case preserves step units through an actual path transformation; these units are a disclosed model measure, not observed engineering effort. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "software-engineering.structural-judgment.p3",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T33, T34, T38. The model does not require retaining every historical behavior, a particular test procedure, or an added universal notification obligation. A passing finite test suite is not a universal equality proof; preservation always retains its identified scope. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "software-engineering.revision.p1",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T35, T36, T38. The recorded history is fixed model evidence; the theorem does not authenticate arbitrary real-world logs or prove every criticism response adequate. The result permits bounded retention, not permanent immunity from later grounds or criticism. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    },
+    {
+      "id": "software-engineering.revision.p2",
+      "fidelity": "partial",
+      "reason": "Bounded source correspondence to T35, T36, T37, T38. The recorded history is fixed model evidence; the theorem does not authenticate arbitrary real-world logs or prove every criticism response adequate. The result permits bounded retention, not permanent immunity from later grounds or criticism. Successful self-assessment proves neither universal priority correctness nor universal sample requirements. The empty-sample criticism applies to the declared local assessment contract. This is satisfiability of the reviewed representation. It neither proves real engineering outcomes nor reduces philosophical value adoption to a theorem."
+    }
+  ],
+  "target_entries": [
+    {
+      "id": "T01",
+      "status": "accepted",
+      "reason": "The source explicitly adopts commitments rather than claiming universal factual truth or deductive hierarchy. The chapter-4 preference is additional. No theorem is required for document authority, and the concrete countermodels must not be promoted into independence of every conceivable formalization.",
+      "declarations": [],
+      "type_hashes": {}
+    },
+    {
+      "id": "T02",
+      "status": "accepted",
+      "reason": "Generative requires valuation of expansion and revisability of every current Form, including organization, method and principle. Current examples are nonempty; the stable trace and budget-respecting stable action show that generativity does not require change in every act. This is an adopted policy predicate, not proof all systems possess it.",
+      "declarations": [
+        "CoreReader.Adopted.generationSpecification",
+        "CoreReader.Adopted.generationCases"
+      ],
+      "type_hashes": {
+        "CoreReader.Adopted.generationSpecification": "4d07b8deec9112ff5d3e7fe744c159c254580260c78b82be6dd64347e8a9a4eb",
+        "CoreReader.Adopted.generationCases": "430a91318477db0305b3107b81f9df39652fa27673fdc38705a86f8e158ca138"
+      }
+    },
+    {
+      "id": "T03",
+      "status": "accepted",
+      "reason": "The neutral policy permits change without valuing it; openPolicy plus stableTrace lacks progress; inflatedState adds counts without new operations. Collaborative revision depends on a collaborator; execution lacks a result when required resources are absent. The transition achievement record concerns the same before/after/operation/input, while assertion records admit the failed inflation case. All are explicit finite constructions.",
+      "declarations": [
+        "CoreReader.Adopted.generationLimits012"
+      ],
+      "type_hashes": {
+        "CoreReader.Adopted.generationLimits012": "69058c75db607f675c730d92da7dd1c6ee27d75385f4ac4ff717bd9fc7e925b2"
+      }
+    },
+    {
+      "id": "T04",
+      "status": "accepted",
+      "reason": "Consistent quantifies over joint semantic consequences of the whole held theory under one Context. Snapshot change reporting is a separate one-way Boolean obligation. The code preserves same-question/assumptions/meaning/scope and time-slice distinctions; it does not model every way a prose report could conceal change.",
+      "declarations": [
+        "CoreReader.Adopted.consistencySpecification",
+        "CoreReader.Adopted.consistencyCases"
+      ],
+      "type_hashes": {
+        "CoreReader.Adopted.consistencySpecification": "cf239ba7292f80875f93e960cd3417c226a8727f57f11e1ec4af4564caef076d",
+        "CoreReader.Adopted.consistencyCases": "16a20441e5650e4992e046ae4eeb2a1867f573730aa1dc402ca70508bb1802a6"
+      }
+    },
+    {
+      "id": "T05",
+      "status": "accepted",
+      "reason": "consistencyConsequences directly applies the consistency prohibition to supplied positive and negative consequences. The revisionSlice examples provide distinct satisfiable times and inconsistent union; context examples preserve an admissible witness for each context. The theorem neither proves premises nor mandates permanent historical compatibility.",
+      "declarations": [
+        "CoreReader.Adopted.consistencyConsequences",
+        "CoreReader.Adopted.consistencyCases"
+      ],
+      "type_hashes": {
+        "CoreReader.Adopted.consistencyConsequences": "4b3231ac25a534c2699cd8f548a59a7d8beb1cb3923456f10c95081a3b6b5be3",
+        "CoreReader.Adopted.consistencyCases": "16a20441e5650e4992e046ae4eeb2a1867f573730aa1dc402ca70508bb1802a6"
+      }
+    },
+    {
+      "id": "T06",
+      "status": "accepted",
+      "reason": "Concrete contexts, overlapping inequalities, a consistent theory false at the selected outside world, and empty-theory countervaluations distinguish contradiction, truth, sufficiency and entailment. These support the source limits without relying on a free false support flag.",
+      "declarations": [
+        "CoreReader.Adopted.consistencyLimits012"
+      ],
+      "type_hashes": {
+        "CoreReader.Adopted.consistencyLimits012": "1bb1429eb084c222d9a84341c2d6cae05e8c83c1374bbbab8402a372099649cc"
+      }
+    },
+    {
+      "id": "T07",
+      "status": "accepted",
+      "reason": "The general interface/cases are reused; its engineering realization was rereviewed because selfModel now includes actual generation/evaluation rule objects and applicability. This strengthens rather than universalizes the source conditions.",
+      "declarations": [
+        "CoreReader.Adopted.reflexivitySpecification",
+        "CoreReader.Adopted.reflexivityCases012"
+      ],
+      "type_hashes": {
+        "CoreReader.Adopted.reflexivitySpecification": "d8084253926a4e9a9b2b9d6ccea7fcba129de72b8412ec4bd30c08a9bdf254bc",
+        "CoreReader.Adopted.reflexivityCases012": "55a9d738a39137aeb7cf0ee474c532a636dc2a59451613848747030a756b29e7"
+      }
+    },
+    {
+      "id": "T08",
+      "status": "accepted",
+      "reason": "A revisable principle applied only to target 1 fails required self-target 0; self tests fail elsewhere; owned revisions retain unsupported global claims. CompleteCharter012 is inhabited yet costAllowanceRecord admits an incorrect-output world, so the concrete corresponding Grounds012 claim fails. This is a bounded charter-versus-support model, not philosophical independence in all interpretations.",
+      "declarations": [
+        "CoreReader.Adopted.reflexivityLimits012"
+      ],
+      "type_hashes": {
+        "CoreReader.Adopted.reflexivityLimits012": "6aaa9a96ab7f8fe3ebe04633ee7e9ae054eafa88e7e8289179d143ee96e46d05"
+      }
+    },
+    {
+      "id": "T09",
+      "status": "accepted",
+      "reason": "Grounds012 formalizes successful supported grounds for one declared task using same claim/articulation/discharge and task-appropriateness. Local/global and stronger-claim countermodels preserve force and scope. It is not a complete classifier or universal procedure for deciding all possible mixed claims. Calling it the obligation to examine rather than the successful support condition would overstate the correspondence. No Core 0.1.3 all-facet obligation is introduced.",
+      "declarations": [
+        "CoreReader.Adopted.Grounds012",
+        "CoreReader.Adopted.groundsCases012"
+      ],
+      "type_hashes": {
+        "CoreReader.Adopted.Grounds012": "65ead33e1cc510ec07082dde80dbec28ca36d80391c18e2ca6df7ed3e1353029",
+        "CoreReader.Adopted.groundsCases012": "5d659ec603f559d1be5abf4df0466b2daee1633dcfbf70194c0b8ccf9640e40f"
+      }
+    },
+    {
+      "id": "T10",
+      "status": "accepted",
+      "reason": "Empirical discharge includes an in-scope compatible witness, scoped support and uncertainty support. Repetition of irrelevant first-coordinate/action observations cannot establish the second coordinate or budget value. The successful uncertainty is the exhaustive Boolean disjunction, not a quantified confidence estimate or a production measurement.",
+      "declarations": [
+        "CoreReader.Adopted.empiricalSpecification",
+        "CoreReader.Adopted.empiricalCases012"
+      ],
+      "type_hashes": {
+        "CoreReader.Adopted.empiricalSpecification": "9f534ab1f51da3b82f8edf1d35b0dfab34dfe042d10c44582f04b4dce6569ef2",
+        "CoreReader.Adopted.empiricalCases012": "fba89ddcd1cf1f745deec2bbdb86e1434e01d6fc73f99c6bf690331560f736f6"
+      }
+    },
+    {
+      "id": "T11",
+      "status": "accepted",
+      "reason": "The inferential wrapper requires satisfiable assumptions and actual entailment. Correct rejection of an unentailed conclusion is represented separately by InferenceExamined false and a countervaluation. Together they preserve the examination/success distinction, provided the wrapper alone is not described as the full act of assessment.",
+      "declarations": [
+        "CoreReader.Adopted.inferentialSpecification",
+        "CoreReader.Adopted.inferentialCases012"
+      ],
+      "type_hashes": {
+        "CoreReader.Adopted.inferentialSpecification": "d56b013c37bfeb071f171cb3f552b8775a79eee535305a78d2d9551b86c03c16",
+        "CoreReader.Adopted.inferentialCases012": "b37768f2ff32da55daf97b29dc027bfa78aa1a1f2456c80937dde7aa64a5c515"
+      }
+    },
+    {
+      "id": "T12",
+      "status": "accepted",
+      "reason": "The value construction identifies position, joint reasons, application limits, consequences and relevant criticism responses. It assumes starting claims and supplies a joint witness instead of proving every starting assumption. The universal consequence test and response nonemptiness are this application's sufficient procedure, not newly mandatory philosophical proof requirements or proof of response adequacy.",
+      "declarations": [
+        "CoreReader.Adopted.valueSpecification",
+        "CoreReader.Adopted.valueCases012"
+      ],
+      "type_hashes": {
+        "CoreReader.Adopted.valueSpecification": "1f45a163b8b2a0db44eeaeb0910e0af6168e4674ab3a3925dcfe54e3015e3ae6",
+        "CoreReader.Adopted.valueCases012": "ce1dba18fb8bf4611fe703b21270e3b59591f6f1cf1c40f2ee03899fa26c142a"
+      }
+    },
+    {
+      "id": "T13",
+      "status": "accepted",
+      "reason": "Clearly articulated false assumptions, repeated wrong-object observations, neutral records compatible with nonadoption, and the ordinary value example show the intended non-substitutions. Qualitative implication orders claim strength without imposing a numerical scale.",
+      "declarations": [
+        "CoreReader.Adopted.groundsLimits012"
+      ],
+      "type_hashes": {
+        "CoreReader.Adopted.groundsLimits012": "b404dce33c3fbf86c65d3824e2fceaf5f0a1f312ce1edc1f0a9e9251af9ccad3"
+      }
+    },
+    {
+      "id": "T14",
+      "status": "accepted",
+      "reason": "The local scope account binds comparison pairs, conditions, observed scope, relevance and each method explanation to the same claim. Its concrete method meanings prove local/repeated support and failure of global support. The generic explains relation remains supplied and the interface does not force every method to be used.",
+      "declarations": [
+        "CoreReader.Adopted.scopeSpecification",
+        "CoreReader.Adopted.scopeCases012"
+      ],
+      "type_hashes": {
+        "CoreReader.Adopted.scopeSpecification": "01857cd86d39ca8bc2d54d15555ebed9fc9fa6a0bd40196743e5f1fbbcb966b7",
+        "CoreReader.Adopted.scopeCases012": "e503dd4f8dacf02303b9bd7e56977a56feee218c1c677d8836c15039e83655a8"
+      }
+    },
+    {
+      "id": "T15",
+      "status": "accepted",
+      "reason": "Explicit functions agree only at zero and differ at one; one observation supplies local support. Trial fields separate recorded accuracy, equal settings and bounded output, and Boolean draws have equal positive weights with different outcomes. This is a finite possible-outcome model, not verification of a real stochastic process.",
+      "declarations": [
+        "CoreReader.Adopted.scopeLimits012"
+      ],
+      "type_hashes": {
+        "CoreReader.Adopted.scopeLimits012": "a286f42a08d68addaec58cb6b0b9656968db614439bd753425f3972b29d8125c"
+      }
+    },
+    {
+      "id": "T16",
+      "status": "accepted",
+      "reason": "Resolved for the explicitly declared application capability UnderstandingApplication012: the same explained doubling process must also answer all multiplier/input variations using the actual multiplication mechanism. Identical output and ExplanationContract no longer suffice: the fixed-double answer gives 2 instead of 3 at multiplier=3,input=1, while mechanismResponder answers the declared variations and receives same-object Grounds. This is an operational understanding/variation-answer capability selected by the application, not a cognitive definition or universal standard of understanding.",
+      "declarations": [
+        "CoreReader.Adopted.capabilitySpecification",
+        "CoreReader.Adopted.capabilityCases012"
+      ],
+      "type_hashes": {
+        "CoreReader.Adopted.capabilitySpecification": "908a244789ebae715ab94703060109000c2369e1c4735c6cdb48a096243f3c04",
+        "CoreReader.Adopted.capabilityCases012": "71d33f0d4ef4ccd7b59de8cf61f1e8aa0edae58f02813c4f4f3d79754d592d03"
+      }
+    },
+    {
+      "id": "T17",
+      "status": "accepted",
+      "reason": "Reliable double output with explanation = none refutes the stronger declared explanation contract; repeated item counts do not add an unavailable operation. This establishes limits on the represented output/explanation capability, not a cognitive account of human or agent understanding.",
+      "declarations": [
+        "CoreReader.Adopted.capabilityLimits012"
+      ],
+      "type_hashes": {
+        "CoreReader.Adopted.capabilityLimits012": "8efa4107232374dd4f308f0f4c19f39b706da292b2cb4042aba290ade3368d52"
+      }
+    },
+    {
+      "id": "T18",
+      "status": "accepted",
+      "reason": "JustifiedChoice combines feasibility with a valued method-content reason; status-only reasons fail by definition as the additional adopted evaluative commitment. Conventional identity remains eligible, internal explanation/applicability/simplicity/procedure reasons are admissible, and the current philosophy review is assessed by actual output reasons. No optimality or all-reasons-valid theorem is claimed.",
+      "declarations": [
+        "CoreReader.Adopted.choiceSpecification",
+        "CoreReader.Adopted.choiceCases012"
+      ],
+      "type_hashes": {
+        "CoreReader.Adopted.choiceSpecification": "4b2ffafbf066633850901441a4978132cc3d84f95bef9c803f56a17866762054",
+        "CoreReader.Adopted.choiceCases012": "36f89bc4962aa87be316945afd3147dd30111dfdca8902a41b0392a2bda28c04"
+      }
+    },
+    {
+      "id": "T19",
+      "status": "accepted",
+      "reason": "A single feasible conventional choice, unequal outputs, equal local but different global behavior, and a distinguishing internal explanation meet the requested cases. The additional-choice example distinguishes accurate general assessment of non-entailment from the separate priority norm; this is deliberately the limited general-assessment relation in the target, not all Grounds duties.",
+      "declarations": [
+        "CoreReader.Adopted.choiceLimits012"
+      ],
+      "type_hashes": {
+        "CoreReader.Adopted.choiceLimits012": "84bdf70f43a217d10ccf0d7a8179aea2b586ab845a7c8f3a2f087089c6098874"
+      }
+    },
+    {
+      "id": "T20",
+      "status": "accepted",
+      "reason": "Resolved. The theorem now explicitly concludes the full normative-content membership, grounds for every held claim, and consistencySpecification for the same expanded ownTheory. It remains a legitimate projection of Inherited, not mutual logical derivation from fewer premises. Actual self-rule generation/assessment objects are included and checked; original empirical/inferential/value tasks remain separate.",
+      "declarations": [
+        "CoreReader.Engineering.inheritedMutualApplication",
+        "CoreReader.Engineering.inheritedMutualCases"
+      ],
+      "type_hashes": {
+        "CoreReader.Engineering.inheritedMutualApplication": "b60496465943a095fdd0772f4002302eb9242ece03be7a2e20ce616f0253ee4a",
+        "CoreReader.Engineering.inheritedMutualCases": "e3c73c4f98c7a3fe5bfadc8b2bc7a9a5231473504e047179d6299e3417f2ba4c"
+      }
+    },
+    {
+      "id": "T21",
+      "status": "accepted",
+      "reason": "FormKind explicitly includes organization, method and principle. Empirical and semantic-inferential facets and noncomputable proposition decisions prevent restricting assessment to executable tests. The finite formal vocabulary is illustrative rather than an exhaustive philosophical ontology.",
+      "declarations": [],
+      "type_hashes": {}
+    },
+    {
+      "id": "T22",
+      "status": "accepted",
+      "reason": "ActivityScope plus explicit maintainers, tools, knowledge and lifecycle fields represent the intended continuing engineering subject. Successor/agent examples are positive; temporary/prototype/retiring cases use actual bounded-run and zero-maintenance fields rather than their labels. Credibility of a real lifecycle forecast is assumed by the interpretation, not independently established.",
+      "declarations": [
+        "CoreReader.Engineering.ActivityScope",
+        "CoreReader.Engineering.subjectLifecycleCases"
+      ],
+      "type_hashes": {
+        "CoreReader.Engineering.ActivityScope": "fdfa84c29643bd37a72d614541ecf59b4b7efdf606ac4b7480cb02fe3e4c8382",
+        "CoreReader.Engineering.subjectLifecycleCases": "a2d126370b7fef5af4645ef64d85b169467518bfb8f76269b41f47f82e0bd02b"
+      }
+    },
+    {
+      "id": "T23",
+      "status": "accepted",
+      "reason": "The original maintainer has privateLayout while the successor lacks it; explicit path prerequisite failure establishes the contrast. The continuing activity remains nonbounded despite its temporary label. The passive artifact returns inputs and has no propose action by its actual definition, providing one counterexample rather than a law of all artifacts.",
+      "declarations": [
+        "CoreReader.Engineering.subjectLimits"
+      ],
+      "type_hashes": {
+        "CoreReader.Engineering.subjectLimits": "4d0b23030599912d1ad72613e9956d5dd179d987aa64f0a694f74e85847b2a2b"
+      }
+    },
+    {
+      "id": "T24",
+      "status": "accepted",
+      "reason": "EvolutionPriority is an explicit defeasible norm over the fixed candidate/change comparison: when lifecycle/scope, both profiles, credible revision and capability/work/complexity conditions hold, choose evolvable or identify a cost threat. Four profile failures block the antecedent; selected burdens produce qualified departures. The numerical data are local model parameters, not universal exchange rates.",
+      "declarations": [
+        "CoreReader.Engineering.EvolutionPriority",
+        "CoreReader.Engineering.priorityConditionsCases"
+      ],
+      "type_hashes": {
+        "CoreReader.Engineering.EvolutionPriority": "8609cb39944d272540e985febb940328bc4a85a6e22fe06e652f4c95bd043ddb",
+        "CoreReader.Engineering.priorityConditionsCases": "3206e3bed26ebff1742e044beabbfcca534354e4895936cd6496b4af5a5485e9"
+      }
+    },
+    {
+      "id": "T25",
+      "status": "accepted",
+      "reason": "The theorem explicitly assumes the adopted EvolutionPriority rule, applicability and no departure; it extracts the chosen evolvable value and substitutes into the supplied complexity comparison. This matches the target's normative-premise requirement. Concrete choices show simple violates the rule without a threat and can pass with the accounted threat.",
+      "declarations": [
+        "CoreReader.Engineering.priorityWhenApplicable",
+        "CoreReader.Engineering.priorityChoices"
+      ],
+      "type_hashes": {
+        "CoreReader.Engineering.priorityWhenApplicable": "6b1efb7cab71c9b837ce57e666f331112f6416f18a59675e8119416b3d7a39a6",
+        "CoreReader.Engineering.priorityChoices": "d4cbb2cea4f863c0a900531a90fd4e36cd04ad50df57b340871001d6fb01b349"
+      }
+    },
+    {
+      "id": "T26",
+      "status": "accepted",
+      "reason": "The generic Ground interface does not restrict ground categories. Concrete plans identify a positive release and direction; knowledge/history cases contain a service/mechanism or repeated direction list, and forecast revision changes supported directions. The adapter only checks designated strings/list content, so actual relevance of a mechanism/history is a stipulated interpretation. It must not be reported as independent validation of arbitrary knowledge records.",
+      "declarations": [
+        "CoreReader.Engineering.CredibleDirection",
+        "CoreReader.Engineering.credibilityCases"
+      ],
+      "type_hashes": {
+        "CoreReader.Engineering.CredibleDirection": "1906e98dd6d042fc973fb93506c24accc024a7643adaddd05e071030c8b5682b",
+        "CoreReader.Engineering.credibilityCases": "b5d172388be7bcd1bdbeea1f07436b61458bd02c0e714dc83b7d7565adefa6c9"
+      }
+    },
+    {
+      "id": "T27",
+      "status": "accepted",
+      "reason": "One implemented variant coexists with credible direction; unsupported imagined changes do not warrant the defined investment; evolvable supports nine registered directions while maximal supports ten but is not the priority. Different per-burden bounds and work comparisons demonstrate a selective example, not a mathematical impossibility of numerical tradeoffs.",
+      "declarations": [
+        "CoreReader.Engineering.credibilityLimits"
+      ],
+      "type_hashes": {
+        "CoreReader.Engineering.credibilityLimits": "76415ebe0bbc33c3827da7db33b1e89e3f676b7cf0f4f39df5401beeda5f40c4"
+      }
+    },
+    {
+      "id": "T28",
+      "status": "accepted",
+      "reason": "Every named burden can trigger a departure when its candidate-specific cost exceeds a concrete objective capacity and the baseline; merely selecting a burden without a threat fails. This gives a substantive inequality reason rather than a free exception flag. Objective names and capacities remain application assumptions.",
+      "declarations": [
+        "CoreReader.Engineering.JustifiedDeparture",
+        "CoreReader.Engineering.costCases"
+      ],
+      "type_hashes": {
+        "CoreReader.Engineering.JustifiedDeparture": "f6c50ef1eaca65b4a3886bcbc5ccb11393e89a2d7baf8f6980b6a58f9d0719a4",
+        "CoreReader.Engineering.costCases": "0159f38d1da3fe90524ce5a5d2e2b1d3a4fc5a14c6a76a6fbc07a158d16edd90"
+      }
+    },
+    {
+      "id": "T29",
+      "status": "accepted",
+      "reason": "Distinct software-state transformations and knowledge/tool paths cover additions, replacement, deletion, withdrawal, redrawing and migration; other String keeps the include-list open. EvolutionClaim binds maintainer/direction and contract treatment, and independent/coordinated paths differ. The state fields and behavior/path functions are assigned rather than derived by an actual editing interpreter.",
+      "declarations": [
+        "CoreReader.Engineering.EvolutionClaim",
+        "CoreReader.Engineering.evolutionKindsCases"
+      ],
+      "type_hashes": {
+        "CoreReader.Engineering.EvolutionClaim": "9c0c528a387fd26adf8c44acbd1e97da3c991c6544f40f31c0a8c3adb2ccd2f7",
+        "CoreReader.Engineering.evolutionKindsCases": "ccab4c5ed0bb676cef2d8435b8252630c0bc2f32d0ce9023156532deb6b77a1e"
+      }
+    },
+    {
+      "id": "T30",
+      "status": "accepted",
+      "reason": "Addition can cost two while withdrawal/revision costs seventeen; coordinated work exceeds independent work; migration can remain expensive while evolution priority holds. Equal addition cost directly refutes universal strict improvement over all Change values.",
+      "declarations": [
+        "CoreReader.Engineering.evolutionDimensionsLimits"
+      ],
+      "type_hashes": {
+        "CoreReader.Engineering.evolutionDimensionsLimits": "ba2af856a831323eaa2344e83084a08689b7a287f6a8542edcef6fb0c2e57af7"
+      }
+    },
+    {
+      "id": "T31",
+      "status": "accepted",
+      "reason": "Resolved as a finite intended-change case. actualCrossBoundaryObligation links the registered edge caller 2/callee 1 to a real callee compiler edit, a caller contractRunner/publicContract step and finite observed order preservation. Removing the caller check leaves the crossing true but rejects the obligation; changing the callee to 7 loses the crossing; replacing output with sortedUnique fails the contract. No network/runtime semantics or universal completeness of every edge is claimed.",
+      "declarations": [
+        "CoreReader.Engineering.StructuralAccount",
+        "CoreReader.Engineering.structuralCases"
+      ],
+      "type_hashes": {
+        "CoreReader.Engineering.StructuralAccount": "45df6c2c2383df05162c2a265ba6daf5debbdf46847dc9de1801f881eb00db1e",
+        "CoreReader.Engineering.structuralCases": "4fdfb378096465bfe330f655d5cc248745bbfdcb505407595d9d23254428de9e"
+      }
+    },
+    {
+      "id": "T32",
+      "status": "accepted",
+      "reason": "The frozen delta now supplies the exact new_boundary_same_work case missing from the initial code: an actual added boundary and changed path with identical units/work and remaining successor prerequisite failure. The original increased-work example is retained. These and the signature/module/named-pattern examples meet the finite negative target, without proving real-world overhead or boundary execution semantics.",
+      "declarations": [
+        "CoreReader.Engineering.structureNotCapability"
+      ],
+      "type_hashes": {
+        "CoreReader.Engineering.structureNotCapability": "2c09939db7dbc6561ff01284d1187a4272120050885c7743d2227d2a6e133ea9"
+      }
+    },
+    {
+      "id": "T33",
+      "status": "accepted",
+      "reason": "ContractChangeAccount separates finite scoped equality from deliberate revision with changed order/retry obligations and affected-party coverage. Missing operator/incorrect old limits fail; [99] demonstrates an intentionally out-of-scope historical difference; changing procedure text remains allowed. Actual notification, completeness of parties and all-input equivalence are not modeled.",
+      "declarations": [
+        "CoreReader.Engineering.ContractChangeAccount",
+        "CoreReader.Engineering.contractCases"
+      ],
+      "type_hashes": {
+        "CoreReader.Engineering.ContractChangeAccount": "c58d92d3f41481a1b24941446085e8161c5dcb32cc266487f9734c2c03c8d3fe",
+        "CoreReader.Engineering.contractCases": "d577c98b03b1349b8acdc20e24a2d1141ea92e5ce49ab73e3518385e0981adeb"
+      }
+    },
+    {
+      "id": "T34",
+      "status": "accepted",
+      "reason": "contractPreservation returns the supplied universal in-scope equality proof, rather than deriving it from finite tests. changedObservationNotPreserved gives the counterexample implication; contractRevisionObligations eliminates the failed preservation branch of the assumed account. Finite order/retry cases illustrate the distinction. This is the correct conditional reading of the target, not an empirical proof from test success.",
+      "declarations": [
+        "CoreReader.Engineering.contractPreservation",
+        "CoreReader.Engineering.contractDistinctions"
+      ],
+      "type_hashes": {
+        "CoreReader.Engineering.contractPreservation": "d9078e49c446deddda26e669891464c695136710e6b34620ca8ee4f08bdafbed",
+        "CoreReader.Engineering.contractDistinctions": "bc0f83a82833ba24fc73f01ff24ac513e5ce42fec36a8195c70d516365a07a28"
+      }
+    },
+    {
+      "id": "T35",
+      "status": "accepted",
+      "reason": "The account binds old/new software/state/prediction/observation, increasing time, changed grounds when choice differs, and honest failure reporting. Concrete forecast, maintainer, cost and capacity changes are present. Retention is permitted by the adapter's unsupported-alternative or threat conditions. The account records necessary identity/acknowledgment conditions, not sufficient substantive justification of every possible redesign.",
+      "declarations": [
+        "CoreReader.Engineering.RevisionAccount",
+        "CoreReader.Engineering.revisionCases"
+      ],
+      "type_hashes": {
+        "CoreReader.Engineering.RevisionAccount": "865a4c6c542f07f6b0ce44a67e98175239ef389738b16bc6071ccebffae61c8b",
+        "CoreReader.Engineering.revisionCases": "8e2008450f4c7a80eca24630a18e6c77bf570055daee2c75c2577987c06ff629"
+      }
+    },
+    {
+      "id": "T36",
+      "status": "accepted",
+      "reason": "Prior finite no-retroactive-success/consensus/success examples are retained. A fresh same-object probe proves revisionFor sharedContext evolvable retains the old/current design choice while selfModel evolvable satisfies reflection; this makes the open-stable example explicit without turning all stability into a duty.",
+      "declarations": [
+        "CoreReader.Engineering.revisionLimits"
+      ],
+      "type_hashes": {
+        "CoreReader.Engineering.revisionLimits": "071a3e5cddf46166eacbd56285cdb4abb9f11a94e50e8bf00f8bc100f01026d0"
+      }
+    },
+    {
+      "id": "T37",
+      "status": "accepted",
+      "reason": "Resolved in the same fixed shared context. priorityValueMeaning proves candidate-by-candidate equivalence between the adopted evolvable selection commitment and actual EvolutionPriority; priorityGrounds transports value support through that explicit equality while preserving the value task. The theorem now returns that exact priority claim's Grounds, domain-content membership and complete-theory consistency, in addition to reflection. The equivalence depends on current applicability/no-departure and must not be generalized to other contexts.",
+      "declarations": [
+        "CoreReader.Engineering.priorityRemainsReflexive",
+        "CoreReader.Engineering.priorityReflexiveCases"
+      ],
+      "type_hashes": {
+        "CoreReader.Engineering.priorityRemainsReflexive": "285b4edb7397d25ccc631b194a1ff8ebb5204df450d52ec8eaf0685519b289c2",
+        "CoreReader.Engineering.priorityReflexiveCases": "2be55699c66ab5ba0f6310f298e19b890de4caef622e0d69676f2d6a7a3b5170"
+      }
+    },
+    {
+      "id": "T38",
+      "status": "accepted",
+      "reason": "Accepted as the requested bounded inhabitation witness after rechecking expanded Inherited and ownTheory, not merely its unchanged exterior theorem statement. The same evolvable candidate/context satisfies original necessary requirements, applicable priority/no threat, actual maintainer paths, full held fact/norm content, original support tasks and actual self-rule reflection. Source interpretation remains a revisable finite model; no empirical or philosophical universal correctness follows.",
+      "declarations": [
+        "CoreReader.Engineering.jointWitness"
+      ],
+      "type_hashes": {
+        "CoreReader.Engineering.jointWitness": "56d1bd97b0ac6c069484812a2a975dc185a905a24ee133a780b5f23a7fdc0b59"
+      }
+    },
+    {
+      "id": "T39",
+      "status": "accepted",
+      "reason": "Accepted as the requested bounded non-entailment witness with every original strong branch preserved. The same continuing shared context has real encoded applicability/advantage and no lifecycle/cost escape; presentSimple adopts a separately grounded simplicity value and satisfies expanded inherited duties yet fails the extra priority. normApplies records adoption of the additional domain norm, not disappearance of its actual PriorityConditions. This distinction is central to the source's additional-value claim.",
+      "declarations": [
+        "CoreReader.Engineering.inheritedDoesNotEntailPriority"
+      ],
+      "type_hashes": {
+        "CoreReader.Engineering.inheritedDoesNotEntailPriority": "ad1b1b45257f57a53567b08bc87eb32bd6d8acf8395e9762a684c1116f270197"
+      }
+    },
+    {
+      "id": "T40",
+      "status": "accepted",
+      "reason": "Maintain source authority and separate normative specification, conditional theorem, finite witness, actual measurement, interpretation and adoption. No unseen final reader edition was assessed in this initial comparison. Disclosed abstraction does not automatically discharge a required semantic case or permit relabeling a difficult target as a boundary.",
+      "declarations": [],
+      "type_hashes": {}
+    }
+  ],
+  "review_context": {
+    "adopted_baseline": "SoftwareEngineering 0.2.0, inherited Core 0.1.2",
+    "runtime": "Current OrganonCore checker; not a change of adopted philosophy.",
+    "exposure": "Source-first initial review was saved before target comparison and code. Code-only reviewer first received transformed code without philosophy or source mapping; its original account and later delta account are retained. Source and code reviewers compared original source only after initial records. R3 is an informed three-way comparison of actual corrected code; reader authorship begins after these source judgments and requires separate QA.",
+    "acceptance": "All 40 frozen goals and all 175 semantic cases remain. Accepted means bounded source correspondence, never universal philosophical correctness.",
+    "reuse": "Six helper modules reuse previous Core mathematical code with revised source comments. Current exact code, complete declaration types, dependencies and new source links were reviewed; prior Core approval was not transferred. Earlier rejected/incomplete judgments remain historical.",
+    "binary": "A stray Domain.olean present in the immutable R3 snapshot is excluded from the maintained project and portable copy. It was not a checker input; exact Lean source was unchanged.",
+    "source_migration": {
+      "prior_fidelity_sha256": "8783990e4699af1378ea64f00351cc8dc7a7040264a22ab845ab00467b62e7a1",
+      "review": "reviews/source-migration-2026-09-15.md",
+      "scope": "New source metadata and rationale location only. Existing code, target bodies and bounded judgments reused under the separate migration comparison; historical initial records are not new approvals."
+    }
+  }
+}

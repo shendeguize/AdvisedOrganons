@@ -1,0 +1,322 @@
+{
+  "schema_version": 1,
+  "stage": "independent final changed-scope and six-task reader QA",
+  "utc": "2026-09-14T18:55:39.687712+00:00",
+  "verdict": "accepted_with_disclosed_scope",
+  "remaining_necessary_reader_findings": [],
+  "bindings": {
+    "views": {
+      "lean/philosophy/overview.md": "c8b01525a54a9beb78086a17652ea4ded4740dad956a0a9a4f9c0ae3ee7171a2",
+      "lean/philosophy/details.md": "1b8d07cbbf3a0e7005821bc2261f89b1675d43a053802e8b779b1930e0d782af",
+      "zh/lean/philosophy/overview.md": "31fd96fd034ab16e92d3ecc600237bf9f27fcddaff754b308e4ca14573b58a61",
+      "zh/lean/philosophy/details.md": "5eba3d944c7bcef294bfed822e6c4aa8205e3e238157da5fb95365bbb57169ff"
+    },
+    "source_current_sha256": "6c6ae78a23f2726c5c370434e808d76c206647fe7793245e88cae52c076abe34",
+    "source_snapshot_sha256": "6c6ae78a23f2726c5c370434e808d76c206647fe7793245e88cae52c076abe34",
+    "source_metadata": {
+      "format_version": "0.1.0",
+      "philosophy_version": "0.2.0",
+      "core_version": "0.1.2",
+      "derived_from": {
+        "source_id": "https://github.com/shendeguize/OrganonCore",
+        "philosophy_version": "0.1.2",
+        "content_hash": "cb23f8a44d6b877ff9b5385961ff8e5fa788f8021ae267cdc8e305870ec20ca7"
+      }
+    },
+    "targets_sha256": "c0939df35dad148a0543ba92a1ac7b7d3b2eb4946f92ac4be251ec51b6481d13",
+    "code_files": {
+      "leanified/CoreReader/Adopted.lean": "8de4d364bb3c64e29ab92e81d86cbe4c9e5af49ada3dad262d1378421fb588c2",
+      "leanified/CoreReader/Agency.lean": "2722c34645f4256f20ce31205738f2f5712ab5dd5cc6fcf9f1180d0be5aa0303",
+      "leanified/CoreReader/Choice.lean": "b28728df12ed7e73edb5569604cd2541c0ebd815ae3aaa0812e6557dece1d1ba",
+      "leanified/CoreReader/Engineering/Domain.lean": "ce5653a2950cc7443cefbfe8b9726bd4859228e831ddb7d42601e501ccbfd855",
+      "leanified/CoreReader/Engineering/Integration.lean": "a2b88062148b3f7ebea7da02d88cb29cb04d8f1b2e9e6b97bb2420ac2c006328",
+      "leanified/CoreReader/Engineering/Reflection.lean": "c290d8472884d00bedbf945f0fc1866524e758740f40d42088c4ff9678a93fa2",
+      "leanified/CoreReader/Engineering/SelfApplication.lean": "d69c0d369bd4fd8db4c21ce3b65abb5e9efd07ed5ab9a68d56b4db39bb9d2a21",
+      "leanified/CoreReader/Engineering/Values.lean": "ccd45bf23d2f47c41d1b2f9955d753e290687d951a0c55af41ab9a63b9a8d9cb",
+      "leanified/CoreReader/Evidence.lean": "d55f33e44902cef146841cbffb65710bd7c8a3bda79d01d084edc36f019fdc96",
+      "leanified/CoreReader/Integration.lean": "97e2939c0b6714b78a3ed78358e174619a5028ad5b0b5025c0d4422b4294921b",
+      "leanified/CoreReader/Logic.lean": "0ec342691766ebd83d251dcd0da3b0ae9840aed677a714bc1b01c45d89392bc0",
+      "leanified/CoreReader/Reflexivity.lean": "48e2c74e7cbae571db1b990b9f32dd0d701f6881a8b0111d907f8861287d76fa",
+      "leanified/CoreReader.lean": "c5574fae235419a7d6449b3ebb5d2da29d1e92a3b572c1b759438e3c470caaa9"
+    },
+    "run_json_sha256": "661ee91e1727a628c9e5933f6c6690011c575f99123b2a669ddb2b9c036a163d",
+    "observed_manifest_sha256": "1707734f6c51b9f7cd802ba8b84ed2a4d80fb6a7617d53eac081568689fee0c1",
+    "manifest_binding_role": "Observed r2 manifest identifies what was read. Reader approval binds source/code/targets/four-view bytes; later addition of a public review may change manifest/review metadata without circularly binding the review to its own container."
+  },
+  "independence": "Reviewer authored none of the SE reader prose. Preserved own independent r1 precedes comparison with source/domain reviewers. Source-aware review; not fresh blind backtranslation.",
+  "coverage": {
+    "own_full_initial_EN_ZH_nonblank_root4": {
+      "Reflection": 113,
+      "SelfApplication": 203,
+      "Values": 201,
+      "Integration": 547,
+      "total": 1064
+    },
+    "own_final_review": "Complete four-view diff read in both languages; two changed root4 captions and T31 exact predicate independently rechecked against code and saved actual probes. All unchanged root4 interpretation reused only after exact code/old-new caption identity checks. Fresh final lookups locate and extract final sections; unchanged semantic readings are reused with diff identity disclosed.",
+    "Adopted": "Source reviewer independently read1225 EN/ZH nonblank lines. Final embedding now matches its accepted component at every entry; this agent freshly checked the two corrected negative-branch captions and their source, and selected strongest understanding material. Not claimed this agent independently reread all1225 lines.",
+    "Domain": "Domain reviewer independently read902 EN/ZH nonblank lines and accepted14 changed entries. This agent read every final changed caption/target statement and matching important source definitions; exact902-entry embedding matches that accepted component. Unchanged902-line semantic QA/probes remain attributed to the other reviewer.",
+    "helpers": "Six helper modules unchanged in final diff. Source reviewer reports2178 nonblank code/caption identity matches per language to prior Core readers and bounded fresh semantic review. Its Evidence233–605 subset was identity-reused without new full semantic reread; that limit is retained. This agent does not claim fresh full helper re-review.",
+    "entry_root_module": "The root module import line is structurally covered by manuscript checker; not one of root4 semantic modules."
+  },
+  "changes": {
+    "target_narrative_ids": [
+      "T24",
+      "T29",
+      "T31",
+      "T35",
+      "T36"
+    ],
+    "root4_caption_changes": {
+      "Engineering/Reflection.lean": [
+        35
+      ],
+      "Engineering/SelfApplication.lean": [
+        115
+      ]
+    },
+    "Adopted_caption_changes": [
+      692,
+      1314
+    ],
+    "Domain_caption_changes": [
+      88,
+      244,
+      298,
+      299,
+      300,
+      301,
+      353,
+      424,
+      710,
+      711,
+      712,
+      713,
+      1034,
+      1035
+    ],
+    "other_view_lines": "unchanged by complete four-view diff",
+    "source_code_targets": "unchanged against preserved complete r1 positive object"
+  },
+  "component_embedding": [
+    {
+      "language": "en",
+      "group": "Adopted",
+      "component_sha256": "aa4f297fb4250cf8cf1883092f74152fb6567a5b9ec4ee74dae7a8f28b1fb9b9",
+      "entries": 1225,
+      "mismatches": []
+    },
+    {
+      "language": "en",
+      "group": "Domain",
+      "component_sha256": "d1773e14c9e68a81850a9a949f11ab3722dcb3a4c2bd8c663ecf1e8102d3c471",
+      "entries": 902,
+      "mismatches": []
+    },
+    {
+      "language": "en",
+      "group": "root4",
+      "component_sha256": "022cfcd09aee3ea4f2f608628ebe52846bea02c18430e647c5b388477fe5db79",
+      "entries": 1064,
+      "mismatches": []
+    },
+    {
+      "language": "zh",
+      "group": "Adopted",
+      "component_sha256": "69ae42b723e8fd901701c32226d7daa6adb879923ce29e8d4b58ebf58d724714",
+      "entries": 1225,
+      "mismatches": []
+    },
+    {
+      "language": "zh",
+      "group": "Domain",
+      "component_sha256": "24bf6725f169fad4ec28f335296c0e95c3212136e46ec3ad0974f61a32820c85",
+      "entries": 902,
+      "mismatches": []
+    },
+    {
+      "language": "zh",
+      "group": "root4",
+      "component_sha256": "838a2675fc1bcad5441d89197aeeca9bdaee9c536011230bcb8d087780f79923",
+      "entries": 1064,
+      "mismatches": []
+    }
+  ],
+  "narrative_embedding": [
+    {
+      "target": "T24",
+      "language": "en",
+      "granularity": "overview",
+      "all_fields_exact": true
+    },
+    {
+      "target": "T24",
+      "language": "en",
+      "granularity": "details",
+      "all_fields_exact": true
+    },
+    {
+      "target": "T24",
+      "language": "zh",
+      "granularity": "overview",
+      "all_fields_exact": true
+    },
+    {
+      "target": "T24",
+      "language": "zh",
+      "granularity": "details",
+      "all_fields_exact": true
+    },
+    {
+      "target": "T29",
+      "language": "en",
+      "granularity": "overview",
+      "all_fields_exact": true
+    },
+    {
+      "target": "T29",
+      "language": "en",
+      "granularity": "details",
+      "all_fields_exact": true
+    },
+    {
+      "target": "T29",
+      "language": "zh",
+      "granularity": "overview",
+      "all_fields_exact": true
+    },
+    {
+      "target": "T29",
+      "language": "zh",
+      "granularity": "details",
+      "all_fields_exact": true
+    },
+    {
+      "target": "T35",
+      "language": "en",
+      "granularity": "overview",
+      "all_fields_exact": true
+    },
+    {
+      "target": "T35",
+      "language": "en",
+      "granularity": "details",
+      "all_fields_exact": true
+    },
+    {
+      "target": "T35",
+      "language": "zh",
+      "granularity": "overview",
+      "all_fields_exact": true
+    },
+    {
+      "target": "T35",
+      "language": "zh",
+      "granularity": "details",
+      "all_fields_exact": true
+    },
+    {
+      "target": "T36",
+      "language": "en",
+      "granularity": "overview",
+      "all_fields_exact": true
+    },
+    {
+      "target": "T36",
+      "language": "en",
+      "granularity": "details",
+      "all_fields_exact": true
+    },
+    {
+      "target": "T36",
+      "language": "zh",
+      "granularity": "overview",
+      "all_fields_exact": true
+    },
+    {
+      "target": "T36",
+      "language": "zh",
+      "granularity": "details",
+      "all_fields_exact": true
+    }
+  ],
+  "actual_lookup_count": 32,
+  "answers": [
+    {
+      "id": 1,
+      "targets": [
+        "T38",
+        "T39"
+      ],
+      "answer": "T38 existentially selects sharedContext and evolvable once, then jointly supplies full Inherited and DomainSatisfied for those same objects. T39 fixes the same context and presentSimple, explicitly retaining continuing and non-bounded lifecycle, all priority conditions, both necessary requirements, actual successor/agent paths, no threat and no justified departure. It adds the supported, adopted current-simplicity value and proves actual EvolutionPriority false. It establishes represented inherited-duty non-entailment, not permission for an already committed SE adopter to ignore DomainSatisfied. OwnTheory jointly holds applicable actual norms and facts; sameContext bounds the interpretation.",
+      "status": "answered on final bound views; bounded source-aware reader judgment"
+    },
+    {
+      "id": 2,
+      "targets": [
+        "T16"
+      ],
+      "answer": "Both applications share explainedProcess and FullProcessContract. UnderstandingApplication012 additionally requires correct answers for every multiplier then input, plus the actual process relation to multiplication by2. The encoded negative witness is multiplier=3/input=1: the fixed-double responder returns2 versus mechanism012 expected3. The correct responder satisfies the selected stronger application and same-task Grounds; identity alone does not discharge the contract. No universal psychological understanding claim follows. This corrects the swapped variable names in the preserved r1 answer.",
+      "status": "answered on final bound views; bounded source-aware reader judgment"
+    },
+    {
+      "id": 3,
+      "targets": [
+        "T31"
+      ],
+      "answer": "At T31, actual callee1 editing causes crossing and caller2 performs the public-contract verification. Removing that check preserves crossesBoundary=true but makes boundaryObligationChecked=false; final EN/ZH now names that exact predicate. Sorting actual output also fails its finite contract conjunct. Changing the callee to untouched7 changes crossing applicability. These finite checks are not universal preservation or all real boundary-cost estimates.",
+      "status": "answered on final bound views; bounded source-aware reader judgment"
+    },
+    {
+      "id": 4,
+      "targets": [
+        "T20",
+        "T37"
+      ],
+      "answer": "T20/T37 and the actual root4 line anchors identify generationRule and assessmentRule as real own review objects whose tests inspect the current generator/evaluator. Generation follows its applicability predicate rather than every phase. The declared local empty-sample assessment-contract failure is retained as a revision counterexample. Generation proposes samples/scope; it proves neither proposal success nor philosophical correctness. The final owner explanation correctly separates model owner0/self relation from raw Model.input accepting owner99, and Outcome equality now retains [DecidableEq W].",
+      "status": "answered on final bound views; bounded source-aware reader judgment"
+    },
+    {
+      "id": 5,
+      "targets": [
+        "T33",
+        "T34",
+        "T35",
+        "T36"
+      ],
+      "answer": "T34 receives forall x,scope x -> new x=old x and returns the same premise as PreservesOn; finite order/retry cases do not prove universal equality. T33 identifies actual affected parties, including the operator, and a missed excluded input99. T35 now correctly describes one old/new pair changing all five material grounds together, separates the OR guard from adequate justification, and names old/recordedOld tampering against fixed independent observedHistory. T36 preserves historical failure and truthful stable choice/criticism coverage without claiming this case proves actual revisability. Later valid support may support a later correctly scoped claim, but cannot make the recorded failed arithmetic true.",
+      "status": "answered on final bound views; bounded source-aware reader judgment"
+    },
+    {
+      "id": 6,
+      "targets": [
+        "T01",
+        "T02",
+        "T20",
+        "T34",
+        "T39",
+        "T40"
+      ],
+      "answer": "Both final overviews state SE0.2.0/adopted Core0.1.2 and distinguish accepted target review, limited source correspondence, incomplete material and Lean passed. Actual final navigation resolves the six tasks through32 EN/ZH target lookups and their declaration-line anchors. T02 normative specification, T20 full-Inherited projection, T34 identity on supplied equality, T39 finite countermodel and T01/T40 nonformal boundaries retain different proof force. The corrected T24/T29/T35/T36 text and exact component captions are embedded in both granularities. Build/structural success is not presented as philosophical truth or whole-source complete proof.",
+      "status": "answered on final bound views; bounded source-aware reader judgment"
+    }
+  ],
+  "review_comparison": "All own R1–R3 and source R01–R05 plus necessary Domain RD1–RD4 corrections are resolved in the actual bound manuscripts. Optional locality improvements are accurately embedded but are not retroactively treated as new blocking obligations. Initial Q2 variable order and missed T35/T36 precision issues remain explicitly corrected in comparison-r2.",
+  "checker_evidence": {
+    "source": "parent-executed manuscript-check-r2.json",
+    "sha256": "51c7ae98aa284718cb5948876865c2a41faa80ad7f2d66c6fc939a7ec7b58cac",
+    "observed_passed": true,
+    "reuse": "No new Lean build is needed for prose-only changes with13 exact unchanged code hashes and frozen targets; own V8 complete positive/kernel runs plus parent r2 checker result are attributed separately."
+  },
+  "limits": [
+    "Acceptance concerns the bound reader objects and disclosed coverage, not philosophical correctness, universal empirical adequacy, or a completeness guarantee for the methods.",
+    "Final public portable reference closure V10 remains separately owned and executed by root; this review does not claim its completion.",
+    "If source, code, targets or any four-view bytes change, this acceptance must be re-evaluated for the actual changed scope; mere manifest/public-review metadata changes do not silently grant new semantic approval."
+  ],
+  "evidence_files": {
+    "actual_final_probes_sha256": "9fe82b010e045ac290ae43d471ac61ae8bb422777d3b78387b3592df93c79b84",
+    "own_initial_sha256": "9b3fb49a28d4e658ac6b5b9b8c89aadb82d246d04a53ba6b9e7087d6e1c8df4b",
+    "own_comparison_sha256": "f0dc87c1cc3b85bfce1475219b2b63a4508d8986c47fd39125dcf3b57d550368",
+    "source_component_review_sha256": "2cd4fbdee43dff496a9099fe8d7186e6d133689c346e34f9c0c60d2a81ba6cea",
+    "domain_component_review_sha256": "44b4697d44a5f28ca501f868e08680dfbf7614092860e87daa28c37a1fe30f82"
+  }
+}

@@ -1,0 +1,3056 @@
+{
+  "schema_version": "source-first-recommendations-1",
+  "status": "independent initial recommendations; not frozen author catalog",
+  "author": "independent agent /root/se_source_first",
+  "recorded_at": "2026-09-14T16:44:03.740255+00:00",
+  "source_path": "SoftwareEngineering/PHILOSOPHY.md",
+  "source_sha256": "6c6ae78a23f2726c5c370434e808d76c206647fe7793245e88cae52c076abe34",
+  "selected_baseline": {
+    "path": "SoftwareEngineering/PHILOSOPHY.md",
+    "sha256": "6c6ae78a23f2726c5c370434e808d76c206647fe7793245e88cae52c076abe34",
+    "philosophy_version": "0.2.0",
+    "core_version": "0.1.2",
+    "derived_from_hash": "cb23f8a44d6b877ff9b5385961ff8e5fa788f8021ae267cdc8e305870ec20ca7"
+  },
+  "exposure": {
+    "author_candidate_seen": false,
+    "existing_lean_models_seen": false,
+    "prior_review_files_seen": false,
+    "qualification": "Read required Core .local/ACTIVE.md index; it exposed prior completion/count summaries but no model, target statements or review rationale. Read Core 0.1.3 as method authority, not selected child baseline. Parent task and accepted user contract explicitly disclose required joint witness/nonentailment objective; these are task objectives, not author verdict."
+  },
+  "inputs": [
+    {
+      "path": "OrganonCore/AGENTS.md",
+      "sha256": "474f186904f74199628a782e12f1649cc1bc707d433d578915bf06027e9ef381"
+    },
+    {
+      "path": "local command-wrapper instructions",
+      "sha256": "49c368c302c6f63d089f4c1085b242fc50fe22ce5bc34dada6478083000e7c6f"
+    },
+    {
+      "path": "SoftwareEngineering/AGENTS.md",
+      "sha256": "8063634e1326c1b2bf3e7b752e494e752e32244addc59e6056b58ebd266dbdaf"
+    },
+    {
+      "path": "OrganonCore/PHILOSOPHY.md",
+      "sha256": "1a0bebd61e35d46a3ba2e882305ce60f423e37a343ecdfd0b6f314e437aade59"
+    },
+    {
+      "path": "SoftwareEngineering/PHILOSOPHY.md",
+      "sha256": "6c6ae78a23f2726c5c370434e808d76c206647fe7793245e88cae52c076abe34"
+    },
+    {
+      "path": "SoftwareEngineering/docs/rationale.md",
+      "sha256": "b3bc8493b2b9af0995825c5358d7b5ef87bc43c1ada257a5811bc2e674250b92"
+    },
+    {
+      "path": "SoftwareEngineering/docs/cases.md",
+      "sha256": "29451cdf0ea68416ab88f143cf8a7363200aa56c1625cd69dcbbac8212d15d31"
+    },
+    {
+      "path": "OrganonCore/skills/organon-core-leanify-prove/SKILL.md",
+      "sha256": "8ede8444368c68f4c368e931318849f33df10226bc1382a5edac7f47eb682794"
+    },
+    {
+      "path": "OrganonCore/skills/references/iteration.md",
+      "sha256": "5ac3460cbad126ff2fe88a411a2cf65374eefeb7f711836a15ac572d82fa2106"
+    },
+    {
+      "path": "OrganonCore/skills/references/philosophy-resolution.md",
+      "sha256": "9b3b4822c8876608f2d401ec85dd1c9902fdf6dee6a67ec5c1f42010823be204"
+    },
+    {
+      "path": "OrganonCore/skills/organon-core-leanify-prove/references/proof-targets.md",
+      "sha256": "84f4b5f586cf83f4bc9973d770c9a34c17513beaac3dbb87378d9aef10ce3d4f"
+    },
+    {
+      "path": "OrganonCore/.local/ACTIVE.md",
+      "sha256": "1891d464c330785aa6946875922e5208f997ea41a1da92e24d21a66e4270f753"
+    },
+    {
+      "path": "private software-engineering iteration records/ACCEPTED-PLAN.md",
+      "sha256": "19296f58880fece1f814d2faff2351ce3cfe92e949a794112206e1f46296b604"
+    }
+  ],
+  "partition_note": "Independent local paragraph/table-row partition, exact source lines and direct-body bytes included. Source not edited. Before freeze remap cNN IDs to repository parser/run clauses; line spans and hashes are authority for this initial inventory. Whitespace retained in direct_body; headers/IDs separated by source structure.",
+  "units": [
+    {
+      "id": "organon.preamble",
+      "direct_body_start": 12,
+      "direct_body_end": 16,
+      "direct_body_sha256": "d612a2a8da20a4c70114c0767d79aa88269b48bcee97fc43328ae722ea890706",
+      "direct_body": "\nThis is a statement of Software Engineering Organon’s adopted philosophy. It expresses commitments, not factual assertions about every system or a proof of universal correctness.\n\nThe quoted provisions, their meanings, and their conditions of application form the core. The charter and Grounds constrain one another; their grouping establishes neither a deductive hierarchy nor an order of priority. [Rationale](docs/rationale.md) supplies arguments and cases without adding obligations to this core. Skills are revisable applications under the repository’s stated objectives and constraints, not part of the philosophical commitments themselves.\n\n",
+      "structural_only": false,
+      "clauses": [
+        {
+          "id": "c01",
+          "line_start": 13,
+          "line_end": 13,
+          "text": "This is a statement of Software Engineering Organon’s adopted philosophy. It expresses commitments, not factual assertions about every system or a proof of universal correctness.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T01",
+            "T40"
+          ]
+        },
+        {
+          "id": "c02",
+          "line_start": 15,
+          "line_end": 15,
+          "text": "The quoted provisions, their meanings, and their conditions of application form the core. The charter and Grounds constrain one another; their grouping establishes neither a deductive hierarchy nor an order of priority. [Rationale](docs/rationale.md) supplies arguments and cases without adding obligations to this core. Skills are revisable applications under the repository’s stated objectives and constraints, not part of the philosophical commitments themselves.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T01",
+            "T40"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.charter",
+      "direct_body_start": 19,
+      "direct_body_end": 19,
+      "direct_body_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "direct_body": "\n",
+      "structural_only": true,
+      "clauses": []
+    },
+    {
+      "id": "organon.charter.overview",
+      "direct_body_start": 22,
+      "direct_body_end": 28,
+      "direct_body_sha256": "75d7d941d3c07ea748c4a9261d36a75fbd5664ff9c817c4034a9a36a3a12664c",
+      "direct_body": "\n**Self-Transcendence · Internal Consistency · Reflexivity**\n\n> A system is intrinsically oriented toward expanding what it can understand and construct. It brings itself and its principles within the scope of generation and assessment, with internal consistency constraining this process.\n\nThe overview connects three distinct requirements: self-transcendence establishes a generative orientation and refuses to treat existing forms as final, internal consistency constrains judgments held simultaneously, and reflexivity brings the system and its principles within the scope of their own generation and assessment. The provisions below specify the conditions for each.\n\n",
+      "structural_only": false,
+      "clauses": [
+        {
+          "id": "c01",
+          "line_start": 23,
+          "line_end": 23,
+          "text": "**Self-Transcendence · Internal Consistency · Reflexivity**\n",
+          "structural_only": true,
+          "target_ids": [
+            "T01"
+          ]
+        },
+        {
+          "id": "c02",
+          "line_start": 25,
+          "line_end": 25,
+          "text": "> A system is intrinsically oriented toward expanding what it can understand and construct. It brings itself and its principles within the scope of generation and assessment, with internal consistency constraining this process.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T01",
+            "T02",
+            "T38"
+          ]
+        },
+        {
+          "id": "c03",
+          "line_start": 27,
+          "line_end": 27,
+          "text": "The overview connects three distinct requirements: self-transcendence establishes a generative orientation and refuses to treat existing forms as final, internal consistency constrains judgments held simultaneously, and reflexivity brings the system and its principles within the scope of their own generation and assessment. The provisions below specify the conditions for each.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T01",
+            "T02",
+            "T38"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.charter.self-transcendence",
+      "direct_body_start": 31,
+      "direct_body_end": 33,
+      "direct_body_sha256": "f4ca590e2ae15e3882f70c7b2bc46a8911c97cee547c8b137b5493fbf862c8c0",
+      "direct_body": "\n> A system is intrinsically oriented toward expanding what it can understand and construct. It does not regard any existing form as the endpoint of generation.\n\n",
+      "structural_only": false,
+      "clauses": [
+        {
+          "id": "c01",
+          "line_start": 32,
+          "line_end": 32,
+          "text": "> A system is intrinsically oriented toward expanding what it can understand and construct. It does not regard any existing form as the endpoint of generation.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T02",
+            "T38"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.charter.self-transcendence.orientation",
+      "direct_body_start": 36,
+      "direct_body_end": 38,
+      "direct_body_sha256": "7f9b85c0816b3d69e417cf3cbe17b7b59931388f84d799ce6730c998037358bf",
+      "direct_body": "\nA commitment to keeping generative possibilities open is distinct from valuing their expansion. A system has an intrinsic orientation when it regards that expansion as worth pursuing. Merely permitting change does not fully express this orientation.\n\n",
+      "structural_only": false,
+      "clauses": [
+        {
+          "id": "c01",
+          "line_start": 37,
+          "line_end": 37,
+          "text": "A commitment to keeping generative possibilities open is distinct from valuing their expansion. A system has an intrinsic orientation when it regards that expansion as worth pursuing. Merely permitting change does not fully express this orientation.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T02",
+            "T03",
+            "T38"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.charter.self-transcendence.non-finality",
+      "direct_body_start": 41,
+      "direct_body_end": 43,
+      "direct_body_sha256": "4ae4497523e79e0606ab3849c47b6ea16f8888a952e063e6966eb36b750f3df8",
+      "direct_body": "\nRefusing to regard an existing form as an endpoint keeps it open to being surpassed. “Existing form” includes a system’s current organization, methods, and principles, not only its appearance or artifacts. These remain within the scope of possible change; their revisability does not guarantee actual progress.\n\n",
+      "structural_only": false,
+      "clauses": [
+        {
+          "id": "c01",
+          "line_start": 42,
+          "line_end": 42,
+          "text": "Refusing to regard an existing form as an endpoint keeps it open to being surpassed. “Existing form” includes a system’s current organization, methods, and principles, not only its appearance or artifacts. These remain within the scope of possible change; their revisability does not guarantee actual progress.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T02",
+            "T03",
+            "T38"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.charter.self-transcendence.limits",
+      "direct_body_start": 46,
+      "direct_body_end": 53,
+      "direct_body_sha256": "6dade83f0b7fcc004bdb37b6726c15b31b06a377de4e86d506c9d2e67847029d",
+      "direct_body": "\nWhether progress has actually occurred remains a separate judgment. Having the orientation does not guarantee progress. Progress cannot be established merely by an increase in the number of artifacts, levels of abstraction, or terms.\n\n- “Intrinsic orientation” expresses Organon’s philosophical commitment; it does not assert that all systems in fact develop autonomously.\n- Self-transcendence does not imply independence from external experience, knowledge, or collaboration, nor does it guarantee autonomous execution or self-improvement.\n- Refusing to regard an existing form as an endpoint does not require every action to produce change. Justified stability can coexist with a generative orientation.\n- Whether transcendence expands what can be understood and constructed requires discernible grounds; a system’s own claim of generation does not establish actual achievement.\n\n",
+      "structural_only": false,
+      "clauses": [
+        {
+          "id": "c01",
+          "line_start": 47,
+          "line_end": 47,
+          "text": "Whether progress has actually occurred remains a separate judgment. Having the orientation does not guarantee progress. Progress cannot be established merely by an increase in the number of artifacts, levels of abstraction, or terms.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T03",
+            "T38"
+          ]
+        },
+        {
+          "id": "c02",
+          "line_start": 49,
+          "line_end": 52,
+          "text": "- “Intrinsic orientation” expresses Organon’s philosophical commitment; it does not assert that all systems in fact develop autonomously.\n- Self-transcendence does not imply independence from external experience, knowledge, or collaboration, nor does it guarantee autonomous execution or self-improvement.\n- Refusing to regard an existing form as an endpoint does not require every action to produce change. Justified stability can coexist with a generative orientation.\n- Whether transcendence expands what can be understood and constructed requires discernible grounds; a system’s own claim of generation does not establish actual achievement.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T02",
+            "T03",
+            "T38",
+            "T40"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.charter.consistency",
+      "direct_body_start": 56,
+      "direct_body_end": 58,
+      "direct_body_sha256": "c6960c590c096d33250599cf418e3c6a1dc26bfc7d7800c82b8efde656950f42",
+      "direct_body": "\n> The principles and judgments a system holds simultaneously, together with their implications, must not yield contradictory judgments on the same question under the same assumptions, meanings of terms, and scope of application.\n\n",
+      "structural_only": false,
+      "clauses": [
+        {
+          "id": "c01",
+          "line_start": 57,
+          "line_end": 57,
+          "text": "> The principles and judgments a system holds simultaneously, together with their implications, must not yield contradictory judgments on the same question under the same assumptions, meanings of terms, and scope of application.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T04",
+            "T05",
+            "T38"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.charter.consistency.meaning",
+      "direct_body_start": 61,
+      "direct_body_end": 65,
+      "direct_body_sha256": "81c09e38a3349499f95401d1c08f6069666c13547a43bc4e4395330743055faa",
+      "direct_body": "\n“Held simultaneously” specifies which principles, judgments, and implications must hold together. Revision may withdraw an earlier judgment; old and new principles need not remain compatible forever. When a change has occurred, that change cannot be represented as though it had not occurred.\n\n“The same assumptions, meanings of terms, and scope of application” specifies the basis for comparing judgments. Divergent judgments under different conditions do not automatically constitute contradictions. Nor can unacknowledged changes in assumptions, meanings, or scope be used to conceal an existing contradiction.\n\n",
+      "structural_only": false,
+      "clauses": [
+        {
+          "id": "c01",
+          "line_start": 62,
+          "line_end": 62,
+          "text": "“Held simultaneously” specifies which principles, judgments, and implications must hold together. Revision may withdraw an earlier judgment; old and new principles need not remain compatible forever. When a change has occurred, that change cannot be represented as though it had not occurred.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T04",
+            "T05",
+            "T38"
+          ]
+        },
+        {
+          "id": "c02",
+          "line_start": 64,
+          "line_end": 64,
+          "text": "“The same assumptions, meanings of terms, and scope of application” specifies the basis for comparing judgments. Divergent judgments under different conditions do not automatically constitute contradictions. Nor can unacknowledged changes in assumptions, meanings, or scope be used to conceal an existing contradiction.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T04",
+            "T05",
+            "T06",
+            "T38"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.charter.consistency.limits",
+      "direct_body_start": 68,
+      "direct_body_end": 71,
+      "direct_body_sha256": "4fa1c29bf95ad6ef04c6d27671a832c0af8ba31b9c0d8018a8d09c4f33c38e75",
+      "direct_body": "\n- Tension between different assessments or values does not directly constitute a contradiction. Revision or qualification is needed when they require incompatible conclusions under the same conditions.\n- Internal consistency is not correctness or sufficiency. A set of principles may be internally consistent while relying on false assumptions or neglecting important questions.\n\n",
+      "structural_only": false,
+      "clauses": [
+        {
+          "id": "c01",
+          "line_start": 69,
+          "line_end": 70,
+          "text": "- Tension between different assessments or values does not directly constitute a contradiction. Revision or qualification is needed when they require incompatible conclusions under the same conditions.\n- Internal consistency is not correctness or sufficiency. A set of principles may be internally consistent while relying on false assumptions or neglecting important questions.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T04",
+            "T05",
+            "T06",
+            "T38"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.charter.reflexivity",
+      "direct_body_start": 74,
+      "direct_body_end": 76,
+      "direct_body_sha256": "13293b45c2fa89068c68ae7ef3c5df38f0efadb3ef3873d78a5ba67d9691a757",
+      "direct_body": "\n> A system’s principles of generation and assessment also apply to the system itself and to the formation, application, and revision of those principles.\n\n",
+      "structural_only": false,
+      "clauses": [
+        {
+          "id": "c01",
+          "line_start": 75,
+          "line_end": 75,
+          "text": "> A system’s principles of generation and assessment also apply to the system itself and to the formation, application, and revision of those principles.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T07",
+            "T38"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.charter.reflexivity.meaning",
+      "direct_body_start": 79,
+      "direct_body_end": 81,
+      "direct_body_sha256": "8a2caede01a43d8b6c60b54c78ac089c51868e9956f316948077ccee2e45c9cc",
+      "direct_body": "\nReflexivity encompasses both the system itself and its principles. Assessment concerns not only whether the system conforms to its principles, but also how those principles are formed, where they apply, and why they may need revision. The formation and revision of principles thus also become objects of generation and assessment.\n\n",
+      "structural_only": false,
+      "clauses": [
+        {
+          "id": "c01",
+          "line_start": 80,
+          "line_end": 80,
+          "text": "Reflexivity encompasses both the system itself and its principles. Assessment concerns not only whether the system conforms to its principles, but also how those principles are formed, where they apply, and why they may need revision. The formation and revision of principles thus also become objects of generation and assessment.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T07",
+            "T38"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.charter.reflexivity.limits",
+      "direct_body_start": 84,
+      "direct_body_end": 88,
+      "direct_body_sha256": "ac0baae0d86e69f84c1ca4dee837de2759e2d29c295ffc257d988962158d4bbc",
+      "direct_body": "\n- Applying principles equally retains their conditions of application. When the relevant conditions hold, being the system itself is not a basis for exemption. Nor does the requirement of reflexivity establish that every principle can be applied to itself without examining its applicability.\n- Self-application does not constitute self-proof. Subjecting a principle to its own assessment does not thereby establish its correctness.\n- That a revision is produced by the system itself does not give it sufficient grounds.\n\n",
+      "structural_only": false,
+      "clauses": [
+        {
+          "id": "c01",
+          "line_start": 85,
+          "line_end": 87,
+          "text": "- Applying principles equally retains their conditions of application. When the relevant conditions hold, being the system itself is not a basis for exemption. Nor does the requirement of reflexivity establish that every principle can be applied to itself without examining its applicability.\n- Self-application does not constitute self-proof. Subjecting a principle to its own assessment does not thereby establish its correctness.\n- That a revision is produced by the system itself does not give it sufficient grounds.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T07",
+            "T08",
+            "T38"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.grounds",
+      "direct_body_start": 91,
+      "direct_body_end": 93,
+      "direct_body_sha256": "4ee74dc8617388ee75d63b507176ecb73b8527758b648f7c588d3ae7f3445ec6",
+      "direct_body": "\n> The grounds of principles and judgments must be articulable and subject to assessment appropriate to the nature of the claim. The strength and scope of a claim must be proportionate to the support provided by its grounds.\n\n",
+      "structural_only": false,
+      "clauses": [
+        {
+          "id": "c01",
+          "line_start": 92,
+          "line_end": 92,
+          "text": "> The grounds of principles and judgments must be articulable and subject to assessment appropriate to the nature of the claim. The strength and scope of a claim must be proportionate to the support provided by its grounds.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T09",
+            "T38",
+            "T40"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.grounds.assessment",
+      "direct_body_start": 96,
+      "direct_body_end": 106,
+      "direct_body_sha256": "ac2f84ce07036731964e26221e6d3ef83c9b647ebe249862eb2bc115856e6e4d",
+      "direct_body": "\nArticulation and assessment have distinct responsibilities. Articulability requires that concepts, assumptions, reasons, and limits can be identified. Assessment requires examining whether those grounds support the corresponding claim. Clearly expressed grounds are not thereby sufficiently established.\n\n| Type of claim | Responsibility of assessment | What cannot substitute for that responsibility |\n| --- | --- | --- |\n| Empirical claim | Examine observations, evidence, and performance, together with the conditions, scope, and uncertainty of their support for the claim. | Treating measurability or repeatability itself as proof of relevance, correctness, or value. |\n| Inferential claim | Examine whether the conclusion is supported by the stated assumptions and inferential relations. | Treating the absence of conflict between a conclusion and its assumptions as sufficient to establish that the conclusion follows from them. |\n| Value commitment | State the position taken, its reasons, limits of application, and consequences, and remain open to relevant criticism. | Presenting a commitment as an empirical fact or a necessary inference, or substituting self-assertion for reasons. |\n\nInitial value commitments may be stated explicitly as commitments; they need not prove all their own starting assumptions. The strength and scope of a claim do not require conversion to a common numerical scale. Different types of claims specify their support and limits in accordance with their nature.\n\n",
+      "structural_only": false,
+      "clauses": [
+        {
+          "id": "c01",
+          "line_start": 97,
+          "line_end": 97,
+          "text": "Articulation and assessment have distinct responsibilities. Articulability requires that concepts, assumptions, reasons, and limits can be identified. Assessment requires examining whether those grounds support the corresponding claim. Clearly expressed grounds are not thereby sufficiently established.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T09",
+            "T13",
+            "T38",
+            "T40"
+          ]
+        },
+        {
+          "id": "c02",
+          "line_start": 99,
+          "line_end": 99,
+          "text": "| Type of claim | Responsibility of assessment | What cannot substitute for that responsibility |\n",
+          "structural_only": true,
+          "target_ids": [
+            "T09",
+            "T13",
+            "T38",
+            "T40"
+          ]
+        },
+        {
+          "id": "c03",
+          "line_start": 100,
+          "line_end": 100,
+          "text": "| --- | --- | --- |\n",
+          "structural_only": true,
+          "target_ids": [
+            "T09",
+            "T13",
+            "T38",
+            "T40"
+          ]
+        },
+        {
+          "id": "c04",
+          "line_start": 101,
+          "line_end": 101,
+          "text": "| Empirical claim | Examine observations, evidence, and performance, together with the conditions, scope, and uncertainty of their support for the claim. | Treating measurability or repeatability itself as proof of relevance, correctness, or value. |\n",
+          "structural_only": false,
+          "target_ids": [
+            "T09",
+            "T10",
+            "T13",
+            "T38",
+            "T40"
+          ]
+        },
+        {
+          "id": "c05",
+          "line_start": 102,
+          "line_end": 102,
+          "text": "| Inferential claim | Examine whether the conclusion is supported by the stated assumptions and inferential relations. | Treating the absence of conflict between a conclusion and its assumptions as sufficient to establish that the conclusion follows from them. |\n",
+          "structural_only": false,
+          "target_ids": [
+            "T09",
+            "T11",
+            "T13",
+            "T38",
+            "T40"
+          ]
+        },
+        {
+          "id": "c06",
+          "line_start": 103,
+          "line_end": 103,
+          "text": "| Value commitment | State the position taken, its reasons, limits of application, and consequences, and remain open to relevant criticism. | Presenting a commitment as an empirical fact or a necessary inference, or substituting self-assertion for reasons. |\n",
+          "structural_only": false,
+          "target_ids": [
+            "T09",
+            "T12",
+            "T13",
+            "T38",
+            "T40"
+          ]
+        },
+        {
+          "id": "c07",
+          "line_start": 105,
+          "line_end": 105,
+          "text": "Initial value commitments may be stated explicitly as commitments; they need not prove all their own starting assumptions. The strength and scope of a claim do not require conversion to a common numerical scale. Different types of claims specify their support and limits in accordance with their nature.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T09",
+            "T12",
+            "T13",
+            "T38",
+            "T40"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.grounds.scope",
+      "direct_body_start": 109,
+      "direct_body_end": 115,
+      "direct_body_sha256": "4a0e93c7834e4ef62f129ee4621cf7bf1c93b64d86f9f145d1592adcf9fb6693",
+      "direct_body": "\nPerformance is discerned within particular relations, conditions, and scopes of observation. A boundary helps specify what a comparison concerns, but local examples do not automatically support unconditional universal conclusions. A judgment cannot establish that relevant differences do not exist merely because its chosen scope omits them.\n\nMeasurement can make some differences comparable. Repeated assessment can help examine the stability of corresponding conclusions. Their roles, and the role of any assessment framework, must be explained relative to the claim and its context. Measurement, repeatability, and an assessment framework do not form a universally necessary chain on which all judgments must depend.\n\nAn observation that has not been reproduced may still offer limited support, and random outcomes need not be identical on every occasion. The verifiability of observations, reproducibility of conditions, and stability of conclusions must be distinguished.\n\n",
+      "structural_only": false,
+      "clauses": [
+        {
+          "id": "c01",
+          "line_start": 110,
+          "line_end": 110,
+          "text": "Performance is discerned within particular relations, conditions, and scopes of observation. A boundary helps specify what a comparison concerns, but local examples do not automatically support unconditional universal conclusions. A judgment cannot establish that relevant differences do not exist merely because its chosen scope omits them.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T14",
+            "T15",
+            "T38"
+          ]
+        },
+        {
+          "id": "c02",
+          "line_start": 112,
+          "line_end": 112,
+          "text": "Measurement can make some differences comparable. Repeated assessment can help examine the stability of corresponding conclusions. Their roles, and the role of any assessment framework, must be explained relative to the claim and its context. Measurement, repeatability, and an assessment framework do not form a universally necessary chain on which all judgments must depend.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T14",
+            "T15",
+            "T38",
+            "T40"
+          ]
+        },
+        {
+          "id": "c03",
+          "line_start": 114,
+          "line_end": 114,
+          "text": "An observation that has not been reproduced may still offer limited support, and random outcomes need not be identical on every occasion. The verifiability of observations, reproducibility of conditions, and stability of conclusions must be distinguished.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T14",
+            "T15",
+            "T38",
+            "T40"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.grounds.capabilities",
+      "direct_body_start": 118,
+      "direct_body_end": 122,
+      "direct_body_sha256": "7249f6f2ef327baaa72349cae53b9245f23a34436356dd05f3c6005cab35e8f0",
+      "direct_body": "\nCapability claims are subject to Grounds: the capability claimed, its conditions, and the support for it must be identifiable. The core does not prescribe uniform definitions of method mastery, method generation, or capability levels. Applications specify the capabilities they assess and may require understanding, explanation, or performance under relevant variations.\n\nGrounds for a capability claim may be supplied by an external assessor. Their articulability does not by itself require the assessed system to understand or explain its internal generation process. Evidence of reliable output must be assessed against the capability actually claimed; it does not automatically establish understanding of that process. Nor can the number of method documents, terms, tools, or artifacts alone establish a capability beyond what that evidence supports.\n\n",
+      "structural_only": false,
+      "clauses": [
+        {
+          "id": "c01",
+          "line_start": 119,
+          "line_end": 119,
+          "text": "Capability claims are subject to Grounds: the capability claimed, its conditions, and the support for it must be identifiable. The core does not prescribe uniform definitions of method mastery, method generation, or capability levels. Applications specify the capabilities they assess and may require understanding, explanation, or performance under relevant variations.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T16",
+            "T17",
+            "T38",
+            "T40"
+          ]
+        },
+        {
+          "id": "c02",
+          "line_start": 121,
+          "line_end": 121,
+          "text": "Grounds for a capability claim may be supplied by an external assessor. Their articulability does not by itself require the assessed system to understand or explain its internal generation process. Evidence of reliable output must be assessed against the capability actually claimed; it does not automatically establish understanding of that process. Nor can the number of method documents, terms, tools, or artifacts alone establish a capability beyond what that evidence supports.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T16",
+            "T17",
+            "T38",
+            "T40"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.grounds.implementations",
+      "direct_body_start": 125,
+      "direct_body_end": 129,
+      "direct_body_sha256": "bb2a822a304d4a20f513218f356ddbeeca8ee139e3ed802213591e9ff6c5095c",
+      "direct_body": "\n> The choice of an implementation must be supported by reasons connected to the objectives and values pursued and to the relevant constraints. Its name, conventional use, or established status alone does not provide sufficient grounds for giving it priority.\n\nThis choice provision adds an additional evaluative commitment: name, conventional use, or established status alone is insufficient to establish priority. Grouping it under Grounds does not mean that it follows from the general requirement to assess reasons, or merely from the discernibility of performance. Conventions and existing arrangements may have practical significance, but that significance must be connected to the objectives and values pursued and to the relevant constraints.\n\n",
+      "structural_only": false,
+      "clauses": [
+        {
+          "id": "c01",
+          "line_start": 126,
+          "line_end": 126,
+          "text": "> The choice of an implementation must be supported by reasons connected to the objectives and values pursued and to the relevant constraints. Its name, conventional use, or established status alone does not provide sufficient grounds for giving it priority.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T18",
+            "T19",
+            "T38",
+            "T40"
+          ]
+        },
+        {
+          "id": "c02",
+          "line_start": 128,
+          "line_end": 128,
+          "text": "This choice provision adds an additional evaluative commitment: name, conventional use, or established status alone is insufficient to establish priority. Grouping it under Grounds does not mean that it follows from the general requirement to assess reasons, or merely from the discernibility of performance. Conventions and existing arrangements may have practical significance, but that significance must be connected to the objectives and values pursued and to the relevant constraints.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T18",
+            "T19",
+            "T38",
+            "T40"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.grounds.implementations.limits",
+      "direct_body_start": 132,
+      "direct_body_end": 137,
+      "direct_body_sha256": "db9b5f1803baab0e1b05a3a9e068948667412afa7d692e1da3869ca54be4b870",
+      "direct_body": "\n- Openness does not make all implementations equivalent, nor does it guarantee multiple feasible implementations for the same objective.\n- A method’s explanatory power, limits of application, simplicity, and explicit process requirements may all provide grounded reasons for assessment. They cannot be excluded merely because they concern methods internal to the implementation.\n- Identical local performance does not establish overall equivalence. Relations, conditions, and the scope of comparison are constrained by the provisions of Grounds.\n- Openness does not reject an implementation merely because it already exists or is conventionally used. Relevant reasons may still give it priority.\n\n",
+      "structural_only": false,
+      "clauses": [
+        {
+          "id": "c01",
+          "line_start": 133,
+          "line_end": 136,
+          "text": "- Openness does not make all implementations equivalent, nor does it guarantee multiple feasible implementations for the same objective.\n- A method’s explanatory power, limits of application, simplicity, and explicit process requirements may all provide grounded reasons for assessment. They cannot be excluded merely because they concern methods internal to the implementation.\n- Identical local performance does not establish overall equivalence. Relations, conditions, and the scope of comparison are constrained by the provisions of Grounds.\n- Openness does not reject an implementation merely because it already exists or is conventionally used. Relevant reasons may still give it priority.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T15",
+            "T18",
+            "T19",
+            "T38"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.relationships",
+      "direct_body_start": 140,
+      "direct_body_end": 140,
+      "direct_body_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "direct_body": "\n",
+      "structural_only": true,
+      "clauses": []
+    },
+    {
+      "id": "organon.relationships.roles",
+      "direct_body_start": 143,
+      "direct_body_end": 149,
+      "direct_body_sha256": "24b533c77fe93d0570da65ee361893f2c445842f48ee6f315f99f8abc06a0e5e",
+      "direct_body": "\nThe charter states the generative orientation, the consistency constraint, and reflexive application. Grounds specifies support requirements for judgments and includes an additional commitment concerning implementation choices. Both parts belong to the core and constrain one another. Their placement neither makes Grounds a deduction from the charter nor gives the charter priority over it. Each commitment needs its own reasons.\n\nInternal Consistency concerns whether simultaneously held judgments can hold together; Grounds concerns whether and how far a claim is supported. A conclusion may fail to conflict with its assumptions without being supported by them. Self-Transcendence specifies a generative orientation and non-finality; neither establishes actual capability. Applications may supply objectives, values, and capability definitions; claims made under those objectives, values, and definitions remain subject to the relevant core provisions.\n\nSelf-Transcendence does not substitute for Reflexivity: keeping existing forms open to being surpassed differs from applying relevant principles to the system and to their own formation, application, and revision. Reflexivity extends these requirements to the system and to the formation, application, and revision of its principles. The grounds and limits of the Grounds provisions must themselves be articulable. The system’s own capability claims remain subject to assessment, and this philosophy’s existing form cannot gain priority merely from its established status. Such mutual application provides no self-proof and does not remove conditions of application.\n\n",
+      "structural_only": false,
+      "clauses": [
+        {
+          "id": "c01",
+          "line_start": 144,
+          "line_end": 144,
+          "text": "The charter states the generative orientation, the consistency constraint, and reflexive application. Grounds specifies support requirements for judgments and includes an additional commitment concerning implementation choices. Both parts belong to the core and constrain one another. Their placement neither makes Grounds a deduction from the charter nor gives the charter priority over it. Each commitment needs its own reasons.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T01",
+            "T20",
+            "T38",
+            "T39",
+            "T40"
+          ]
+        },
+        {
+          "id": "c02",
+          "line_start": 146,
+          "line_end": 146,
+          "text": "Internal Consistency concerns whether simultaneously held judgments can hold together; Grounds concerns whether and how far a claim is supported. A conclusion may fail to conflict with its assumptions without being supported by them. Self-Transcendence specifies a generative orientation and non-finality; neither establishes actual capability. Applications may supply objectives, values, and capability definitions; claims made under those objectives, values, and definitions remain subject to the relevant core provisions.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T03",
+            "T06",
+            "T11",
+            "T16",
+            "T20",
+            "T38",
+            "T39",
+            "T40"
+          ]
+        },
+        {
+          "id": "c03",
+          "line_start": 148,
+          "line_end": 148,
+          "text": "Self-Transcendence does not substitute for Reflexivity: keeping existing forms open to being surpassed differs from applying relevant principles to the system and to their own formation, application, and revision. Reflexivity extends these requirements to the system and to the formation, application, and revision of its principles. The grounds and limits of the Grounds provisions must themselves be articulable. The system’s own capability claims remain subject to assessment, and this philosophy’s existing form cannot gain priority merely from its established status. Such mutual application provides no self-proof and does not remove conditions of application.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T07",
+            "T08",
+            "T16",
+            "T18",
+            "T20",
+            "T37",
+            "T38",
+            "T39",
+            "T40"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organon.relationships.terms",
+      "direct_body_start": 152,
+      "direct_body_end": 157,
+      "direct_body_sha256": "61cb7ce4f2920f1aa6771502b87a66536ae0504acccfebd9dd23bcc62756eddf",
+      "direct_body": "\n| Term | Meaning in this philosophy |\n| --- | --- |\n| Existing form | The system’s current organization, methods, and principles, not only its appearance or artifacts. |\n| Assessment | Examination of reasons, applicability, and observed performance; not limited to executable tests. |\n\n",
+      "structural_only": false,
+      "clauses": [
+        {
+          "id": "c01",
+          "line_start": 153,
+          "line_end": 153,
+          "text": "| Term | Meaning in this philosophy |\n",
+          "structural_only": true,
+          "target_ids": [
+            "T21"
+          ]
+        },
+        {
+          "id": "c02",
+          "line_start": 154,
+          "line_end": 154,
+          "text": "| --- | --- |\n",
+          "structural_only": true,
+          "target_ids": [
+            "T21"
+          ]
+        },
+        {
+          "id": "c03",
+          "line_start": 155,
+          "line_end": 155,
+          "text": "| Existing form | The system’s current organization, methods, and principles, not only its appearance or artifacts. |\n",
+          "structural_only": false,
+          "target_ids": [
+            "T02",
+            "T21"
+          ]
+        },
+        {
+          "id": "c04",
+          "line_start": 156,
+          "line_end": 156,
+          "text": "| Assessment | Examination of reasons, applicability, and observed performance; not limited to executable tests. |\n",
+          "structural_only": false,
+          "target_ids": [
+            "T21"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "extensions",
+      "direct_body_start": 160,
+      "direct_body_end": 162,
+      "direct_body_sha256": "ec87a2f17b2f88addcadea0108add11ad3d4239daf56db466ba0ddbe7cc92b66",
+      "direct_body": "\nThis chapter adds a software engineering commitment and specifies its meaning and limits. It does not claim that this commitment follows from the Charter or Grounds. Those provisions remain adopted and constrain its application.\n\n",
+      "structural_only": false,
+      "clauses": [
+        {
+          "id": "c01",
+          "line_start": 161,
+          "line_end": 161,
+          "text": "This chapter adds a software engineering commitment and specifies its meaning and limits. It does not claim that this commitment follows from the Charter or Grounds. Those provisions remain adopted and constrain its application.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T01",
+            "T37",
+            "T38",
+            "T39",
+            "T40"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "software-engineering.purpose",
+      "direct_body_start": 165,
+      "direct_body_end": 171,
+      "direct_body_sha256": "946a96680b1a00867f58e7921588e5a56e79b336ba3d322b8aef1122cc75a60b",
+      "direct_body": "\nSoftware engineering concerns the construction, operation, understanding, and revision of software within its relevant human and technical conditions. This philosophy guides decisions by people and agents; it does not attribute an intrinsic orientation to every software artifact.\n\nThe evolution capability considered here belongs to the continuing engineering activity: maintainers, including successor maintainers and agents, working with software, tools, and available knowledge. Code that its original author can modify is not on that ground alone shown to support that continuing activity.\n\nApply the following priority according to the software's credible lifecycle and maintenance expectations. A genuinely temporary script, bounded prototype, or retiring system may have little reason to support further evolution. Calling a continuing system temporary does not establish that condition.\n\n",
+      "structural_only": false,
+      "clauses": [
+        {
+          "id": "c01",
+          "line_start": 166,
+          "line_end": 166,
+          "text": "Software engineering concerns the construction, operation, understanding, and revision of software within its relevant human and technical conditions. This philosophy guides decisions by people and agents; it does not attribute an intrinsic orientation to every software artifact.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T22",
+            "T23",
+            "T38",
+            "T40"
+          ]
+        },
+        {
+          "id": "c02",
+          "line_start": 168,
+          "line_end": 168,
+          "text": "The evolution capability considered here belongs to the continuing engineering activity: maintainers, including successor maintainers and agents, working with software, tools, and available knowledge. Code that its original author can modify is not on that ground alone shown to support that continuing activity.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T22",
+            "T23",
+            "T38",
+            "T40"
+          ]
+        },
+        {
+          "id": "c03",
+          "line_start": 170,
+          "line_end": 170,
+          "text": "Apply the following priority according to the software's credible lifecycle and maintenance expectations. A genuinely temporary script, bounded prototype, or retiring system may have little reason to support further evolution. Calling a continuing system temporary does not establish that condition.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T22",
+            "T23",
+            "T24",
+            "T38",
+            "T40"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "software-engineering.evolution-priority",
+      "direct_body_start": 174,
+      "direct_body_end": 180,
+      "direct_body_sha256": "c2237515e869b2f88269cf19e3c97ef80c3c87342d1a03cd911cac03fe5a3a04",
+      "direct_body": "\n> When relevant behavioral, safety, performance, and other necessary requirements are satisfied, give priority to continuing maintainers' ability to make credible future changes, including changes to the design itself, over present abstraction simplicity. Accept additional present abstraction complexity for that purpose, while allowing this preference to yield when the added costs threaten concrete engineering objectives.\n\nCredible directions of change have articulable grounds, such as a committed plan, relevant domain knowledge, or an applicable history of change. They need not already have multiple implementations. Their credibility remains open to revision; a conceivable change alone does not establish that it warrants accommodation now.\n\nThis is a default priority, not an obligation to maximize extensibility or retain every possibility. Costs include relevant burdens of understanding, construction, diagnosis, verification, coordination, operation, and eventual migration. A departure from the priority identifies the objective threatened and why the costs matter. No universal numerical exchange rate between these considerations is prescribed.\n\n",
+      "structural_only": false,
+      "clauses": [
+        {
+          "id": "c01",
+          "line_start": 175,
+          "line_end": 175,
+          "text": "> When relevant behavioral, safety, performance, and other necessary requirements are satisfied, give priority to continuing maintainers' ability to make credible future changes, including changes to the design itself, over present abstraction simplicity. Accept additional present abstraction complexity for that purpose, while allowing this preference to yield when the added costs threaten concrete engineering objectives.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T24",
+            "T25",
+            "T38",
+            "T39",
+            "T40"
+          ]
+        },
+        {
+          "id": "c02",
+          "line_start": 177,
+          "line_end": 177,
+          "text": "Credible directions of change have articulable grounds, such as a committed plan, relevant domain knowledge, or an applicable history of change. They need not already have multiple implementations. Their credibility remains open to revision; a conceivable change alone does not establish that it warrants accommodation now.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T24",
+            "T25",
+            "T26",
+            "T27",
+            "T38",
+            "T39",
+            "T40"
+          ]
+        },
+        {
+          "id": "c03",
+          "line_start": 179,
+          "line_end": 179,
+          "text": "This is a default priority, not an obligation to maximize extensibility or retain every possibility. Costs include relevant burdens of understanding, construction, diagnosis, verification, coordination, operation, and eventual migration. A departure from the priority identifies the objective threatened and why the costs matter. No universal numerical exchange rate between these considerations is prescribed.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T24",
+            "T25",
+            "T26",
+            "T27",
+            "T28",
+            "T38",
+            "T39",
+            "T40"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "software-engineering.evolution-meaning",
+      "direct_body_start": 183,
+      "direct_body_end": 187,
+      "direct_body_sha256": "c3fa878716f4370ebd1d352d2c135255695cfec6e1d33900a184cb46acb80bf6",
+      "direct_body": "\nEvolution includes adding capabilities, replacing implementations, deleting mechanisms, withdrawing abstractions, redrawing boundaries, and migrating away from an existing technology or model. Making additions within a fixed scheme does not establish equal ability to revise or leave that scheme. Not every such change can or should be made inexpensive.\n\nAn evolution claim identifies the relevant changes and the maintainers' conditions. Independent changes, coordinated changes, preservation of existing obligations, and deliberate revision of those obligations can require different structures. A design's advantage on one dimension does not establish an advantage on every dimension.\n\n",
+      "structural_only": false,
+      "clauses": [
+        {
+          "id": "c01",
+          "line_start": 184,
+          "line_end": 184,
+          "text": "Evolution includes adding capabilities, replacing implementations, deleting mechanisms, withdrawing abstractions, redrawing boundaries, and migrating away from an existing technology or model. Making additions within a fixed scheme does not establish equal ability to revise or leave that scheme. Not every such change can or should be made inexpensive.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T29",
+            "T30",
+            "T38",
+            "T40"
+          ]
+        },
+        {
+          "id": "c02",
+          "line_start": 186,
+          "line_end": 186,
+          "text": "An evolution claim identifies the relevant changes and the maintainers' conditions. Independent changes, coordinated changes, preservation of existing obligations, and deliberate revision of those obligations can require different structures. A design's advantage on one dimension does not establish an advantage on every dimension.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T29",
+            "T30",
+            "T38",
+            "T40"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "software-engineering.structural-judgment",
+      "direct_body_start": 190,
+      "direct_body_end": 196,
+      "direct_body_sha256": "8014457feae3410a7220426dbbe4293f7b5d1d2aa152f4085ccd1f03d5983a42",
+      "direct_body": "\nApply the preceding commitment to engineering consequences as a whole, including the relations among components, their observable contracts, and the work needed to understand and verify a change. An interface's shape, the number of modules or extension points, or the use of a named principle is not sufficient evidence of the claimed capability.\n\nThe relevant comparison may examine how a change propagates, which knowledge and obligations cross a boundary, which assumptions become fixed, and what a later withdrawal would require. A proposed boundary needs support for the changes it is meant to accommodate; introducing it does not by itself show that those changes became easier.\n\nDistinguish a transformation that preserves an identified observable contract from one that deliberately revises that contract. The latter needs a corresponding account of changed obligations and affected parties. This distinction does not require preserving every historical behavior or using a particular testing or migration procedure.\n\n",
+      "structural_only": false,
+      "clauses": [
+        {
+          "id": "c01",
+          "line_start": 191,
+          "line_end": 191,
+          "text": "Apply the preceding commitment to engineering consequences as a whole, including the relations among components, their observable contracts, and the work needed to understand and verify a change. An interface's shape, the number of modules or extension points, or the use of a named principle is not sufficient evidence of the claimed capability.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T31",
+            "T32",
+            "T37",
+            "T38",
+            "T40"
+          ]
+        },
+        {
+          "id": "c02",
+          "line_start": 193,
+          "line_end": 193,
+          "text": "The relevant comparison may examine how a change propagates, which knowledge and obligations cross a boundary, which assumptions become fixed, and what a later withdrawal would require. A proposed boundary needs support for the changes it is meant to accommodate; introducing it does not by itself show that those changes became easier.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T31",
+            "T32",
+            "T38",
+            "T40"
+          ]
+        },
+        {
+          "id": "c03",
+          "line_start": 195,
+          "line_end": 195,
+          "text": "Distinguish a transformation that preserves an identified observable contract from one that deliberately revises that contract. The latter needs a corresponding account of changed obligations and affected parties. This distinction does not require preserving every historical behavior or using a particular testing or migration procedure.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T33",
+            "T34",
+            "T38",
+            "T40"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "software-engineering.revision",
+      "direct_body_start": 199,
+      "direct_body_end": 202,
+      "direct_body_sha256": "5d31bed0197ea7e7028eb7a85e56059516421c6c27613cc5479e0b98c5111d99",
+      "direct_body": "\nChanged evidence about likely changes, maintenance conditions, costs, or objectives may justify revising a design or this priority's application. A revised judgment acknowledges material changes in its grounds; it does not make a failed prediction successful retrospectively.\n\nRetaining a design can be justified when the relevant alternatives have no supported contribution or impose costs that defeat the objective. Reflexivity also keeps this engineering commitment and the methods used to assess evolution within the scope of criticism and revision. Continued change, agreement, or successful examples do not establish its universal correctness.\n",
+      "structural_only": false,
+      "clauses": [
+        {
+          "id": "c01",
+          "line_start": 200,
+          "line_end": 200,
+          "text": "Changed evidence about likely changes, maintenance conditions, costs, or objectives may justify revising a design or this priority's application. A revised judgment acknowledges material changes in its grounds; it does not make a failed prediction successful retrospectively.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T38",
+            "T40"
+          ]
+        },
+        {
+          "id": "c02",
+          "line_start": 202,
+          "line_end": 202,
+          "text": "Retaining a design can be justified when the relevant alternatives have no supported contribution or impose costs that defeat the objective. Reflexivity also keeps this engineering commitment and the methods used to assess evolution within the scope of criticism and revision. Continued change, agreement, or successful examples do not establish its universal correctness.\n",
+          "structural_only": false,
+          "target_ids": [
+            "T35",
+            "T36",
+            "T38",
+            "T40"
+          ]
+        }
+      ]
+    }
+  ],
+  "targets": [
+    {
+      "id": "T01",
+      "kind": "boundary",
+      "source_line_spans": [
+        [
+          13,
+          15
+        ],
+        [
+          23,
+          27
+        ],
+        [
+          144,
+          144
+        ],
+        [
+          161,
+          161
+        ]
+      ],
+      "statement": "Authority and roles: adopted commitments, no universal factual assertion or correctness proof; meanings and limits constrain quotation; charter and Grounds mutually constrain without hierarchy; rationale/skills add no philosophical duties; domain preference is additional.",
+      "premises": [
+        "Distinguish document role from deductive claims. No assumed metatheorem about all possible formalizations."
+      ],
+      "required_cases": [],
+      "acceptance": "Trace every role sentence; do not turn absence of asserted deduction into a claimed impossibility theorem without a separately justified model.",
+      "recommended_declaration_kind": null,
+      "sources": [
+        {
+          "unit": "organon.preamble",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.preamble",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.charter.overview",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.charter.overview",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.charter.overview",
+          "clause": "c03"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "c01"
+        },
+        {
+          "unit": "extensions",
+          "clause": "c01"
+        }
+      ]
+    },
+    {
+      "id": "T02",
+      "kind": "specification",
+      "source_line_spans": [
+        [
+          25,
+          27
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          49,
+          52
+        ],
+        [
+          155,
+          155
+        ]
+      ],
+      "statement": "Self-transcendence requires valuing expansion of understanding and construction and keeping all existing organization, methods and principles open to being surpassed; justified stable acts remain permitted.",
+      "premises": [
+        "System/activity subject",
+        "current forms quantified without omitting principles",
+        "orientation is normative commitment, not empirical universality."
+      ],
+      "required_cases": [
+        "positive_valued_open_forms",
+        "negative_permission_only",
+        "positive_stability",
+        "external_collaboration"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "definition",
+      "sources": [
+        {
+          "unit": "organon.charter.overview",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.charter.overview",
+          "clause": "c03"
+        },
+        {
+          "unit": "organon.charter.self-transcendence",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.orientation",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.non-finality",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.relationships.terms",
+          "clause": "c03"
+        }
+      ]
+    },
+    {
+      "id": "T03",
+      "kind": "nonentailment",
+      "source_line_spans": [
+        [
+          37,
+          37
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          47,
+          52
+        ],
+        [
+          146,
+          146
+        ]
+      ],
+      "statement": "Permission to change does not entail valuing expansion; valuing/open forms do not entail achieved progress, actual capability, independence, autonomous execution or self-improvement; output/term/abstraction counts or self-claims alone do not establish achievement.",
+      "premises": [
+        "Keep valuing, revisability, progress, support and autonomous properties distinct",
+        "ground actual achievement in a declared criterion independent of mere count/claim."
+      ],
+      "required_cases": [
+        "permission_without_value",
+        "orientation_without_progress",
+        "count_growth_without_capability",
+        "collaborative_nonautonomous_progress",
+        "claim_without_achievement"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "theorem-or-case",
+      "sources": [
+        {
+          "unit": "organon.charter.self-transcendence.orientation",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.non-finality",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "c02"
+        }
+      ]
+    },
+    {
+      "id": "T04",
+      "kind": "specification",
+      "source_line_spans": [
+        [
+          57,
+          57
+        ],
+        [
+          62,
+          70
+        ]
+      ],
+      "statement": "All simultaneously held principles/judgments and their joint implications must avoid opposite conclusions on same question, assumptions, term meanings and scope; incompatible same-condition demands need revision/qualification; recorded change cannot be concealed.",
+      "premises": [
+        "Consequence over whole held set",
+        "explicit context equality",
+        "no per-principle-only substitute",
+        "distinguish held-at-time from historical union",
+        "change-report condition separate from consistency."
+      ],
+      "required_cases": [
+        "joint_only_contradiction",
+        "changed_scope_not_concealed",
+        "revision_withdraws_old",
+        "incompatible_same_context"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "definition",
+      "sources": [
+        {
+          "unit": "organon.charter.consistency",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.charter.consistency.limits",
+          "clause": "c01"
+        }
+      ]
+    },
+    {
+      "id": "T05",
+      "kind": "theorem",
+      "source_line_spans": [
+        [
+          57,
+          57
+        ],
+        [
+          62,
+          69
+        ]
+      ],
+      "statement": "Given faithful context identity and whole-set consequence, an opposite pair under the same context violates consistency; removing a prior judgment may eliminate the conflict without requiring permanent historical compatibility.",
+      "premises": [
+        "A consequence relation, positive/negative conclusions for same question, active-set membership, context equality",
+        "explicit withdrawal semantics",
+        "no explosion assumption needed."
+      ],
+      "required_cases": [
+        "pair_conflict",
+        "joint_premise_conflict",
+        "old_new_separate_times",
+        "distinct_context_judgments"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "theorem",
+      "sources": [
+        {
+          "unit": "organon.charter.consistency",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.charter.consistency.limits",
+          "clause": "c01"
+        }
+      ]
+    },
+    {
+      "id": "T06",
+      "kind": "nonentailment",
+      "source_line_spans": [
+        [
+          64,
+          70
+        ],
+        [
+          146,
+          146
+        ]
+      ],
+      "statement": "Different-condition disagreement and value tension alone do not entail contradiction; consistency does not entail true assumptions, adequacy or support for a compatible conclusion.",
+      "premises": [
+        "Concrete shared interpretation of truth/support and consequence",
+        "relevant omitted question represented",
+        "unsupported conclusion must demonstrably fail entailment, not merely have a false support flag."
+      ],
+      "required_cases": [
+        "different_contexts",
+        "tension_compatible",
+        "consistent_false_assumption",
+        "consistent_omitted_question",
+        "compatible_not_entailed"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "theorem-or-case",
+      "sources": [
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.charter.consistency.limits",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "c02"
+        }
+      ]
+    },
+    {
+      "id": "T07",
+      "kind": "specification",
+      "source_line_spans": [
+        [
+          75,
+          87
+        ],
+        [
+          148,
+          148
+        ]
+      ],
+      "statement": "Generation and assessment apply to system and principle formation/application/revision under their actual applicability conditions; self-status is no exemption; applicability is not universalized; Grounds grounds/limits and own capability claims are included.",
+      "premises": [
+        "Explicit target kinds for system, formation, application, revision",
+        "principle applicability and duties",
+        "nonempty applicable self-target and inapplicable pair",
+        "no endless-recursion requirement."
+      ],
+      "required_cases": [
+        "self_applicable",
+        "self_inapplicable",
+        "principle_formation",
+        "principle_application",
+        "principle_revision",
+        "grounds_on_grounds"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "definition",
+      "sources": [
+        {
+          "unit": "organon.charter.reflexivity",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.charter.reflexivity.meaning",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.charter.reflexivity.limits",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "c03"
+        }
+      ]
+    },
+    {
+      "id": "T08",
+      "kind": "nonentailment",
+      "source_line_spans": [
+        [
+          85,
+          87
+        ],
+        [
+          148,
+          148
+        ]
+      ],
+      "statement": "Self-application or self-produced revision does not establish correctness or sufficient grounds; openness of forms does not by itself meet reflexivity.",
+      "premises": [
+        "Assessment events/duties not truth",
+        "generation provenance not support",
+        "concrete countercase with a revisable but self-exempt assessment rule."
+      ],
+      "required_cases": [
+        "self_assessed_incorrect",
+        "self_generated_unsupported",
+        "open_but_self_exempt"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "theorem-or-case",
+      "sources": [
+        {
+          "unit": "organon.charter.reflexivity.limits",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "c03"
+        }
+      ]
+    },
+    {
+      "id": "T09",
+      "kind": "specification",
+      "source_line_spans": [
+        [
+          92,
+          105
+        ]
+      ],
+      "statement": "Grounds requires articulable concepts/assumptions/reasons/limits, assessment appropriate to claim nature, and strength/scope proportionate to supplied support. Articulation and assessment are distinct responsibilities.",
+      "premises": [
+        "Grounds tied to corresponding claim and context",
+        "explicit support relation, force and scope",
+        "no universal numeric scale or complete mutually exclusive taxonomy",
+        "Core 0.1.2 only."
+      ],
+      "required_cases": [
+        "articulable_supported",
+        "articulable_unsupported",
+        "scope_overreach",
+        "strength_overreach"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "definition",
+      "sources": [
+        {
+          "unit": "organon.grounds",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c03"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c04"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c05"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c06"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c07"
+        }
+      ]
+    },
+    {
+      "id": "T10",
+      "kind": "specification",
+      "source_line_spans": [
+        [
+          101,
+          101
+        ]
+      ],
+      "statement": "Empirical assessment examines observations, evidence and performance and their support conditions, scope and uncertainty; measurability/repeatability is no replacement for relevance, correctness or value assessment.",
+      "premises": [
+        "Actual empirical content and relevant relation from observations to claim",
+        "measurement/repetition is evidence property, not automatic support",
+        "finite adapter remains limited."
+      ],
+      "required_cases": [
+        "observed_relevant",
+        "repeatable_irrelevant",
+        "measured_wrong_scope",
+        "uncertain_limited"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "definition",
+      "sources": [
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c04"
+        }
+      ]
+    },
+    {
+      "id": "T11",
+      "kind": "specification",
+      "source_line_spans": [
+        [
+          102,
+          102
+        ],
+        [
+          146,
+          146
+        ]
+      ],
+      "statement": "Inferential assessment examines whether conclusion follows/supports under stated assumptions and inferential relations; mere nonconflict cannot replace this examination.",
+      "premises": [
+        "A concrete inference semantics and countervaluation when lack of entailment is claimed",
+        "distinguish task of examination from successful conclusion."
+      ],
+      "required_cases": [
+        "valid_inference",
+        "compatible_unentailed",
+        "false_inference_detected"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "definition",
+      "sources": [
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c05"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "c02"
+        }
+      ]
+    },
+    {
+      "id": "T12",
+      "kind": "specification",
+      "source_line_spans": [
+        [
+          103,
+          105
+        ]
+      ],
+      "statement": "Value commitments identify position, reasons, applicability limits and consequences and stay open to relevant criticism; neither empirical/necessary-inference presentation nor self-assertion substitutes. Initial commitments need not prove all starting assumptions.",
+      "premises": [
+        "Stated value stance distinct from factual claims",
+        "reason interface without recursive proof demand",
+        "relevant criticism condition",
+        "qualitative support comparisons allowed."
+      ],
+      "required_cases": [
+        "reasoned_value",
+        "unsupported_self_assertion",
+        "closed_criticism",
+        "explicit_initial_commitment"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "definition",
+      "sources": [
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c06"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c07"
+        }
+      ]
+    },
+    {
+      "id": "T13",
+      "kind": "nonentailment",
+      "source_line_spans": [
+        [
+          97,
+          105
+        ]
+      ],
+      "statement": "Articulability alone does not establish grounds; measurable/repeatable observations alone establish neither relevance, correctness nor value; a stated value commitment need not be empirical fact or necessary consequence, nor prove all its starting assumptions.",
+      "premises": [
+        "Concrete inadequacy criterion for each countercase",
+        "avoid defining insufficient support as missing record only",
+        "empirical/inferential/value readings not made exhaustive or exclusive."
+      ],
+      "required_cases": [
+        "clear_false_reason",
+        "repeatable_wrong_object",
+        "value_not_fact",
+        "initial_value_without_selfproof",
+        "qualitative_proportionality"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "theorem-or-case",
+      "sources": [
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c03"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c04"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c05"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c06"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c07"
+        }
+      ]
+    },
+    {
+      "id": "T14",
+      "kind": "specification",
+      "source_line_spans": [
+        [
+          110,
+          114
+        ]
+      ],
+      "statement": "Performance/comparison judgments state relevant relations, conditions and observation scope; scope omission cannot establish absence of relevant differences; roles of measurement, repetition and framework are explained relative to claim/context.",
+      "premises": [
+        "Local and broader scopes and relevance relation distinct",
+        "explanation of actually used method does not require all three methods universally."
+      ],
+      "required_cases": [
+        "local_scope_declared",
+        "omitted_relevant_difference",
+        "measurement_role",
+        "repetition_role",
+        "framework_role"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "definition",
+      "sources": [
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "c03"
+        }
+      ]
+    },
+    {
+      "id": "T15",
+      "kind": "nonentailment",
+      "source_line_spans": [
+        [
+          110,
+          114
+        ],
+        [
+          135,
+          135
+        ]
+      ],
+      "statement": "Local equal performance does not entail global equivalence/unconditional universality; omitting a difference does not establish its nonexistence. Limited unreproduced support and variable random outcomes are possible without a universal measurement→repeatability→framework chain.",
+      "premises": [
+        "Explicit nonempty local and broader domains, shared observations and relation",
+        "verifiability, reproducible conditions and stable conclusions modeled separately",
+        "unreproduced is not necessarily irreproducible."
+      ],
+      "required_cases": [
+        "equal_local_different_global",
+        "excluded_difference",
+        "one_observation_limited_support",
+        "varying_random_outcomes",
+        "qualitative_unmeasured_judgment"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "theorem-or-case",
+      "sources": [
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "c03"
+        },
+        {
+          "unit": "organon.grounds.implementations.limits",
+          "clause": "c01"
+        }
+      ]
+    },
+    {
+      "id": "T16",
+      "kind": "specification",
+      "source_line_spans": [
+        [
+          119,
+          121
+        ],
+        [
+          146,
+          148
+        ]
+      ],
+      "statement": "Capability claim identifies capability, conditions and support under Grounds; applications choose relevant capability definitions and may require understanding/explanation/variation. External assessors may provide grounds; own-system claims receive same relevant duties.",
+      "premises": [
+        "Claim-indexed capability, externally supplied support and actual scope",
+        "no universal capability levels or introspective requirement."
+      ],
+      "required_cases": [
+        "external_output_capability",
+        "application_requires_understanding",
+        "own_capability_assessment"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "definition",
+      "sources": [
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "c03"
+        }
+      ]
+    },
+    {
+      "id": "T17",
+      "kind": "nonentailment",
+      "source_line_spans": [
+        [
+          119,
+          121
+        ]
+      ],
+      "statement": "Reliable output or artifact/document/tool/term count alone does not establish internal-process understanding or stronger capability; articulable external grounds do not imply that assessed system understands/explains generation.",
+      "premises": [
+        "Concrete task success and independent understanding criterion",
+        "external reasons not silently attributed to internal subject",
+        "scope escalation displayed."
+      ],
+      "required_cases": [
+        "reliable_opaque_generator",
+        "high_count_no_stronger_capability",
+        "externally_articulated_no_introspection"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "theorem-or-case",
+      "sources": [
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "c02"
+        }
+      ]
+    },
+    {
+      "id": "T18",
+      "kind": "specification",
+      "source_line_spans": [
+        [
+          126,
+          128
+        ],
+        [
+          134,
+          136
+        ],
+        [
+          148,
+          148
+        ]
+      ],
+      "statement": "Implementation priority needs reasons connected to objectives, values and relevant constraints; name/convention/status alone insufficient. Internal method explanation, applicability limits, simplicity/process requirements may count; conventional options may win on relevant grounds, including this philosophy's existing form.",
+      "premises": [
+        "Reason relevance to particular choice",
+        "provenance alone distinct from practical familiarity/support",
+        "no rule that internal reasons are always decisive."
+      ],
+      "required_cases": [
+        "named_only_rejected",
+        "conventional_grounded_priority",
+        "method_internal_reason",
+        "own_philosophy_status_only"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "definition",
+      "sources": [
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.grounds.implementations.limits",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "c03"
+        }
+      ]
+    },
+    {
+      "id": "T19",
+      "kind": "nonentailment",
+      "source_line_spans": [
+        [
+          126,
+          136
+        ]
+      ],
+      "statement": "Openness neither makes alternatives equivalent nor ensures multiple feasible implementations, excludes conventional choices or excludes internal-method reasons. Local performance equality does not settle whole choice.",
+      "premises": [
+        "Concrete feasible option set and grounded comparison",
+        "at least one positive witness with a single feasible conventional option",
+        "distinct global consequences."
+      ],
+      "required_cases": [
+        "single_feasible_conventional",
+        "internal_reason_distinguishes",
+        "unequal_open_options",
+        "local_equal_global_difference"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "theorem-or-case",
+      "sources": [
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.grounds.implementations.limits",
+          "clause": "c01"
+        }
+      ]
+    },
+    {
+      "id": "T20",
+      "kind": "theorem",
+      "source_line_spans": [
+        [
+          144,
+          148
+        ]
+      ],
+      "statement": "Under jointly satisfied inherited commitments and actual applicability, own principles/assessment methods/grounds/capability judgments inherit their corresponding generation, consistency and support duties without self-proof or removal of conditions.",
+      "premises": [
+        "Same subject/context, shared principle/object identifiers, applicability",
+        "reflexivity interface connected to concrete Grounds/choice/capability obligations",
+        "no isolated conjunction of unrelated models."
+      ],
+      "required_cases": [
+        "own_grounds_articulable",
+        "own_capability_supported",
+        "own_choice_not_status_only",
+        "relevant_self_application"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "theorem",
+      "sources": [
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "c03"
+        }
+      ]
+    },
+    {
+      "id": "T21",
+      "kind": "boundary",
+      "source_line_spans": [
+        [
+          153,
+          156
+        ]
+      ],
+      "statement": "Existing form includes organization/methods/principles. Assessment is examination of reasons, applicability and observed performance and is not limited to executable testing.",
+      "premises": [
+        "Definitions constrain every related model, including review subjects",
+        "no claim every assessment executes every listed operation when inapplicable."
+      ],
+      "required_cases": [],
+      "acceptance": "Review formal object taxonomy and assessment relation for excluded source meanings; record any finite-enumeration limits.",
+      "recommended_declaration_kind": null,
+      "sources": [
+        {
+          "unit": "organon.relationships.terms",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.relationships.terms",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.relationships.terms",
+          "clause": "c03"
+        },
+        {
+          "unit": "organon.relationships.terms",
+          "clause": "c04"
+        }
+      ]
+    },
+    {
+      "id": "T22",
+      "kind": "specification",
+      "source_line_spans": [
+        [
+          166,
+          170
+        ]
+      ],
+      "statement": "Domain subject is continuing engineering activity by current/successor human or agent maintainers with software/tools/knowledge across credible lifecycle; priority applicability reflects actual lifecycle/maintenance expectations, not labels or artifact intrinsic orientation.",
+      "premises": [
+        "Subject/maintainer roles, credible lifecycle grounds, activity versus artifact",
+        "temporary/prototype/retiring contexts considered conditionally, not blanket exemption by name."
+      ],
+      "required_cases": [
+        "successor_maintainer",
+        "agent_maintainer",
+        "continuing_labeled_temporary",
+        "genuinely_temporary",
+        "bounded_prototype",
+        "retiring_system"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "definition",
+      "sources": [
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "c01"
+        },
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "c02"
+        },
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "c03"
+        }
+      ]
+    },
+    {
+      "id": "T23",
+      "kind": "nonentailment",
+      "source_line_spans": [
+        [
+          166,
+          170
+        ]
+      ],
+      "statement": "Original-author editability does not establish continuing-maintainer evolution capability; calling a continuing system temporary does not establish genuinely bounded lifecycle; adopted human/agent orientation does not entail every artifact has it.",
+      "premises": [
+        "Concrete edit/understand/verify paths scoped by maintainer knowledge",
+        "lifecycle evidence distinct from label",
+        "actual continuing example."
+      ],
+      "required_cases": [
+        "author_only_private_knowledge",
+        "successor_missing_path",
+        "false_temporary_label",
+        "passive_artifact"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "theorem-or-case",
+      "sources": [
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "c01"
+        },
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "c02"
+        },
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "c03"
+        }
+      ]
+    },
+    {
+      "id": "T24",
+      "kind": "specification",
+      "source_line_spans": [
+        [
+          170,
+          179
+        ]
+      ],
+      "statement": "When credible lifecycle/maintenance scope and relevant behavioral, safety, performance and other necessary requirements hold, favor continuing-maintainer credible future change capability including design revision over present abstraction simplicity; accept purpose-linked added complexity; allow yielding only when added costs threaten concrete objectives, with objective/cost account.",
+      "premises": [
+        "Explicit options, same engineering context, feasible requirements, supported credible change set, comparative evolution advantage, simplicity/complexity tradeoff, threat and departure explanation",
+        "no unconditional maximization or numeric exchange rate."
+      ],
+      "required_cases": [
+        "ordinary_priority",
+        "missing_behavior",
+        "missing_safety",
+        "missing_performance",
+        "missing_other_necessary",
+        "concrete_cost_override",
+        "unexplained_departure",
+        "no_extensibility_maximum"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "definition",
+      "sources": [
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "c03"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "c01"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "c02"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "c03"
+        }
+      ]
+    },
+    {
+      "id": "T25",
+      "kind": "theorem",
+      "source_line_spans": [
+        [
+          175,
+          179
+        ]
+      ],
+      "statement": "For a context meeting all priority conditions, with a credible evolution advantage over a simpler feasible option and no concrete cost threat, domain satisfaction requires the evolution-favoring choice/priority and acceptance of its relevant additional complexity.",
+      "premises": [
+        "Every T24 premise explicit, adopted domain rule as normative premise",
+        "preference compliance separate from act of assessment and universal goodness. Do not infer adoption from Core alone."
+      ],
+      "required_cases": [
+        "applicable_choose_evolution",
+        "applicable_choose_simple_violates_domain",
+        "threat_allows_departure_with_account"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "theorem",
+      "sources": [
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "c01"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "c02"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "c03"
+        }
+      ]
+    },
+    {
+      "id": "T26",
+      "kind": "specification",
+      "source_line_spans": [
+        [
+          177,
+          179
+        ]
+      ],
+      "statement": "Credible change direction has articulable grounds (examples are plan/domain knowledge/history, not an exhaustive required list), remains revisable, and needs no existing multiple implementations. Conceivability alone cannot justify present accommodation.",
+      "premises": [
+        "Grounds for direction and present investment separately",
+        "applicability of history/knowledge",
+        "no Boolean label replacing content of supporting plan."
+      ],
+      "required_cases": [
+        "committed_plan_one_implementation",
+        "domain_knowledge",
+        "applicable_history",
+        "conceivable_only",
+        "revised_forecast"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "definition",
+      "sources": [
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "c02"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "c03"
+        }
+      ]
+    },
+    {
+      "id": "T27",
+      "kind": "nonentailment",
+      "source_line_spans": [
+        [
+          177,
+          179
+        ]
+      ],
+      "statement": "Conceivable change alone does not entail warranted accommodation; credible change does not entail multiple existing implementations, maximal extensibility, retention of every possibility or universal numerical exchange rate.",
+      "premises": [
+        "Nonempty supported direction and explicit alternative irrelevant direction",
+        "finite priority/qualitative comparison",
+        "credibility independent of current multiplicity."
+      ],
+      "required_cases": [
+        "one_implementation_credible",
+        "imagined_unwarranted",
+        "selective_evolution",
+        "qualitative_tradeoff"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "theorem-or-case",
+      "sources": [
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "c02"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "c03"
+        }
+      ]
+    },
+    {
+      "id": "T28",
+      "kind": "specification",
+      "source_line_spans": [
+        [
+          179,
+          179
+        ]
+      ],
+      "statement": "Cost/departure account admits understanding, construction, diagnosis, verification, coordination, operation and eventual migration burdens and identifies threatened objective and causal significance of added cost.",
+      "premises": [
+        "Do not require every burden be material in every case",
+        "costs attached to candidate/context and concrete objective, not free exception flag."
+      ],
+      "required_cases": [
+        "understanding_threat",
+        "construction_threat",
+        "diagnosis_threat",
+        "verification_threat",
+        "coordination_threat",
+        "operation_threat",
+        "migration_threat",
+        "unsupported_cost_excuse"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "definition",
+      "sources": [
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "c03"
+        }
+      ]
+    },
+    {
+      "id": "T29",
+      "kind": "specification",
+      "source_line_spans": [
+        [
+          184,
+          186
+        ]
+      ],
+      "statement": "Evolution includes capability addition, implementation replacement, mechanism deletion, abstraction withdrawal, boundary redrawing and technology/model migration; claims identify relevant changes and maintainer conditions; independent/coordinated changes and preserved/revised obligations may require different structures.",
+      "premises": [
+        "Nonexhaustive source include-list",
+        "identified capability relation indexed by change, context and maintainer",
+        "obligation semantics tracked."
+      ],
+      "required_cases": [
+        "addition",
+        "replacement",
+        "deletion",
+        "withdrawal",
+        "redrawing",
+        "migration",
+        "independent",
+        "coordinated",
+        "preserve_obligation",
+        "revise_obligation"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "definition",
+      "sources": [
+        {
+          "unit": "software-engineering.evolution-meaning",
+          "clause": "c01"
+        },
+        {
+          "unit": "software-engineering.evolution-meaning",
+          "clause": "c02"
+        }
+      ]
+    },
+    {
+      "id": "T30",
+      "kind": "nonentailment",
+      "source_line_spans": [
+        [
+          184,
+          186
+        ]
+      ],
+      "statement": "Cheap/effective additions within fixed scheme do not entail equal ability to revise/leave it; advantage on one dimension does not entail every dimension; no duty to make every change inexpensive.",
+      "premises": [
+        "Concrete change-work or enabled-path relation producing add/exit contrast and independent/coordinated contrast",
+        "no arbitrary unsupported capability flags."
+      ],
+      "required_cases": [
+        "easy_add_hard_exit",
+        "independent_easy_coordinated_hard",
+        "some_change_expensive_permitted"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "theorem-or-case",
+      "sources": [
+        {
+          "unit": "software-engineering.evolution-meaning",
+          "clause": "c01"
+        },
+        {
+          "unit": "software-engineering.evolution-meaning",
+          "clause": "c02"
+        }
+      ]
+    },
+    {
+      "id": "T31",
+      "kind": "specification",
+      "source_line_spans": [
+        [
+          191,
+          193
+        ]
+      ],
+      "statement": "Structural choice applies to whole relevant engineering consequences: component relations, observable contracts, understanding and verification work; boundary capability needs support for intended changes; propagation/cross-boundary knowledge and obligations/fixed assumptions/withdrawal are possible comparison inquiries.",
+      "premises": [
+        "Whole relevant scope rather than every imaginable consequence",
+        "may-examine inquiries are not compulsory universal checklist",
+        "intended change and boundary support relation explicit."
+      ],
+      "required_cases": [
+        "contract_and_work_comparison",
+        "propagation_relation",
+        "cross_boundary_obligation",
+        "fixed_assumption",
+        "withdrawal_cost"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "definition",
+      "sources": [
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "c01"
+        },
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "c02"
+        }
+      ]
+    },
+    {
+      "id": "T32",
+      "kind": "nonentailment",
+      "source_line_spans": [
+        [
+          191,
+          193
+        ]
+      ],
+      "statement": "Interface shape, module/extension-point count, named principle or boundary introduction alone cannot establish claimed evolution capability or easier intended change.",
+      "premises": [
+        "Executable or finite semantic consequence model links shape to behavior and work to change",
+        "demonstrate missing capability by contract/propagation/work failure rather than named false flag."
+      ],
+      "required_cases": [
+        "same_shape_broken_order",
+        "many_modules_shared_obligation",
+        "named_pattern_no_change_path",
+        "new_boundary_same_work"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "theorem-or-case",
+      "sources": [
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "c01"
+        },
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "c02"
+        }
+      ]
+    },
+    {
+      "id": "T33",
+      "kind": "specification",
+      "source_line_spans": [
+        [
+          195,
+          195
+        ]
+      ],
+      "statement": "Distinguish preserving an identified observable contract from deliberately revising it; deliberate revision accounts for changed obligations and affected parties; no requirement to preserve every historical behavior or use particular tests/migration procedure.",
+      "premises": [
+        "Identified contract and observations, deliberate revision intent, obligations/affected parties mapping",
+        "preservation scope explicit",
+        "changes outside scope not silently violations."
+      ],
+      "required_cases": [
+        "preserve_identified_contract",
+        "deliberate_revision_with_account",
+        "revision_missing_parties",
+        "retired_historical_behavior",
+        "alternative_procedure"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "definition",
+      "sources": [
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "c03"
+        }
+      ]
+    },
+    {
+      "id": "T34",
+      "kind": "theorem",
+      "source_line_spans": [
+        [
+          195,
+          195
+        ]
+      ],
+      "statement": "Given equality of all identified contract observations in scope, a transformation preserves that identified contract; deliberate changed in-scope observations cannot be claimed preservation of that same contract and require revised-obligation/party account under domain satisfaction.",
+      "premises": [
+        "Contract semantics and scope, total behavior on registered domain, at least one explicit distinguishing observation for revision, domain rule",
+        "finite examples reported finite."
+      ],
+      "required_cases": [
+        "order_preserving_refactor",
+        "sorted_order_revision",
+        "changed_failure_obligation",
+        "outside_scope_difference"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "theorem",
+      "sources": [
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "c03"
+        }
+      ]
+    },
+    {
+      "id": "T35",
+      "kind": "specification",
+      "source_line_spans": [
+        [
+          201,
+          203
+        ]
+      ],
+      "statement": "Changed evidence about expected changes, maintenance conditions, costs/objectives can justify revised design/priority application; revised judgment acknowledges material grounds changes and cannot retroactively relabel failed prediction success. Retention may be justified by alternatives lacking contribution or defeating objectives.",
+      "premises": [
+        "Separate old/new evidence/time, prediction outcome and judgment, permission versus compulsory redesign",
+        "applicable alternatives and objective explicit."
+      ],
+      "required_cases": [
+        "revised_change_forecast",
+        "changed_maintainers",
+        "changed_cost",
+        "changed_objective",
+        "failed_prediction_preserved",
+        "justified_retention"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "definition",
+      "sources": [
+        {
+          "unit": "software-engineering.revision",
+          "clause": "c02"
+        }
+      ]
+    },
+    {
+      "id": "T36",
+      "kind": "nonentailment",
+      "source_line_spans": [
+        [
+          201,
+          203
+        ]
+      ],
+      "statement": "Revised judgment cannot make past failed prediction true; continued change, agreement and successful examples do not establish universal correctness; justified retention is compatible with domain/reflexive revision openness.",
+      "premises": [
+        "Time-indexed prediction semantics invariant under report revision",
+        "finite successes with explicit broader failure",
+        "activity is open to criticism while choosing stability now."
+      ],
+      "required_cases": [
+        "past_failure_not_rewritten",
+        "agreement_with_bad_case",
+        "local_success_global_failure",
+        "open_stable_design"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "theorem-or-case",
+      "sources": [
+        {
+          "unit": "software-engineering.revision",
+          "clause": "c02"
+        }
+      ]
+    },
+    {
+      "id": "T37",
+      "kind": "theorem",
+      "source_line_spans": [
+        [
+          161,
+          161
+        ],
+        [
+          191,
+          191
+        ],
+        [
+          203,
+          203
+        ],
+        [
+          148,
+          148
+        ]
+      ],
+      "statement": "With inherited and domain satisfaction in a shared applicable context, the priority and evolution-assessment methods remain objects of grounds, consistency and reflexive criticism/revision; domain success cannot exempt its rule.",
+      "premises": [
+        "Same domain-rule object assessed via inherited predicates",
+        "explicit relevant applicability",
+        "user adoption choice distinguished from metalevel correctness."
+      ],
+      "required_cases": [
+        "priority_self_assessment",
+        "method_self_criticism",
+        "no_selfproof_from_success"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "theorem",
+      "sources": [
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "c03"
+        },
+        {
+          "unit": "extensions",
+          "clause": "c01"
+        },
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "c01"
+        }
+      ]
+    },
+    {
+      "id": "T38",
+      "kind": "satisfiability",
+      "source_line_spans": [
+        [
+          25,
+          27
+        ],
+        [
+          32,
+          52
+        ],
+        [
+          57,
+          87
+        ],
+        [
+          92,
+          148
+        ],
+        [
+          161,
+          203
+        ]
+      ],
+      "statement": "USER ADDITIONAL STRONG OBJECTIVE: one content-bearing nonempty system/context jointly satisfies every represented inherited and domain commitment, with a continuing lifecycle, actual applicable priority and evolution chosen despite additional present abstraction complexity.",
+      "premises": [
+        "Common context/subjects/claims/reasons/alternatives",
+        "shared nontrivial consequence relation",
+        "actual empirical/inferential/value duties relevant and fulfilled where represented",
+        "successor+agent maintenance pathways, credible design-change direction, satisfied necessary requirements, no defeating cost threat. Whole Inherited and Domain interfaces used, not subset."
+      ],
+      "required_cases": [
+        "joint_all_inherited_and_domain",
+        "same_context_identity",
+        "nonempty_claims_and_principles",
+        "active_evolution_priority",
+        "content_bearing_maintainer_change"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "theorem-or-case",
+      "sources": [
+        {
+          "unit": "organon.charter.overview",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.charter.overview",
+          "clause": "c03"
+        },
+        {
+          "unit": "organon.charter.self-transcendence",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.orientation",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.non-finality",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.charter.consistency",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.charter.consistency.limits",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.charter.reflexivity",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.charter.reflexivity.meaning",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.charter.reflexivity.limits",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.grounds",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c03"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c04"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c05"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c06"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c07"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "c03"
+        },
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.grounds.implementations.limits",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "c03"
+        },
+        {
+          "unit": "extensions",
+          "clause": "c01"
+        },
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "c01"
+        },
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "c02"
+        },
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "c03"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "c01"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "c02"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "c03"
+        },
+        {
+          "unit": "software-engineering.evolution-meaning",
+          "clause": "c01"
+        },
+        {
+          "unit": "software-engineering.evolution-meaning",
+          "clause": "c02"
+        },
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "c01"
+        },
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "c02"
+        },
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "c03"
+        },
+        {
+          "unit": "software-engineering.revision",
+          "clause": "c01"
+        },
+        {
+          "unit": "software-engineering.revision",
+          "clause": "c02"
+        }
+      ]
+    },
+    {
+      "id": "T39",
+      "kind": "nonentailment",
+      "source_line_spans": [
+        [
+          161,
+          161
+        ],
+        [
+          175,
+          179
+        ],
+        [
+          144,
+          148
+        ]
+      ],
+      "statement": "USER ADDITIONAL STRONG OBJECTIVE: a countermodel satisfies all represented inherited commitments while genuine domain-priority applicability holds and domain evolution priority is not adopted; proves non-entailment in the disclosed representation.",
+      "premises": [
+        "Same common context as all inherited duties",
+        "continuing lifecycle (not temporary), supported credible evolution advantage including design revision, requirements satisfied, no concrete defeating cost threat, present-simplicity preference actually selected/adopted, grounded alternative value reasons consistent with Core, assessment not substituted for adoption."
+      ],
+      "required_cases": [
+        "all_inherited_applicable_domain_not_adopted",
+        "no_temporary_escape",
+        "no_cost_escape",
+        "genuine_priority_failure",
+        "inherited_grounds_for_other_value"
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment.",
+      "recommended_declaration_kind": "theorem-or-case",
+      "sources": [
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "c03"
+        },
+        {
+          "unit": "extensions",
+          "clause": "c01"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "c01"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "c02"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "c03"
+        }
+      ]
+    },
+    {
+      "id": "T40",
+      "kind": "boundary",
+      "source_line_spans": [
+        [
+          13,
+          15
+        ],
+        [
+          49,
+          52
+        ],
+        [
+          92,
+          105
+        ],
+        [
+          112,
+          121
+        ],
+        [
+          126,
+          128
+        ],
+        [
+          144,
+          148
+        ],
+        [
+          161,
+          179
+        ],
+        [
+          184,
+          203
+        ]
+      ],
+      "statement": "Formal specification/conditional proofs and finite witnesses do not establish empirical adequacy of lifecycle forecasts, support relevance, future maintainability, value superiority or universal philosophical correctness; representation choices remain disclosed and revisable.",
+      "premises": [
+        "Every conditional result carries full mathematical premises",
+        "finite cases and source correspondence judgments are separate",
+        "difficult agreed theorem cannot be reclassified boundary to claim completion."
+      ],
+      "required_cases": [],
+      "acceptance": "Review manuscript distinction of normative expression, fulfillment witness, mathematical entailment, empirical support and adoption; retain unresolved material readings and every unfinished target.",
+      "recommended_declaration_kind": null,
+      "sources": [
+        {
+          "unit": "organon.preamble",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.preamble",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.grounds",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c03"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c04"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c05"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c06"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "c07"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "c03"
+        },
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "c01"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "c02"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "c03"
+        },
+        {
+          "unit": "extensions",
+          "clause": "c01"
+        },
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "c01"
+        },
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "c02"
+        },
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "c03"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "c01"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "c02"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "c03"
+        },
+        {
+          "unit": "software-engineering.evolution-meaning",
+          "clause": "c01"
+        },
+        {
+          "unit": "software-engineering.evolution-meaning",
+          "clause": "c02"
+        },
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "c01"
+        },
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "c02"
+        },
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "c03"
+        },
+        {
+          "unit": "software-engineering.revision",
+          "clause": "c01"
+        },
+        {
+          "unit": "software-engineering.revision",
+          "clause": "c02"
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "units": 28,
+    "clauses": 54,
+    "targets": 40,
+    "uncovered_substantive_clauses": []
+  }
+}

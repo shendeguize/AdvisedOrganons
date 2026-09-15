@@ -1,0 +1,154 @@
+{
+  "utc": "2026-09-14T18:46:30.933348+00:00",
+  "independence": "Source-aware independent reader; authored none of these SE manuscripts. Initial record frozen before reading any other current reader-QA results. Has previously read R3 source/code reviews; not fresh blind backtranslation.",
+  "object": {
+    "manifest_sha256": "cd300f086c45afc1ff28a63ecce92c75ec06d94164eb0cd14d898a0f7eedcf6e",
+    "view_hashes": {
+      "lean/philosophy/overview.md": "02432a947512ab709aed33c8fcd078764b96263666d0148fec5c92e111eb6f6e",
+      "lean/philosophy/details.md": "5e6653bfe714707aea4dedb50d97d5e155e65c3e8279c5e88a78f07e525e0199",
+      "zh/lean/philosophy/overview.md": "05f30d6cf6d8df5a1ab509cdeeb4f5b29c87df61d1ca178102645823c5a75b7f",
+      "zh/lean/philosophy/details.md": "830ea6830be5605c4e187086843ea0e4b56897df70a1feb0443302269baa7d80"
+    }
+  },
+  "full_nonblank_line_review": {
+    "Engineering/Reflection.lean": 113,
+    "Engineering/SelfApplication.lean": 203,
+    "Engineering/Values.lean": 201,
+    "Engineering/Integration.lean": 547,
+    "total": 1064
+  },
+  "coverage_method": "Read exact Lean line, published EN explanation and published ZH explanation for every nonblank root4 line, including metadata; root4-lines-code-en-zh.json preserves mapping. Read sampled full overview/detail target sections and actual links; 26 cross-granularity target lookups resolve including declaration anchors.",
+  "questions_file": ".local/iterations/2026-09-15-advised-lean/SE-reader-QA-questions-r1.md",
+  "answers": [
+    {
+      "id": 1,
+      "targets": [
+        "T38",
+        "T39"
+      ],
+      "answer": "T38 chooses sharedContext and evolvable once, then supplies Inherited and DomainSatisfied for exactly those witnesses. T39 uses the same sharedContext with presentSimple, explicit PriorityConditions, Continuing, not BoundedLifecycle, no threat/departure, both necessary requirements and actual successor/agent evolution paths. The contrast is added-value non-entailment; it does not discharge DomainSatisfied for a committed SE adopter. Inherited.sameContext explicitly limits the context. The full ownTheory includes applicable norms and facts jointly; this is not separately satisfiable adoption flags.",
+      "detail_lines": [
+        1705,
+        1741
+      ],
+      "status": "answered; bounded representation"
+    },
+    {
+      "id": 2,
+      "targets": [
+        "T16"
+      ],
+      "answer": "Both objects use the same explainedProcess and satisfy FullProcessContract. UnderstandingApplication012 additionally requires the represented explanation and correct response to every input/multiplier variation. The fixed-double responder fails at input3/multiplier1; the mechanism responder succeeds for the specified family. Same-object grounds are proved for the stronger object and refuted for the weaker. This is the selected application criterion, not universal psychological understanding.",
+      "detail_lines": [
+        751,
+        789
+      ],
+      "status": "answered; application-specific"
+    },
+    {
+      "id": 3,
+      "targets": [
+        "T31"
+      ],
+      "answer": "The coordinated path edits callee1 and runs the public-contract check at caller2. Removing the caller check leaves crossesBoundary=true but boundaryObligationChecked=false; sorting actual output also fails that latter condition. Moving callee to untouched7 removes crossing applicability. Finite preservation is an explicit component; none proves arbitrary input preservation or universal boundary costs. English account referent can be clearer (R3 below).",
+      "detail_lines": [
+        1389,
+        1430
+      ],
+      "status": "answered; wording clarification"
+    },
+    {
+      "id": 4,
+      "targets": [
+        "T20",
+        "T37"
+      ],
+      "answer": "The actual generationRule and assessmentRule are ReviewObject members with object-dependent tests, not just named flags. SelfApplication links them to the actual generator/evaluator. Generation applies only where the rule applicability predicate permits it; it is not universal over phases. The declared local empty-sample assessment contract has a retained revision counterexample. generate constructs proposed expanded samples/scope and does not prove success; evaluate checks its finite sampled/requested lists and does not establish philosophical correctness. Raw input construction accepts a supplied target, with ownership enforced by the self/performed relation (R2).",
+      "detail_lines": [
+        16569,
+        1646
+      ],
+      "status": "answered; ownership wording correction"
+    },
+    {
+      "id": 5,
+      "targets": [
+        "T33",
+        "T34",
+        "T35",
+        "T36"
+      ],
+      "answer": "contractPreservation receives forall x,scope x -> new x=old x and returns it as PreservesOn; finite order/retry tests do not supply universal equality. Cases identify affected consumers/operators and show finite preservation can miss excluded input99. RevisionAccount is an alias to RevisionAccountAgainst observedHistory; independently fixed historical prediction/results cannot be repaired by changing report fields. The 21-item old size10 agreement and size5 disagreement remain. New valid evidence can support a later appropriately scoped claim; it cannot make the old failed arithmetic true.",
+      "detail_lines": [
+        1489,
+        1528,
+        1573,
+        1618
+      ],
+      "status": "answered; historical/current distinction"
+    },
+    {
+      "id": 6,
+      "targets": [
+        "T01",
+        "T02",
+        "T20",
+        "T34",
+        "T39",
+        "T40"
+      ],
+      "answer": "Both overview introductions select SE0.2.0/Core0.1.2 and distinguish accepted target review, limited correspondence, incomplete source material and Lean passed. Each sampled target navigates to the matching detail anchor and declaration line anchors. T02 normative specification, T20 full-Inherited projection, T34 supplied equality, T39 finite countermodel and T01/T40 documentary boundaries retain different proof force. EN/ZH sampled sections preserve those qualifications; no successful check is presented as philosophical truth or complete proof of every source paragraph. Full public link-closure portability is reserved to V10, since this fixture excludes old generated evidence.",
+      "detail_lines": [
+        1,
+        751,
+        1528,
+        1741
+      ],
+      "status": "answered; portability separate"
+    }
+  ],
+  "findings": [
+    {
+      "id": "R1",
+      "priority": 2,
+      "module": "Engineering/Reflection.lean",
+      "source_line": 35,
+      "en_detail_line": 15786,
+      "zh_detail_line": 15786,
+      "finding": "The generated Outcome equality instance is conditional on DecidableEq W; both explanations omit that typeclass premise and sound unconditional.",
+      "actual_evidence": "binder-lookup-probe-r2.json: @Reflection.instDecidableEqOutcome : {W : Type} → [DecidableEq W] → DecidableEq (Reflection.Outcome W)",
+      "requested_change": "Say that deriving provides decidable equality on Outcome W when decidable equality on W is available; retain the concrete model specialization.",
+      "scope": "reader prose only"
+    },
+    {
+      "id": "R2",
+      "priority": 3,
+      "module": "Engineering/SelfApplication.lean",
+      "source_line": 115,
+      "en_detail_line": 16569,
+      "zh_detail_line": 16569,
+      "finding": "All its targets use owner 0 / 其所有目标使用所有者0 overstates the owner field: selfModel.input accepts a Target with any owner. Owner0 restricts self-owned targets through the separate self relation.",
+      "actual_evidence": "binder-lookup-probe-r2.json: #eval ((selfModel .evolvable).input ⟨99, .activity, .revision⟩).target.owner gives 99.",
+      "requested_change": "State that the model owner is 0; its self-owned targets must match that owner. Do not claim raw input targets are constrained by this field.",
+      "scope": "reader prose only"
+    },
+    {
+      "id": "R3",
+      "priority": 3,
+      "module": "overview/detail T31",
+      "en_overview_line": 601,
+      "en_detail_line": 1395,
+      "finding": "After naming StructuralAccount, fails the account can refer to the wrong predicate. The negative calculation actually establishes boundaryObligationChecked=false; StructuralAccount takes different arguments and is not refuted by this theorem. Chinese 不能履责 does not make the same named-predicate identification.",
+      "actual_evidence": "structuralCases actual #check; Domain.lean:641 and 703–708; negative at 720–727.",
+      "requested_change": "Replace fails the account with fails the boundary-obligation check or name boundaryObligationChecked in both EN granularities.",
+      "scope": "precise referent clarification; no code claim"
+    }
+  ],
+  "verdict": "All six interpretation tasks answered from actual frozen manuscripts and code. Two local binder/ownership explanations require qualification; one English predicate referent should be tightened. No new proof or philosophy change follows. Final synchronized reader approval awaits actual prose correction and final hashes.",
+  "limits": [
+    "Did not author or fully review the helper/Adopted/Domain per-line explanations in this QA; other reviewers handle them.",
+    "Initial Lean probe used two guessed theorem names and exited1; retained in binder-lookup-probe.json. Actual manuscript lookup recovered structuralCases and contractPreservation; probe-r2 exited0. No failure was hidden.",
+    "Reader coverage and check success do not prove philosophical correctness, exhaustive factual adequacy or universal method completeness.",
+    "V10 final public portable delivery and final changed-view lookup remain separate pending work."
+  ]
+}

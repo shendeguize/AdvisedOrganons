@@ -1,0 +1,697 @@
+{
+  "passed": true,
+  "semantic_status": "not_evaluated",
+  "current_source": "current",
+  "current_baseline": "current",
+  "errors": [],
+  "entries": [
+    {
+      "id": "organon.preamble.p1",
+      "kernel": "not_checked",
+      "reported_fidelity": "not_applicable",
+      "reported_status": "not_applicable",
+      "effective_status": "not_applicable"
+    },
+    {
+      "id": "organon.preamble.p2",
+      "kernel": "not_checked",
+      "reported_fidelity": "not_applicable",
+      "reported_status": "not_applicable",
+      "effective_status": "not_applicable"
+    },
+    {
+      "id": "organon.charter",
+      "kernel": "not_checked",
+      "reported_fidelity": "not_applicable",
+      "reported_status": "not_applicable",
+      "effective_status": "not_applicable"
+    },
+    {
+      "id": "organon.charter.overview.p1",
+      "kernel": "not_checked",
+      "reported_fidelity": "not_applicable",
+      "reported_status": "not_applicable",
+      "effective_status": "not_applicable"
+    },
+    {
+      "id": "organon.charter.overview.p2",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.charter.overview.p3",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.charter.self-transcendence.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.charter.self-transcendence.orientation.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.charter.self-transcendence.non-finality.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.charter.self-transcendence.limits.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.charter.self-transcendence.limits.p2",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.charter.consistency.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.charter.consistency.meaning.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.charter.consistency.meaning.p2",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.charter.consistency.limits.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.charter.reflexivity.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.charter.reflexivity.meaning.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.charter.reflexivity.limits.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.grounds.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.grounds.assessment.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.grounds.assessment.p2",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.grounds.assessment.p3",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.grounds.scope.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.grounds.scope.p2",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.grounds.scope.p3",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.grounds.capabilities.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.grounds.capabilities.p2",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.grounds.implementations.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.grounds.implementations.p2",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.grounds.implementations.limits.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.relationships",
+      "kernel": "not_checked",
+      "reported_fidelity": "not_applicable",
+      "reported_status": "not_applicable",
+      "effective_status": "not_applicable"
+    },
+    {
+      "id": "organon.relationships.roles.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.relationships.roles.p2",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.relationships.roles.p3",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "organon.relationships.terms.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "incomplete",
+      "effective_status": "incomplete"
+    },
+    {
+      "id": "extensions.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "software-engineering.purpose.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "software-engineering.purpose.p2",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "software-engineering.purpose.p3",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "software-engineering.evolution-priority.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "software-engineering.evolution-priority.p2",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "software-engineering.evolution-priority.p3",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "software-engineering.evolution-meaning.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "software-engineering.evolution-meaning.p2",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "software-engineering.structural-judgment.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "software-engineering.structural-judgment.p2",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "software-engineering.structural-judgment.p3",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "software-engineering.revision.p1",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    },
+    {
+      "id": "software-engineering.revision.p2",
+      "kernel": "passed",
+      "reported_fidelity": "partial",
+      "reported_status": "limited",
+      "effective_status": "limited"
+    }
+  ],
+  "manifest_sha256": "8ad14b42a35afa6709255638c23167ffc8b60b5678bfc7e4f88ae657e9bcfec4",
+  "proof_targets": {
+    "sha256": "19184f5f301fb5a2f156d09a1d5b4fee5f9e8e9bbc96fdc5fbbc9ccb426287bb",
+    "complete": true,
+    "semantic_status": "not_evaluated",
+    "entries": [
+      {
+        "id": "T01",
+        "kind": "boundary",
+        "reported_status": "accepted",
+        "declarations": []
+      },
+      {
+        "id": "T02",
+        "kind": "specification",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Adopted.generationSpecification",
+          "CoreReader.Adopted.generationCases"
+        ]
+      },
+      {
+        "id": "T03",
+        "kind": "nonentailment",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Adopted.generationLimits012"
+        ]
+      },
+      {
+        "id": "T04",
+        "kind": "specification",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Adopted.consistencySpecification",
+          "CoreReader.Adopted.consistencyCases"
+        ]
+      },
+      {
+        "id": "T05",
+        "kind": "theorem",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Adopted.consistencyConsequences",
+          "CoreReader.Adopted.consistencyCases"
+        ]
+      },
+      {
+        "id": "T06",
+        "kind": "nonentailment",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Adopted.consistencyLimits012"
+        ]
+      },
+      {
+        "id": "T07",
+        "kind": "specification",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Adopted.reflexivitySpecification",
+          "CoreReader.Adopted.reflexivityCases012"
+        ]
+      },
+      {
+        "id": "T08",
+        "kind": "nonentailment",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Adopted.reflexivityLimits012"
+        ]
+      },
+      {
+        "id": "T09",
+        "kind": "specification",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Adopted.Grounds012",
+          "CoreReader.Adopted.groundsCases012"
+        ]
+      },
+      {
+        "id": "T10",
+        "kind": "specification",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Adopted.empiricalSpecification",
+          "CoreReader.Adopted.empiricalCases012"
+        ]
+      },
+      {
+        "id": "T11",
+        "kind": "specification",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Adopted.inferentialSpecification",
+          "CoreReader.Adopted.inferentialCases012"
+        ]
+      },
+      {
+        "id": "T12",
+        "kind": "specification",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Adopted.valueSpecification",
+          "CoreReader.Adopted.valueCases012"
+        ]
+      },
+      {
+        "id": "T13",
+        "kind": "nonentailment",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Adopted.groundsLimits012"
+        ]
+      },
+      {
+        "id": "T14",
+        "kind": "specification",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Adopted.scopeSpecification",
+          "CoreReader.Adopted.scopeCases012"
+        ]
+      },
+      {
+        "id": "T15",
+        "kind": "nonentailment",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Adopted.scopeLimits012"
+        ]
+      },
+      {
+        "id": "T16",
+        "kind": "specification",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Adopted.capabilitySpecification",
+          "CoreReader.Adopted.capabilityCases012"
+        ]
+      },
+      {
+        "id": "T17",
+        "kind": "nonentailment",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Adopted.capabilityLimits012"
+        ]
+      },
+      {
+        "id": "T18",
+        "kind": "specification",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Adopted.choiceSpecification",
+          "CoreReader.Adopted.choiceCases012"
+        ]
+      },
+      {
+        "id": "T19",
+        "kind": "nonentailment",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Adopted.choiceLimits012"
+        ]
+      },
+      {
+        "id": "T20",
+        "kind": "theorem",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Engineering.inheritedMutualApplication",
+          "CoreReader.Engineering.inheritedMutualCases"
+        ]
+      },
+      {
+        "id": "T21",
+        "kind": "boundary",
+        "reported_status": "accepted",
+        "declarations": []
+      },
+      {
+        "id": "T22",
+        "kind": "specification",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Engineering.ActivityScope",
+          "CoreReader.Engineering.subjectLifecycleCases"
+        ]
+      },
+      {
+        "id": "T23",
+        "kind": "nonentailment",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Engineering.subjectLimits"
+        ]
+      },
+      {
+        "id": "T24",
+        "kind": "specification",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Engineering.EvolutionPriority",
+          "CoreReader.Engineering.priorityConditionsCases"
+        ]
+      },
+      {
+        "id": "T25",
+        "kind": "theorem",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Engineering.priorityWhenApplicable",
+          "CoreReader.Engineering.priorityChoices"
+        ]
+      },
+      {
+        "id": "T26",
+        "kind": "specification",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Engineering.CredibleDirection",
+          "CoreReader.Engineering.credibilityCases"
+        ]
+      },
+      {
+        "id": "T27",
+        "kind": "nonentailment",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Engineering.credibilityLimits"
+        ]
+      },
+      {
+        "id": "T28",
+        "kind": "specification",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Engineering.JustifiedDeparture",
+          "CoreReader.Engineering.costCases"
+        ]
+      },
+      {
+        "id": "T29",
+        "kind": "specification",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Engineering.EvolutionClaim",
+          "CoreReader.Engineering.evolutionKindsCases"
+        ]
+      },
+      {
+        "id": "T30",
+        "kind": "nonentailment",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Engineering.evolutionDimensionsLimits"
+        ]
+      },
+      {
+        "id": "T31",
+        "kind": "specification",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Engineering.StructuralAccount",
+          "CoreReader.Engineering.structuralCases"
+        ]
+      },
+      {
+        "id": "T32",
+        "kind": "nonentailment",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Engineering.structureNotCapability"
+        ]
+      },
+      {
+        "id": "T33",
+        "kind": "specification",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Engineering.ContractChangeAccount",
+          "CoreReader.Engineering.contractCases"
+        ]
+      },
+      {
+        "id": "T34",
+        "kind": "theorem",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Engineering.contractPreservation",
+          "CoreReader.Engineering.contractDistinctions"
+        ]
+      },
+      {
+        "id": "T35",
+        "kind": "specification",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Engineering.RevisionAccount",
+          "CoreReader.Engineering.revisionCases"
+        ]
+      },
+      {
+        "id": "T36",
+        "kind": "nonentailment",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Engineering.revisionLimits"
+        ]
+      },
+      {
+        "id": "T37",
+        "kind": "theorem",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Engineering.priorityRemainsReflexive",
+          "CoreReader.Engineering.priorityReflexiveCases"
+        ]
+      },
+      {
+        "id": "T38",
+        "kind": "satisfiability",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Engineering.jointWitness"
+        ]
+      },
+      {
+        "id": "T39",
+        "kind": "nonentailment",
+        "reported_status": "accepted",
+        "declarations": [
+          "CoreReader.Engineering.inheritedDoesNotEntailPriority"
+        ]
+      },
+      {
+        "id": "T40",
+        "kind": "boundary",
+        "reported_status": "accepted",
+        "declarations": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "utc": "2026-09-14T18:51:11.516847+00:00",
+  "prior_independent_json_sha256": "9b3fb49a28d4e658ac6b5b9b8c89aadb82d246d04a53ba6b9e7087d6e1c8df4b",
+  "preserves_independent_r1": true,
+  "comparison_inputs": {
+    "reader-independent-source-review-r1.md": "2933d9049854ac3905a75493cecde9e72689a6883f337ca5f1da3f4da1ac8096",
+    "reader-independent-source-review-r2-components.md": "998c8a9aca43571ec4e094ef49d3b6e19c026f82f62aae2e727743812e1e0588",
+    "reader-independent-domain-r1.md": "2c411fb38eef7f4637c9c243930b4f30029b059893056518607e767cd851dae8",
+    "reader-independent-domain-r1-granularity-clarification.json": "9d6c9b64c164a072203911b24ced32e9e32bf47a2d82a5706771934c5faa6f6a"
+  },
+  "corrections_to_own_r1": [
+    {
+      "item": "Question2",
+      "prior": "fixed-double responder fails at input3/multiplier1",
+      "corrected": "The encoded negative witness is multiplier3/input1. UnderstandingApplication012 quantifies forall multiplier input, and explainedWithoutVariationFails012 applies h.2.2 3 1; actual computed answer is2 against expected3.",
+      "effect": "The prior pair can also refute the universal claim, but is not the encoded witness. This corrects the answer and execution attribution; it does not change the bounded non-entailment conclusion."
+    },
+    {
+      "item": "Question6 and coverage conclusion",
+      "prior": "sampled EN/ZH sections preserve qualifications",
+      "corrected": "The initial read missed material overstatements in T35/T36 that the source/domain reviewers located. Corrected confidence is limited to the accurately checked claims; final global reader approval requires their actual prose corrections.",
+      "effect": "Do not treat all six answers or navigation success as proof of full reader semantic correctness."
+    }
+  ],
+  "comparison": [
+    {
+      "finding": "source R01 / T24",
+      "decision": "agree",
+      "ground": "Read Domain49–54,107–113,307–313: all listed participants and per-step knowledge/tools are required in the common nonempty path, plus actual nonempty identity/tool conditions. Short shorthand omitted recoverable premises.",
+      "scope": "target prose"
+    },
+    {
+      "finding": "source R02 / T29",
+      "decision": "agree",
+      "ground": "Read Domain556–575: EvolutionClaim has CanChange/contract/check/preserve-revise terms; actual transform equations are separate conjuncts.",
+      "scope": "target prose"
+    },
+    {
+      "finding": "source R03 and domain RD3 / T35",
+      "decision": "agree; missed in own initial read",
+      "ground": "Domain894–895 changes five material fields for one pair; Domain967–969 changes old and recordedOld. MaterialGroundsChanged is an OR, not isolated causal sufficiency or five separate trials.",
+      "scope": "target prose"
+    },
+    {
+      "finding": "source R04 / T36",
+      "decision": "agree; missed in own initial read",
+      "ground": "Already read/check revisionLimits: valid account, stable choice, considered criticism and bounded retention do not prove actual revisability. Other integrated self-application results must remain distinct.",
+      "scope": "target prose"
+    },
+    {
+      "finding": "source R05 / Adopted692,1314",
+      "decision": "agree",
+      "ground": "Read original source context: both are within a negated status-only choice claim; positive method-reason branch starts later.",
+      "scope": "2 repeated EN/ZH line explanations"
+    },
+    {
+      "finding": "domain RD1 / conditional safety limit",
+      "decision": "agree on source type; independent probe not rerun here",
+      "ground": "Domain353–357 only negate PriorityConditions; DomainSatisfied1034–1041 has no unconditional Meets term. This comparison uses the other reviewer actual unsafe-profile probe as separately attributed evidence.",
+      "scope": "3 line explanations; no claim code now rejects unsafe profiles"
+    },
+    {
+      "finding": "domain RD2 / insertOrdered",
+      "decision": "agree",
+      "ground": "Domain424 actual type has arbitrary List Nat input; sortedness is not a binder or enforced domain. This matches own Reflection DecidableEq finding: explanations must retain actual implicit premises and must not invent input premises.",
+      "scope": "line explanation"
+    },
+    {
+      "finding": "domain RD4 clarification",
+      "decision": "agree with narrowed necessity",
+      "ground": "Dispatch over Change/Burden is not merely a single branch. Repeated otherwise accurate match/filter block summaries may be less locally informative but do not automatically create new semantic or completion obligations. Locality refinements298–301/710–713 are optional quality improvements, not separate blockers.",
+      "scope": "2 necessary dispatch mappings; optional remainder"
+    },
+    {
+      "finding": "own R1–R3",
+      "decision": "retain",
+      "ground": "Other reviews do not contradict generated DecidableEq W premise, raw input owner freedom, or named boundary predicate distinction. Await rebuilt prose before closure.",
+      "scope": "reader prose only"
+    }
+  ],
+  "component_status": "Other source reviewer r2-components reports its five changes narrowly verified. Parent reports remaining Domain/root prose patches. This comparison does not claim to have verified those changed component bytes or current rebuilt four views; that is the next bounded scope.",
+  "method_implication": "Actual cases reveal content/explanation defects covered by existing source-faithfulness and reader rules; their existence alone does not justify adding a new method prohibition. Keep original two skills/checker recommendation unchanged on current bounded evidence. Six-dimensional limits retain different source, formal, empirical, value and reflective claims; reviewer agreement is not philosophical proof.",
+  "pending": [
+    "Final four-view hashes and changed-scope proof/code/manuscript comparison.",
+    "Fresh six actual lookups on final views; corrected multiplier/input answer.",
+    "V10 root ordinary-copy full public closure actual run; not established by V8 or this comparison."
+  ]
+}

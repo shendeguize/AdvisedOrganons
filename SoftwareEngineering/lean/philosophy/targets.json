@@ -1,0 +1,1991 @@
+{
+  "schema_version": 1,
+  "source_sha256": "adc8cce5ac55a5e3795f8806748603eb69d5695fa37bbe263bee20ac6c14a1a6",
+  "targets": [
+    {
+      "id": "T01",
+      "kind": "boundary",
+      "sources": [
+        {
+          "unit": "organon.preamble",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.preamble",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.charter.overview",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.overview",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.charter.overview",
+          "clause": "p3"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "extensions",
+          "clause": "p1"
+        }
+      ],
+      "statement": "Authority and roles: adopted commitments, no universal factual assertion or correctness proof; meanings and limits constrain quotation; charter and Grounds mutually constrain without hierarchy; rationale/skills add no philosophical duties; domain preference is additional.",
+      "premises": [
+        "Distinguish document role from deductive claims. No assumed metatheorem about all possible formalizations."
+      ],
+      "acceptance": "Trace every role sentence; do not turn absence of asserted deduction into a claimed impossibility theorem without a separately justified model. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [],
+      "required_cases": [],
+      "semantic_cases": []
+    },
+    {
+      "id": "T02",
+      "kind": "specification",
+      "sources": [
+        {
+          "unit": "organon.charter.overview",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.charter.overview",
+          "clause": "p3"
+        },
+        {
+          "unit": "organon.charter.self-transcendence",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.orientation",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.non-finality",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.terms",
+          "clause": "p1"
+        }
+      ],
+      "statement": "Self-transcendence requires valuing expansion of understanding and construction and keeping all existing organization, methods and principles open to being surpassed; justified stable acts remain permitted.",
+      "premises": [
+        "System/activity subject",
+        "current forms quantified without omitting principles",
+        "orientation is normative commitment, not empirical universality."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Adopted.generationSpecification",
+          "kind": "definition"
+        },
+        {
+          "name": "CoreReader.Adopted.generationCases",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Adopted.generationCases"
+      ],
+      "semantic_cases": [
+        "positive_valued_open_forms",
+        "negative_permission_only",
+        "positive_stability",
+        "external_collaboration"
+      ]
+    },
+    {
+      "id": "T03",
+      "kind": "nonentailment",
+      "sources": [
+        {
+          "unit": "organon.charter.self-transcendence.orientation",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.non-finality",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        }
+      ],
+      "statement": "Permission to change does not entail valuing expansion; valuing/open forms do not entail achieved progress, actual capability, independence, autonomous execution or self-improvement; output/term/abstraction counts or self-claims alone do not establish achievement.",
+      "premises": [
+        "Keep valuing, revisability, progress, support and autonomous properties distinct",
+        "ground actual achievement in a declared criterion independent of mere count/claim."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Adopted.generationLimits012",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Adopted.generationLimits012"
+      ],
+      "semantic_cases": [
+        "permission_without_value",
+        "orientation_without_progress",
+        "count_growth_without_capability",
+        "collaborative_nonautonomous_progress",
+        "claim_without_achievement",
+        "achievement_support_for_same_claim"
+      ]
+    },
+    {
+      "id": "T04",
+      "kind": "specification",
+      "sources": [
+        {
+          "unit": "organon.charter.consistency",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.charter.consistency.limits",
+          "clause": "p1"
+        }
+      ],
+      "statement": "All simultaneously held principles/judgments and their joint implications must avoid opposite conclusions on same question, assumptions, term meanings and scope; incompatible same-condition demands need revision/qualification; recorded change cannot be concealed.",
+      "premises": [
+        "Consequence over whole held set",
+        "explicit context equality",
+        "no per-principle-only substitute",
+        "distinguish held-at-time from historical union",
+        "change-report condition separate from consistency."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Adopted.consistencySpecification",
+          "kind": "definition"
+        },
+        {
+          "name": "CoreReader.Adopted.consistencyCases",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Adopted.consistencyCases"
+      ],
+      "semantic_cases": [
+        "joint_only_contradiction",
+        "changed_scope_not_concealed",
+        "revision_withdraws_old",
+        "incompatible_same_context"
+      ]
+    },
+    {
+      "id": "T05",
+      "kind": "theorem",
+      "sources": [
+        {
+          "unit": "organon.charter.consistency",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.charter.consistency.limits",
+          "clause": "p1"
+        }
+      ],
+      "statement": "Given faithful context identity and whole-set consequence, an opposite pair under the same context violates consistency; removing a prior judgment may eliminate the conflict without requiring permanent historical compatibility.",
+      "premises": [
+        "A consequence relation, positive/negative conclusions for same question, active-set membership, context equality",
+        "explicit withdrawal semantics",
+        "no explosion assumption needed."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Adopted.consistencyConsequences",
+          "kind": "theorem"
+        },
+        {
+          "name": "CoreReader.Adopted.consistencyCases",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Adopted.consistencyCases"
+      ],
+      "semantic_cases": [
+        "pair_conflict",
+        "joint_premise_conflict",
+        "old_new_separate_times",
+        "distinct_context_judgments",
+        "truthful_semantic_change_and_reordering"
+      ]
+    },
+    {
+      "id": "T06",
+      "kind": "nonentailment",
+      "sources": [
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.charter.consistency.limits",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        }
+      ],
+      "statement": "Different-condition disagreement and value tension alone do not entail contradiction; consistency does not entail true assumptions, adequacy or support for a compatible conclusion.",
+      "premises": [
+        "Concrete shared interpretation of truth/support and consequence",
+        "relevant omitted question represented",
+        "unsupported conclusion must demonstrably fail entailment, not merely have a false support flag."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Adopted.consistencyLimits012",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Adopted.consistencyLimits012"
+      ],
+      "semantic_cases": [
+        "different_contexts",
+        "tension_compatible",
+        "consistent_false_assumption",
+        "consistent_omitted_question",
+        "compatible_not_entailed"
+      ]
+    },
+    {
+      "id": "T07",
+      "kind": "specification",
+      "sources": [
+        {
+          "unit": "organon.charter.reflexivity",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.reflexivity.meaning",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.reflexivity.limits",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        }
+      ],
+      "statement": "Generation and assessment apply to system and principle formation/application/revision under their actual applicability conditions; self-status is no exemption; applicability is not universalized; Grounds grounds/limits and own capability claims are included.",
+      "premises": [
+        "Explicit target kinds for system, formation, application, revision",
+        "principle applicability and duties",
+        "nonempty applicable self-target and inapplicable pair",
+        "no endless-recursion requirement."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Adopted.reflexivitySpecification",
+          "kind": "definition"
+        },
+        {
+          "name": "CoreReader.Adopted.reflexivityCases012",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Adopted.reflexivityCases012"
+      ],
+      "semantic_cases": [
+        "self_applicable",
+        "self_inapplicable",
+        "principle_formation",
+        "principle_application",
+        "principle_revision",
+        "grounds_on_grounds"
+      ]
+    },
+    {
+      "id": "T08",
+      "kind": "nonentailment",
+      "sources": [
+        {
+          "unit": "organon.charter.reflexivity.limits",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds",
+          "clause": "p1"
+        }
+      ],
+      "statement": "Self-application or self-produced revision does not establish correctness or sufficient grounds; openness of forms does not by itself meet reflexivity. In the declared representation, one nonempty common context satisfies the complete represented Charter requirements but fails the represented general Grounds requirement for a concrete identified claim. This bounded example shows that chapter placement supplies no deductive support; it does not assert independence in every possible representation.",
+      "premises": [
+        "Assessment events/duties not truth",
+        "generation provenance not support",
+        "concrete countercase with a revisable but self-exempt assessment rule.",
+        "Complete represented Charter includes the specifications in T02, T04 and T07 with their applicability conditions.",
+        "General Grounds includes the T09 articulation, corresponding assessment and proportionality requirements. Failure must concern a concrete identified claim, grounds, scope and strength, with a substantive failed support relation, not an empty domain, missing record or freely assigned false label. Grounds is not assumed."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Adopted.reflexivityLimits012",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Adopted.reflexivityLimits012"
+      ],
+      "semantic_cases": [
+        "self_assessed_incorrect",
+        "self_generated_unsupported",
+        "open_but_self_exempt",
+        "charter_not_general_grounds"
+      ]
+    },
+    {
+      "id": "T09",
+      "kind": "specification",
+      "sources": [
+        {
+          "unit": "organon.grounds",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p3"
+        }
+      ],
+      "statement": "Grounds requires articulable concepts/assumptions/reasons/limits, assessment appropriate to claim nature, and strength/scope proportionate to supplied support. Articulation and assessment are distinct responsibilities.",
+      "premises": [
+        "Grounds tied to corresponding claim and context",
+        "explicit support relation, force and scope",
+        "no universal numeric scale or complete mutually exclusive taxonomy",
+        "Core 0.1.2 only."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Adopted.Grounds012",
+          "kind": "definition"
+        },
+        {
+          "name": "CoreReader.Adopted.groundsCases012",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Adopted.groundsCases012"
+      ],
+      "semantic_cases": [
+        "articulable_supported",
+        "articulable_unsupported",
+        "scope_overreach",
+        "strength_overreach"
+      ]
+    },
+    {
+      "id": "T10",
+      "kind": "specification",
+      "sources": [
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        }
+      ],
+      "statement": "Empirical assessment examines observations, evidence and performance and their support conditions, scope and uncertainty; measurability/repeatability is no replacement for relevance, correctness or value assessment.",
+      "premises": [
+        "Actual empirical content and relevant relation from observations to claim",
+        "measurement/repetition is evidence property, not automatic support",
+        "finite adapter remains limited."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Adopted.empiricalSpecification",
+          "kind": "definition"
+        },
+        {
+          "name": "CoreReader.Adopted.empiricalCases012",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Adopted.empiricalCases012"
+      ],
+      "semantic_cases": [
+        "observed_relevant",
+        "repeatable_irrelevant",
+        "measured_wrong_scope",
+        "uncertain_limited"
+      ]
+    },
+    {
+      "id": "T11",
+      "kind": "specification",
+      "sources": [
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        }
+      ],
+      "statement": "Inferential assessment examines whether conclusion follows/supports under stated assumptions and inferential relations; mere nonconflict cannot replace this examination.",
+      "premises": [
+        "A concrete inference semantics and countervaluation when lack of entailment is claimed",
+        "distinguish task of examination from successful conclusion."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Adopted.inferentialSpecification",
+          "kind": "definition"
+        },
+        {
+          "name": "CoreReader.Adopted.inferentialCases012",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Adopted.inferentialCases012"
+      ],
+      "semantic_cases": [
+        "valid_inference",
+        "compatible_unentailed",
+        "false_inference_detected"
+      ]
+    },
+    {
+      "id": "T12",
+      "kind": "specification",
+      "sources": [
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p3"
+        }
+      ],
+      "statement": "Value commitments identify position, reasons, applicability limits and consequences and stay open to relevant criticism; neither empirical/necessary-inference presentation nor self-assertion substitutes. Initial commitments need not prove all starting assumptions.",
+      "premises": [
+        "Stated value stance distinct from factual claims",
+        "reason interface without recursive proof demand",
+        "relevant criticism condition",
+        "qualitative support comparisons allowed."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Adopted.valueSpecification",
+          "kind": "definition"
+        },
+        {
+          "name": "CoreReader.Adopted.valueCases012",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Adopted.valueCases012"
+      ],
+      "semantic_cases": [
+        "reasoned_value",
+        "unsupported_self_assertion",
+        "closed_criticism",
+        "explicit_initial_commitment"
+      ]
+    },
+    {
+      "id": "T13",
+      "kind": "nonentailment",
+      "sources": [
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p3"
+        }
+      ],
+      "statement": "Articulability alone does not establish grounds; measurable/repeatable observations alone establish neither relevance, correctness nor value; a stated value commitment need not be empirical fact or necessary consequence, nor prove all its starting assumptions.",
+      "premises": [
+        "Concrete inadequacy criterion for each countercase",
+        "avoid defining insufficient support as missing record only",
+        "empirical/inferential/value readings not made exhaustive or exclusive."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Adopted.groundsLimits012",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Adopted.groundsLimits012"
+      ],
+      "semantic_cases": [
+        "clear_false_reason",
+        "repeatable_wrong_object",
+        "value_not_fact",
+        "initial_value_without_selfproof",
+        "qualitative_proportionality"
+      ]
+    },
+    {
+      "id": "T14",
+      "kind": "specification",
+      "sources": [
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p3"
+        }
+      ],
+      "statement": "Performance/comparison judgments state relevant relations, conditions and observation scope; scope omission cannot establish absence of relevant differences; roles of measurement, repetition and framework are explained relative to claim/context.",
+      "premises": [
+        "Local and broader scopes and relevance relation distinct",
+        "explanation of actually used method does not require all three methods universally."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Adopted.scopeSpecification",
+          "kind": "definition"
+        },
+        {
+          "name": "CoreReader.Adopted.scopeCases012",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Adopted.scopeCases012"
+      ],
+      "semantic_cases": [
+        "local_scope_declared",
+        "omitted_relevant_difference",
+        "measurement_role",
+        "repetition_role",
+        "framework_role"
+      ]
+    },
+    {
+      "id": "T15",
+      "kind": "nonentailment",
+      "sources": [
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p3"
+        },
+        {
+          "unit": "organon.grounds.implementations.limits",
+          "clause": "p1"
+        }
+      ],
+      "statement": "Local equal performance does not entail global equivalence/unconditional universality; omitting a difference does not establish its nonexistence. Limited unreproduced support and variable random outcomes are possible without a universal measurement→repeatability→framework chain.",
+      "premises": [
+        "Explicit nonempty local and broader domains, shared observations and relation",
+        "verifiability, reproducible conditions and stable conclusions modeled separately",
+        "unreproduced is not necessarily irreproducible."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Adopted.scopeLimits012",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Adopted.scopeLimits012"
+      ],
+      "semantic_cases": [
+        "equal_local_different_global",
+        "excluded_difference",
+        "one_observation_limited_support",
+        "varying_random_outcomes",
+        "qualitative_unmeasured_judgment"
+      ]
+    },
+    {
+      "id": "T16",
+      "kind": "specification",
+      "sources": [
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        }
+      ],
+      "statement": "Capability claim identifies capability, conditions and support under Grounds; applications choose relevant capability definitions and may require understanding/explanation/variation. External assessors may provide grounds; own-system claims receive same relevant duties.",
+      "premises": [
+        "Claim-indexed capability, externally supplied support and actual scope",
+        "no universal capability levels or introspective requirement."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Adopted.capabilitySpecification",
+          "kind": "definition"
+        },
+        {
+          "name": "CoreReader.Adopted.capabilityCases012",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Adopted.capabilityCases012"
+      ],
+      "semantic_cases": [
+        "external_output_capability",
+        "application_requires_understanding",
+        "own_capability_assessment"
+      ]
+    },
+    {
+      "id": "T17",
+      "kind": "nonentailment",
+      "sources": [
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p2"
+        }
+      ],
+      "statement": "Reliable output or artifact/document/tool/term count alone does not establish internal-process understanding or stronger capability; articulable external grounds do not imply that assessed system understands/explains generation.",
+      "premises": [
+        "Concrete task success and independent understanding criterion",
+        "external reasons not silently attributed to internal subject",
+        "scope escalation displayed."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Adopted.capabilityLimits012",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Adopted.capabilityLimits012"
+      ],
+      "semantic_cases": [
+        "reliable_opaque_generator",
+        "high_count_no_stronger_capability",
+        "externally_articulated_no_introspection"
+      ]
+    },
+    {
+      "id": "T18",
+      "kind": "specification",
+      "sources": [
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.implementations.limits",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        }
+      ],
+      "statement": "Implementation priority needs reasons connected to objectives, values and relevant constraints; name/convention/status alone insufficient. Internal method explanation, applicability limits, simplicity/process requirements may count; conventional options may win on relevant grounds, including this philosophy's existing form.",
+      "premises": [
+        "Reason relevance to particular choice",
+        "provenance alone distinct from practical familiarity/support",
+        "no rule that internal reasons are always decisive."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Adopted.choiceSpecification",
+          "kind": "definition"
+        },
+        {
+          "name": "CoreReader.Adopted.choiceCases012",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Adopted.choiceCases012"
+      ],
+      "semantic_cases": [
+        "named_only_rejected",
+        "conventional_grounded_priority",
+        "method_internal_reason",
+        "own_philosophy_status_only"
+      ]
+    },
+    {
+      "id": "T19",
+      "kind": "nonentailment",
+      "sources": [
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.implementations.limits",
+          "clause": "p1"
+        }
+      ],
+      "statement": "Openness neither makes alternatives equivalent nor ensures multiple feasible implementations, excludes conventional choices or excludes internal-method reasons. Local performance equality does not settle whole choice. The added choice priority rule is not inferred from the represented general requirement to assess reasons; this inherited limited assessment relation is distinct from the stronger domain nonentailment in T39.",
+      "premises": [
+        "Concrete feasible option set and grounded comparison",
+        "at least one positive witness with a single feasible conventional option",
+        "distinct global consequences."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Adopted.choiceLimits012",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Adopted.choiceLimits012"
+      ],
+      "semantic_cases": [
+        "single_feasible_conventional",
+        "internal_reason_distinguishes",
+        "unequal_open_options",
+        "local_equal_global_difference",
+        "added_choice_not_from_general_assessment"
+      ]
+    },
+    {
+      "id": "T20",
+      "kind": "theorem",
+      "sources": [
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        }
+      ],
+      "statement": "Under jointly satisfied inherited commitments and actual applicability, own principles/assessment methods/grounds/capability judgments inherit their corresponding generation, consistency and support duties without self-proof or removal of conditions.",
+      "premises": [
+        "Same subject/context, shared principle/object identifiers, applicability",
+        "reflexivity interface connected to concrete Grounds/choice/capability obligations",
+        "no isolated conjunction of unrelated models."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Engineering.inheritedMutualApplication",
+          "kind": "theorem"
+        },
+        {
+          "name": "CoreReader.Engineering.inheritedMutualCases",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Engineering.inheritedMutualCases"
+      ],
+      "semantic_cases": [
+        "own_grounds_articulable",
+        "own_capability_supported",
+        "own_choice_not_status_only",
+        "relevant_self_application"
+      ]
+    },
+    {
+      "id": "T21",
+      "kind": "boundary",
+      "sources": [
+        {
+          "unit": "organon.relationships.terms",
+          "clause": "p1"
+        }
+      ],
+      "statement": "Existing form includes organization/methods/principles. Assessment is examination of reasons, applicability and observed performance and is not limited to executable testing.",
+      "premises": [
+        "Definitions constrain every related model, including review subjects",
+        "no claim every assessment executes every listed operation when inapplicable."
+      ],
+      "acceptance": "Review formal object taxonomy and assessment relation for excluded source meanings; record any finite-enumeration limits. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [],
+      "required_cases": [],
+      "semantic_cases": []
+    },
+    {
+      "id": "T22",
+      "kind": "specification",
+      "sources": [
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "p3"
+        }
+      ],
+      "statement": "Domain subject is continuing engineering activity by current/successor human or agent maintainers with software/tools/knowledge across credible lifecycle; priority applicability reflects actual lifecycle/maintenance expectations, not labels or artifact intrinsic orientation.",
+      "premises": [
+        "Subject/maintainer roles, credible lifecycle grounds, activity versus artifact",
+        "temporary/prototype/retiring contexts considered conditionally, not blanket exemption by name."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Engineering.ActivityScope",
+          "kind": "definition"
+        },
+        {
+          "name": "CoreReader.Engineering.subjectLifecycleCases",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Engineering.subjectLifecycleCases"
+      ],
+      "semantic_cases": [
+        "successor_maintainer",
+        "agent_maintainer",
+        "continuing_labeled_temporary",
+        "genuinely_temporary",
+        "bounded_prototype",
+        "retiring_system"
+      ]
+    },
+    {
+      "id": "T23",
+      "kind": "nonentailment",
+      "sources": [
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "p3"
+        }
+      ],
+      "statement": "Original-author editability does not establish continuing-maintainer evolution capability; calling a continuing system temporary does not establish genuinely bounded lifecycle; adopted human/agent orientation does not entail every artifact has it.",
+      "premises": [
+        "Concrete edit/understand/verify paths scoped by maintainer knowledge",
+        "lifecycle evidence distinct from label",
+        "actual continuing example."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Engineering.subjectLimits",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Engineering.subjectLimits"
+      ],
+      "semantic_cases": [
+        "author_only_private_knowledge",
+        "successor_missing_path",
+        "false_temporary_label",
+        "passive_artifact"
+      ]
+    },
+    {
+      "id": "T24",
+      "kind": "specification",
+      "sources": [
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "p3"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p3"
+        }
+      ],
+      "statement": "When credible lifecycle/maintenance scope and relevant behavioral, safety, performance and other necessary requirements hold, favor continuing-maintainer credible future change capability including design revision over present abstraction simplicity; accept purpose-linked added complexity; allow yielding only when added costs threaten concrete objectives, with objective/cost account.",
+      "premises": [
+        "Explicit options, same engineering context, feasible requirements, supported credible change set, comparative evolution advantage, simplicity/complexity tradeoff, threat and departure explanation",
+        "no unconditional maximization or numeric exchange rate."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Engineering.EvolutionPriority",
+          "kind": "definition"
+        },
+        {
+          "name": "CoreReader.Engineering.priorityConditionsCases",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Engineering.priorityConditionsCases"
+      ],
+      "semantic_cases": [
+        "ordinary_priority",
+        "missing_behavior",
+        "missing_safety",
+        "missing_performance",
+        "missing_other_necessary",
+        "concrete_cost_override",
+        "unexplained_departure",
+        "no_extensibility_maximum"
+      ]
+    },
+    {
+      "id": "T25",
+      "kind": "theorem",
+      "sources": [
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p3"
+        }
+      ],
+      "statement": "For a context meeting all priority conditions, with a credible evolution advantage over a simpler feasible option and no concrete cost threat, domain satisfaction requires the evolution-favoring choice/priority and acceptance of its relevant additional complexity.",
+      "premises": [
+        "Every T24 premise explicit, adopted domain rule as normative premise",
+        "preference compliance separate from act of assessment and universal goodness. Do not infer adoption from Core alone."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Engineering.priorityWhenApplicable",
+          "kind": "theorem"
+        },
+        {
+          "name": "CoreReader.Engineering.priorityChoices",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Engineering.priorityChoices"
+      ],
+      "semantic_cases": [
+        "applicable_choose_evolution",
+        "applicable_choose_simple_violates_domain",
+        "threat_allows_departure_with_account"
+      ]
+    },
+    {
+      "id": "T26",
+      "kind": "specification",
+      "sources": [
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p3"
+        }
+      ],
+      "statement": "Credible change direction has articulable grounds (examples are plan/domain knowledge/history, not an exhaustive required list), remains revisable, and needs no existing multiple implementations. Conceivability alone cannot justify present accommodation.",
+      "premises": [
+        "Grounds for direction and present investment separately",
+        "applicability of history/knowledge",
+        "no Boolean label replacing content of supporting plan."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Engineering.CredibleDirection",
+          "kind": "definition"
+        },
+        {
+          "name": "CoreReader.Engineering.credibilityCases",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Engineering.credibilityCases"
+      ],
+      "semantic_cases": [
+        "committed_plan_one_implementation",
+        "domain_knowledge",
+        "applicable_history",
+        "conceivable_only",
+        "revised_forecast"
+      ]
+    },
+    {
+      "id": "T27",
+      "kind": "nonentailment",
+      "sources": [
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p3"
+        }
+      ],
+      "statement": "Conceivable change alone does not entail warranted accommodation; credible change does not entail multiple existing implementations, maximal extensibility, retention of every possibility or universal numerical exchange rate.",
+      "premises": [
+        "Nonempty supported direction and explicit alternative irrelevant direction",
+        "finite priority/qualitative comparison",
+        "credibility independent of current multiplicity."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Engineering.credibilityLimits",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Engineering.credibilityLimits"
+      ],
+      "semantic_cases": [
+        "one_implementation_credible",
+        "imagined_unwarranted",
+        "selective_evolution",
+        "qualitative_tradeoff"
+      ]
+    },
+    {
+      "id": "T28",
+      "kind": "specification",
+      "sources": [
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p3"
+        }
+      ],
+      "statement": "Cost/departure account admits understanding, construction, diagnosis, verification, coordination, operation and eventual migration burdens and identifies threatened objective and causal significance of added cost.",
+      "premises": [
+        "Do not require every burden be material in every case",
+        "costs attached to candidate/context and concrete objective, not free exception flag."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Engineering.JustifiedDeparture",
+          "kind": "definition"
+        },
+        {
+          "name": "CoreReader.Engineering.costCases",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Engineering.costCases"
+      ],
+      "semantic_cases": [
+        "understanding_threat",
+        "construction_threat",
+        "diagnosis_threat",
+        "verification_threat",
+        "coordination_threat",
+        "operation_threat",
+        "migration_threat",
+        "unsupported_cost_excuse"
+      ]
+    },
+    {
+      "id": "T29",
+      "kind": "specification",
+      "sources": [
+        {
+          "unit": "software-engineering.evolution-meaning",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.evolution-meaning",
+          "clause": "p2"
+        }
+      ],
+      "statement": "Evolution includes capability addition, implementation replacement, mechanism deletion, abstraction withdrawal, boundary redrawing and technology/model migration; claims identify relevant changes and maintainer conditions; independent/coordinated changes and preserved/revised obligations may require different structures.",
+      "premises": [
+        "Nonexhaustive source include-list",
+        "identified capability relation indexed by change, context and maintainer",
+        "obligation semantics tracked."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Engineering.EvolutionClaim",
+          "kind": "definition"
+        },
+        {
+          "name": "CoreReader.Engineering.evolutionKindsCases",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Engineering.evolutionKindsCases"
+      ],
+      "semantic_cases": [
+        "addition",
+        "replacement",
+        "deletion",
+        "withdrawal",
+        "redrawing",
+        "migration",
+        "independent",
+        "coordinated",
+        "preserve_obligation",
+        "revise_obligation"
+      ]
+    },
+    {
+      "id": "T30",
+      "kind": "nonentailment",
+      "sources": [
+        {
+          "unit": "software-engineering.evolution-meaning",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.evolution-meaning",
+          "clause": "p2"
+        }
+      ],
+      "statement": "Cheap/effective additions within fixed scheme do not entail equal ability to revise/leave it; advantage on one dimension does not entail every dimension; no duty to make every change inexpensive.",
+      "premises": [
+        "Concrete change-work or enabled-path relation producing add/exit contrast and independent/coordinated contrast",
+        "no arbitrary unsupported capability flags."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Engineering.evolutionDimensionsLimits",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Engineering.evolutionDimensionsLimits"
+      ],
+      "semantic_cases": [
+        "easy_add_hard_exit",
+        "independent_easy_coordinated_hard",
+        "some_change_expensive_permitted"
+      ]
+    },
+    {
+      "id": "T31",
+      "kind": "specification",
+      "sources": [
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "p2"
+        }
+      ],
+      "statement": "Structural choice applies to whole relevant engineering consequences: component relations, observable contracts, understanding and verification work; boundary capability needs support for intended changes; propagation/cross-boundary knowledge and obligations/fixed assumptions/withdrawal are possible comparison inquiries.",
+      "premises": [
+        "Whole relevant scope rather than every imaginable consequence",
+        "may-examine inquiries are not compulsory universal checklist",
+        "intended change and boundary support relation explicit."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Engineering.StructuralAccount",
+          "kind": "definition"
+        },
+        {
+          "name": "CoreReader.Engineering.structuralCases",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Engineering.structuralCases"
+      ],
+      "semantic_cases": [
+        "contract_and_work_comparison",
+        "propagation_relation",
+        "cross_boundary_obligation",
+        "fixed_assumption",
+        "withdrawal_cost"
+      ]
+    },
+    {
+      "id": "T32",
+      "kind": "nonentailment",
+      "sources": [
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "p2"
+        }
+      ],
+      "statement": "Interface shape, module/extension-point count, named principle or boundary introduction alone cannot establish claimed evolution capability or easier intended change.",
+      "premises": [
+        "Executable or finite semantic consequence model links shape to behavior and work to change",
+        "demonstrate missing capability by contract/propagation/work failure rather than named false flag."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Engineering.structureNotCapability",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Engineering.structureNotCapability"
+      ],
+      "semantic_cases": [
+        "same_shape_broken_order",
+        "many_modules_shared_obligation",
+        "named_pattern_no_change_path",
+        "new_boundary_same_work"
+      ]
+    },
+    {
+      "id": "T33",
+      "kind": "specification",
+      "sources": [
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "p3"
+        }
+      ],
+      "statement": "Distinguish preserving an identified observable contract from deliberately revising it; deliberate revision accounts for changed obligations and affected parties; no requirement to preserve every historical behavior or use particular tests/migration procedure.",
+      "premises": [
+        "Identified contract and observations, deliberate revision intent, obligations/affected parties mapping",
+        "preservation scope explicit",
+        "changes outside scope not silently violations."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Engineering.ContractChangeAccount",
+          "kind": "definition"
+        },
+        {
+          "name": "CoreReader.Engineering.contractCases",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Engineering.contractCases"
+      ],
+      "semantic_cases": [
+        "preserve_identified_contract",
+        "deliberate_revision_with_account",
+        "revision_missing_parties",
+        "retired_historical_behavior",
+        "alternative_procedure"
+      ]
+    },
+    {
+      "id": "T34",
+      "kind": "theorem",
+      "sources": [
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "p3"
+        }
+      ],
+      "statement": "Given equality of all identified contract observations in scope, a transformation preserves that identified contract; deliberate changed in-scope observations cannot be claimed preservation of that same contract and require revised-obligation/party account under domain satisfaction.",
+      "premises": [
+        "Contract semantics and scope, total behavior on registered domain, at least one explicit distinguishing observation for revision, domain rule",
+        "finite examples reported finite."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Engineering.contractPreservation",
+          "kind": "theorem"
+        },
+        {
+          "name": "CoreReader.Engineering.contractDistinctions",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Engineering.contractDistinctions"
+      ],
+      "semantic_cases": [
+        "order_preserving_refactor",
+        "sorted_order_revision",
+        "changed_failure_obligation",
+        "outside_scope_difference"
+      ]
+    },
+    {
+      "id": "T35",
+      "kind": "specification",
+      "sources": [
+        {
+          "unit": "software-engineering.revision",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.revision",
+          "clause": "p1"
+        }
+      ],
+      "statement": "Changed evidence about expected changes, maintenance conditions, costs/objectives can justify revised design/priority application; revised judgment acknowledges material grounds changes and cannot retroactively relabel failed prediction success. Retention may be justified by alternatives lacking contribution or defeating objectives.",
+      "premises": [
+        "Separate old/new evidence/time, prediction outcome and judgment, permission versus compulsory redesign",
+        "applicable alternatives and objective explicit."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Engineering.RevisionAccount",
+          "kind": "definition"
+        },
+        {
+          "name": "CoreReader.Engineering.revisionCases",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Engineering.revisionCases"
+      ],
+      "semantic_cases": [
+        "revised_change_forecast",
+        "changed_maintainers",
+        "changed_cost",
+        "changed_objective",
+        "failed_prediction_preserved",
+        "justified_retention"
+      ]
+    },
+    {
+      "id": "T36",
+      "kind": "nonentailment",
+      "sources": [
+        {
+          "unit": "software-engineering.revision",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.revision",
+          "clause": "p1"
+        }
+      ],
+      "statement": "Revised judgment cannot make past failed prediction true; continued change, agreement and successful examples do not establish universal correctness; justified retention is compatible with domain/reflexive revision openness.",
+      "premises": [
+        "Time-indexed prediction semantics invariant under report revision",
+        "finite successes with explicit broader failure",
+        "activity is open to criticism while choosing stability now."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Engineering.revisionLimits",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Engineering.revisionLimits"
+      ],
+      "semantic_cases": [
+        "past_failure_not_rewritten",
+        "agreement_with_bad_case",
+        "local_success_global_failure",
+        "open_stable_design"
+      ]
+    },
+    {
+      "id": "T37",
+      "kind": "theorem",
+      "sources": [
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        },
+        {
+          "unit": "extensions",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.revision",
+          "clause": "p2"
+        }
+      ],
+      "statement": "With inherited and domain satisfaction in a shared applicable context, the priority and evolution-assessment methods remain objects of grounds, consistency and reflexive criticism/revision; domain success cannot exempt its rule.",
+      "premises": [
+        "Same domain-rule object assessed via inherited predicates",
+        "explicit relevant applicability",
+        "user adoption choice distinguished from metalevel correctness."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Engineering.priorityRemainsReflexive",
+          "kind": "theorem"
+        },
+        {
+          "name": "CoreReader.Engineering.priorityReflexiveCases",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Engineering.priorityReflexiveCases"
+      ],
+      "semantic_cases": [
+        "priority_self_assessment",
+        "method_self_criticism",
+        "no_selfproof_from_success"
+      ]
+    },
+    {
+      "id": "T38",
+      "kind": "satisfiability",
+      "sources": [
+        {
+          "unit": "organon.charter.overview",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.charter.overview",
+          "clause": "p3"
+        },
+        {
+          "unit": "organon.charter.self-transcendence",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.orientation",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.non-finality",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.charter.consistency",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.consistency.meaning",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.charter.consistency.limits",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.reflexivity",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.reflexivity.meaning",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.charter.reflexivity.limits",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p3"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p3"
+        },
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.implementations.limits",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        },
+        {
+          "unit": "extensions",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "p3"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p3"
+        },
+        {
+          "unit": "software-engineering.evolution-meaning",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.evolution-meaning",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "p3"
+        },
+        {
+          "unit": "software-engineering.revision",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.revision",
+          "clause": "p2"
+        }
+      ],
+      "statement": "USER ADDITIONAL STRONG OBJECTIVE: one content-bearing nonempty system/context jointly satisfies every represented inherited and domain commitment, with a continuing lifecycle, actual applicable priority and evolution chosen despite additional present abstraction complexity.",
+      "premises": [
+        "Common context/subjects/claims/reasons/alternatives",
+        "shared nontrivial consequence relation",
+        "actual empirical/inferential/value duties relevant and fulfilled where represented",
+        "successor+agent maintenance pathways, credible design-change direction, satisfied necessary requirements, no defeating cost threat. Whole Inherited and Domain interfaces used, not subset."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Engineering.jointWitness",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Engineering.jointWitness"
+      ],
+      "semantic_cases": [
+        "joint_all_inherited_and_domain",
+        "same_context_identity",
+        "nonempty_claims_and_principles",
+        "active_evolution_priority",
+        "content_bearing_maintainer_change"
+      ]
+    },
+    {
+      "id": "T39",
+      "kind": "nonentailment",
+      "sources": [
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        },
+        {
+          "unit": "extensions",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p3"
+        }
+      ],
+      "statement": "USER ADDITIONAL STRONG OBJECTIVE: a countermodel satisfies all represented inherited commitments while genuine domain-priority applicability holds and domain evolution priority is not adopted; proves non-entailment in the disclosed representation.",
+      "premises": [
+        "Same common context as all inherited duties",
+        "continuing lifecycle (not temporary), supported credible evolution advantage including design revision, requirements satisfied, no concrete defeating cost threat, present-simplicity preference actually selected/adopted, grounded alternative value reasons consistent with Core, assessment not substituted for adoption."
+      ],
+      "acceptance": "Preserve every stated branch and premise; inspect actual Lean types/dependencies; provide all named positive/negative cases with semantic relevance; independent source fidelity acceptance required. A specification alone proves no fulfillment. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [
+        {
+          "name": "CoreReader.Engineering.inheritedDoesNotEntailPriority",
+          "kind": "case"
+        }
+      ],
+      "required_cases": [
+        "CoreReader.Engineering.inheritedDoesNotEntailPriority"
+      ],
+      "semantic_cases": [
+        "all_inherited_applicable_domain_not_adopted",
+        "no_temporary_escape",
+        "no_cost_escape",
+        "genuine_priority_failure",
+        "inherited_grounds_for_other_value"
+      ]
+    },
+    {
+      "id": "T40",
+      "kind": "boundary",
+      "sources": [
+        {
+          "unit": "organon.preamble",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.preamble",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.charter.self-transcendence.limits",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.assessment",
+          "clause": "p3"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.scope",
+          "clause": "p3"
+        },
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.capabilities",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.grounds.implementations",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p1"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p2"
+        },
+        {
+          "unit": "organon.relationships.roles",
+          "clause": "p3"
+        },
+        {
+          "unit": "extensions",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.purpose",
+          "clause": "p3"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.evolution-priority",
+          "clause": "p3"
+        },
+        {
+          "unit": "software-engineering.evolution-meaning",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.evolution-meaning",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "p2"
+        },
+        {
+          "unit": "software-engineering.structural-judgment",
+          "clause": "p3"
+        },
+        {
+          "unit": "software-engineering.revision",
+          "clause": "p1"
+        },
+        {
+          "unit": "software-engineering.revision",
+          "clause": "p2"
+        }
+      ],
+      "statement": "Formal specification/conditional proofs and finite witnesses do not establish empirical adequacy of lifecycle forecasts, support relevance, future maintainability, value superiority or universal philosophical correctness; representation choices remain disclosed and revisable.",
+      "premises": [
+        "Every conditional result carries full mathematical premises",
+        "finite cases and source correspondence judgments are separate",
+        "difficult agreed theorem cannot be reclassified boundary to claim completion."
+      ],
+      "acceptance": "Review manuscript distinction of normative expression, fulfillment witness, mathematical entailment, empirical support and adoption; retain unresolved material readings and every unfinished target. All semantic_cases below remain required even when one checked declaration proves several together. Preserve the source-first case meanings; any actual scope change requires a separately recorded user decision.",
+      "required_declarations": [],
+      "required_cases": [],
+      "semantic_cases": []
+    }
+  ],
+  "composition_scope": {
+    "inherited_specifications": [
+      "T02",
+      "T04",
+      "T07",
+      "T09",
+      "T10",
+      "T11",
+      "T12",
+      "T14",
+      "T16",
+      "T18"
+    ],
+    "inherited_relations_and_terms": [
+      "T20",
+      "T21"
+    ],
+    "domain_specifications": [
+      "T22",
+      "T24",
+      "T26",
+      "T28",
+      "T29",
+      "T31",
+      "T33",
+      "T35"
+    ],
+    "domain_reflexivity": "T37",
+    "application": "T38 jointly satisfies every represented applicable inherited and domain obligation on one concrete context. T39 satisfies every inherited obligation with actual domain applicability and no cost exception, but declines the additional priority. Limits and permissions remain intact; not every possible cost or condition must apply in each instance."
+  }
+}

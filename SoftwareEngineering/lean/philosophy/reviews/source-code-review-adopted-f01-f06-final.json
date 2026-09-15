@@ -1,0 +1,42 @@
+{
+  "schema": "independent-repair-review-v1",
+  "reviewer": "/root/se_source_first",
+  "phase": "informed bounded repair review",
+  "candidate": "private software-engineering iteration records/Adopted-nature-candidate-04.lean",
+  "code_sha256": "68bb96c35553bf83d0e3a915d1cca0c72b8097670626e32046bf53af5d0bc773",
+  "findings": [
+    {
+      "id": "F01",
+      "status": "resolved",
+      "scope": "explicit fixed-task sufficient content adapter; Root task identity not reviewed"
+    },
+    {
+      "id": "F06",
+      "status": "resolved",
+      "scope": "same fixed empirical-task permission consequence from supplied actual counterworld reasons"
+    }
+  ],
+  "target_changes": [
+    {
+      "id": "T09",
+      "previous": "rejected",
+      "status": "accepted",
+      "completion": "incomplete"
+    },
+    {
+      "id": "T07",
+      "previous": "pending",
+      "status": "accepted",
+      "completion": "incomplete"
+    }
+  ],
+  "remaining": [
+    "Root task binding",
+    "Root full joint witness and strong countermodel",
+    "Domain findings",
+    "final code-only independent backtranslation and type-hash/manuscript bindings"
+  ],
+  "record_sha256": "dc1952e457239f9c5a72d99b50ff043f3c243ff8914efea20e0bc49b3af441b4",
+  "build_log_sha256": "a2829f6b71000d5b74b17d869cf5c370482a3fd5f9e2ee72645593ddb7878a96",
+  "audit_log_sha256": "c450cefaa020de9b1964d6f522262543063f6bc68c414b5dda81ef33eb560317"
+}
